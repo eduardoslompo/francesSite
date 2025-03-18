@@ -1,0 +1,56 @@
+{
+  "id": "atividades-de-verao",
+  "title": "Atividades de Verão",
+  "description": "Aprenda vocabulário e expressões relacionadas às atividades de verão na França.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "lazer",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "av-1",
+      "text": "Como se diz 'nadar' em francês?",
+      "options": ["Marcher", "Nager", "Courir", "Jouer"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Nager' é o verbo francês para 'nadar'."
+    },
+    {
+      "id": "av-2",
+      "text": "Qual é a tradução de 'bronzear-se' em francês?",
+      "options": ["Se promener", "Se baigner", "Bronzer", "Voyager"],
+      "correctAnswer": 2,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Bronzer' significa 'bronzear-se' em francês."
+    },
+    {
+      "id": "av-3",
+      "text": "Como você diria 'Vamos fazer um piquenique na praia' em francês?",
+      "options": ["Allons nager dans la mer", "Faisons un pique-nique à la plage", "Jouons au volleyball sur le sable", "Prenons des photos du coucher de soleil"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "intermediario",
+      "explanation": "'Faisons un pique-nique à la plage' significa 'Vamos fazer um piquenique na praia'."
+    },
+    {
+      "id": "av-4",
+      "text": "Qual destas é uma atividade comum de verão em francês?",
+      "options": ["Faire du ski", "Patiner sur glace", "Faire du kayak", "Construire un bonhomme de neige"],
+      "correctAnswer": 2,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Faire du kayak' (fazer caiaque) é uma atividade comum de verão."
+    },
+    {
+      "id": "av-5",
+      "text": "Como se diz 'protetor solar' em francês?",
+      "options": ["La serviette de plage", "Le maillot de bain", "La crème solaire", "Les lunettes de soleil"],
+      "correctAnswer": 2,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'La crème solaire' significa 'protetor solar' em francês."
+    }
+  ]
+}

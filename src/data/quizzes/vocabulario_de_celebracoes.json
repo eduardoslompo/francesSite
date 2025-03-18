@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-celebracoes",
+  "title": "Vocabulário de Celebrações",
+  "description": "Aprenda palavras e expressões relacionadas a celebrações e festividades em francês, incluindo termos para diferentes ocasiões festivas e tradições.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vc-1",
+      "text": "Como se diz 'aniversário' em francês?",
+      "options": ["La fête", "L'anniversaire", "La célébration", "Le jour spécial"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'L'anniversaire' é a palavra francesa para 'aniversário'."
+    },
+    {
+      "id": "vc-2",
+      "text": "Qual é a expressão francesa para 'Feliz Ano Novo'?",
+      "options": ["Joyeux Noël", "Bonne Année", "Joyeuses Fêtes", "Bon Anniversaire"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Bonne Année' significa 'Feliz Ano Novo' em francês."
+    },
+    {
+      "id": "vc-3",
+      "text": "Como se diz 'presente' (de aniversário, Natal) em francês?",
+      "options": ["Le cadeau", "Le don", "L'offrande", "La surprise"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Le cadeau' é a palavra francesa para 'presente'."
+    },
+    {
+      "id": "vc-4",
+      "text": "Qual destas palavras significa 'casamento' em francês?",
+      "options": ["Les fiançailles", "Le mariage", "La cérémonie", "L'union"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Le mariage' significa 'casamento' em francês."
+    },
+    {
+      "id": "vc-5",
+      "text": "Como se diz 'fazer um brinde' em francês?",
+      "options": ["Lever son verre", "Porter un toast", "Faire un souhait", "Célébrer ensemble"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Porter un toast' é a expressão francesa para 'fazer um brinde'."
+    }
+  ]
+}

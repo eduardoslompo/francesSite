@@ -1,0 +1,56 @@
+{
+  "id": "tamanhos-e-medidas-novo",
+  "title": "Tamanhos e Medidas",
+  "description": "Aprenda vocabulário relacionado a tamanhos, medidas e dimensões em francês, útil para compras de roupas, calçados e outros itens.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "vocabulario",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "tm-1",
+      "text": "Como se diz 'pequeno' em francês?",
+      "options": ["Grand", "Petit", "Moyen", "Large"],
+      "correctAnswer": 1,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'Petit' significa 'pequeno' em francês. É um adjetivo muito comum usado para descrever tamanho."
+    },
+    {
+      "id": "tm-2",
+      "text": "Qual é a tradução para 'Que tamanho você veste?' em francês?",
+      "options": ["Quelle taille faites-vous?", "Quel âge avez-vous?", "Combien mesurez-vous?", "Quel est votre poids?"],
+      "correctAnswer": 0,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'Quelle taille faites-vous?' é a forma correta de perguntar 'Que tamanho você veste?' em francês, especialmente ao comprar roupas."
+    },
+    {
+      "id": "tm-3",
+      "text": "Como se diz 'metro' em francês?",
+      "options": ["Le kilomètre", "Le centimètre", "Le mètre", "Le millimètre"],
+      "correctAnswer": 2,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'Le mètre' é a palavra francesa para 'metro', a unidade básica de comprimento no sistema métrico."
+    },
+    {
+      "id": "tm-4",
+      "text": "Qual destas expressões significa 'é muito grande para mim' em francês?",
+      "options": ["C'est trop grand pour moi", "C'est trop petit pour moi", "C'est parfait pour moi", "C'est ma taille"],
+      "correctAnswer": 0,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'C'est trop grand pour moi' significa 'é muito grande para mim' em francês. É uma expressão útil ao experimentar roupas."
+    },
+    {
+      "id": "tm-5",
+      "text": "Como se diz 'tamanho médio' em francês?",
+      "options": ["Taille petite", "Taille moyenne", "Taille grande", "Taille extra"],
+      "correctAnswer": 1,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'Taille moyenne' significa 'tamanho médio' em francês. Nas etiquetas de roupas, frequentemente aparece abreviado como 'M' (médium)."
+    }
+  ]
+}

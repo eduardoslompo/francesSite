@@ -1,0 +1,56 @@
+{
+  "id": "literatura-francofona",
+  "title": "Literatura Francófona",
+  "description": "Explore a literatura produzida em francês fora da França, descobrindo autores e obras importantes da África, Caribe, Canadá e outros países francófonos.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "lf-1",
+      "text": "Qual escritor senegalês recebeu o Prêmio Nobel de Literatura em 2021?",
+      "options": ["Ahmadou Kourouma", "Léopold Sédar Senghor", "Abdoulaye Wade", "Mohamed Mbougar Sarr"],
+      "correctAnswer": 3,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Embora nenhum escritor senegalês tenha recebido o Prêmio Nobel de Literatura até o momento, Mohamed Mbougar Sarr é um destacado autor senegalês que ganhou o prestigioso Prêmio Goncourt em 2021 por seu romance 'La plus secrète mémoire des hommes'."
+    },
+    {
+      "id": "lf-2",
+      "text": "Qual conceito foi desenvolvido por escritores caribenhos francófonos para expressar sua identidade cultural única?",
+      "options": ["Francophonie", "Créolité", "Métissage", "Négritude"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "O conceito de 'Créolité' (Crioulidade) foi desenvolvido por escritores martinicanos como Patrick Chamoiseau, Raphaël Confiant e Jean Bernabé em seu manifesto 'Éloge de la Créolité' (1989), para expressar a identidade cultural crioula das Antilhas francesas."
+    },
+    {
+      "id": "lf-3",
+      "text": "Qual destas escritoras é uma importante voz da literatura haitiana contemporânea?",
+      "options": ["Maryse Condé", "Dany Laferrière", "Yanick Lahens", "Ananda Devi"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Yanick Lahens é uma importante escritora haitiana contemporânea, conhecida por obras como 'Failles' e 'Bain de lune', que ganhou o Prix Femina em 2014. Ela explora temas como a identidade haitiana, questões sociais e a condição feminina."
+    },
+    {
+      "id": "lf-4",
+      "text": "Qual autor quebequense escreveu 'Maria Chapdelaine', um clássico da literatura canadense francesa?",
+      "options": ["Michel Tremblay", "Gabrielle Roy", "Louis Hémon", "Anne Hébert"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Louis Hémon, um francês que viveu brevemente no Quebec, escreveu 'Maria Chapdelaine' (1913), um romance que retrata a vida rural quebequense e se tornou um clássico da literatura franco-canadense, embora seu autor não fosse quebequense de nascimento."
+    },
+    {
+      "id": "lf-5",
+      "text": "Qual escritor argelino de língua francesa é conhecido por suas obras sobre a guerra de independência da Argélia?",
+      "options": ["Assia Djebar", "Mohammed Dib", "Kateb Yacine", "Yasmina Khadra"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Kateb Yacine (1929-1989) é um célebre escritor argelino que escreveu em francês antes de adotar o árabe popular. Sua obra mais conhecida, 'Nedjma' (1956), é considerada um marco da literatura argelina e aborda temas como identidade, colonialismo e a luta pela independência da Argélia."
+    }
+  ]
+} 

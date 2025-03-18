@@ -1,0 +1,82 @@
+{
+  "title": "Supermercado",
+  "description": "Aprenda a fazer compras, encontrar produtos e interagir com funcionários no supermercado.",
+  "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Où puis-je trouver les produits laitiers ?",
+    "Je cherche du pain frais.",
+    "Avez-vous des produits bio ?"
+  ],
+  "introduction": "Fazer compras em um supermercado francês pode ser uma experiência cultural interessante. Este guia ajudará você a navegar pelas seções, encontrar produtos e interagir com os funcionários com confiança.",
+  "dialogues": [
+    {
+      "title": "Procurando Produtos",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, où puis-je trouver les produits laitiers ?", "translation": "Com licença, onde posso encontrar os laticínios?" },
+        { "speaker": "Funcionário", "text": "Les produits laitiers sont dans l'allée 5, au fond du magasin.", "translation": "Os laticínios estão no corredor 5, no fundo da loja." },
+        { "speaker": "Você", "text": "Merci. Et le pain frais ?", "translation": "Obrigado. E o pão fresco?" },
+        { "speaker": "Funcionário", "text": "La boulangerie est à l'entrée du magasin, à droite.", "translation": "A padaria fica na entrada da loja, à direita." },
+        { "speaker": "Você", "text": "Parfait, merci beaucoup pour votre aide.", "translation": "Perfeito, muito obrigado pela sua ajuda." },
+        { "speaker": "Funcionário", "text": "Je vous en prie. N'hésitez pas si vous avez d'autres questions.", "translation": "De nada. Não hesite se tiver outras perguntas." }
+      ]
+    },
+    {
+      "title": "No Caixa",
+      "lines": [
+        { "speaker": "Caixa", "text": "Bonjour, vous avez la carte de fidélité du magasin ?", "translation": "Bom dia, você tem o cartão de fidelidade da loja?" },
+        { "speaker": "Você", "text": "Non, je n'en ai pas.", "translation": "Não, não tenho." },
+        { "speaker": "Caixa", "text": "Souhaitez-vous des sacs plastiques ?", "translation": "Deseja sacolas plásticas?" },
+        { "speaker": "Você", "text": "Oui, deux sacs s'il vous plaît.", "translation": "Sim, duas sacolas, por favor." },
+        { "speaker": "Caixa", "text": "Ça fait 45 euros et 30 centimes. Comment souhaitez-vous payer ?", "translation": "São 45 euros e 30 centavos. Como deseja pagar?" },
+        { "speaker": "Você", "text": "Par carte bancaire, s'il vous plaît.", "translation": "Com cartão bancário, por favor." },
+        { "speaker": "Caixa", "text": "Très bien. Vous pouvez insérer votre carte et composer votre code.", "translation": "Muito bem. Você pode inserir seu cartão e digitar seu código." }
+      ]
+    },
+    {
+      "title": "Produtos Específicos",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, avez-vous des produits bio ?", "translation": "Com licença, vocês têm produtos orgânicos?" },
+        { "speaker": "Funcionário", "text": "Oui, nous avons un rayon bio dans l'allée 8. Vous cherchez quelque chose en particulier ?", "translation": "Sim, temos uma seção orgânica no corredor 8. Está procurando algo em particular?" },
+        { "speaker": "Você", "text": "Je cherche des légumes bio et peut-être des céréales.", "translation": "Estou procurando legumes orgânicos e talvez cereais." },
+        { "speaker": "Funcionário", "text": "Pour les légumes bio, c'est au rayon fruits et légumes, ils sont bien indiqués. Et pour les céréales, c'est dans le même rayon bio, allée 8.", "translation": "Para os legumes orgânicos, é na seção de frutas e legumes, eles estão bem indicados. E para os cereais, é na mesma seção orgânica, corredor 8." },
+        { "speaker": "Você", "text": "Merci beaucoup pour ces informations.", "translation": "Muito obrigado por essas informações." },
+        { "speaker": "Funcionário", "text": "De rien, bonne journée !", "translation": "De nada, tenha um bom dia!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le supermarché", "translation": "o supermercado" },
+    { "word": "le rayon", "translation": "a seção/o corredor" },
+    { "word": "l'allée (f)", "translation": "o corredor" },
+    { "word": "la caisse", "translation": "o caixa" },
+    { "word": "le caddie / le chariot", "translation": "o carrinho de compras" },
+    { "word": "le panier", "translation": "a cesta" },
+    { "word": "les produits laitiers (m)", "translation": "os laticínios" },
+    { "word": "la boulangerie", "translation": "a padaria" },
+    { "word": "la carte de fidélité", "translation": "o cartão de fidelidade" },
+    { "word": "bio / biologique", "translation": "orgânico", "example": "Je préfère acheter des produits bio." },
+    { "word": "le sac plastique", "translation": "a sacola plástica" },
+    { "word": "payer", "translation": "pagar", "example": "Je vais payer par carte bancaire." }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Sacolas Plásticas", 
+      "description": "Na França, as sacolas plásticas não são gratuitas nos supermercados. É comum os franceses levarem suas próprias sacolas reutilizáveis para fazer compras." 
+    },
+    { 
+      "title": "Horários de Funcionamento", 
+      "description": "Os supermercados na França geralmente abrem das 8h30 às 20h durante a semana. Alguns hipermercados maiores podem ficar abertos até mais tarde. Aos domingos, muitas lojas estão fechadas ou abrem apenas pela manhã." 
+    },
+    { 
+      "title": "Pesagem de Produtos", 
+      "description": "Em muitos supermercados franceses, você precisa pesar suas próprias frutas e legumes e imprimir uma etiqueta antes de ir ao caixa. Procure por balanças nas seções de produtos frescos." 
+    }
+  ],
+  "tips": [
+    "Cumprimente sempre os funcionários com 'Bonjour' antes de fazer uma pergunta.",
+    "Traga suas próprias sacolas reutilizáveis para economizar dinheiro e ser ecologicamente correto.",
+    "Verifique se você precisa pesar frutas e legumes antes de ir ao caixa.",
+    "Muitos supermercados oferecem cartões de fidelidade que dão direito a descontos. Pergunte sobre 'la carte de fidélité' se você planeja fazer compras regularmente."
+  ],
+  "relatedQuizzes": ["Vocabulário de Compras", "Situações Cotidianas", "Números e Quantidades"]
+}

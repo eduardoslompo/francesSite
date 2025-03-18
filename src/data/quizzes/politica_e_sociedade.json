@@ -1,0 +1,56 @@
+{
+  "id": "politica-e-sociedade",
+  "title": "Política e Sociedade Francesa",
+  "description": "Teste seus conhecimentos sobre o sistema político, instituições e questões sociais da França contemporânea.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ps-1",
+      "text": "Qual é a duração do mandato presidencial na França atualmente?",
+      "options": ["4 anos", "5 anos", "6 anos", "7 anos"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Desde a reforma constitucional de 2000, o mandato presidencial na França tem duração de 5 anos (quinquenato). Anteriormente, durava 7 anos (septenato)."
+    },
+    {
+      "id": "ps-2",
+      "text": "Qual destes NÃO é um dos valores do lema nacional francês?",
+      "options": ["Liberté (Liberdade)", "Égalité (Igualdade)", "Solidarité (Solidariedade)", "Fraternité (Fraternidade)"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "O lema nacional da França é 'Liberté, Égalité, Fraternité' (Liberdade, Igualdade, Fraternidade). 'Solidarité' não faz parte do lema oficial."
+    },
+    {
+      "id": "ps-3",
+      "text": "Qual é o nome do sistema de seguridade social da França?",
+      "options": ["Sécurité Nationale", "Protection Sociale", "Sécurité Sociale", "Assurance Nationale"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "O sistema de seguridade social francês é conhecido como 'Sécurité Sociale', criado em 1945 para garantir proteção social universal para os cidadãos."
+    },
+    {
+      "id": "ps-4",
+      "text": "Qual conceito é fundamental para o sistema político francês e representa a separação entre religião e Estado?",
+      "options": ["Républicanisme", "Laïcité", "Liberalisme", "Solidarisme"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Laïcité' é o princípio de separação entre Estado e religião na França, estabelecido pela lei de 1905 e considerado um dos pilares da República Francesa."
+    },
+    {
+      "id": "ps-5",
+      "text": "Quais são as duas casas do Parlamento francês?",
+      "options": ["L'Assemblée Nationale et le Congrès", "Le Sénat et la Chambre des Députés", "L'Assemblée Nationale et le Sénat", "Le Conseil d'État et le Sénat"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "O Parlamento francês é composto por duas casas: L'Assemblée Nationale (Assembleia Nacional) e Le Sénat (Senado), em um sistema bicameral."
+    }
+  ]
+} 

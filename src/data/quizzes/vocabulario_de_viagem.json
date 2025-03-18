@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-viagem",
+  "title": "Vocabulário de Viagem",
+  "description": "Aprenda palavras e expressões essenciais para viajar em países francófonos.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "viagem",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vv-1",
+      "text": "Como se diz 'passaporte' em francês?",
+      "options": ["Le billet", "Le passeport", "La valise", "L'avion"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Le passeport' é a palavra francesa para 'passaporte'."
+    },
+    {
+      "id": "vv-2",
+      "text": "Qual é a tradução de 'aeroporto' em francês?",
+      "options": ["La gare", "Le port", "L'aéroport", "La station"],
+      "correctAnswer": 2,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'L'aéroport' significa 'aeroporto' em francês."
+    },
+    {
+      "id": "vv-3",
+      "text": "Como se pergunta 'Onde fica o check-in?' em francês?",
+      "options": ["Où est la sortie?", "Où est l'enregistrement?", "Où sont les toilettes?", "Où est le bureau de change?"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Où est l'enregistrement?' é como se pergunta 'Onde fica o check-in?' em francês."
+    },
+    {
+      "id": "vv-4",
+      "text": "Qual frase você usaria para pedir informações sobre um voo atrasado?",
+      "options": ["À quelle heure part mon vol?", "Mon vol est-il retardé?", "Où est la porte d'embarquement?", "Puis-je avoir un siège côté fenêtre?"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Mon vol est-il retardé?' significa 'Meu voo está atrasado?' em francês."
+    },
+    {
+      "id": "vv-5",
+      "text": "Como se diz 'bagagem' em francês?",
+      "options": ["Le bagage", "La valise", "Le sac", "La mallette"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Le bagage' é a palavra francesa para 'bagagem'."
+    }
+  ]
+}

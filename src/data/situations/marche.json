@@ -1,0 +1,88 @@
+{
+  "title": "Mercado",
+  "description": "Aprenda a comprar produtos frescos e interagir em um mercado ao ar livre francês.",
+  "image": "https://images.unsplash.com/photo-1513125370-3460ebe3401b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais un kilo de pommes, s'il vous plaît.",
+    "C'est combien les tomates ?",
+    "Est-ce que ces fruits sont bio ?"
+  ],
+  "introduction": "Os mercados ao ar livre (marchés) são uma parte essencial da vida francesa, onde os moradores locais compram produtos frescos diretamente de produtores e vendedores. Neste guia, você aprenderá como navegar por um mercado francês, pedir diferentes produtos e negociar com os vendedores.",
+  "dialogues": [
+    {
+      "title": "Comprando Frutas",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, monsieur. Je voudrais des pommes, s'il vous plaît.", "translation": "Bom dia, senhor. Eu gostaria de maçãs, por favor." },
+        { "speaker": "Vendedor", "text": "Bonjour ! J'ai des Golden, des Gala et des Granny Smith. Lesquelles préférez-vous ?", "translation": "Bom dia! Tenho Golden, Gala e Granny Smith. Quais você prefere?" },
+        { "speaker": "Você", "text": "Je vais prendre des Gala. Combien coûtent-elles ?", "translation": "Vou levar as Gala. Quanto custam?" },
+        { "speaker": "Vendedor", "text": "C'est 2 euros 80 le kilo. Vous en voulez combien ?", "translation": "São 2 euros e 80 o quilo. Quanto você quer?" },
+        { "speaker": "Você", "text": "Un kilo, s'il vous plaît.", "translation": "Um quilo, por favor." },
+        { "speaker": "Vendedor", "text": "Voilà, un kilo de Gala. Ça fait 2 euros 80.", "translation": "Aqui está, um quilo de Gala. São 2 euros e 80." },
+        { "speaker": "Você", "text": "Voici 3 euros.", "translation": "Aqui estão 3 euros." },
+        { "speaker": "Vendedor", "text": "Merci. Voici votre monnaie. Bonne journée !", "translation": "Obrigado. Aqui está seu troco. Tenha um bom dia!" }
+      ]
+    },
+    {
+      "title": "Na Barraca de Queijos",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, madame. Je cherche un bon fromage pour ce soir.", "translation": "Bom dia, senhora. Estou procurando um bom queijo para esta noite." },
+        { "speaker": "Vendedora", "text": "Bonjour ! Vous préférez un fromage doux ou fort ?", "translation": "Bom dia! Você prefere um queijo suave ou forte?" },
+        { "speaker": "Você", "text": "Plutôt doux. Qu'est-ce que vous recommandez ?", "translation": "Prefiro suave. O que você recomenda?" },
+        { "speaker": "Vendedora", "text": "Je vous conseille ce Comté. Il est affiné 12 mois, c'est un excellent choix.", "translation": "Recomendo este Comté. É envelhecido por 12 meses, é uma excelente escolha." },
+        { "speaker": "Você", "text": "D'accord, je vais essayer. Je peux goûter un petit morceau ?", "translation": "Ok, vou experimentar. Posso provar um pedacinho?" },
+        { "speaker": "Vendedora", "text": "Bien sûr, tenez.", "translation": "Claro, aqui está." },
+        { "speaker": "Você", "text": "Mmm, c'est délicieux ! Je vais en prendre 200 grammes.", "translation": "Mmm, está delicioso! Vou levar 200 gramas." },
+        { "speaker": "Vendedora", "text": "Très bon choix. Ce sera 6 euros 40.", "translation": "Ótima escolha. Serão 6 euros e 40." }
+      ]
+    },
+    {
+      "title": "Comprando Legumes",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour. Est-ce que ces légumes sont bio ?", "translation": "Bom dia. Estes legumes são orgânicos?" },
+        { "speaker": "Vendedor", "text": "Bonjour. Oui, tout est bio et cultivé localement.", "translation": "Bom dia. Sim, tudo é orgânico e cultivado localmente." },
+        { "speaker": "Você", "text": "Super ! Je voudrais des carottes, des courgettes et des poireaux.", "translation": "Ótimo! Eu gostaria de cenouras, abobrinhas e alho-poró." },
+        { "speaker": "Vendedor", "text": "Bien sûr. Vous voulez quelle quantité ?", "translation": "Claro. Qual quantidade você quer?" },
+        { "speaker": "Você", "text": "Une botte de carottes, deux courgettes et un poireau.", "translation": "Um maço de cenouras, duas abobrinhas e um alho-poró." },
+        { "speaker": "Vendedor", "text": "Voilà. Ça fait 7 euros 50 au total.", "translation": "Aqui está. São 7 euros e 50 no total." },
+        { "speaker": "Você", "text": "Est-ce que vous avez des tomates mûres ?", "translation": "Você tem tomates maduros?" },
+        { "speaker": "Vendedor", "text": "Oui, celles-ci sont parfaites pour une salade. Vous en voulez ?", "translation": "Sim, estes são perfeitos para uma salada. Você quer?" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le marché", "translation": "o mercado" },
+    { "word": "un marchand / une marchande", "translation": "um vendedor / uma vendedora" },
+    { "word": "les fruits", "translation": "as frutas" },
+    { "word": "les légumes", "translation": "os legumes/vegetais" },
+    { "word": "le fromage", "translation": "o queijo" },
+    { "word": "bio", "translation": "orgânico", "example": "Ces légumes sont bio." },
+    { "word": "un kilo", "translation": "um quilo" },
+    { "word": "une livre", "translation": "meio quilo (500g)" },
+    { "word": "une botte", "translation": "um maço (de vegetais)" },
+    { "word": "frais / fraîche", "translation": "fresco / fresca" },
+    { "word": "mûr / mûre", "translation": "maduro / madura" },
+    { "word": "goûter", "translation": "provar, degustar" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Mercados na França", 
+      "description": "Os mercados ao ar livre são uma tradição francesa que remonta a séculos. Quase todas as cidades e bairros têm seu próprio mercado semanal. Em Paris, por exemplo, existem mais de 80 mercados diferentes. Eles são não apenas locais de compras, mas também centros sociais onde as pessoas se encontram e conversam." 
+    },
+    { 
+      "title": "Sazonalidade", 
+      "description": "Os franceses valorizam muito produtos sazonais. Nos mercados, você encontrará principalmente frutas e vegetais da estação. Perguntar ao vendedor 'Qu'est-ce qui est de saison?' (O que está na temporada?) é uma boa maneira de descobrir os melhores produtos disponíveis." 
+    },
+    { 
+      "title": "Etiqueta no Mercado", 
+      "description": "Nos mercados franceses, geralmente não se deve tocar nos produtos - o vendedor seleciona e embala para você. Sempre cumprimente o vendedor antes de fazer perguntas ou compras. É considerado rude não fazê-lo." 
+    }
+  ],
+  "tips": [
+    "Vá ao mercado cedo para encontrar os melhores produtos - muitos franceses chegam logo na abertura.",
+    "Leve sua própria sacola reutilizável (un sac réutilisable) - é ecológico e comum na França.",
+    "Não tenha medo de pedir para provar antes de comprar, especialmente queijos e frutas.",
+    "Pergunte aos vendedores sobre a origem dos produtos - eles geralmente têm orgulho de explicar de onde vêm.",
+    "Os preços geralmente não são negociáveis nos mercados franceses, mas às vezes você pode conseguir um pequeno desconto se comprar em quantidade."
+  ],
+  "relatedQuizzes": ["Vocabulário de Alimentos", "Comida Francesa", "Números e Quantidades"]
+}

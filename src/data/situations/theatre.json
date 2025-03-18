@@ -1,0 +1,90 @@
+{
+  "title": "Teatro",
+  "description": "Aprenda a comprar ingressos, entender peças e apreciar o teatro francês.",
+  "image": "https://images.unsplash.com/photo-1503095396549-807759245b35?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais réserver deux places pour la représentation de ce soir.",
+    "À quelle heure commence le spectacle ?",
+    "Où se trouve notre rangée ?"
+  ],
+  "introduction": "O teatro é uma parte importante da cultura francesa. Este guia ajudará você a comprar ingressos, entender o protocolo teatral e apreciar performances em francês, mesmo com conhecimento limitado do idioma.",
+  "dialogues": [
+    {
+      "title": "Comprando Ingressos",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais acheter des billets pour 'Le Misanthrope', s'il vous plaît.", "translation": "Bom dia, eu gostaria de comprar ingressos para 'O Misantropo', por favor." },
+        { "speaker": "Bilheteiro", "text": "Bonjour. Pour quelle date ?", "translation": "Bom dia. Para qual data?" },
+        { "speaker": "Você", "text": "Pour ce samedi, si possible.", "translation": "Para este sábado, se possível." },
+        { "speaker": "Bilheteiro", "text": "Il reste des places pour la représentation de 20h. Combien de billets voulez-vous ?", "translation": "Ainda há lugares para a apresentação das 20h. Quantos ingressos você deseja?" },
+        { "speaker": "Você", "text": "Deux billets, s'il vous plaît. Quelles sont les places disponibles ?", "translation": "Dois ingressos, por favor. Quais são os lugares disponíveis?" },
+        { "speaker": "Bilheteiro", "text": "Nous avons des places au parterre pour 35 euros chacune, ou au balcon pour 25 euros.", "translation": "Temos lugares na plateia por 35 euros cada, ou no balcão por 25 euros." },
+        { "speaker": "Você", "text": "Je préfère le parterre. Est-ce qu'il y a des sous-titres en anglais ?", "translation": "Prefiro a plateia. Há legendas em inglês?" },
+        { "speaker": "Bilheteiro", "text": "Non, mais il y a un synopsis en anglais dans le programme. Voici vos billets, rangée F, places 23 et 24.", "translation": "Não, mas há um resumo em inglês no programa. Aqui estão seus ingressos, fileira F, lugares 23 e 24." }
+      ]
+    },
+    {
+      "title": "Entrando no Teatro",
+      "lines": [
+        { "speaker": "Recepcionista", "text": "Bonsoir, puis-je voir vos billets, s'il vous plaît ?", "translation": "Boa noite, posso ver seus ingressos, por favor?" },
+        { "speaker": "Você", "text": "Bonsoir, les voici.", "translation": "Boa noite, aqui estão." },
+        { "speaker": "Recepcionista", "text": "Merci. Votre rangée F se trouve au centre, à droite. Souhaitez-vous acheter un programme ?", "translation": "Obrigado. Sua fileira F está no centro, à direita. Deseja comprar um programa?" },
+        { "speaker": "Você", "text": "Oui, s'il vous plaît. Combien coûte-t-il ?", "translation": "Sim, por favor. Quanto custa?" },
+        { "speaker": "Recepcionista", "text": "5 euros. Il contient des informations sur la pièce et les acteurs.", "translation": "5 euros. Contém informações sobre a peça e os atores." },
+        { "speaker": "Você", "text": "Parfait, je vais le prendre. Est-ce qu'il y a un vestiaire pour laisser nos manteaux ?", "translation": "Perfeito, vou levá-lo. Há um guarda-volumes para deixar nossos casacos?" },
+        { "speaker": "Recepcionista", "text": "Oui, le vestiaire est gratuit, il se trouve à votre gauche. La salle ouvre dans 15 minutes.", "translation": "Sim, o guarda-volumes é gratuito, fica à sua esquerda. O auditório abre em 15 minutos." }
+      ]
+    },
+    {
+      "title": "Durante o Intervalo",
+      "lines": [
+        { "speaker": "Acompanhante", "text": "Que penses-tu de la pièce jusqu'à maintenant ?", "translation": "O que você está achando da peça até agora?" },
+        { "speaker": "Você", "text": "C'est fascinant, même si je ne comprends pas tous les dialogues. Les acteurs sont excellents.", "translation": "É fascinante, mesmo que eu não entenda todos os diálogos. Os atores são excelentes." },
+        { "speaker": "Acompanhante", "text": "Veux-tu prendre quelque chose à boire pendant l'entracte ?", "translation": "Você quer tomar algo durante o intervalo?" },
+        { "speaker": "Você", "text": "Oui, allons au foyer. Je crois qu'ils servent du champagne.", "translation": "Sim, vamos ao foyer. Acho que eles servem champanhe." },
+        { "speaker": "Garçom", "text": "Que désirez-vous ?", "translation": "O que desejam?" },
+        { "speaker": "Você", "text": "Deux coupes de champagne, s'il vous plaît.", "translation": "Duas taças de champanhe, por favor." },
+        { "speaker": "Garçom", "text": "Voici. Ça fait 24 euros, s'il vous plaît.", "translation": "Aqui está. São 24 euros, por favor." },
+        { "speaker": "Você", "text": "Merci. Savez-vous combien de temps dure l'entracte ?", "translation": "Obrigado. Você sabe quanto tempo dura o intervalo?" },
+        { "speaker": "Garçom", "text": "L'entracte dure 20 minutes. Vous entendrez une sonnerie trois minutes avant la reprise.", "translation": "O intervalo dura 20 minutos. Você ouvirá um sinal sonoro três minutos antes do reinício." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le théâtre", "translation": "o teatro" },
+    { "word": "la pièce (de théâtre)", "translation": "a peça (de teatro)" },
+    { "word": "le billet / le ticket", "translation": "o ingresso" },
+    { "word": "la représentation / le spectacle", "translation": "a apresentação / o espetáculo" },
+    { "word": "la scène", "translation": "o palco" },
+    { "word": "le rideau", "translation": "a cortina" },
+    { "word": "l'entracte (m)", "translation": "o intervalo", "example": "Pendant l'entracte, on peut aller au foyer." },
+    { "word": "le/la comédien(ne)", "translation": "o/a ator/atriz" },
+    { "word": "le parterre", "translation": "a plateia" },
+    { "word": "le balcon", "translation": "o balcão" },
+    { "word": "la rangée", "translation": "a fileira" },
+    { "word": "la place / le siège", "translation": "o lugar / o assento" },
+    { "word": "le programme", "translation": "o programa" },
+    { "word": "le vestiaire", "translation": "o guarda-volumes" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Comédie-Française", 
+      "description": "A Comédie-Française, fundada em 1680, é a companhia de teatro nacional da França e uma das mais antigas do mundo. Localizada no Palais-Royal em Paris, ela mantém um repertório de obras clássicas francesas, especialmente de Molière, Racine e Corneille." 
+    },
+    { 
+      "title": "Etiqueta Teatral", 
+      "description": "O teatro na França é considerado uma atividade cultural formal. As pessoas geralmente se vestem bem para assistir a uma peça, especialmente em teatros tradicionais. É considerado muito rude chegar atrasado, falar ou usar telefones durante a apresentação." 
+    },
+    { 
+      "title": "Festival de Avignon", 
+      "description": "O Festival de Avignon é um dos mais importantes festivais de artes cênicas do mundo, realizado anualmente em julho na cidade de Avignon. Fundado em 1947, o festival apresenta dezenas de produções teatrais em vários locais pela cidade, incluindo o famoso Palácio dos Papas." 
+    }
+  ],
+  "tips": [
+    "Chegue pelo menos 30 minutos antes do início da peça para ter tempo de encontrar seus lugares e ler o programa.",
+    "Desligue completamente seu telefone antes da apresentação começar, não apenas coloque no modo silencioso.",
+    "Em teatros tradicionais franceses, é costume aplaudir quando o diretor (metteur en scène) aparece na plateia após a apresentação.",
+    "Muitos teatros em Paris oferecem apresentações com legendas em inglês (surtitres) para atrair turistas - verifique isso ao comprar seus ingressos.",
+    "Se você não entende bem francês, escolha peças clássicas cujas histórias você já conhece ou peças visuais como mímica ou circo contemporâneo."
+  ],
+  "relatedQuizzes": ["Vocabulário Cultural", "Entretenimento", "Situações Cotidianas"]
+}

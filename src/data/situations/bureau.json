@@ -1,0 +1,88 @@
+{
+  "title": "Escritório",
+  "description": "Aprenda a comunicar-se em um ambiente de escritório francês.",
+  "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je vous présente ma collègue, Marie.",
+    "Pouvons-nous fixer une réunion pour demain ?",
+    "Pourriez-vous m'envoyer ce document par e-mail ?"
+  ],
+  "introduction": "O ambiente de trabalho francês tem suas próprias regras e códigos culturais. Neste guia, você aprenderá como se comunicar efetivamente em um escritório francês, desde cumprimentos formais até a participação em reuniões e a compreensão da etiqueta profissional francesa.",
+  "dialogues": [
+    {
+      "title": "Apresentações no Escritório",
+      "lines": [
+        { "speaker": "Chefe", "text": "Bonjour à tous. Je voudrais vous présenter notre nouvelle collègue, Sophie Martin.", "translation": "Bom dia a todos. Gostaria de apresentar nossa nova colega, Sophie Martin." },
+        { "speaker": "Sophie", "text": "Bonjour. Je suis ravie de rejoindre votre équipe.", "translation": "Bom dia. Estou muito feliz em me juntar à equipe de vocês." },
+        { "speaker": "Você", "text": "Bienvenue, Sophie. Je m'appelle [Votre Nom]. Si vous avez besoin d'aide, n'hésitez pas à me demander.", "translation": "Bem-vinda, Sophie. Meu nome é [Seu Nome]. Se precisar de ajuda, não hesite em me perguntar." },
+        { "speaker": "Sophie", "text": "Merci beaucoup, c'est gentil.", "translation": "Muito obrigada, é muito gentil." },
+        { "speaker": "Chefe", "text": "Sophie va travailler sur le projet Dupont avec notre équipe marketing.", "translation": "Sophie vai trabalhar no projeto Dupont com nossa equipe de marketing." },
+        { "speaker": "Você", "text": "Excellent ! J'ai travaillé sur ce projet l'année dernière. C'est très intéressant.", "translation": "Excelente! Eu trabalhei nesse projeto no ano passado. É muito interessante." },
+        { "speaker": "Chefe", "text": "Parfait. Peut-être pourriez-vous déjeuner ensemble aujourd'hui pour en discuter ?", "translation": "Perfeito. Talvez vocês possam almoçar juntos hoje para discutir sobre isso?" },
+        { "speaker": "Você", "text": "Bien sûr, avec plaisir.", "translation": "Claro, com prazer." }
+      ]
+    },
+    {
+      "title": "Agendando uma Reunião",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, Pierre. Est-ce que vous êtes disponible pour une réunion cette semaine ?", "translation": "Bom dia, Pierre. Você está disponível para uma reunião esta semana?" },
+        { "speaker": "Pierre", "text": "Bonjour. Oui, je pense. Quel jour vous conviendrait ?", "translation": "Bom dia. Sim, eu acho. Que dia seria conveniente para você?" },
+        { "speaker": "Você", "text": "Je propose jeudi à 14h. Qu'en pensez-vous ?", "translation": "Eu sugiro quinta-feira às 14h. O que você acha?" },
+        { "speaker": "Pierre", "text": "Jeudi après-midi, je suis en déplacement. Serait-il possible de faire ça vendredi matin ?", "translation": "Quinta-feira à tarde, estarei em viagem de negócios. Seria possível fazer isso na sexta-feira de manhã?" },
+        { "speaker": "Você", "text": "Vendredi matin me convient. Disons 10h dans la salle de conférence ?", "translation": "Sexta-feira de manhã me convém. Digamos às 10h na sala de conferência?" },
+        { "speaker": "Pierre", "text": "Parfait. J'enverrai une invitation par e-mail à toute l'équipe.", "translation": "Perfeito. Enviarei um convite por e-mail para toda a equipe." },
+        { "speaker": "Você", "text": "Merci. Pourriez-vous aussi inclure l'ordre du jour dans l'e-mail ?", "translation": "Obrigado(a). Você poderia também incluir a pauta na mensagem?" },
+        { "speaker": "Pierre", "text": "Bien sûr, je m'en occupe.", "translation": "Claro, eu cuido disso." }
+      ]
+    },
+    {
+      "title": "Durante uma Reunião",
+      "lines": [
+        { "speaker": "Gerente", "text": "Bonjour à tous. Merci d'être présents aujourd'hui. Commençons par un tour de table.", "translation": "Bom dia a todos. Obrigado por estarem presentes hoje. Vamos começar com uma rodada de apresentações." },
+        { "speaker": "Colega", "text": "Je suis Jean Dupont, responsable du service client. Cette semaine, nous avons reçu plusieurs retours positifs sur notre nouveau produit.", "translation": "Sou Jean Dupont, responsável pelo atendimento ao cliente. Esta semana, recebemos vários feedbacks positivos sobre nosso novo produto." },
+        { "speaker": "Você", "text": "Bonjour, je suis [Votre Nom] du département marketing. Nous avons finalisé la campagne publicitaire pour le lancement du mois prochain.", "translation": "Bom dia, sou [Seu Nome] do departamento de marketing. Finalizamos a campanha publicitária para o lançamento do próximo mês." },
+        { "speaker": "Gerente", "text": "Excellent. Pouvez-vous nous présenter les grandes lignes de cette campagne ?", "translation": "Excelente. Você pode nos apresentar as linhas gerais dessa campanha?" },
+        { "speaker": "Você", "text": "Bien sûr. Nous allons principalement utiliser les réseaux sociaux et la publicité en ligne. J'ai préparé une présentation.", "translation": "Claro. Vamos utilizar principalmente as redes sociais e publicidade online. Preparei uma apresentação." },
+        { "speaker": "Gerente", "text": "Très bien. Avez-vous des questions ou des commentaires ?", "translation": "Muito bem. Vocês têm perguntas ou comentários?" },
+        { "speaker": "Colega", "text": "Oui, je me demande si nous avons prévu un budget pour des événements promotionnels ?", "translation": "Sim, eu me pergunto se previmos um orçamento para eventos promocionais?" },
+        { "speaker": "Você", "text": "C'est une bonne question. Nous avons réservé 15% du budget pour des événements physiques.", "translation": "É uma boa pergunta. Reservamos 15% do orçamento para eventos físicos." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le bureau", "translation": "o escritório" },
+    { "word": "un collègue / une collègue", "translation": "um colega / uma colega" },
+    { "word": "une réunion", "translation": "uma reunião" },
+    { "word": "un rendez-vous", "translation": "um compromisso, encontro marcado" },
+    { "word": "un e-mail / un courriel", "translation": "um e-mail" },
+    { "word": "un projet", "translation": "um projeto" },
+    { "word": "un rapport", "translation": "um relatório" },
+    { "word": "une présentation", "translation": "uma apresentação" },
+    { "word": "un département", "translation": "um departamento" },
+    { "word": "un délai", "translation": "um prazo", "example": "Nous devons respecter ce délai." },
+    { "word": "disponible", "translation": "disponível" },
+    { "word": "fixer un rendez-vous", "translation": "marcar um compromisso" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Formalidade no Ambiente de Trabalho", 
+      "description": "O ambiente de trabalho francês tende a ser mais formal do que em muitos outros países. É comum usar 'vous' (forma formal de 'você') com colegas, especialmente em grandes empresas ou ao falar com superiores. Em algumas empresas mais modernas ou startups, o ambiente pode ser mais casual, mas é sempre melhor começar formal e adaptar-se ao ambiente." 
+    },
+    { 
+      "title": "Horário de Trabalho", 
+      "description": "O horário de trabalho padrão na França é geralmente das 9h às 18h, com uma pausa para almoço que pode durar de uma a duas horas. O almoço é considerado importante, e muitos franceses preferem sair do escritório para comer. O equilíbrio entre vida profissional e pessoal é valorizado, e trabalhar além do horário não é necessariamente visto como um sinal de dedicação." 
+    },
+    { 
+      "title": "Reuniões de Negócios", 
+      "description": "As reuniões de negócios na França podem começar com uma pequena conversa informal antes de entrar nos assuntos profissionais. É comum discutir cultura, viagens ou atualidades. As reuniões tendem a ser estruturadas, mas também podem incluir debates animados, pois os franceses valorizam a expressão de opiniões e o pensamento crítico." 
+    }
+  ],
+  "tips": [
+    "Cumprimente todos os colegas ao chegar ao escritório pela manhã - um simples 'Bonjour' é essencial na cultura francesa.",
+    "Nas empresas francesas, é comum usar títulos e sobrenomes (Monsieur Dupont, Madame Martin) até que você seja convidado a usar o primeiro nome.",
+    "Evite agendar reuniões durante o horário de almoço (geralmente entre 12h e 14h) - este é um tempo sagrado para os franceses.",
+    "A pontualidade é importante em reuniões de negócios, mas pode haver uma tolerância de 5-10 minutos de atraso.",
+    "Em e-mails profissionais, use saudações formais como 'Bonjour Madame/Monsieur' no início e 'Cordialement' ou 'Bien cordialement' no final."
+  ],
+  "relatedQuizzes": ["Vocabulário de Negócios", "Comunicação Profissional", "Cultura Corporativa Francesa"]
+}

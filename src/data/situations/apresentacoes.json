@@ -1,0 +1,87 @@
+{
+  "title": "Apresentações",
+  "description": "Aprenda a se apresentar e conhecer novas pessoas em francês.",
+  "image": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Bonjour, je m'appelle Marie. Et vous ?",
+    "Enchanté de faire votre connaissance.",
+    "Je suis brésilien et je suis en vacances à Paris."
+  ],
+  "introduction": "Saber como se apresentar é fundamental para iniciar conversas e fazer novas amizades em países francófonos. Este guia oferece frases e expressões úteis para apresentações formais e informais, além de dicas culturais sobre cumprimentos na França.",
+  "dialogues": [
+    {
+      "title": "Apresentação Informal",
+      "lines": [
+        { "speaker": "Sophie", "text": "Salut ! Je m'appelle Sophie. Tu es nouveau ici ?", "translation": "Oi! Meu nome é Sophie. Você é novo por aqui?" },
+        { "speaker": "Você", "text": "Oui, je viens d'arriver. Je m'appelle Carlos. Je suis brésilien.", "translation": "Sim, acabei de chegar. Meu nome é Carlos. Sou brasileiro." },
+        { "speaker": "Sophie", "text": "Enchantée, Carlos ! Tu parles très bien français. Tu es à Paris pour combien de temps ?", "translation": "Prazer em conhecê-lo, Carlos! Você fala francês muito bem. Vai ficar em Paris por quanto tempo?" },
+        { "speaker": "Você", "text": "Merci ! J'étudie le français depuis deux ans. Je suis ici pour trois mois, pour un stage.", "translation": "Obrigado! Estudo francês há dois anos. Estou aqui por três meses, para um estágio." },
+        { "speaker": "Sophie", "text": "C'est super ! Dans quelle entreprise ?", "translation": "Que legal! Em qual empresa?" },
+        { "speaker": "Você", "text": "Je travaille chez Renault, dans le département marketing. Et toi, qu'est-ce que tu fais dans la vie ?", "translation": "Trabalho na Renault, no departamento de marketing. E você, o que faz da vida?" },
+        { "speaker": "Sophie", "text": "Je suis graphiste indépendante. Si tu veux, on pourrait aller prendre un café un de ces jours, je te montrerai les coins sympas du quartier.", "translation": "Sou designer gráfica freelancer. Se quiser, poderíamos tomar um café um dia desses, eu te mostrarei os lugares legais do bairro." },
+        { "speaker": "Você", "text": "Avec plaisir ! Voici mon numéro de téléphone.", "translation": "Com prazer! Aqui está meu número de telefone." }
+      ]
+    },
+    {
+      "title": "Apresentação em Ambiente Profissional",
+      "lines": [
+        { "speaker": "Diretor", "text": "Bonjour à tous. Aujourd'hui, j'aimerais vous présenter notre nouveau collaborateur qui nous vient du Brésil.", "translation": "Bom dia a todos. Hoje, gostaria de apresentar nosso novo colaborador que vem do Brasil." },
+        { "speaker": "Você", "text": "Bonjour. Je suis très heureux d'être parmi vous. Je m'appelle Paulo Silva et je rejoins l'équipe en tant que spécialiste en marketing digital.", "translation": "Bom dia. Estou muito feliz de estar entre vocês. Meu nome é Paulo Silva e me junto à equipe como especialista em marketing digital." },
+        { "speaker": "Diretor", "text": "Paulo a travaillé pendant cinq ans chez Google au Brésil et apporte une expertise précieuse en stratégie de contenu. Je vous invite à lui souhaiter la bienvenue.", "translation": "Paulo trabalhou durante cinco anos no Google no Brasil e traz uma valiosa experiência em estratégia de conteúdo. Convido todos a darem-lhe as boas-vindas." },
+        { "speaker": "Colega", "text": "Bienvenue dans l'équipe, Paulo. Je suis Claire, responsable du département créatif. Si vous avez des questions, n'hésitez pas.", "translation": "Bem-vindo à equipe, Paulo. Sou Claire, responsável pelo departamento criativo. Se tiver alguma dúvida, não hesite." },
+        { "speaker": "Você", "text": "Merci beaucoup, Claire. J'ai hâte de collaborer avec vous et d'apprendre de votre expérience.", "translation": "Muito obrigado, Claire. Estou ansioso para colaborar com você e aprender com sua experiência." },
+        { "speaker": "Outro Colega", "text": "Enchanté, Paulo. Je suis Thomas. Nous pourrions déjeuner ensemble aujourd'hui si vous êtes disponible ?", "translation": "Prazer em conhecê-lo, Paulo. Sou Thomas. Poderíamos almoçar juntos hoje se estiver disponível?" },
+        { "speaker": "Você", "text": "Avec plaisir, Thomas. C'est une excellente idée pour faire connaissance.", "translation": "Com prazer, Thomas. É uma excelente ideia para nos conhecermos melhor." }
+      ]
+    },
+    {
+      "title": "Encontro Social",
+      "lines": [
+        { "speaker": "Anfitrião", "text": "Ah, je voudrais te présenter mon ami Jean. Jean, voici Maria qui vient du Brésil.", "translation": "Ah, gostaria de te apresentar meu amigo Jean. Jean, esta é Maria que vem do Brasil." },
+        { "speaker": "Jean", "text": "Enchanté, Maria. C'est votre première visite en France ?", "translation": "Prazer em conhecê-la, Maria. É sua primeira visita à França?" },
+        { "speaker": "Você", "text": "Enchantée également. Non, j'ai déjà visité Paris il y a deux ans, mais c'est la première fois que je viens à Lyon.", "translation": "Prazer em conhecê-lo também. Não, já visitei Paris há dois anos, mas é a primeira vez que venho a Lyon." },
+        { "speaker": "Jean", "text": "Lyon est une ville magnifique ! Vous êtes ici pour le travail ou le tourisme ?", "translation": "Lyon é uma cidade magnífica! Você está aqui a trabalho ou a turismo?" },
+        { "speaker": "Você", "text": "Pour le tourisme. Je suis professeur d'histoire et je m'intéresse beaucoup à l'architecture de votre ville.", "translation": "A turismo. Sou professora de história e me interesso muito pela arquitetura da sua cidade." },
+        { "speaker": "Jean", "text": "Quelle coïncidence ! Je suis guide touristique spécialisé dans le Vieux Lyon. Je serais ravi de vous montrer quelques lieux historiques si vous avez du temps.", "translation": "Que coincidência! Sou guia turístico especializado na Velha Lyon. Ficaria feliz em mostrar-lhe alguns lugares históricos se tiver tempo." },
+        { "speaker": "Você", "text": "Ce serait formidable ! J'apprécie beaucoup votre offre.", "translation": "Seria ótimo! Agradeço muito sua oferta." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "se présenter", "translation": "apresentar-se" },
+    { "word": "enchanté(e)", "translation": "prazer em conhecê-lo(a)" },
+    { "word": "faire connaissance", "translation": "conhecer alguém" },
+    { "word": "le prénom", "translation": "o primeiro nome" },
+    { "word": "le nom de famille", "translation": "o sobrenome" },
+    { "word": "la nationalité", "translation": "a nacionalidade" },
+    { "word": "la profession", "translation": "a profissão", "example": "Quelle est votre profession ?" },
+    { "word": "l'âge (m)", "translation": "a idade" },
+    { "word": "la poignée de main", "translation": "o aperto de mão" },
+    { "word": "la bise", "translation": "o beijo no rosto (cumprimento)" },
+    { "word": "le/la collègue", "translation": "o/a colega" },
+    { "word": "le réseau professionnel", "translation": "a rede profissional" },
+    { "word": "échanger les coordonnées", "translation": "trocar contatos" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "La Bise", 
+      "description": "Na França, é comum cumprimentar amigos e conhecidos com 'la bise', um beijo em cada bochecha. O número de beijos varia dependendo da região: em Paris são geralmente dois, enquanto em outras regiões podem ser três ou quatro. Entre homens, o aperto de mão é mais comum, exceto entre familiares próximos. Em contextos profissionais, é melhor esperar que a outra pessoa inicie o cumprimento." 
+    },
+    { 
+      "title": "Tu vs Vous", 
+      "description": "O francês distingue entre o tratamento informal 'tu' e o formal 'vous'. Use 'vous' ao conhecer alguém pela primeira vez, com pessoas mais velhas, superiores hierárquicos ou em situações formais. O 'tu' é usado entre amigos, familiares, colegas próximos e crianças. Apenas mude para 'tu' quando a outra pessoa sugerir ('On peut se tutoyer')." 
+    },
+    { 
+      "title": "Cartões de Visita", 
+      "description": "Em ambientes profissionais franceses, trocar cartões de visita (cartes de visite) é uma prática comum. É considerado educado examinar brevemente o cartão antes de guardá-lo, e não o coloque imediatamente no bolso sem olhar. Ter seus cartões traduzidos para o francês pode ser apreciado." 
+    }
+  ],
+  "tips": [
+    "Sempre comece uma conversa com 'Bonjour' durante o dia ou 'Bonsoir' à noite, antes de fazer qualquer pergunta ou pedido.",
+    "Ao se apresentar em francês, é comum dizer seu primeiro nome seguido pelo sobrenome.",
+    "Em situações formais, é apropriado usar títulos como 'Monsieur', 'Madame' ou 'Mademoiselle' seguidos pelo sobrenome.",
+    "Quando for apresentado a alguém, é educado dizer 'Enchanté(e)' (prazer em conhecê-lo/a).",
+    "Lembre-se que os franceses valorizam a privacidade, então evite perguntas muito pessoais como salário ou estado civil ao conhecer alguém pela primeira vez."
+  ],
+  "relatedQuizzes": ["Cumprimentos em Francês", "Vocabulário Profissional", "Expressões de Cortesia"]
+}

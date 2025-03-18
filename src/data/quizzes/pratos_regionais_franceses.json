@@ -1,0 +1,56 @@
+{
+  "id": "pratos-regionais-franceses",
+  "title": "Pratos Regionais Franceses",
+  "description": "Conheça os pratos tradicionais das diferentes regiões da França, suas origens, ingredientes e características culturais.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "gastronomia",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "prf-1",
+      "text": "Qual destes pratos é uma especialidade da região da Alsácia?",
+      "options": ["Bouillabaisse", "Choucroute garnie", "Cassoulet", "Ratatouille"],
+      "correctAnswer": 1,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "A 'Choucroute garnie' (chucrute guarnecido) é um prato típico da Alsácia, região no leste da França com forte influência alemã. Consiste em chucrute (repolho fermentado) cozido com vinho branco e servido com diversos tipos de linguiças e carnes de porco."
+    },
+    {
+      "id": "prf-2",
+      "text": "De qual região francesa é originário o prato 'Ratatouille'?",
+      "options": ["Normandia", "Bretanha", "Provença", "Borgonha"],
+      "correctAnswer": 2,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "A 'Ratatouille' é um prato tradicional da Provença, região no sudeste da França. É um ensopado de legumes que inclui berinjela, abobrinha, pimentão, tomate, cebola e alho, temperado com ervas provençais."
+    },
+    {
+      "id": "prf-3",
+      "text": "Qual destes pratos é uma especialidade da região de Borgonha?",
+      "options": ["Boeuf Bourguignon", "Quiche Lorraine", "Bouillabaisse", "Tarte Flambée"],
+      "correctAnswer": 0,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "O 'Boeuf Bourguignon' (carne bovina à borgonhesa) é um prato emblemático da região da Borgonha. Consiste em carne bovina cozida lentamente em vinho tinto da Borgonha com cenouras, cebolas, cogumelos e bacon."
+    },
+    {
+      "id": "prf-4",
+      "text": "De qual cidade francesa é originária a sopa 'Bouillabaisse'?",
+      "options": ["Nice", "Lyon", "Marselha", "Bordeaux"],
+      "correctAnswer": 2,
+      "category": "gastronomia",
+      "difficulty": "avancado",
+      "explanation": "A 'Bouillabaisse' é uma sopa de peixe tradicional de Marselha, cidade portuária no sul da França. É preparada com diversos tipos de peixes e frutos do mar locais, açafrão, ervas provençais e servida com 'rouille' (um molho à base de alho e pimentão) e croutons."
+    },
+    {
+      "id": "prf-5",
+      "text": "Qual destes pratos é uma especialidade da região do Sudoeste da França?",
+      "options": ["Cassoulet", "Quiche Lorraine", "Pot-au-feu", "Tarte Tatin"],
+      "correctAnswer": 0,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "O 'Cassoulet' é um prato emblemático do Sudoeste da França, especialmente das cidades de Toulouse, Carcassonne e Castelnaudary. É um ensopado de feijão branco cozido lentamente com diversas carnes, como linguiça de Toulouse, confit de pato e carne de porco."
+    }
+  ]
+}

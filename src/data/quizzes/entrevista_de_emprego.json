@@ -1,0 +1,56 @@
+{
+  "id": "entrevista-de-emprego",
+  "title": "Entrevista de Emprego",
+  "description": "Aprenda vocabulário e expressões em francês para se preparar para entrevistas de emprego e processos seletivos.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "profissional",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ee-1",
+      "text": "Como se diz 'currículo' em francês?",
+      "options": ["La lettre de motivation", "Le CV (Curriculum Vitae)", "L'entretien", "La candidature"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "iniciante",
+      "explanation": "'Le CV' (abreviação de Curriculum Vitae) é a palavra francesa para 'currículo'."
+    },
+    {
+      "id": "ee-2",
+      "text": "Qual é a tradução de 'experiência profissional' em francês?",
+      "options": ["Formation académique", "Expérience professionnelle", "Compétences linguistiques", "Objectif de carrière"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "intermediario",
+      "explanation": "'Expérience professionnelle' significa 'experiência profissional' em francês."
+    },
+    {
+      "id": "ee-3",
+      "text": "Como se pergunta sobre o salário em francês?",
+      "options": ["Quelles sont les horaires de travail?", "Quel est le salaire proposé?", "Quand commence le travail?", "Où se trouve le bureau?"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "intermediario",
+      "explanation": "'Quel est le salaire proposé?' significa 'Qual é o salário proposto?' em francês."
+    },
+    {
+      "id": "ee-4",
+      "text": "Qual frase você usaria para falar sobre seus pontos fortes?",
+      "options": ["Mes points faibles sont...", "Mes points forts sont...", "Mon expérience précédente était...", "Ma formation inclut..."],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "intermediario",
+      "explanation": "'Mes points forts sont...' significa 'Meus pontos fortes são...' em francês."
+    },
+    {
+      "id": "ee-5",
+      "text": "Como se diz 'Estou disponível para começar imediatamente' em francês?",
+      "options": ["Je peux commencer la semaine prochaine", "Je suis disponible pour commencer immédiatement", "Je dois donner un préavis à mon employeur actuel", "Je préfère commencer le mois prochain"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Je suis disponible pour commencer immédiatement' significa 'Estou disponível para começar imediatamente' em francês."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "title": "Família",
+  "description": "Aprenda a falar sobre sua família e relações familiares em francês.",
+  "image": "https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "J'ai deux frères et une sœur.",
+    "Mes grands-parents habitent à Lyon.",
+    "Comment s'appelle votre mari ?"
+  ],
+  "introduction": "Falar sobre a família é uma parte fundamental da comunicação em qualquer idioma. Este guia ajudará você a descrever sua família, perguntar sobre a família de outras pessoas e entender as nuances culturais relacionadas às estruturas familiares francesas.",
+  "dialogues": [
+    {
+      "title": "Apresentando sua Família",
+      "lines": [
+        { "speaker": "Amigo Francês", "text": "Est-ce que tu as des frères et sœurs ?", "translation": "Você tem irmãos?" },
+        { "speaker": "Você", "text": "Oui, j'ai un frère aîné qui s'appelle Thomas et une petite sœur qui s'appelle Marie.", "translation": "Sim, tenho um irmão mais velho chamado Thomas e uma irmã mais nova chamada Marie." },
+        { "speaker": "Amigo Francês", "text": "Ils habitent près de chez toi ?", "translation": "Eles moram perto de você?" },
+        { "speaker": "Você", "text": "Mon frère habite à Paris avec sa femme et leurs deux enfants. Ma sœur est encore étudiante et vit avec mes parents.", "translation": "Meu irmão mora em Paris com sua esposa e seus dois filhos. Minha irmã ainda é estudante e mora com meus pais." },
+        { "speaker": "Amigo Francês", "text": "Et tes parents, que font-ils dans la vie ?", "translation": "E seus pais, o que eles fazem da vida?" },
+        { "speaker": "Você", "text": "Mon père est ingénieur et ma mère est professeure de mathématiques. Ils sont à la retraite maintenant et ils adorent voyager.", "translation": "Meu pai é engenheiro e minha mãe é professora de matemática. Eles estão aposentados agora e adoram viajar." },
+        { "speaker": "Amigo Francês", "text": "Tu as de la chance d'avoir une grande famille ! Je suis fils unique.", "translation": "Você tem sorte de ter uma família grande! Eu sou filho único." }
+      ]
+    },
+    {
+      "title": "Falando sobre Filhos",
+      "lines": [
+        { "speaker": "Colega de Trabalho", "text": "Tu as des enfants ?", "translation": "Você tem filhos?" },
+        { "speaker": "Você", "text": "Oui, j'ai une fille de 8 ans et un fils de 5 ans.", "translation": "Sim, tenho uma filha de 8 anos e um filho de 5 anos." },
+        { "speaker": "Colega de Trabalho", "text": "Comment s'appellent-ils ?", "translation": "Como eles se chamam?" },
+        { "speaker": "Você", "text": "Ma fille s'appelle Sophie et mon fils s'appelle Lucas.", "translation": "Minha filha se chama Sophie e meu filho se chama Lucas." },
+        { "speaker": "Colega de Trabalho", "text": "Ils vont à l'école près d'ici ?", "translation": "Eles vão à escola perto daqui?" },
+        { "speaker": "Você", "text": "Oui, ils sont à l'école primaire du quartier. Et toi, tu as des enfants ?", "translation": "Sim, eles estão na escola primária do bairro. E você, tem filhos?" },
+        { "speaker": "Colega de Trabalho", "text": "J'ai un fils de 10 ans qui vit avec son père. Nous sommes divorcés depuis trois ans.", "translation": "Tenho um filho de 10 anos que mora com o pai. Estamos divorciados há três anos." },
+        { "speaker": "Você", "text": "Tu le vois souvent ?", "translation": "Você o vê com frequência?" },
+        { "speaker": "Colega de Trabalho", "text": "Oui, il vient chez moi un week-end sur deux et pendant les vacances scolaires.", "translation": "Sim, ele vem à minha casa em fins de semana alternados e durante as férias escolares." }
+      ]
+    },
+    {
+      "title": "Reunião Familiar",
+      "lines": [
+        { "speaker": "Você", "text": "Ce week-end, nous allons fêter l'anniversaire de ma grand-mère. Elle aura 80 ans.", "translation": "Neste fim de semana, vamos comemorar o aniversário da minha avó. Ela fará 80 anos." },
+        { "speaker": "Amigo", "text": "Toute ta famille sera là ?", "translation": "Toda a sua família estará lá?" },
+        { "speaker": "Você", "text": "Oui, mes oncles, mes tantes, mes cousins... Nous serons environ 30 personnes.", "translation": "Sim, meus tios, minhas tias, meus primos... Seremos cerca de 30 pessoas." },
+        { "speaker": "Amigo", "text": "Tu t'entends bien avec toute ta famille ?", "translation": "Você se dá bem com toda a sua família?" },
+        { "speaker": "Você", "text": "En général, oui. J'ai une relation très proche avec mes cousins, nous avons grandi ensemble. Avec ma belle-sœur, c'est un peu plus compliqué, mais on se respecte.", "translation": "Em geral, sim. Tenho uma relação muito próxima com meus primos, crescemos juntos. Com minha cunhada, é um pouco mais complicado, mas nos respeitamos." },
+        { "speaker": "Amigo", "text": "C'est normal, dans toutes les familles il y a des relations plus ou moins faciles. Qu'est-ce que vous allez offrir à ta grand-mère ?", "translation": "É normal, em todas as famílias há relações mais ou menos fáceis. O que vocês vão dar de presente para sua avó?" },
+        { "speaker": "Você", "text": "Nous avons préparé un album photo avec des photos de toute la famille, depuis sa jeunesse jusqu'à aujourd'hui. Et nous avons aussi organisé un voyage pour elle et mon grand-père.", "translation": "Preparamos um álbum de fotos com fotos de toda a família, desde a juventude dela até hoje. E também organizamos uma viagem para ela e meu avô." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la famille", "translation": "a família" },
+    { "word": "les parents (m)", "translation": "os pais" },
+    { "word": "le père", "translation": "o pai" },
+    { "word": "la mère", "translation": "a mãe" },
+    { "word": "le frère", "translation": "o irmão" },
+    { "word": "la sœur", "translation": "a irmã" },
+    { "word": "le fils", "translation": "o filho" },
+    { "word": "la fille", "translation": "a filha" },
+    { "word": "les grands-parents (m)", "translation": "os avós" },
+    { "word": "le grand-père", "translation": "o avô" },
+    { "word": "la grand-mère", "translation": "a avó" },
+    { "word": "l'oncle (m)", "translation": "o tio" },
+    { "word": "la tante", "translation": "a tia" },
+    { "word": "le cousin / la cousine", "translation": "o primo / a prima" },
+    { "word": "le mari", "translation": "o marido" },
+    { "word": "la femme", "translation": "a esposa" },
+    { "word": "le beau-père", "translation": "o sogro / o padrasto", "example": "Mon beau-père est très gentil." },
+    { "word": "la belle-mère", "translation": "a sogra / a madrasta" },
+    { "word": "le beau-frère", "translation": "o cunhado" },
+    { "word": "la belle-sœur", "translation": "a cunhada" },
+    { "word": "les petits-enfants (m)", "translation": "os netos" },
+    { "word": "le petit-fils", "translation": "o neto" },
+    { "word": "la petite-fille", "translation": "a neta" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Estrutura Familiar Francesa", 
+      "description": "A família tradicional francesa tende a ser nuclear (pais e filhos), mas os laços com a família estendida continuam importantes. Os almoços de domingo com a família são uma tradição comum em muitas famílias francesas, especialmente fora das grandes cidades." 
+    },
+    { 
+      "title": "Formalidade nas Relações Familiares", 
+      "description": "Em algumas famílias francesas mais tradicionais, os filhos podem usar 'vous' (forma formal de 'você') ao se dirigir aos pais ou avós, embora isso esteja se tornando menos comum. A maioria das famílias modernas usa 'tu' (forma informal)." 
+    },
+    { 
+      "title": "Famílias Recompostas", 
+      "description": "A França tem uma alta taxa de divórcios e, consequentemente, muitas 'familles recomposées' (famílias recompostas) com padrastos, madrastas e meio-irmãos. Termos como 'beau-père' podem significar tanto 'sogro' quanto 'padrasto', dependendo do contexto." 
+    }
+  ],
+  "tips": [
+    "Ao conhecer uma família francesa, é comum apertar as mãos ou fazer 'la bise' (beijinhos no rosto) dependendo do grau de intimidade.",
+    "Perguntar sobre filhos é comum em conversas casuais, mas evite perguntar por que um casal não tem filhos, pois isso pode ser considerado intrusivo.",
+    "Os franceses geralmente valorizam a privacidade familiar, então não se surpreenda se eles não compartilharem muitos detalhes pessoais em um primeiro encontro.",
+    "Em ocasiões familiares formais, como casamentos ou aniversários importantes, é comum levar um presente.",
+    "Na França, o sobrenome da família geralmente vem do pai, mas cada vez mais casais estão optando por dar aos filhos sobrenomes compostos (do pai e da mãe)."
+  ],
+  "relatedQuizzes": ["Vocabulário Familiar", "Relações de Parentesco", "Tradições Familiares Francesas"]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "expressoes-uteis-para-turistas",
+  "title": "Expressões Úteis para Turistas",
+  "description": "Aprenda expressões essenciais para turistas se comunicarem durante compras na França.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "turismo",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "eut-1",
+      "text": "Como perguntar 'Quanto custa isto?' em francês?",
+      "options": ["Où est la caisse?", "Combien ça coûte?", "Avez-vous ma taille?", "Acceptez-vous les cartes de crédit?"],
+      "correctAnswer": 1,
+      "category": "turismo",
+      "difficulty": "iniciante",
+      "explanation": "'Combien ça coûte?' é a expressão francesa para perguntar 'Quanto custa isto?'"
+    },
+    {
+      "id": "eut-2",
+      "text": "Como pedir um desconto em francês?",
+      "options": ["Je voudrais essayer", "Pouvez-vous faire une réduction?", "C'est trop cher", "Je vais réfléchir"],
+      "correctAnswer": 1,
+      "category": "turismo",
+      "difficulty": "intermediario",
+      "explanation": "'Pouvez-vous faire une réduction?' significa 'Pode me dar um desconto?'"
+    },
+    {
+      "id": "eut-3",
+      "text": "Como perguntar se aceitam cartão de crédito?",
+      "options": ["Avez-vous la monnaie?", "Où est le distributeur?", "Acceptez-vous les cartes de crédit?", "Je voudrais payer en espèces"],
+      "correctAnswer": 2,
+      "category": "turismo",
+      "difficulty": "iniciante",
+      "explanation": "'Acceptez-vous les cartes de crédit?' significa 'Vocês aceitam cartões de crédito?'"
+    },
+    {
+      "id": "eut-4",
+      "text": "Como pedir para experimentar uma roupa em francês?",
+      "options": ["Je voudrais l'acheter", "Je voudrais l'essayer", "Avez-vous une autre couleur?", "C'est trop petit"],
+      "correctAnswer": 1,
+      "category": "turismo",
+      "difficulty": "iniciante",
+      "explanation": "'Je voudrais l'essayer' significa 'Eu gostaria de experimentá-lo/a'"
+    },
+    {
+      "id": "eut-5",
+      "text": "Como perguntar onde fica o caixa em francês?",
+      "options": ["Où est la caisse?", "Où est la cabine d'essayage?", "Où est la sortie?", "Où est le rayon des chaussures?"],
+      "correctAnswer": 0,
+      "category": "turismo",
+      "difficulty": "iniciante",
+      "explanation": "'Où est la caisse?' significa 'Onde fica o caixa?'"
+    }
+  ]
+}

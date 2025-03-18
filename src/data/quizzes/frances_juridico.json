@@ -1,0 +1,56 @@
+{
+  "id": "frances-juridico",
+  "title": "Francês Jurídico",
+  "description": "Aprenda a terminologia especializada usada no sistema jurídico francês e em documentos legais internacionais em língua francesa.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "profissional",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "fj-1",
+      "text": "Como se diz 'juiz' no sistema judicial francês?",
+      "options": ["Avocat", "Juge", "Notaire", "Procureur"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Juge' é o termo correto para 'juiz' em francês. O sistema judicial francês tem diferentes tipos de juízes, como 'juge d'instruction' (juiz de instrução) e 'juge des libertés et de la détention' (juiz das liberdades e da detenção)."
+    },
+    {
+      "id": "fj-2",
+      "text": "Qual o termo francês para 'direito internacional'?",
+      "options": ["Droit interne", "Droit commun", "Droit international", "Droit étranger"],
+      "correctAnswer": 2,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Droit international' é o termo francês para 'direito internacional', o conjunto de normas jurídicas que regulam as relações entre Estados e outros sujeitos de direito internacional."
+    },
+    {
+      "id": "fj-3",
+      "text": "Em francês jurídico, o que significa a expressão 'force majeure'?",
+      "options": ["Força policial", "Grande poder", "Força maior", "Poder judicial"],
+      "correctAnswer": 2,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Force majeure' (força maior) é um conceito jurídico que se refere a circunstâncias imprevisíveis e inevitáveis que impedem alguém de cumprir uma obrigação contratual, isentando-o de responsabilidade."
+    },
+    {
+      "id": "fj-4",
+      "text": "Qual destes NÃO é um tipo de tribunal no sistema judicial francês?",
+      "options": ["Tribunal de grande instance", "Tribunal de commerce", "Tribunal constitutionnel", "Conseil d'État"],
+      "correctAnswer": 2,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "A França não possui um 'Tribunal constitutionnel', mas sim um 'Conseil constitutionnel' (Conselho Constitucional) que verifica a constitucionalidade das leis. Os outros mencionados são tribunais reais do sistema judicial francês."
+    },
+    {
+      "id": "fj-5",
+      "text": "O que significa a expressão jurídica 'en vertu de'?",
+      "options": ["Em virtude de", "Em versão de", "Por causa de", "De acordo com"],
+      "correctAnswer": 0,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'En vertu de' é uma expressão jurídica francesa que significa 'em virtude de' ou 'por força de', frequentemente usada em textos legais para indicar a base legal ou contratual de uma afirmação ou decisão."
+    }
+  ]
+} 

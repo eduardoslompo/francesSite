@@ -1,0 +1,56 @@
+{
+  "id": "negocios-em-frances",
+  "title": "Francês para Negócios",
+  "description": "Aprenda vocabulário e expressões essenciais para comunicação profissional e ambiente de negócios em francês.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "profissional",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "nf-1",
+      "text": "Como se diz 'reunião de negócios' em francês?",
+      "options": ["Rendez-vous d'affaires", "Réunion d'affaires", "Conférence d'affaires", "Entretien professionnel"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Réunion d'affaires' é a expressão mais comum para 'reunião de negócios' em francês. 'Rendez-vous' geralmente refere-se a um encontro ou compromisso mais específico."
+    },
+    {
+      "id": "nf-2",
+      "text": "Qual expressão é mais adequada para iniciar um e-mail formal em francês?",
+      "options": ["Salut,", "Bonjour,", "Madame, Monsieur,", "Chers collègues,"],
+      "correctAnswer": 2,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Madame, Monsieur,' é a forma mais formal e apropriada para iniciar um e-mail profissional quando não se conhece o destinatário específico. É equivalente a 'Prezados Senhores e Senhoras'."
+    },
+    {
+      "id": "nf-3",
+      "text": "Como se traduz 'funcionário' no contexto corporativo francês?",
+      "options": ["Travailleur", "Ouvrier", "Employé", "Salarié"],
+      "correctAnswer": 2,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Employé' é o termo mais comum para 'funcionário' em um contexto corporativo. 'Salarié' também é usado, mas tem uma conotação mais ampla, enquanto 'ouvrier' geralmente refere-se a trabalhadores de fábrica."
+    },
+    {
+      "id": "nf-4",
+      "text": "Qual é a melhor tradução para 'planejamento estratégico' em francês?",
+      "options": ["Plan stratégique", "Planification stratégique", "Stratégie d'entreprise", "Développement stratégique"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Planification stratégique' é a tradução mais precisa para 'planejamento estratégico' em francês no contexto empresarial."
+    },
+    {
+      "id": "nf-5",
+      "text": "Como você diria 'Estamos procurando expandir nossos negócios na França' em francês?",
+      "options": ["Nous cherchons à agrandir notre entreprise en France", "Nous voulons faire plus d'affaires en France", "Nous cherchons à étendre nos activités en France", "Nous souhaitons développer notre présence en France"],
+      "correctAnswer": 2,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Nous cherchons à étendre nos activités en France' é a forma mais precisa e profissional de dizer 'Estamos procurando expandir nossos negócios na França'."
+    }
+  ]
+} 

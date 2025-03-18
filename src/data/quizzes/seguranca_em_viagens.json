@@ -1,0 +1,56 @@
+{
+  "id": "seguranca-em-viagens",
+  "title": "Segurança em Viagens",
+  "description": "Aprenda vocabulário e frases essenciais para garantir sua segurança durante viagens em países francófonos.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "viagem",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "sv-1",
+      "text": "Como pedir ajuda a um policial em francês?",
+      "options": ["Excusez-moi, pouvez-vous m'aider?", "Agent, j'ai besoin d'aide", "S'il vous plaît, aidez-moi", "Toutes les réponses sont correctes"],
+      "correctAnswer": 3,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "Todas as opções são formas aceitáveis de pedir ajuda a um policial em francês."
+    },
+    {
+      "id": "sv-2",
+      "text": "Qual frase você usaria para relatar um roubo?",
+      "options": ["J'ai perdu mes affaires", "On m'a volé mes affaires", "Mes affaires ont disparu", "Je ne trouve pas mes affaires"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'On m'a volé mes affaires' (Roubaram minhas coisas) é a forma correta de relatar um roubo em francês."
+    },
+    {
+      "id": "sv-3",
+      "text": "Como se diz 'Preciso ir à embaixada' em francês?",
+      "options": ["Je dois aller à l'ambassade", "Je cherche l'ambassade", "Où se trouve l'ambassade?", "L'ambassade, s'il vous plaît"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Je dois aller à l'ambassade' é a forma correta de dizer 'Preciso ir à embaixada' em francês."
+    },
+    {
+      "id": "sv-4",
+      "text": "Qual é a expressão para 'Mantenha seus pertences seguros' em francês?",
+      "options": ["Gardez vos affaires en sécurité", "Surveillez vos affaires", "Ne perdez pas vos affaires", "Protégez vos biens"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Surveillez vos affaires' (Vigie seus pertences) é a expressão mais comum em francês para alertar sobre a segurança de pertences pessoais."
+    },
+    {
+      "id": "sv-5",
+      "text": "Como pedir informações sobre áreas seguras para turistas?",
+      "options": ["Quels quartiers sont sûrs pour les touristes?", "Où puis-je aller en sécurité?", "Y a-t-il des zones dangereuses à éviter?", "Les options A et C sont correctes"],
+      "correctAnswer": 3,
+      "category": "viagem",
+      "difficulty": "avancado",
+      "explanation": "Tanto 'Quels quartiers sont sûrs pour les touristes?' (Quais bairros são seguros para turistas?) quanto 'Y a-t-il des zones dangereuses à éviter?' (Existem áreas perigosas a evitar?) são formas adequadas de pedir informações sobre segurança."
+    }
+  ]
+}

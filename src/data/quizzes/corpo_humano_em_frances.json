@@ -1,0 +1,56 @@
+{
+  "id": "corpo-humano-em-frances",
+  "title": "Corpo Humano em Francês",
+  "description": "Aprenda vocabulário médico e anatômico relacionado ao corpo humano em francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "saude",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "chf-1",
+      "text": "Qual é o termo em francês para 'sistema digestivo'?",
+      "options": ["Le système respiratoire", "Le système digestif", "Le système circulatoire", "Le système nerveux"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'Le système digestif' é o termo correto em francês para 'sistema digestivo'."
+    },
+    {
+      "id": "chf-2",
+      "text": "Como se diz 'coração' em francês?",
+      "options": ["Le poumon", "Le foie", "Le cœur", "Le rein"],
+      "correctAnswer": 2,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "'Le cœur' é a palavra francesa para 'coração'."
+    },
+    {
+      "id": "chf-3",
+      "text": "Qual é o termo francês para 'articulação'?",
+      "options": ["L'articulation", "Le muscle", "L'os", "Le tendon"],
+      "correctAnswer": 0,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'L'articulation' é o termo francês para 'articulação'."
+    },
+    {
+      "id": "chf-4",
+      "text": "Como você diria 'Quebrei o braço' em francês?",
+      "options": ["J'ai mal au bras", "Je me suis cassé le bras", "Mon bras est blessé", "J'ai un problème au bras"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'Je me suis cassé le bras' é a forma correta de dizer 'Quebrei o braço' em francês."
+    },
+    {
+      "id": "chf-5",
+      "text": "Qual é o termo médico em francês para 'exame de sangue'?",
+      "options": ["L'analyse d'urine", "La radiographie", "L'analyse de sang", "L'échographie"],
+      "correctAnswer": 2,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'L'analyse de sang' é o termo médico em francês para 'exame de sangue'."
+    }
+  ]
+}

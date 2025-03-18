@@ -1,0 +1,56 @@
+{
+  "id": "cultura-e-educacao-avancado",
+  "title": "Cultura e Educação",
+  "description": "Aprenda sobre o sistema educacional francês, instituições culturais e vocabulário relacionado.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "educacao",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ce-1",
+      "text": "Como se chama o exame final do ensino médio na França?",
+      "options": ["Le brevet", "Le baccalauréat", "La licence", "Le doctorat"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Le baccalauréat', frequentemente abreviado como 'le bac', é o exame final do ensino médio na França, equivalente ao vestibular no Brasil, que permite o acesso ao ensino superior."
+    },
+    {
+      "id": "ce-2",
+      "text": "Qual instituição francesa é conhecida mundialmente por abrigar a Mona Lisa?",
+      "options": ["Le Centre Pompidou", "Le Musée d'Orsay", "Le Louvre", "Le Musée Rodin"],
+      "correctAnswer": 2,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "Le Louvre é um dos museus mais famosos do mundo e abriga a Mona Lisa (La Joconde em francês), a célebre pintura de Leonardo da Vinci."
+    },
+    {
+      "id": "ce-3",
+      "text": "O que é uma 'grande école' no sistema educacional francês?",
+      "options": ["Uma escola primária", "Uma escola de ensino médio", "Uma instituição de ensino superior de elite", "Uma universidade pública"],
+      "correctAnswer": 2,
+      "category": "educacao",
+      "difficulty": "avancado",
+      "explanation": "As 'grandes écoles' são instituições de ensino superior de elite na França, separadas do sistema universitário regular, que formam a maioria dos altos funcionários e executivos do país."
+    },
+    {
+      "id": "ce-4",
+      "text": "Qual é a instituição francesa responsável pela preservação e regulamentação da língua francesa?",
+      "options": ["Le Ministère de la Culture", "L'Académie française", "La Sorbonne", "L'Alliance Française"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "avancado",
+      "explanation": "L'Académie française (A Academia Francesa), fundada em 1635, é a instituição oficial responsável pela preservação e regulamentação da língua francesa, incluindo a publicação do dicionário oficial."
+    },
+    {
+      "id": "ce-5",
+      "text": "Como se chama o período de férias escolares de verão na França?",
+      "options": ["Les vacances de Noël", "Les vacances de Pâques", "Les grandes vacances", "Les vacances de la Toussaint"],
+      "correctAnswer": 2,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Les grandes vacances' é como os franceses chamam as férias escolares de verão, que geralmente vão de início de julho até início de setembro."
+    }
+  ]
+}

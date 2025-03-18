@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-administrativo",
+  "title": "Vocabulário Administrativo",
+  "description": "Aprenda termos e expressões essenciais para lidar com procedimentos administrativos em francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "va-1",
+      "text": "Como se diz 'formulário' em francês?",
+      "options": ["Le formulaire", "Le document", "Le papier", "La fiche"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le formulaire' é a palavra francesa para 'formulário'."
+    },
+    {
+      "id": "va-2",
+      "text": "Qual é a expressão para 'carteira de identidade' em francês?",
+      "options": ["Le passeport", "La carte d'identité", "Le permis de conduire", "La carte bancaire"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'La carte d'identité' é o termo usado para 'carteira de identidade' em francês."
+    },
+    {
+      "id": "va-3",
+      "text": "Como você diria 'assinatura' em francês?",
+      "options": ["La signature", "L'écriture", "Le nom", "Le signe"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'La signature' é a palavra francesa para 'assinatura'."
+    },
+    {
+      "id": "va-4",
+      "text": "Qual é o termo para 'prazo de entrega' em francês?",
+      "options": ["Le délai de livraison", "La date limite", "Le temps d'attente", "La période de service"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "avancado",
+      "explanation": "'Le délai de livraison' significa 'prazo de entrega' em francês."
+    },
+    {
+      "id": "va-5",
+      "text": "Como se diz 'imposto' em francês?",
+      "options": ["Le prix", "Le coût", "L'impôt", "La taxe"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "avancado",
+      "explanation": "'L'impôt' é a palavra francesa para 'imposto'. 'La taxe' também é usada, mas geralmente para taxas específicas."
+    }
+  ]
+}

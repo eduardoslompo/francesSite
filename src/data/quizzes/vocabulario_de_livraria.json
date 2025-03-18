@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-livraria",
+  "title": "Vocabulário de Livraria",
+  "description": "Aprenda palavras e expressões essenciais para visitar livrarias na França e falar sobre literatura em francês.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "educacao",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vl-1",
+      "text": "Como se diz 'livraria' em francês?",
+      "options": ["La bibliothèque", "La librairie", "Le magasin de livres", "La boutique"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "iniciante",
+      "explanation": "'La librairie' é a palavra francesa para 'livraria'. Cuidado para não confundir com 'la bibliothèque', que significa 'biblioteca'."
+    },
+    {
+      "id": "vl-2",
+      "text": "Como se pergunta 'Onde está a seção de literatura estrangeira?' em francês?",
+      "options": ["Où est la caisse?", "Où est la section de littérature étrangère?", "Où sont les nouveautés?", "Où est le libraire?"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Où est la section de littérature étrangère?' significa 'Onde está a seção de literatura estrangeira?' em francês."
+    },
+    {
+      "id": "vl-3",
+      "text": "Qual é a palavra francesa para 'autor'?",
+      "options": ["L'écrivain", "L'auteur", "Le créateur", "Le rédacteur"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "iniciante",
+      "explanation": "'L'auteur' é a palavra francesa para 'autor'. 'L'écrivain' também é usado, significando mais especificamente 'escritor'."
+    },
+    {
+      "id": "vl-4",
+      "text": "Como se diz 'romance' (tipo de livro) em francês?",
+      "options": ["Le poème", "La bande dessinée", "Le roman", "L'essai"],
+      "correctAnswer": 2,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Le roman' é a palavra francesa para 'romance', um tipo de obra literária de ficção em prosa."
+    },
+    {
+      "id": "vl-5",
+      "text": "Qual expressão você usaria para perguntar se um livro está disponível?",
+      "options": ["Avez-vous ce livre en stock?", "Puis-je acheter ce livre?", "Combien coûte ce livre?", "Qui a écrit ce livre?"],
+      "correctAnswer": 0,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Avez-vous ce livre en stock?' significa 'Vocês têm este livro em estoque?' em francês, uma forma comum de perguntar se um livro está disponível."
+    }
+  ]
+}

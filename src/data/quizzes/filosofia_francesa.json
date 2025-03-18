@@ -1,0 +1,56 @@
+{
+  "id": "filosofia-francesa",
+  "title": "Filosofia Francesa",
+  "description": "Explore as principais correntes filosóficas francesas e os pensadores que revolucionaram o pensamento ocidental.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ff-1",
+      "text": "Qual filósofo francês é conhecido por sua frase 'Penso, logo existo' (Je pense, donc je suis)?",
+      "options": ["Jean-Jacques Rousseau", "René Descartes", "Voltaire", "Jean-Paul Sartre"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "René Descartes (1596-1650) é o autor da célebre frase 'Je pense, donc je suis' (Cogito, ergo sum), que aparece em seu 'Discurso do Método' (1637). Esta afirmação é a base de seu método filosófico baseado na dúvida."
+    },
+    {
+      "id": "ff-2",
+      "text": "Qual destes filósofos é associado ao existencialismo francês?",
+      "options": ["Michel Foucault", "Jean-Paul Sartre", "Jacques Derrida", "Auguste Comte"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Jean-Paul Sartre (1905-1980) é um dos principais representantes do existencialismo francês, com obras como 'O Ser e o Nada' e 'O Existencialismo é um Humanismo', nas quais desenvolve conceitos como a liberdade radical e a responsabilidade individual."
+    },
+    {
+      "id": "ff-3",
+      "text": "Qual pensador francês desenvolveu o conceito de 'desconstrução'?",
+      "options": ["Jacques Derrida", "Michel Foucault", "Gilles Deleuze", "Simone de Beauvoir"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Jacques Derrida (1930-2004) desenvolveu o conceito de 'desconstrução', uma abordagem de análise textual e filosófica que questiona as hierarquias binárias e as estruturas de significado estabelecidas no pensamento ocidental."
+    },
+    {
+      "id": "ff-4",
+      "text": "Qual obra de Simone de Beauvoir é considerada fundamental para o movimento feminista?",
+      "options": ["L'Invitée", "Le Deuxième Sexe", "La Force de l'âge", "Les Mandarins"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Le Deuxième Sexe' (O Segundo Sexo), publicado em 1949, é a obra mais influente de Simone de Beauvoir. Nela, a autora analisa a condição das mulheres na sociedade com a famosa afirmação 'On ne naît pas femme, on le devient' (Não se nasce mulher, torna-se mulher)."
+    },
+    {
+      "id": "ff-5",
+      "text": "Qual filósofo francês é conhecido por suas análises sobre poder e conhecimento em obras como 'Vigiar e Punir'?",
+      "options": ["Albert Camus", "Jean Baudrillard", "Michel Foucault", "Louis Althusser"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Michel Foucault (1926-1984) é conhecido por suas análises sobre as relações entre poder, conhecimento e discurso. Em 'Vigiar e Punir' (1975), ele examina a evolução dos sistemas penais e o surgimento da sociedade disciplinar."
+    }
+  ]
+} 

@@ -1,0 +1,56 @@
+{
+  "id": "gramatica-avancada",
+  "title": "Gramática Avançada",
+  "description": "Teste seus conhecimentos avançados de gramática francesa, incluindo tempos verbais complexos e estruturas sofisticadas.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "gramatica",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ga-1",
+      "text": "Qual é a forma correta do passé simple na terceira pessoa do singular do verbo 'prendre'?",
+      "options": ["Il prena", "Il prit", "Il pris", "Il prenait"],
+      "correctAnswer": 1,
+      "category": "gramatica",
+      "difficulty": "avancado",
+      "explanation": "'Il prit' é a forma correta do passé simple (pretérito perfeito literário) na terceira pessoa do singular do verbo 'prendre'."
+    },
+    {
+      "id": "ga-2",
+      "text": "Qual destas frases utiliza corretamente o subjuntivo?",
+      "options": ["Je pense qu'il est malade", "Il faut que vous partiez immédiatement", "J'espère qu'il viendra", "Je sais qu'elle a raison"],
+      "correctAnswer": 1,
+      "category": "gramatica",
+      "difficulty": "avancado",
+      "explanation": "'Il faut que vous partiez immédiatement' usa corretamente o subjuntivo presente após a expressão impessoal 'il faut que', que exige o modo subjuntivo."
+    },
+    {
+      "id": "ga-3",
+      "text": "Identifique a frase que usa corretamente o particípio passado com acordo:",
+      "options": ["Les lettres que j'ai écrit", "Les chansons qu'elle a chanté", "Les fleurs qu'il a offertes", "Les livres qu'ils ont lu"],
+      "correctAnswer": 2,
+      "category": "gramatica",
+      "difficulty": "avancado",
+      "explanation": "'Les fleurs qu'il a offertes' é a forma correta. O particípio passado 'offertes' concorda em gênero e número com o complemento direto 'fleurs' que o precede."
+    },
+    {
+      "id": "ga-4",
+      "text": "Qual é a forma correta do condicional passado na primeira pessoa do singular do verbo 'vouloir'?",
+      "options": ["J'ai voulu", "Je voudrais", "J'aurais voulu", "Je voulais"],
+      "correctAnswer": 2,
+      "category": "gramatica",
+      "difficulty": "avancado",
+      "explanation": "'J'aurais voulu' é a forma correta do condicional passado (conditionnel passé) na primeira pessoa do singular do verbo 'vouloir'."
+    },
+    {
+      "id": "ga-5",
+      "text": "Qual das seguintes frases contém um gerúndio (gérondif) usado corretamente?",
+      "options": ["En parlant, il a fait un geste", "Il parlait en marchant", "Il a parlé tout en marchant", "Toutes les options sont correctes"],
+      "correctAnswer": 3,
+      "category": "gramatica",
+      "difficulty": "avancado",
+      "explanation": "Todas as opções apresentam usos corretos do gerúndio em francês. O gerúndio pode ser formado com 'en + particípio presente' e é usado para expressar simultaneidade, causa ou maneira."
+    }
+  ]
+} 

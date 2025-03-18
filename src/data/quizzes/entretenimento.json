@@ -1,0 +1,56 @@
+{
+  "id": "entretenimento",
+  "title": "Entretenimento",
+  "description": "Aprenda vocabulário e expressões relacionadas a atividades de entretenimento em francês, incluindo cinema, teatro e eventos culturais.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ent-1",
+      "text": "Como se diz 'filme' em francês?",
+      "options": ["Le film", "La pièce", "Le spectacle", "L'émission"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Le film' é a palavra francesa para 'filme'."
+    },
+    {
+      "id": "ent-2",
+      "text": "Qual é a expressão para 'comprar ingressos' em francês?",
+      "options": ["Réserver une place", "Acheter des billets", "Payer l'entrée", "Faire la queue"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Acheter des billets' significa 'comprar ingressos' em francês."
+    },
+    {
+      "id": "ent-3",
+      "text": "Como se pergunta 'Que tipo de filmes você gosta?' em francês?",
+      "options": ["Où est le cinéma?", "Quel genre de films aimez-vous?", "Combien coûte le billet?", "À quelle heure commence le film?"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Quel genre de films aimez-vous?' significa 'Que tipo de filmes você gosta?' em francês."
+    },
+    {
+      "id": "ent-4",
+      "text": "Como se diz 'concerto' em francês?",
+      "options": ["Le concert", "Le spectacle", "La pièce", "Le show"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Le concert' é a palavra francesa para 'concerto'."
+    },
+    {
+      "id": "ent-5",
+      "text": "Qual frase você usaria para convidar alguém para ir ao teatro?",
+      "options": ["Voulez-vous aller au théâtre ce soir?", "Où se trouve le théâtre?", "Combien coûtent les billets?", "À quelle heure commence la pièce?"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Voulez-vous aller au théâtre ce soir?' significa 'Você quer ir ao teatro esta noite?' em francês."
+    }
+  ]
+}

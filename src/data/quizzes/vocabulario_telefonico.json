@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-telefonico",
+  "title": "Vocabulário Telefônico",
+  "description": "Aprenda palavras e expressões em francês para comunicação telefônica, ligações e mensagens.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "comunicacao",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vt-1",
+      "text": "Como se diz 'telefone' em francês?",
+      "options": ["La télévision", "Le téléphone", "L'ordinateur", "Le portable"],
+      "correctAnswer": 1,
+      "category": "comunicacao",
+      "difficulty": "iniciante",
+      "explanation": "'Le téléphone' é a palavra francesa para 'telefone'."
+    },
+    {
+      "id": "vt-2",
+      "text": "Qual é a tradução de 'ligar para alguém' em francês?",
+      "options": ["Parler à quelqu'un", "Téléphoner à quelqu'un", "Écrire à quelqu'un", "Voir quelqu'un"],
+      "correctAnswer": 1,
+      "category": "comunicacao",
+      "difficulty": "iniciante",
+      "explanation": "'Téléphoner à quelqu'un' significa 'ligar para alguém' em francês."
+    },
+    {
+      "id": "vt-3",
+      "text": "Como se atende o telefone em francês?",
+      "options": ["Bonjour!", "Allô?", "Salut!", "Oui?"],
+      "correctAnswer": 1,
+      "category": "comunicacao",
+      "difficulty": "iniciante",
+      "explanation": "'Allô?' é a forma mais comum de atender o telefone em francês."
+    },
+    {
+      "id": "vt-4",
+      "text": "Qual frase você usaria para pedir para alguém esperar na linha?",
+      "options": ["Ne quittez pas, s'il vous plaît", "Rappelez plus tard", "Je dois raccrocher", "Laissez un message"],
+      "correctAnswer": 0,
+      "category": "comunicacao",
+      "difficulty": "intermediario",
+      "explanation": "'Ne quittez pas, s'il vous plaît' significa 'Por favor, aguarde na linha' em francês."
+    },
+    {
+      "id": "vt-5",
+      "text": "Como se diz 'deixar uma mensagem' em francês?",
+      "options": ["Prendre un message", "Laisser un message", "Écrire un message", "Envoyer un message"],
+      "correctAnswer": 1,
+      "category": "comunicacao",
+      "difficulty": "intermediario",
+      "explanation": "'Laisser un message' significa 'deixar uma mensagem' em francês."
+    }
+  ]
+}

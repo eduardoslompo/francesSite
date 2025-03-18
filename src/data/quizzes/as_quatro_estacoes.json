@@ -1,0 +1,56 @@
+{
+  "id": "as-quatro-estacoes",
+  "title": "As Quatro Estações",
+  "description": "Aprenda vocabulário e expressões relacionadas às quatro estações do ano em francês, incluindo clima, atividades sazonais e fenômenos naturais.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "clima",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "qe-1",
+      "text": "Como se diz 'primavera' em francês?",
+      "options": ["L'été", "L'automne", "Le printemps", "L'hiver"],
+      "correctAnswer": 2,
+      "category": "clima",
+      "difficulty": "iniciante",
+      "explanation": "'Le printemps' é a palavra francesa para 'primavera'. 'L'été' significa 'verão', 'L'automne' significa 'outono' e 'L'hiver' significa 'inverno'."
+    },
+    {
+      "id": "qe-2",
+      "text": "Qual é a tradução de 'verão' em francês?",
+      "options": ["L'été", "L'automne", "Le printemps", "L'hiver"],
+      "correctAnswer": 0,
+      "category": "clima",
+      "difficulty": "iniciante",
+      "explanation": "'L'été' é a palavra francesa para 'verão'. 'Le printemps' significa 'primavera', 'L'automne' significa 'outono' e 'L'hiver' significa 'inverno'."
+    },
+    {
+      "id": "qe-3",
+      "text": "Como se diz 'Em qual estação estamos?' em francês?",
+      "options": ["Quelle saison est-ce?", "En quelle saison sommes-nous?", "Quelle est la saison?", "Quelle saison fait-il?"],
+      "correctAnswer": 1,
+      "category": "clima",
+      "difficulty": "intermediario",
+      "explanation": "'En quelle saison sommes-nous?' é a forma mais comum de perguntar 'Em qual estação estamos?' em francês."
+    },
+    {
+      "id": "qe-4",
+      "text": "Qual destas frases descreve corretamente o outono em francês?",
+      "options": ["En automne, les feuilles tombent des arbres", "En automne, il fait très chaud", "En automne, il neige beaucoup", "En automne, les fleurs commencent à pousser"],
+      "correctAnswer": 0,
+      "category": "clima",
+      "difficulty": "intermediario",
+      "explanation": "'En automne, les feuilles tombent des arbres' (No outono, as folhas caem das árvores) é uma descrição correta do outono em francês."
+    },
+    {
+      "id": "qe-5",
+      "text": "Qual é a atividade típica do inverno em francês?",
+      "options": ["Faire du ski", "Aller à la plage", "Cueillir des fleurs", "Faire des vendanges"],
+      "correctAnswer": 0,
+      "category": "clima",
+      "difficulty": "intermediario",
+      "explanation": "'Faire du ski' (esquiar) é uma atividade típica do inverno. 'Aller à la plage' (ir à praia) é típico do verão, 'Cueillir des fleurs' (colher flores) é mais comum na primavera e 'Faire des vendanges' (fazer a colheita da uva) é típico do outono."
+    }
+  ]
+}

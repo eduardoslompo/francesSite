@@ -1,0 +1,56 @@
+{
+  "id": "tamanhos-e-medidas",
+  "title": "Tamanhos e Medidas",
+  "description": "Aprenda a expressar tamanhos, medidas e números em francês para situações de compras.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "compras",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "tm-1",
+      "text": "Como se pergunta 'Qual é o seu tamanho?' em francês?",
+      "options": ["Quelle est votre taille?", "Quel est votre numéro?", "Quelle mesure faites-vous?", "Toutes les réponses"],
+      "correctAnswer": 0,
+      "category": "compras",
+      "difficulty": "iniciante",
+      "explanation": "'Quelle est votre taille?' é a forma mais comum de perguntar o tamanho de alguém em francês, especialmente para roupas."
+    },
+    {
+      "id": "tm-2",
+      "text": "Como se diz 'tamanho grande' em francês?",
+      "options": ["Taille petite", "Taille moyenne", "Taille grande", "Taille énorme"],
+      "correctAnswer": 2,
+      "category": "compras",
+      "difficulty": "iniciante",
+      "explanation": "'Taille grande' significa 'tamanho grande' em francês. Nas etiquetas de roupas, você também pode encontrar simplesmente 'L' (Large)."
+    },
+    {
+      "id": "tm-3",
+      "text": "Qual é a equivalência correta para o número de calçado europeu 40 no Brasil?",
+      "options": ["38", "39", "41", "42"],
+      "correctAnswer": 0,
+      "category": "compras",
+      "difficulty": "intermediario",
+      "explanation": "O número 40 europeu (usado na França) equivale aproximadamente ao 38 brasileiro. É importante conhecer essas diferenças ao comprar calçados na França."
+    },
+    {
+      "id": "tm-4",
+      "text": "Como você perguntaria se uma loja tem uma roupa em outro tamanho?",
+      "options": ["Avez-vous ceci dans une autre taille?", "Pouvez-vous me donner une autre taille?", "Est-ce que ça existe en plus grand/petit?", "Toutes les réponses"],
+      "correctAnswer": 3,
+      "category": "compras",
+      "difficulty": "intermediario",
+      "explanation": "Todas as expressões mencionadas são formas adequadas de perguntar se há disponibilidade de outro tamanho em francês."
+    },
+    {
+      "id": "tm-5",
+      "text": "Qual unidade de medida é usada para altura na França?",
+      "options": ["Polegadas (inches)", "Pés (feet)", "Centímetros", "Metros"],
+      "correctAnswer": 3,
+      "category": "medidas",
+      "difficulty": "iniciante",
+      "explanation": "Na França, como na maioria dos países que usam o sistema métrico, a altura das pessoas é geralmente expressa em metros (por exemplo, 1m75 para 1,75m)."
+    }
+  ]
+}

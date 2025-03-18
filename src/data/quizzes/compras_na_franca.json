@@ -1,0 +1,56 @@
+{
+  "id": "compras-na-franca",
+  "title": "Compras na França",
+  "description": "Aprenda vocabulário e expressões úteis para fazer compras em diferentes estabelecimentos na França.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "cnf-1",
+      "text": "Como se diz 'Quanto custa isso?' em francês?",
+      "options": ["Où est-ce?", "Comment allez-vous?", "Combien ça coûte?", "Qu'est-ce que c'est?"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Combien ça coûte?' é a expressão usada para perguntar o preço de algo em francês."
+    },
+    {
+      "id": "cnf-2",
+      "text": "Qual é o nome do famoso mercado de pulgas de Paris?",
+      "options": ["Marché aux Puces de Saint-Ouen", "Galeries Lafayette", "Le Bon Marché", "Marché de Rungis"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "O 'Marché aux Puces de Saint-Ouen' é o famoso mercado de pulgas de Paris, um dos maiores do mundo, onde se pode encontrar antiguidades e itens vintage."
+    },
+    {
+      "id": "cnf-3",
+      "text": "Como se chama uma loja de departamentos em francês?",
+      "options": ["Une boutique", "Un grand magasin", "Une épicerie", "Un marché"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Un grand magasin' é o termo francês para uma loja de departamentos, como as famosas Galeries Lafayette ou Le Bon Marché."
+    },
+    {
+      "id": "cnf-4",
+      "text": "Qual expressão você usaria para pedir para experimentar uma roupa?",
+      "options": ["Je voudrais acheter ça", "Je peux l'essayer?", "C'est trop cher", "Avez-vous ma taille?"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Je peux l'essayer?' (Posso experimentar?) é a expressão usada quando você quer experimentar uma peça de roupa antes de comprá-la."
+    },
+    {
+      "id": "cnf-5",
+      "text": "O que significa a expressão 'faire du lèche-vitrines'?",
+      "options": ["Limpar as vitrines", "Comprar presentes", "Olhar vitrines sem comprar nada", "Negociar preços"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "avancado",
+      "explanation": "'Faire du lèche-vitrines' é uma expressão idiomática francesa que significa 'olhar vitrines' ou 'fazer window shopping', ou seja, passear olhando as vitrines das lojas sem necessariamente comprar algo."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "comunicacao-profissional",
+  "title": "Comunicação Profissional",
+  "description": "Aprenda expressões e termos essenciais para comunicação eficaz no ambiente de trabalho em francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "trabalho",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "cp-1",
+      "text": "Como você iniciaria um e-mail formal em francês?",
+      "options": ["Salut,", "Bonjour,", "Madame, Monsieur,", "Cher ami,"],
+      "correctAnswer": 2,
+      "category": "trabalho",
+      "difficulty": "iniciante",
+      "explanation": "'Madame, Monsieur,' é a forma mais formal e profissional de iniciar um e-mail ou carta quando não se conhece o destinatário específico."
+    },
+    {
+      "id": "cp-2",
+      "text": "Qual expressão você usaria para solicitar uma reunião?",
+      "options": ["Je voudrais organiser une réunion", "On peut se voir?", "J'ai besoin de parler", "Quand êtes-vous disponible?"],
+      "correctAnswer": 0,
+      "category": "trabalho",
+      "difficulty": "intermediario",
+      "explanation": "'Je voudrais organiser une réunion' (Eu gostaria de organizar uma reunião) é a forma mais profissional de solicitar uma reunião."
+    },
+    {
+      "id": "cp-3",
+      "text": "Como você concluiria um e-mail profissional em francês?",
+      "options": ["À bientôt", "Cordialement", "Bisous", "Merci"],
+      "correctAnswer": 1,
+      "category": "trabalho",
+      "difficulty": "intermediario",
+      "explanation": "'Cordialement' (Cordialmente) é a forma padrão e profissional de concluir um e-mail no ambiente de trabalho."
+    },
+    {
+      "id": "cp-4",
+      "text": "Qual frase você usaria para apresentar uma ideia em uma reunião?",
+      "options": ["J'ai une idée", "Je voudrais proposer", "Écoutez-moi", "C'est important"],
+      "correctAnswer": 1,
+      "category": "trabalho",
+      "difficulty": "intermediario",
+      "explanation": "'Je voudrais proposer' (Eu gostaria de propor) é uma forma educada e profissional de apresentar uma ideia em um contexto de trabalho."
+    },
+    {
+      "id": "cp-5",
+      "text": "Como você expressaria discordância de forma educada em uma reunião?",
+      "options": ["Non, ce n'est pas correct", "Je ne suis pas d'accord", "Je comprends votre point de vue, mais...", "C'est une mauvaise idée"],
+      "correctAnswer": 2,
+      "category": "trabalho",
+      "difficulty": "avancado",
+      "explanation": "'Je comprends votre point de vue, mais...' (Eu entendo seu ponto de vista, mas...) é uma forma diplomática e profissional de expressar discordância."
+    }
+  ]
+}

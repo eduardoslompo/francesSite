@@ -1,0 +1,56 @@
+{
+  "id": "sistema-educacional-frances",
+  "title": "Sistema Educacional Francês",
+  "description": "Aprenda sobre a estrutura e terminologia do sistema educacional da França, desde o ensino básico até o superior.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "educacao",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "sef-1",
+      "text": "Como é chamado o ensino médio na França?",
+      "options": ["Le collège", "Le lycée", "L'école primaire", "L'université"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Le lycée' corresponde ao ensino médio no sistema educacional francês, geralmente frequentado por alunos de 15 a 18 anos."
+    },
+    {
+      "id": "sef-2",
+      "text": "O que é o 'baccalauréat' (ou 'bac') no sistema educacional francês?",
+      "options": ["Um diploma universitário", "O exame final do ensino médio", "Um certificado de língua francesa", "O primeiro ano da universidade"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "O 'baccalauréat' ou 'bac' é o exame final do ensino médio francês, que também serve como qualificação para ingresso na universidade."
+    },
+    {
+      "id": "sef-3",
+      "text": "Qual instituição é conhecida como a mais prestigiosa para formação de altos funcionários públicos na França?",
+      "options": ["La Sorbonne", "Sciences Po", "L'ENA (École Nationale d'Administration)", "L'École Polytechnique"],
+      "correctAnswer": 2,
+      "category": "educacao",
+      "difficulty": "avancado",
+      "explanation": "A ENA (École Nationale d'Administration) é tradicionalmente a instituição mais prestigiosa para a formação de altos funcionários públicos na França."
+    },
+    {
+      "id": "sef-4",
+      "text": "O que são as 'Grandes Écoles' no sistema educacional francês?",
+      "options": ["Escolas primárias públicas", "Universidades tradicionais", "Instituições de elite de ensino superior", "Escolas de idiomas"],
+      "correctAnswer": 2,
+      "category": "educacao",
+      "difficulty": "avancado",
+      "explanation": "As 'Grandes Écoles' são instituições de elite de ensino superior na França, conhecidas por sua seletividade e excelência acadêmica."
+    },
+    {
+      "id": "sef-5",
+      "text": "Como se chama o ensino fundamental na França?",
+      "options": ["L'école maternelle", "L'école primaire", "Le collège", "Le lycée"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "iniciante",
+      "explanation": "'L'école primaire' é o termo para o ensino fundamental na França, frequentado por crianças de aproximadamente 6 a 11 anos."
+    }
+  ]
+}

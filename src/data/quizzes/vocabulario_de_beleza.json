@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-beleza",
+  "title": "Vocabulário de Beleza",
+  "description": "Aprenda palavras e expressões essenciais para visitar salões de beleza e cabeleireiros na França.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vb-1",
+      "text": "Como se diz 'cabeleireiro' em francês?",
+      "options": ["Le coiffeur", "Le barbier", "Le styliste", "Le maquilleur"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le coiffeur' (masculino) ou 'La coiffeuse' (feminino) é a palavra francesa para 'cabeleireiro'."
+    },
+    {
+      "id": "vb-2",
+      "text": "Qual frase você usaria para pedir um corte de cabelo?",
+      "options": ["Je voudrais une coupe de cheveux", "Je voudrais un shampooing", "Je voudrais une coloration", "Je voudrais un brushing"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Je voudrais une coupe de cheveux' significa 'Eu gostaria de um corte de cabelo' em francês."
+    },
+    {
+      "id": "vb-3",
+      "text": "Como se diz 'tintura de cabelo' em francês?",
+      "options": ["Le shampooing", "La coloration", "Le séchage", "Le coiffage"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'La coloration' é a palavra francesa para 'tintura de cabelo'."
+    },
+    {
+      "id": "vb-4",
+      "text": "Qual destas opções NÃO é um serviço comum em salões de beleza franceses?",
+      "options": ["La manucure", "Le maquillage", "Le tatouage", "L'épilation"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Le tatouage' (tatuagem) geralmente não é um serviço oferecido em salões de beleza tradicionais na França, mas sim em estúdios especializados."
+    },
+    {
+      "id": "vb-5",
+      "text": "Como você perguntaria 'Quanto custa uma escova?' em francês?",
+      "options": ["Combien coûte une coupe?", "Combien coûte un brushing?", "Combien coûte une coloration?", "Combien coûte un shampooing?"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Combien coûte un brushing?' significa 'Quanto custa uma escova?' em francês. 'Le brushing' é o termo usado para o serviço de escovar e modelar o cabelo após a lavagem."
+    }
+  ]
+}

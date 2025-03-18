@@ -1,0 +1,56 @@
+{
+  "id": "numeros-e-horarios",
+  "title": "Números e Horários",
+  "description": "Aprenda vocabulário e expressões relacionadas a números, horas e horários em francês, incluindo como dizer as horas e expressar períodos de tempo.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "viagem",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "nh-1",
+      "text": "Como se pergunta 'Que horas são?' em francês?",
+      "options": ["Quelle heure est-il?", "À quelle heure?", "C'est quand?", "Quel temps fait-il?"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Quelle heure est-il?' é a forma de perguntar 'Que horas são?' em francês."
+    },
+    {
+      "id": "nh-2",
+      "text": "Como se diz '15h30' em francês?",
+      "options": ["Quinze heures et demie", "Trois heures et demie", "Quinze heures trente", "Toutes les réponses sont correctes"],
+      "correctAnswer": 3,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "Todas as opções são formas corretas de dizer '15h30' em francês. 'Quinze heures et demie', 'Quinze heures trente' e 'Trois heures et demie' (no formato de 12 horas, para a tarde)."
+    },
+    {
+      "id": "nh-3",
+      "text": "Como perguntar 'A que horas o trem parte?' em francês?",
+      "options": ["Quand part le train?", "À quelle heure part le train?", "Le train part à quelle heure?", "Quelle est l'heure de départ du train?"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'À quelle heure part le train?' é a forma mais comum de perguntar 'A que horas o trem parte?' em francês."
+    },
+    {
+      "id": "nh-4",
+      "text": "Como se diz 'meio-dia' em francês?",
+      "options": ["Douze heures", "Midi", "Demi-journée", "Moitié du jour"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Midi' é a palavra francesa para 'meio-dia'."
+    },
+    {
+      "id": "nh-5",
+      "text": "Como expressar 'duas vezes por semana' em francês?",
+      "options": ["Deux fois par jour", "Deux fois par semaine", "Deux semaines", "Bi-hebdomadaire"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Deux fois par semaine' significa 'duas vezes por semana' em francês."
+    }
+  ]
+}

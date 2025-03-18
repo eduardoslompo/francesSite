@@ -1,0 +1,89 @@
+{
+  "title": "Direções",
+  "description": "Aprenda a pedir e dar direções em francês para se locomover com facilidade.",
+  "image": "https://images.unsplash.com/photo-1569336415962-a4bd9f69c07a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Excusez-moi, où se trouve la Tour Eiffel ?",
+    "Comment puis-je aller à la station de métro la plus proche ?",
+    "Je suis perdu. Pouvez-vous m'aider ?"
+  ],
+  "introduction": "Saber pedir e dar direções é essencial quando se está visitando um país estrangeiro. Este guia ajudará você a se orientar nas cidades francófonas, encontrar pontos turísticos e usar o transporte público com confiança, mesmo quando se sentir perdido.",
+  "dialogues": [
+    {
+      "title": "Pedindo Direções na Rua",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, monsieur. Je cherche la cathédrale Notre-Dame. Pouvez-vous m'indiquer le chemin, s'il vous plaît ?", "translation": "Com licença, senhor. Estou procurando a catedral Notre-Dame. Pode me indicar o caminho, por favor?" },
+        { "speaker": "Pedestre", "text": "Bien sûr. Vous êtes sur la bonne route. Continuez tout droit sur cette rue pendant environ 300 mètres.", "translation": "Claro. Você está no caminho certo. Continue reto nesta rua por cerca de 300 metros." },
+        { "speaker": "Você", "text": "Et après ?", "translation": "E depois?" },
+        { "speaker": "Pedestre", "text": "Ensuite, tournez à gauche au grand carrefour, près de la fontaine. Puis, prenez la deuxième rue à droite.", "translation": "Depois, vire à esquerda no grande cruzamento, perto da fonte. Em seguida, pegue a segunda rua à direita." },
+        { "speaker": "Você", "text": "La deuxième rue à droite, d'accord.", "translation": "A segunda rua à direita, entendi." },
+        { "speaker": "Pedestre", "text": "Oui. Vous verrez la cathédrale juste en face de vous. C'est à environ 10 minutes à pied d'ici.", "translation": "Sim. Você verá a catedral logo à sua frente. É cerca de 10 minutos a pé daqui." },
+        { "speaker": "Você", "text": "Est-ce qu'il y a un bus que je pourrais prendre ?", "translation": "Existe algum ônibus que eu poderia pegar?" },
+        { "speaker": "Pedestre", "text": "Oui, le bus numéro 21 passe par là. L'arrêt est juste au coin de la rue, mais honnêtement, c'est plus rapide à pied car il y a beaucoup de circulation à cette heure.", "translation": "Sim, o ônibus número 21 passa por lá. O ponto é logo na esquina, mas honestamente, é mais rápido a pé porque há muito trânsito neste horário." }
+      ]
+    },
+    {
+      "title": "No Centro de Informações Turísticas",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour. J'aimerais visiter le Musée du Louvre aujourd'hui. Quel est le meilleur moyen pour y aller depuis ici ?", "translation": "Bom dia. Eu gostaria de visitar o Museu do Louvre hoje. Qual é a melhor maneira de chegar lá a partir daqui?" },
+        { "speaker": "Atendente", "text": "Bonjour. Le plus simple est de prendre le métro. La station la plus proche est à 200 mètres d'ici, sur la place de la République.", "translation": "Bom dia. O mais simples é pegar o metrô. A estação mais próxima fica a 200 metros daqui, na praça da República." },
+        { "speaker": "Você", "text": "Quelle ligne dois-je prendre ?", "translation": "Qual linha devo pegar?" },
+        { "speaker": "Atendente", "text": "Prenez la ligne 3 direction Pont de Levallois et descendez à Palais Royal-Musée du Louvre. C'est la quatrième station.", "translation": "Pegue a linha 3 direção Pont de Levallois e desça em Palais Royal-Musée du Louvre. É a quarta estação." },
+        { "speaker": "Você", "text": "Est-ce que je dois changer de ligne ?", "translation": "Preciso trocar de linha?" },
+        { "speaker": "Atendente", "text": "Non, c'est direct. Voici un plan du métro. Je vais vous montrer l'itinéraire.", "translation": "Não, é direto. Aqui está um mapa do metrô. Vou mostrar o itinerário para você." },
+        { "speaker": "Você", "text": "Merci beaucoup. Savez-vous combien de temps cela prendra ?", "translation": "Muito obrigado. Você sabe quanto tempo isso levará?" },
+        { "speaker": "Atendente", "text": "Environ 15 minutes en métro. N'oubliez pas que le musée est fermé le mardi. Aujourd'hui, il est ouvert jusqu'à 18h.", "translation": "Cerca de 15 minutos de metrô. Não se esqueça que o museu está fechado às terças-feiras. Hoje, está aberto até as 18h." }
+      ]
+    },
+    {
+      "title": "Perdido na Cidade",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, madame. Je crois que je suis perdu. Je cherche la rue Saint-Honoré, mais je ne la trouve pas sur ce plan.", "translation": "Com licença, senhora. Acho que estou perdido. Estou procurando a rua Saint-Honoré, mas não a encontro neste mapa." },
+        { "speaker": "Moradora", "text": "Vous êtes assez loin de la rue Saint-Honoré. Vous êtes actuellement dans le quartier du Marais.", "translation": "Você está bem longe da rua Saint-Honoré. Você está atualmente no bairro do Marais." },
+        { "speaker": "Você", "text": "Oh, je ne savais pas. J'ai dû prendre la mauvaise direction. Comment puis-je y arriver ?", "translation": "Oh, eu não sabia. Devo ter tomado a direção errada. Como posso chegar lá?" },
+        { "speaker": "Moradora", "text": "Le plus simple serait de prendre un taxi. Mais si vous préférez marcher, dirigez-vous vers la Seine et suivez-la vers l'ouest.", "translation": "O mais simples seria pegar um táxi. Mas se você preferir caminhar, dirija-se ao Sena e siga-o para oeste." },
+        { "speaker": "Você", "text": "Je préfère marcher si ce n'est pas trop loin. Combien de temps cela prendrait-il ?", "translation": "Prefiro caminhar se não for muito longe. Quanto tempo isso levaria?" },
+        { "speaker": "Moradora", "text": "À pied, comptez environ 30 minutes. Mais il y a beaucoup de choses intéressantes à voir en chemin, comme l'Hôtel de Ville et le Louvre.", "translation": "A pé, conte com cerca de 30 minutos. Mas há muitas coisas interessantes para ver no caminho, como a Prefeitura e o Louvre." },
+        { "speaker": "Você", "text": "Parfait, merci pour votre aide. Une dernière question : y a-t-il des cafés sympas sur le chemin où je pourrais m'arrêter ?", "translation": "Perfeito, obrigado pela sua ajuda. Uma última pergunta: há cafés legais no caminho onde eu poderia parar?" },
+        { "speaker": "Moradora", "text": "Oui, il y a plusieurs cafés charmants près du Pont Neuf. Je vous recommande particulièrement Le Café Marly, qui a une belle vue sur le Louvre.", "translation": "Sim, há vários cafés charmosos perto da Pont Neuf. Recomendo especialmente o Café Marly, que tem uma bela vista para o Louvre." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la direction", "translation": "a direção" },
+    { "word": "le chemin", "translation": "o caminho" },
+    { "word": "la rue", "translation": "a rua" },
+    { "word": "le carrefour", "translation": "o cruzamento" },
+    { "word": "tourner à droite", "translation": "virar à direita" },
+    { "word": "tourner à gauche", "translation": "virar à esquerda" },
+    { "word": "tout droit", "translation": "em frente, reto" },
+    { "word": "le plan", "translation": "o mapa" },
+    { "word": "être perdu(e)", "translation": "estar perdido(a)" },
+    { "word": "la station de métro", "translation": "a estação de metrô" },
+    { "word": "l'arrêt de bus (m)", "translation": "o ponto de ônibus", "example": "L'arrêt de bus est juste au coin de la rue." },
+    { "word": "le quartier", "translation": "o bairro" },
+    { "word": "à proximité", "translation": "nas proximidades" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Sistema de Endereços em Paris", 
+      "description": "Em Paris, os números das casas são organizados de forma que os números ímpares ficam de um lado da rua e os pares do outro. Além disso, os números aumentam à medida que você se afasta do rio Sena. Isso pode ajudar a se orientar: se os números estão diminuindo, você está se aproximando do rio." 
+    },
+    { 
+      "title": "Arrondissements de Paris", 
+      "description": "Paris é dividida em 20 distritos administrativos chamados 'arrondissements', numerados em espiral do centro para fora. Conhecer em qual arrondissement você está pode ajudar a se localizar. O código postal de Paris começa com 750 seguido pelo número do arrondissement (por exemplo, 75001 para o 1º arrondissement)." 
+    },
+    { 
+      "title": "Pedir Informações", 
+      "description": "Os franceses geralmente apreciam quando os turistas fazem um esforço para falar francês, mesmo que seja apenas para iniciar a conversa. Comece com 'Excusez-moi' ou 'Pardon' antes de pedir informações. Em áreas turísticas, muitas pessoas falam inglês, mas é educado perguntar primeiro: 'Parlez-vous anglais?'" 
+    }
+  ],
+  "tips": [
+    "Sempre tenha um mapa físico ou um aplicativo de mapas offline, pois o sinal de internet pode ser instável em algumas áreas ou no metrô.",
+    "Os nomes das ruas em Paris geralmente estão escritos em placas azuis fixadas nas paredes dos edifícios, não em postes como em muitos outros países.",
+    "Ao pedir direções, é útil mencionar um ponto de referência conhecido próximo ao seu destino.",
+    "O metrô de Paris é muito eficiente, mas esteja ciente de que algumas estações têm longos corredores de transferência entre linhas.",
+    "Se estiver realmente perdido, procure um policial (agent de police) ou entre em uma loja ou café para pedir informações."
+  ],
+  "relatedQuizzes": ["Vocabulário de Direções", "Transporte Público em Paris", "Pontos Turísticos Franceses"]
+}

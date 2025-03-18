@@ -1,0 +1,56 @@
+{
+  "id": "expressoes-formais",
+  "title": "Expressões Formais",
+  "description": "Aprenda expressões formais em francês para uso em ambientes profissionais, acadêmicos e situações que exigem linguagem formal.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "comunicacao",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ef-1",
+      "text": "Qual expressão formal é usada para iniciar uma carta comercial em francês?",
+      "options": ["Salut", "Madame, Monsieur", "Cher ami", "Bonjour"],
+      "correctAnswer": 1,
+      "category": "comunicacao",
+      "difficulty": "intermediario",
+      "explanation": "'Madame, Monsieur' é a forma mais formal e apropriada para iniciar uma carta comercial em francês quando não se conhece o destinatário específico."
+    },
+    {
+      "id": "ef-2",
+      "text": "Como se diz formalmente 'Gostaria de solicitar uma reunião' em francês?",
+      "options": ["Je veux une réunion", "On peut se voir?", "Je souhaiterais solliciter un rendez-vous", "J'ai besoin d'une réunion"],
+      "correctAnswer": 2,
+      "category": "comunicacao",
+      "difficulty": "avancado",
+      "explanation": "'Je souhaiterais solliciter un rendez-vous' é a forma mais formal de solicitar uma reunião em francês."
+    },
+    {
+      "id": "ef-3",
+      "text": "Qual é a expressão formal para concluir uma carta ou e-mail profissional em francês?",
+      "options": ["À bientôt", "Veuillez agréer, Madame/Monsieur, l'expression de mes salutations distinguées", "Cordialement", "Au revoir"],
+      "correctAnswer": 1,
+      "category": "comunicacao",
+      "difficulty": "avancado",
+      "explanation": "'Veuillez agréer, Madame/Monsieur, l'expression de mes salutations distinguées' é uma fórmula muito formal para concluir correspondências profissionais em francês."
+    },
+    {
+      "id": "ef-4",
+      "text": "Como se expressa formalmente 'Agradeço antecipadamente' em francês?",
+      "options": ["Merci beaucoup", "Je vous remercie d'avance", "Merci pour tout", "Avec mes remerciements"],
+      "correctAnswer": 1,
+      "category": "comunicacao",
+      "difficulty": "intermediario",
+      "explanation": "'Je vous remercie d'avance' é a forma formal de agradecer antecipadamente em francês."
+    },
+    {
+      "id": "ef-5",
+      "text": "Qual expressão formal seria apropriada para apresentar desculpas em um contexto profissional?",
+      "options": ["Désolé", "Pardon", "Je vous prie de bien vouloir m'excuser pour ce désagrément", "C'est ma faute"],
+      "correctAnswer": 2,
+      "category": "comunicacao",
+      "difficulty": "avancado",
+      "explanation": "'Je vous prie de bien vouloir m'excuser pour ce désagrément' é uma forma muito formal e profissional de apresentar desculpas em francês."
+    }
+  ]
+}

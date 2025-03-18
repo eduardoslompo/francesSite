@@ -1,0 +1,90 @@
+{
+  "title": "Salão de Cabeleireiro",
+  "description": "Aprenda a marcar um horário, explicar o corte desejado e interagir em um salão de cabeleireiro francês.",
+  "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais prendre rendez-vous pour une coupe, s'il vous plaît.",
+    "Je voudrais juste couper les pointes.",
+    "Pouvez-vous me montrer sur la photo ?"
+  ],
+  "introduction": "Visitar um salão de cabeleireiro na França pode ser uma experiência diferente do que você está acostumado. Este guia ajudará você a marcar um horário, explicar o estilo desejado e usar o vocabulário específico para cabelos e cortes em francês.",
+  "dialogues": [
+    {
+      "title": "Marcando um Horário",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais prendre rendez-vous pour une coupe de cheveux.", "translation": "Bom dia, eu gostaria de marcar um horário para um corte de cabelo." },
+        { "speaker": "Recepcionista", "text": "Bonjour. Pour quel jour souhaitez-vous venir ?", "translation": "Bom dia. Para qual dia você deseja vir?" },
+        { "speaker": "Você", "text": "Est-ce que vous avez quelque chose de disponible jeudi après-midi ?", "translation": "Vocês têm algum horário disponível na quinta-feira à tarde?" },
+        { "speaker": "Recepcionista", "text": "Jeudi, nous avons un créneau à 14h30 ou à 16h. Qu'est-ce qui vous conviendrait ?", "translation": "Na quinta-feira, temos um horário às 14h30 ou às 16h. Qual seria melhor para você?" },
+        { "speaker": "Você", "text": "16h serait parfait.", "translation": "16h seria perfeito." },
+        { "speaker": "Recepcionista", "text": "Très bien. Puis-je avoir votre nom, s'il vous plaît ?", "translation": "Muito bem. Posso ter seu nome, por favor?" },
+        { "speaker": "Você", "text": "Je m'appelle [votre nom].", "translation": "Meu nome é [seu nome]." },
+        { "speaker": "Recepcionista", "text": "C'est noté. Donc jeudi à 16h. À bientôt !", "translation": "Está anotado. Então quinta-feira às 16h. Até breve!" }
+      ]
+    },
+    {
+      "title": "No Salão",
+      "lines": [
+        { "speaker": "Cabeleireiro", "text": "Bonjour, vous avez rendez-vous ?", "translation": "Bom dia, você tem horário marcado?" },
+        { "speaker": "Você", "text": "Oui, j'ai rendez-vous à 16h. Je m'appelle [votre nom].", "translation": "Sim, tenho um horário marcado às 16h. Meu nome é [seu nome]." },
+        { "speaker": "Cabeleireiro", "text": "Parfait. Installez-vous ici. Qu'est-ce que vous souhaitez faire aujourd'hui ?", "translation": "Perfeito. Sente-se aqui. O que você deseja fazer hoje?" },
+        { "speaker": "Você", "text": "Je voudrais une coupe simple, juste pour rafraîchir un peu.", "translation": "Eu gostaria de um corte simples, apenas para dar uma refrescada." },
+        { "speaker": "Cabeleireiro", "text": "D'accord. Vous voulez garder la même longueur ou couper plus court ?", "translation": "Certo. Você quer manter o mesmo comprimento ou cortar mais curto?" },
+        { "speaker": "Você", "text": "Je voudrais garder cette longueur, mais peut-être avec un peu plus de volume.", "translation": "Eu gostaria de manter este comprimento, mas talvez com um pouco mais de volume." },
+        { "speaker": "Cabeleireiro", "text": "Je comprends. Et pour la frange, on la garde comme ça ?", "translation": "Entendo. E quanto à franja, mantemos assim?" },
+        { "speaker": "Você", "text": "Oui, la frange est bien comme ça.", "translation": "Sim, a franja está boa assim." }
+      ]
+    },
+    {
+      "title": "Finalizando o Serviço",
+      "lines": [
+        { "speaker": "Cabeleireiro", "text": "Voilà, j'ai terminé. Qu'en pensez-vous ?", "translation": "Pronto, terminei. O que você acha?" },
+        { "speaker": "Você", "text": "C'est parfait, j'aime beaucoup. Merci !", "translation": "Está perfeito, eu gostei muito. Obrigado(a)!" },
+        { "speaker": "Cabeleireiro", "text": "Je vous en prie. Vous voulez que je vous mette un peu de produit pour fixer la coiffure ?", "translation": "De nada. Você quer que eu coloque um pouco de produto para fixar o penteado?" },
+        { "speaker": "Você", "text": "Oui, pourquoi pas. Quel produit recommandez-vous ?", "translation": "Sim, por que não. Que produto você recomenda?" },
+        { "speaker": "Cabeleireiro", "text": "Pour vos cheveux, je vous conseille cette mousse légère. Elle donne du volume sans alourdir.", "translation": "Para o seu cabelo, eu recomendo esta mousse leve. Ela dá volume sem pesar." },
+        { "speaker": "Você", "text": "Très bien, merci pour le conseil.", "translation": "Muito bem, obrigado(a) pelo conselho." },
+        { "speaker": "Cabeleireiro", "text": "Vous pouvez passer à la caisse. Bonne journée !", "translation": "Você pode passar no caixa. Tenha um bom dia!" },
+        { "speaker": "Você", "text": "Merci beaucoup. Bonne journée à vous aussi !", "translation": "Muito obrigado(a). Bom dia para você também!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le salon de coiffure", "translation": "o salão de cabeleireiro" },
+    { "word": "le/la coiffeur/coiffeuse", "translation": "o cabeleireiro/a cabeleireira" },
+    { "word": "une coupe de cheveux", "translation": "um corte de cabelo" },
+    { "word": "couper", "translation": "cortar" },
+    { "word": "les pointes", "translation": "as pontas", "example": "Je voudrais juste couper les pointes." },
+    { "word": "la frange", "translation": "a franja" },
+    { "word": "les mèches", "translation": "as mechas" },
+    { "word": "la coloration", "translation": "a coloração" },
+    { "word": "le shampooing", "translation": "o xampu" },
+    { "word": "le brushing", "translation": "a escova" },
+    { "word": "la longueur", "translation": "o comprimento" },
+    { "word": "le volume", "translation": "o volume" },
+    { "word": "les cheveux", "translation": "os cabelos" },
+    { "word": "prendre rendez-vous", "translation": "marcar um horário" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Marcar com Antecedência", 
+      "description": "Na França, é comum marcar horários em salões de cabeleireiro com bastante antecedência, especialmente em salões populares. Não é tão comum conseguir atendimento no mesmo dia sem agendamento prévio." 
+    },
+    { 
+      "title": "Gorjetas", 
+      "description": "Diferentemente de alguns países, na França não é obrigatório dar gorjeta ao cabeleireiro, embora seja apreciado para serviços excepcionais. Se quiser deixar uma gorjeta, 5-10% do valor é considerado generoso." 
+    },
+    { 
+      "title": "Comunicação Visual", 
+      "description": "Se você não estiver confiante em seu francês para descrever o corte desejado, é perfeitamente aceitável levar fotos ou imagens do estilo que você quer. Os cabeleireiros franceses estão acostumados a trabalhar com referências visuais." 
+    }
+  ],
+  "tips": [
+    "Sempre cumprimente o cabeleireiro com 'Bonjour' ao entrar no salão - a cortesia é muito valorizada na cultura francesa.",
+    "Seja específico sobre o que você quer. Frases como 'Juste un peu' (só um pouquinho) podem ser interpretadas de maneiras diferentes.",
+    "Se você não estiver satisfeito com o resultado, é aceitável dizer educadamente: 'Je ne suis pas tout à fait satisfait(e), pourriez-vous ajuster un peu ici?' (Não estou totalmente satisfeito(a), poderia ajustar um pouco aqui?).",
+    "Muitos salões franceses oferecem café ou chá enquanto você espera - não hesite em aceitar se for oferecido.",
+    "Lembre-se que os preços podem variar significativamente entre salões em diferentes áreas da cidade. Salões em bairros turísticos ou de luxo podem ser consideravelmente mais caros."
+  ],
+  "relatedQuizzes": ["Vocabulário de Beleza", "Situações Cotidianas", "Expressões de Cortesia"]
+}

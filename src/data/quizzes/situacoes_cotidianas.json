@@ -1,0 +1,56 @@
+{
+  "id": "situacoes-cotidianas",
+  "title": "Situações Cotidianas",
+  "description": "Aprenda expressões e diálogos úteis para situações do dia a dia em francês.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "sc-1",
+      "text": "Como você pediria informações a um desconhecido na rua?",
+      "options": ["Excusez-moi, pourriez-vous m'aider?", "Pardon, je cherche...", "S'il vous plaît, pouvez-vous me dire...", "Todas as alternativas"],
+      "correctAnswer": 3,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "Todas as expressões mencionadas são formas educadas de pedir informações a um desconhecido em francês."
+    },
+    {
+      "id": "sc-2",
+      "text": "Como você agradeceria alguém que lhe ajudou?",
+      "options": ["Merci beaucoup", "Je vous remercie", "C'est très gentil", "Todas as alternativas"],
+      "correctAnswer": 3,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "Todas as expressões mencionadas são formas comuns de agradecer em francês, com níveis variados de formalidade."
+    },
+    {
+      "id": "sc-3",
+      "text": "Como você pediria desculpas por um pequeno incidente?",
+      "options": ["Pardon", "Excusez-moi", "Je suis désolé(e)", "Todas as alternativas"],
+      "correctAnswer": 3,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "Todas as expressões mencionadas são formas de pedir desculpas em francês, sendo 'Pardon' mais informal e 'Je suis désolé(e)' mais enfático."
+    },
+    {
+      "id": "sc-4",
+      "text": "Como você perguntaria as horas a alguém?",
+      "options": ["Quelle heure est-il?", "Vous avez l'heure?", "Il est quelle heure?", "Todas as alternativas"],
+      "correctAnswer": 3,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "Todas as expressões mencionadas são formas comuns de perguntar as horas em francês."
+    },
+    {
+      "id": "sc-5",
+      "text": "Como você pediria a conta em um restaurante?",
+      "options": ["L'addition, s'il vous plaît", "Je voudrais payer", "La note, s'il vous plaît", "Todas as alternativas"],
+      "correctAnswer": 3,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "Todas as expressões mencionadas são formas comuns de pedir a conta em um restaurante francês."
+    }
+  ]
+}

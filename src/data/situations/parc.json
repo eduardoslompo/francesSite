@@ -1,0 +1,88 @@
+{
+  "title": "Parque",
+  "description": "Aprenda a conversar e interagir em um parque ou jardim francês.",
+  "image": "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Quelle belle journée pour se promener !",
+    "Excusez-moi, où se trouve le jardin des plantes ?",
+    "Puis-je nourrir les canards ?"
+  ],
+  "introduction": "Os parques e jardins são espaços importantes na vida urbana francesa, onde as pessoas vão para relaxar, fazer piqueniques, praticar esportes ou simplesmente apreciar a natureza. Neste guia, você aprenderá vocabulário e expressões úteis para interagir em parques franceses, pedir informações e participar de atividades ao ar livre.",
+  "dialogues": [
+    {
+      "title": "Pedindo Informações",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, madame. Est-ce que vous savez où se trouve le kiosque à musique ?", "translation": "Com licença, senhora. Você sabe onde fica o coreto?" },
+        { "speaker": "Pessoa Local", "text": "Oui, bien sûr. Continuez tout droit sur cette allée, puis tournez à gauche après la fontaine.", "translation": "Sim, claro. Continue reto por esta alameda, depois vire à esquerda após a fonte." },
+        { "speaker": "Você", "text": "Merci. Est-ce qu'il y a des toilettes publiques près du kiosque ?", "translation": "Obrigado(a). Existem banheiros públicos perto do coreto?" },
+        { "speaker": "Pessoa Local", "text": "Oui, il y a des toilettes à côté du café du parc, à environ 50 mètres du kiosque.", "translation": "Sim, há banheiros ao lado do café do parque, a cerca de 50 metros do coreto." },
+        { "speaker": "Você", "text": "Parfait. Et savez-vous si le parc ferme à une heure précise ?", "translation": "Perfeito. E você sabe se o parque fecha em um horário específico?" },
+        { "speaker": "Pessoa Local", "text": "Le parc ferme à 20h en été et à 18h en hiver. Aujourd'hui, il fermera à 20h.", "translation": "O parque fecha às 20h no verão e às 18h no inverno. Hoje, fechará às 20h." },
+        { "speaker": "Você", "text": "Merci beaucoup pour ces informations.", "translation": "Muito obrigado(a) por essas informações." },
+        { "speaker": "Pessoa Local", "text": "Je vous en prie. Bonne promenade !", "translation": "De nada. Bom passeio!" }
+      ]
+    },
+    {
+      "title": "Encontrando Amigos para um Piquenique",
+      "lines": [
+        { "speaker": "Você", "text": "Salut Marie ! Nous sommes près du grand chêne, tu nous vois ?", "translation": "Oi Marie! Estamos perto do carvalho grande, você nos vê?" },
+        { "speaker": "Marie", "text": "Ah oui, je vous vois ! J'arrive dans une minute. J'ai apporté du fromage et du pain.", "translation": "Ah sim, estou vendo vocês! Chego em um minuto. Eu trouxe queijo e pão." },
+        { "speaker": "Você", "text": "Super ! Nous avons déjà installé la nappe et sorti les boissons.", "translation": "Ótimo! Já arrumamos a toalha e tiramos as bebidas." },
+        { "speaker": "Marie", "text": "Il fait vraiment beau aujourd'hui, quelle chance !", "translation": "Está realmente bonito hoje, que sorte!" },
+        { "speaker": "Você", "text": "Oui, c'est parfait pour un pique-nique. Tu as pensé à prendre un tire-bouchon pour le vin ?", "translation": "Sim, é perfeito para um piquenique. Você se lembrou de trazer um saca-rolhas para o vinho?" },
+        { "speaker": "Marie", "text": "Oui, j'en ai un dans mon sac. Est-ce que Thomas vient aussi ?", "translation": "Sim, tenho um na minha bolsa. O Thomas também vem?" },
+        { "speaker": "Você", "text": "Il a dit qu'il serait un peu en retard, mais il va nous rejoindre vers 13h.", "translation": "Ele disse que vai se atrasar um pouco, mas vai se juntar a nós por volta das 13h." },
+        { "speaker": "Marie", "text": "D'accord. Alors, on commence à manger ou on l'attend ?", "translation": "Tudo bem. Então, começamos a comer ou esperamos por ele?" }
+      ]
+    },
+    {
+      "title": "Atividades no Parque",
+      "lines": [
+        { "speaker": "Amigo", "text": "Qu'est-ce que tu aimerais faire cet après-midi ? On pourrait jouer au frisbee.", "translation": "O que você gostaria de fazer esta tarde? Poderíamos jogar frisbee." },
+        { "speaker": "Você", "text": "Bonne idée ! Ou peut-être faire un tour en barque sur le lac ?", "translation": "Boa ideia! Ou talvez dar uma volta de barco no lago?" },
+        { "speaker": "Amigo", "text": "Ah oui, j'avais oublié qu'on pouvait louer des barques ici. Combien ça coûte ?", "translation": "Ah sim, eu tinha esquecido que podíamos alugar barcos aqui. Quanto custa?" },
+        { "speaker": "Você", "text": "Je crois que c'est 8 euros pour une demi-heure. Ça te va ?", "translation": "Acho que são 8 euros por meia hora. Está bom para você?" },
+        { "speaker": "Amigo", "text": "Parfait. Allons-y maintenant avant qu'il y ait trop de monde.", "translation": "Perfeito. Vamos agora antes que fique muito cheio." },
+        { "speaker": "Você", "text": "D'accord. Après, on pourrait s'asseoir sur la pelouse et lire un peu.", "translation": "Ok. Depois, poderíamos sentar na grama e ler um pouco." },
+        { "speaker": "Amigo", "text": "Bonne idée. J'ai apporté un nouveau roman que je veux te montrer.", "translation": "Boa ideia. Eu trouxe um novo romance que quero te mostrar." },
+        { "speaker": "Você", "text": "Super ! J'ai aussi apporté mon appareil photo pour prendre quelques photos du parc.", "translation": "Ótimo! Também trouxe minha câmera para tirar algumas fotos do parque." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le parc", "translation": "o parque" },
+    { "word": "le jardin", "translation": "o jardim" },
+    { "word": "une allée", "translation": "uma alameda, caminho" },
+    { "word": "un banc", "translation": "um banco" },
+    { "word": "une fontaine", "translation": "uma fonte" },
+    { "word": "la pelouse", "translation": "o gramado", "example": "Il est interdit de marcher sur la pelouse." },
+    { "word": "un étang / un lac", "translation": "um lago" },
+    { "word": "une barque", "translation": "um barco (pequeno)" },
+    { "word": "un pique-nique", "translation": "um piquenique" },
+    { "word": "une promenade", "translation": "um passeio" },
+    { "word": "se promener", "translation": "passear" },
+    { "word": "un kiosque à musique", "translation": "um coreto" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Parques Parisienses", 
+      "description": "Paris é conhecida por seus belos parques e jardins, como o Jardin du Luxembourg, o Jardin des Tuileries e o Parc des Buttes-Chaumont. Esses espaços verdes são cuidadosamente mantidos e seguem tradições de jardinagem à francesa, com canteiros geométricos, árvores bem podadas e caminhos simétricos." 
+    },
+    { 
+      "title": "Etiqueta nos Parques", 
+      "description": "Nos parques franceses, existem regras específicas que devem ser respeitadas. Em muitos parques, é proibido pisar na grama (exceto em áreas designadas com placas 'Pelouse autorisée'). O consumo de álcool é permitido em piqueniques, mas deve ser moderado e discreto." 
+    },
+    { 
+      "title": "Atividades Populares", 
+      "description": "Os franceses adoram aproveitar seus parques para diversas atividades: piqueniques elaborados (especialmente nos fins de semana), jogos de pétanque (um jogo tradicional francês com bolas metálicas), leitura, ou simplesmente relaxar em cadeiras disponíveis em parques como o Jardin du Luxembourg." 
+    }
+  ],
+  "tips": [
+    "Muitos parques franceses têm horários específicos de abertura e fechamento que variam conforme a estação do ano - verifique antes de ir.",
+    "Nos dias ensolarados, especialmente nos fins de semana, os parques ficam muito cheios - chegue cedo para garantir um bom lugar.",
+    "Alguns parques têm cadeiras móveis que você pode usar gratuitamente e posicionar onde quiser dentro do parque.",
+    "Para um autêntico piquenique à francesa, leve uma toalha, queijos variados, baguete, frutas e uma garrafa de vinho.",
+    "Muitos parques maiores oferecem atividades culturais gratuitas durante o verão, como concertos e exibições de filmes ao ar livre."
+  ],
+  "relatedQuizzes": ["Vocabulário de Natureza", "Atividades ao Ar Livre", "Direções e Localização"]
+}

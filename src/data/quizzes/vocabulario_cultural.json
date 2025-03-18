@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-cultural",
+  "title": "Vocabulário Cultural",
+  "description": "Aprenda palavras e expressões relacionadas à cultura francesa, incluindo teatro, museus e eventos culturais.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vc-1",
+      "text": "Como se diz 'teatro' em francês?",
+      "options": ["Le théâtre", "La scène", "Le cinéma", "L'opéra"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Le théâtre' é a palavra francesa para 'teatro'."
+    },
+    {
+      "id": "vc-2",
+      "text": "Qual é a expressão francesa para 'exposição de arte'?",
+      "options": ["Le concert", "Le spectacle", "L'exposition d'art", "La pièce"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'L'exposition d'art' significa 'exposição de arte' em francês."
+    },
+    {
+      "id": "vc-3",
+      "text": "Como se pergunta 'A que horas começa o espetáculo?' em francês?",
+      "options": ["Où est le théâtre?", "À quelle heure commence le spectacle?", "Combien coûte le billet?", "Est-ce qu'il y a un entracte?"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'À quelle heure commence le spectacle?' significa 'A que horas começa o espetáculo?' em francês."
+    },
+    {
+      "id": "vc-4",
+      "text": "Qual destas palavras se refere a 'festival' em francês?",
+      "options": ["La fête", "Le festival", "La célébration", "Le carnaval"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Le festival' é a palavra francesa para 'festival'."
+    },
+    {
+      "id": "vc-5",
+      "text": "Como se diz 'patrimônio cultural' em francês?",
+      "options": ["L'héritage culturel", "La tradition", "Le patrimoine culturel", "La culture nationale"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Le patrimoine culturel' significa 'patrimônio cultural' em francês."
+    }
+  ]
+}

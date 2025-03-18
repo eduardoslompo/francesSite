@@ -1,0 +1,56 @@
+{
+  "id": "cinema-frances",
+  "title": "Cinema Francês",
+  "description": "Teste seus conhecimentos sobre a rica história do cinema francês, seus diretores icônicos e filmes premiados.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "cf-1",
+      "text": "Qual movimento cinematográfico francês dos anos 1950-60 revolucionou a linguagem cinematográfica mundial?",
+      "options": ["Cinéma Vérité", "Nouvelle Vague", "Film Noir", "Cinéma du Look"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "A Nouvelle Vague (Nova Onda) foi um movimento cinematográfico francês dos anos 1950-60, com cineastas como François Truffaut, Jean-Luc Godard e Agnès Varda, que revolucionou a linguagem do cinema com técnicas inovadoras, narrativas não-lineares e temas existencialistas."
+    },
+    {
+      "id": "cf-2",
+      "text": "Qual diretor francês é conhecido por filmes como 'Amour' e 'A Fita Branca', que exploram temas como violência e culpa?",
+      "options": ["Michael Haneke", "Jacques Audiard", "Olivier Assayas", "François Ozon"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Michael Haneke, embora nascido na Áustria, é considerado uma figura central do cinema francês contemporâneo. Seu filme 'Amour' (2012) ganhou a Palma de Ouro em Cannes e o Oscar de Melhor Filme Estrangeiro."
+    },
+    {
+      "id": "cf-3",
+      "text": "Qual filme de Jean-Luc Godard é considerado um marco do cinema moderno, com sua narrativa fragmentada e técnicas inovadoras?",
+      "options": ["Les Quatre Cents Coups", "À bout de souffle", "Hiroshima mon amour", "Le Mépris"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'À bout de souffle' (Acossado, 1960) é o primeiro longa-metragem de Jean-Luc Godard e um dos filmes mais emblemáticos da Nouvelle Vague, revolucionando o cinema com seus jump cuts, improvisações e referências à cultura pop."
+    },
+    {
+      "id": "cf-4",
+      "text": "Qual atriz francesa foi a primeira a ganhar um Oscar, um BAFTA, um César, um Emmy e um Globo de Ouro?",
+      "options": ["Isabelle Huppert", "Juliette Binoche", "Marion Cotillard", "Catherine Deneuve"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Marion Cotillard fez história ao ganhar o Oscar de Melhor Atriz em 2008 por sua interpretação de Édith Piaf em 'La Vie en Rose', tornando-se a primeira atriz a ganhar um Oscar por uma performance em francês."
+    },
+    {
+      "id": "cf-5",
+      "text": "Qual festival de cinema francês é considerado o mais prestigioso do mundo?",
+      "options": ["Festival de Cannes", "Festival de Deauville", "Festival de Annecy", "Festival de Paris"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "O Festival de Cannes, fundado em 1946, é considerado o mais prestigioso festival de cinema do mundo. Sua principal premiação, a Palma de Ouro, é um dos maiores reconhecimentos no cinema internacional."
+    }
+  ]
+}

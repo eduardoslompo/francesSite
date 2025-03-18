@@ -1,0 +1,89 @@
+{
+  "title": "Trabalho",
+  "description": "Aprenda vocabulário e expressões essenciais para o ambiente de trabalho em francês.",
+  "image": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je cherche un emploi dans le secteur informatique.",
+    "Pourriez-vous me parler de vos expériences professionnelles ?",
+    "J'ai un rendez-vous avec le directeur à 14h."
+  ],
+  "introduction": "O ambiente de trabalho francês tem suas próprias regras e códigos culturais. Este guia ajudará você a navegar por entrevistas de emprego, reuniões, conversas com colegas e outras situações profissionais com confiança e fluência.",
+  "dialogues": [
+    {
+      "title": "Entrevista de Emprego",
+      "lines": [
+        { "speaker": "Recrutador", "text": "Bonjour, Madame/Monsieur. Asseyez-vous, je vous en prie. Merci d'être venu aujourd'hui.", "translation": "Bom dia, Senhora/Senhor. Sente-se, por favor. Obrigado por vir hoje." },
+        { "speaker": "Você", "text": "Bonjour. Merci de m'avoir convoqué pour cet entretien.", "translation": "Bom dia. Obrigado por me convocar para esta entrevista." },
+        { "speaker": "Recrutador", "text": "J'ai lu votre CV avec intérêt. Pourriez-vous me parler de votre parcours professionnel ?", "translation": "Li seu currículo com interesse. Poderia me falar sobre sua trajetória profissional?" },
+        { "speaker": "Você", "text": "Bien sûr. J'ai travaillé pendant cinq ans comme analyste de données chez TechSolutions. J'étais responsable de l'analyse des données clients et de la création de rapports mensuels.", "translation": "Claro. Trabalhei durante cinco anos como analista de dados na TechSolutions. Eu era responsável pela análise de dados de clientes e pela criação de relatórios mensais." },
+        { "speaker": "Recrutador", "text": "Très bien. Et pourquoi souhaitez-vous quitter votre emploi actuel ?", "translation": "Muito bem. E por que deseja deixar seu emprego atual?" },
+        { "speaker": "Você", "text": "Je cherche de nouveaux défis professionnels et votre entreprise a une excellente réputation dans le domaine de l'innovation.", "translation": "Estou procurando novos desafios profissionais e sua empresa tem uma excelente reputação na área de inovação." },
+        { "speaker": "Recrutador", "text": "Quelles sont vos prétentions salariales ?", "translation": "Quais são suas pretensões salariais?" },
+        { "speaker": "Você", "text": "Je m'attends à un salaire entre 45.000 et 50.000 euros annuels, selon les avantages proposés.", "translation": "Espero um salário entre 45.000 e 50.000 euros anuais, dependendo dos benefícios oferecidos." }
+      ]
+    },
+    {
+      "title": "Reunião de Equipe",
+      "lines": [
+        { "speaker": "Gerente", "text": "Bonjour à tous. Merci d'être présents pour cette réunion hebdomadaire. Aujourd'hui, nous allons discuter de l'avancement du projet Nexus.", "translation": "Bom dia a todos. Obrigado por estarem presentes para esta reunião semanal. Hoje, vamos discutir o progresso do projeto Nexus." },
+        { "speaker": "Você", "text": "J'ai préparé une présentation sur les résultats de notre dernière enquête client. Puis-je la partager maintenant ?", "translation": "Preparei uma apresentação sobre os resultados da nossa última pesquisa com clientes. Posso compartilhá-la agora?" },
+        { "speaker": "Gerente", "text": "Oui, bien sûr. Allez-y.", "translation": "Sim, claro. Vá em frente." },
+        { "speaker": "Você", "text": "Comme vous pouvez le voir sur ce graphique, 85% des clients sont satisfaits de notre nouveau service. Cependant, nous avons identifié quelques points à améliorer.", "translation": "Como podem ver neste gráfico, 85% dos clientes estão satisfeitos com nosso novo serviço. No entanto, identificamos alguns pontos a melhorar." },
+        { "speaker": "Colega", "text": "Quels sont ces points exactement ? Avons-nous un plan d'action ?", "translation": "Quais são esses pontos exatamente? Temos um plano de ação?" },
+        { "speaker": "Você", "text": "Principalement la rapidité du service client et quelques bugs dans l'application mobile. J'ai élaboré un plan d'action que je vous enverrai par email après la réunion.", "translation": "Principalmente a rapidez do atendimento ao cliente e alguns bugs no aplicativo móvel. Elaborei um plano de ação que enviarei por e-mail após a reunião." },
+        { "speaker": "Gerente", "text": "Excellent travail. Passons maintenant au calendrier pour le prochain trimestre.", "translation": "Excelente trabalho. Vamos agora para o calendário do próximo trimestre." }
+      ]
+    },
+    {
+      "title": "Conversando com Colegas",
+      "lines": [
+        { "speaker": "Colega", "text": "Salut ! Comment s'est passé ton weekend ?", "translation": "Oi! Como foi seu fim de semana?" },
+        { "speaker": "Você", "text": "Très bien, merci ! J'ai visité une exposition d'art moderne. Et toi ?", "translation": "Muito bem, obrigado! Visitei uma exposição de arte moderna. E você?" },
+        { "speaker": "Colega", "text": "J'ai surtout travaillé sur le rapport pour le client Durand. D'ailleurs, as-tu eu le temps de regarder les chiffres que je t'ai envoyés vendredi ?", "translation": "Trabalhei principalmente no relatório para o cliente Durand. A propósito, você teve tempo de olhar os números que te enviei na sexta-feira?" },
+        { "speaker": "Você", "text": "Pas encore, désolé. Je vais le faire ce matin. Tu en as besoin pour quand exactement ?", "translation": "Ainda não, desculpe. Vou fazer isso esta manhã. Você precisa disso para quando exatamente?" },
+        { "speaker": "Colega", "text": "Idéalement avant la réunion de 15h avec l'équipe marketing. Ah, au fait, tu viens déjeuner avec nous à midi ?", "translation": "Idealmente antes da reunião das 15h com a equipe de marketing. Ah, a propósito, você vem almoçar conosco ao meio-dia?" },
+        { "speaker": "Você", "text": "Oui, avec plaisir ! On va à la cantine ou au restaurant en face ?", "translation": "Sim, com prazer! Vamos ao refeitório ou ao restaurante em frente?" },
+        { "speaker": "Colega", "text": "Au restaurant, je crois. On se retrouve dans le hall à midi ?", "translation": "Ao restaurante, eu acho. Nos encontramos no hall ao meio-dia?" },
+        { "speaker": "Você", "text": "Parfait, à tout à l'heure !", "translation": "Perfeito, até logo!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le travail", "translation": "o trabalho" },
+    { "word": "l'emploi (m)", "translation": "o emprego" },
+    { "word": "l'entreprise (f)", "translation": "a empresa" },
+    { "word": "le bureau", "translation": "o escritório" },
+    { "word": "un entretien d'embauche", "translation": "uma entrevista de emprego" },
+    { "word": "un CV (curriculum vitae)", "translation": "um currículo" },
+    { "word": "une réunion", "translation": "uma reunião" },
+    { "word": "un collègue / une collègue", "translation": "um colega / uma colega" },
+    { "word": "le patron / la patronne", "translation": "o chefe / a chefe" },
+    { "word": "le salaire", "translation": "o salário" },
+    { "word": "une équipe", "translation": "uma equipe", "example": "Je travaille dans une équipe de cinq personnes." },
+    { "word": "un projet", "translation": "um projeto" },
+    { "word": "un rapport", "translation": "um relatório" },
+    { "word": "un délai", "translation": "um prazo" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Horário de Trabalho na França", 
+      "description": "O horário de trabalho padrão na França é de 35 horas semanais, uma das jornadas mais curtas da Europa. Muitas empresas funcionam das 9h às 18h, com uma pausa para almoço que pode durar de uma a duas horas. O equilíbrio entre vida profissional e pessoal é muito valorizado na cultura francesa." 
+    },
+    { 
+      "title": "Formalidade no Ambiente de Trabalho", 
+      "description": "O ambiente de trabalho francês tende a ser mais formal que em muitos outros países. O uso de 'vous' (forma formal de 'você') é comum mesmo entre colegas, especialmente em grandes empresas ou em setores tradicionais. A transição para o 'tu' (informal) geralmente ocorre após algum tempo de convivência e por iniciativa da pessoa em posição hierárquica superior." 
+    },
+    { 
+      "title": "Férias e Benefícios", 
+      "description": "Os trabalhadores franceses têm direito a pelo menos cinco semanas de férias pagas por ano, além de numerosos feriados nacionais. Benefícios como tickets-restaurant (vale-refeição), mutuelle (plano de saúde complementar) e participação nos lucros são comuns em muitas empresas." 
+    }
+  ],
+  "tips": [
+    "Pontualidade é muito valorizada no ambiente de trabalho francês. Chegar alguns minutos antes de reuniões e compromissos é considerado profissional.",
+    "Apertos de mão são a forma padrão de cumprimento em contextos profissionais na França, tanto na chegada quanto na saída.",
+    "Evite discutir salário ou questões financeiras pessoais com colegas de trabalho, pois isso é considerado indiscreto na cultura francesa.",
+    "Em entrevistas de emprego, é comum que perguntem sobre sua formação acadêmica e experiências profissionais em detalhes, mas perguntas sobre vida familiar ou planos pessoais são menos frequentes que em alguns outros países.",
+    "O almoço de negócios é uma instituição importante na França e pode durar várias horas. É uma oportunidade para construir relacionamentos profissionais em um ambiente mais relaxado."
+  ],
+  "relatedQuizzes": ["Vocabulário Profissional", "Entrevista de Emprego", "Comunicação no Escritório"]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "praia-avancado",
+  "title": "Na Praia - Nível Avançado",
+  "description": "Teste seus conhecimentos avançados sobre vocabulário, expressões idiomáticas e aspectos culturais das praias francesas.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "lazer",
+  "questionsCount": 10,
+  "questions": [
+    {
+      "id": "pa-1",
+      "text": "Complete a expressão idiomática: 'Se jeter à l'eau' significa figurativamente...",
+      "options": ["Nadar rapidamente", "Lançar-se em uma nova experiência", "Mergulhar profundamente", "Tomar um banho de mar"],
+      "correctAnswer": 1,
+      "category": "expressões",
+      "difficulty": "avancado",
+      "explanation": "'Se jeter à l'eau' literalmente significa 'jogar-se na água', mas figurativamente significa 'lançar-se em uma nova experiência' ou 'tomar coragem para fazer algo'."
+    },
+    {
+      "id": "pa-2",
+      "text": "Qual é o termo técnico para a área de areia entre a linha da maré alta e a vegetação costeira?",
+      "options": ["La dune", "L'estran", "La laisse de mer", "Le haut de plage"],
+      "correctAnswer": 3,
+      "category": "vocabulário",
+      "difficulty": "avancado",
+      "explanation": "'Le haut de plage' refere-se à parte superior da praia, a área de areia seca entre a linha da maré alta e a vegetação costeira ou estruturas como calçadões."
+    },
+    {
+      "id": "pa-3",
+      "text": "Como você responderia educadamente a alguém que diz 'Excusez-moi de vous déranger, pourriez-vous surveiller mes affaires pendant que je me baigne?'",
+      "options": ["Non, je ne peux pas.", "Bien sûr, je vous en prie.", "Je ne comprends pas.", "Demandez à quelqu'un d'autre."],
+      "correctAnswer": 1,
+      "category": "expressões",
+      "difficulty": "avancado",
+      "explanation": "'Bien sûr, je vous en prie' (Claro, por favor) é uma resposta educada a alguém que pede para você vigiar os pertences dele enquanto ele nada."
+    },
+    {
+      "id": "pa-4",
+      "text": "Qual é o significado da expressão 'avoir le mal de mer'?",
+      "options": ["Ter medo do mar", "Estar com enjoo marítimo", "Ter uma doença tropical", "Estar com insolação"],
+      "correctAnswer": 1,
+      "category": "expressões",
+      "difficulty": "avancado",
+      "explanation": "'Avoir le mal de mer' significa 'estar com enjoo marítimo' ou 'estar mareado'."
+    },
+    {
+      "id": "pa-5",
+      "text": "Na Côte d'Azur, o que significa quando alguém menciona 'une calanque'?",
+      "options": ["Um tipo de peixe mediterrâneo", "Uma enseada estreita entre falésias", "Um restaurante à beira-mar", "Um tipo de embarcação tradicional"],
+      "correctAnswer": 1,
+      "category": "cultural",
+      "difficulty": "avancado",
+      "explanation": "'Une calanque' é uma formação geográfica típica da costa mediterrânea francesa, especialmente entre Marselha e Cassis, consistindo em uma enseada estreita entre falésias calcárias."
+    },
+    {
+      "id": "pa-6",
+      "text": "Como você diria em francês formal: 'Gostaria de saber se é permitido fazer churrasco nesta praia'?",
+      "options": ["Est-ce qu'on peut faire un barbecue ici?", "Je voudrais savoir s'il est permis de faire un barbecue sur cette plage.", "On fait un barbecue, d'accord?", "Où peut-on faire un barbecue?"],
+      "correctAnswer": 1,
+      "category": "expressões",
+      "difficulty": "avancado",
+      "explanation": "'Je voudrais savoir s'il est permis de faire un barbecue sur cette plage' é a forma mais formal e educada de perguntar se é permitido fazer churrasco na praia."
+    },
+    {
+      "id": "pa-7",
+      "text": "O que significa a expressão 'mettre les pieds dans le plat' em um contexto figurado?",
+      "options": ["Entrar no mar com os pés", "Cometer uma gafe ou indiscrição", "Começar uma atividade", "Pisar em algo desagradável"],
+      "correctAnswer": 1,
+      "category": "expressões",
+      "difficulty": "avancado",
+      "explanation": "'Mettre les pieds dans le plat' literalmente significa 'colocar os pés no prato', mas figurativamente significa 'cometer uma gafe' ou 'ser indiscreto'."
+    },
+    {
+      "id": "pa-8",
+      "text": "Qual é o termo específico para o fenômeno de maré excepcionalmente alta que ocorre durante lua nova ou lua cheia?",
+      "options": ["Marée d'équinoxe", "Grande marée", "Marée de vive-eau", "Marée exceptionnelle"],
+      "correctAnswer": 2,
+      "category": "vocabulário",
+      "difficulty": "avancado",
+      "explanation": "'Marée de vive-eau' é o termo técnico para as marés de grande amplitude que ocorrem durante lua nova ou lua cheia, quando o sol e a lua estão alinhados."
+    },
+    {
+      "id": "pa-9",
+      "text": "Na cultura francesa, o que significa a expressão 'bronzer idiot'?",
+      "options": ["Bronzear-se sem protetor solar", "Bronzear-se sem se mover", "Bronzear-se sem fazer nada de produtivo", "Bronzear-se em excesso"],
+      "correctAnswer": 2,
+      "category": "cultural",
+      "difficulty": "avancado",
+      "explanation": "'Bronzer idiot' é uma expressão coloquial francesa que significa literalmente 'bronzear-se como um idiota', mas refere-se ao ato de passar o dia na praia sem fazer nada de produtivo, apenas tomando sol passivamente."
+    },
+    {
+      "id": "pa-10",
+      "text": "Como você explicaria em francês que está com uma queimadura solar grave?",
+      "options": ["J'ai attrapé un coup de soleil.", "J'ai un grave coup de soleil.", "Je me suis brûlé au soleil.", "J'ai une insolation sévère."],
+      "correctAnswer": 1,
+      "category": "expressões",
+      "difficulty": "avancado",
+      "explanation": "'J'ai un grave coup de soleil' é a forma correta de dizer 'Estou com uma queimadura solar grave'. 'Coup de soleil' é o termo específico para queimadura solar em francês."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "atividades-culturais",
+  "title": "Atividades Culturais",
+  "description": "Aprenda vocabulário e expressões em francês relacionados a atividades culturais, museus, teatros e eventos artísticos.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ac-1",
+      "text": "Como se diz 'museu' em francês?",
+      "options": ["Le théâtre", "Le musée", "La galerie", "Le cinéma"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Le musée' é a palavra francesa para 'museu'."
+    },
+    {
+      "id": "ac-2",
+      "text": "Qual é a tradução de 'exposição de arte' em francês?",
+      "options": ["Un concert", "Une exposition d'art", "Un spectacle", "Une pièce de théâtre"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Une exposition d'art' significa 'exposição de arte' em francês."
+    },
+    {
+      "id": "ac-3",
+      "text": "Como se diz 'ir ao teatro' em francês?",
+      "options": ["Aller au cinéma", "Aller au théâtre", "Aller au musée", "Aller au concert"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Aller au théâtre' significa 'ir ao teatro' em francês."
+    },
+    {
+      "id": "ac-4",
+      "text": "Qual frase você usaria para perguntar sobre os horários de um museu?",
+      "options": ["Combien coûte l'entrée?", "Quels sont les horaires d'ouverture du musée?", "Où se trouve le musée?", "Y a-t-il une visite guidée?"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Quels sont les horaires d'ouverture du musée?' significa 'Quais são os horários de funcionamento do museu?' em francês."
+    },
+    {
+      "id": "ac-5",
+      "text": "Como se diz 'patrimônio cultural' em francês?",
+      "options": ["Héritage culturel", "Patrimoine culturel", "Tradition culturelle", "Histoire culturelle"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Patrimoine culturel' significa 'patrimônio cultural' em francês."
+    }
+  ]
+}

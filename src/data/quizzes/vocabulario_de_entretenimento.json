@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-entretenimento",
+  "title": "Vocabulário de Entretenimento",
+  "description": "Aprenda palavras e expressões relacionadas a entretenimento em francês, incluindo cinema, teatro, música e outras atividades culturais.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "vocabulario",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ve-1",
+      "text": "Como se diz 'filme' em francês?",
+      "options": ["Le cinéma", "Le film", "La pièce", "Le spectacle"],
+      "correctAnswer": 1,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'Le film' é a palavra francesa para 'filme'. 'Le cinéma' refere-se ao cinema como local ou à arte cinematográfica em geral."
+    },
+    {
+      "id": "ve-2",
+      "text": "Qual é a tradução correta para 'bilhete' ou 'ingresso' em francês?",
+      "options": ["La carte", "Le billet", "Le ticket", "L'entrée"],
+      "correctAnswer": 2,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'Le ticket' é o termo mais comum para 'bilhete' ou 'ingresso' em francês, especialmente para eventos culturais e entretenimento."
+    },
+    {
+      "id": "ve-3",
+      "text": "Como se diz 'concerto' em francês?",
+      "options": ["Le concert", "Le spectacle", "La présentation", "L'exposition"],
+      "correctAnswer": 0,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'Le concert' é a palavra francesa para 'concerto', um evento musical onde artistas se apresentam ao vivo."
+    },
+    {
+      "id": "ve-4",
+      "text": "Qual destas palavras se refere a 'peça de teatro' em francês?",
+      "options": ["Le film", "Le concert", "La pièce de théâtre", "Le festival"],
+      "correctAnswer": 2,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'La pièce de théâtre' é a expressão francesa para 'peça de teatro', uma obra dramática apresentada em um palco."
+    },
+    {
+      "id": "ve-5",
+      "text": "Como se diz 'ator' em francês?",
+      "options": ["L'acteur", "Le joueur", "Le comédien", "Le présentateur"],
+      "correctAnswer": 0,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'L'acteur' é a palavra francesa para 'ator'. Note que no feminino seria 'l'actrice' (atriz)."
+    }
+  ]
+}

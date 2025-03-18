@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-gastronomico",
+  "title": "Vocabulário Gastronômico",
+  "description": "Aprenda termos culinários e vocabulário de restaurantes finos na França.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "gastronomia",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vg-1",
+      "text": "Como se chama o profissional especializado em vinhos em um restaurante?",
+      "options": ["Le chef", "Le sommelier", "Le maître d'hôtel", "Le serveur"],
+      "correctAnswer": 1,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "'Le sommelier' é o profissional especializado em vinhos que aconselha os clientes sobre harmonizações."
+    },
+    {
+      "id": "vg-2",
+      "text": "O que é um 'menu dégustation' em um restaurante francês?",
+      "options": ["Um menu com pratos regionais", "Um menu com porções reduzidas para degustação", "Um menu com vários pratos selecionados pelo chef", "Um menu com opções vegetarianas"],
+      "correctAnswer": 2,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "Um 'menu dégustation' (menu degustação) é uma sequência de vários pratos pequenos selecionados pelo chef para mostrar sua culinária."
+    },
+    {
+      "id": "vg-3",
+      "text": "O que significa 'l'accord mets-vins'?",
+      "options": ["O contrato do restaurante", "A harmonização entre comida e vinho", "O acordo entre chef e sommelier", "A lista de ingredientes especiais"],
+      "correctAnswer": 1,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "'L'accord mets-vins' refere-se à harmonização entre pratos (mets) e vinhos, uma prática importante na gastronomia francesa."
+    },
+    {
+      "id": "vg-4",
+      "text": "O que é um 'amuse-bouche' em um restaurante gastronômico?",
+      "options": ["A sobremesa principal", "Um pequeno aperitivo gratuito servido antes da refeição", "O prato principal", "Uma bebida digestiva"],
+      "correctAnswer": 1,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "Um 'amuse-bouche' é um pequeno aperitivo gratuito servido antes da refeição para 'divertir a boca' e dar uma prévia do estilo do chef."
+    },
+    {
+      "id": "vg-5",
+      "text": "Como se chama a bebida alcoólica servida após a refeição para ajudar na digestão?",
+      "options": ["L'apéritif", "Le digestif", "Le dessert", "La boisson"],
+      "correctAnswer": 1,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "'Le digestif' é uma bebida alcoólica servida após a refeição, como conhaque ou licor, para ajudar na digestão."
+    }
+  ]
+}

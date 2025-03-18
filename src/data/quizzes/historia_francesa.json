@@ -1,0 +1,56 @@
+{
+  "id": "historia-francesa",
+  "title": "História Francesa",
+  "description": "Explore eventos cruciais, personalidades e transformações que moldaram a França moderna ao longo dos séculos.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "hf-1",
+      "text": "Qual período da história francesa ficou conhecido como 'La Belle Époque'?",
+      "options": ["1789-1799", "1804-1815", "1871-1914", "1945-1960"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'La Belle Époque' (A Bela Época) refere-se ao período entre 1871 (fim da Guerra Franco-Prussiana) e 1914 (início da Primeira Guerra Mundial), caracterizado por otimismo, paz, inovações tecnológicas e florescimento cultural na França."
+    },
+    {
+      "id": "hf-2",
+      "text": "Qual foi a contribuição de Jean Moulin durante a Segunda Guerra Mundial?",
+      "options": ["Foi um colaborador do regime de Vichy", "Foi o líder do governo no exílio em Londres", "Unificou os movimentos de resistência franceses", "Foi o comandante das forças francesas livres"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Jean Moulin foi encarregado pelo General de Gaulle de unificar os diversos movimentos de resistência franceses durante a ocupação nazista. Fundou o Conselho Nacional da Resistência em 1943, antes de ser capturado, torturado e morto pela Gestapo."
+    },
+    {
+      "id": "hf-3",
+      "text": "Qual evento ocorrido em maio de 1968 quase levou à queda do governo de Charles de Gaulle?",
+      "options": ["A Guerra da Argélia", "Protestos estudantis e greves trabalhistas", "O colapso econômico da França", "Um referendo constitucional rejeitado"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Maio de 1968 foi marcado por intensos protestos estudantis que se espalharam e levaram a uma greve geral com mais de 10 milhões de trabalhadores. Estes eventos quase derrubaram o governo de Charles de Gaulle e transformaram profundamente a sociedade francesa."
+    },
+    {
+      "id": "hf-4",
+      "text": "Qual rei francês ficou conhecido como 'Rei Sol' (Roi Soleil)?",
+      "options": ["François I", "Henri IV", "Louis XIV", "Louis XVI"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Louis XIV (1638-1715) ficou conhecido como 'Rei Sol' devido ao esplendor de seu reinado, o mais longo da história europeia (72 anos). Construiu o Palácio de Versalhes e estabeleceu a França como potência dominante na Europa."
+    },
+    {
+      "id": "hf-5",
+      "text": "Qual documento histórico, criado durante a Revolução Francesa, é considerado precursor das modernas declarações de direitos humanos?",
+      "options": ["Code Napoléon", "Déclaration des Droits de l'Homme et du Citoyen", "Constitution de l'An I", "Serment du Jeu de Paume"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "A 'Déclaration des Droits de l'Homme et du Citoyen' (Declaração dos Direitos do Homem e do Cidadão), aprovada em 1789, é um documento fundamental da Revolução Francesa que proclamou direitos naturais, inalienáveis e universais, influenciando a Declaração Universal dos Direitos Humanos de 1948."
+    }
+  ]
+}

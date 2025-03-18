@@ -1,0 +1,88 @@
+{
+  "title": "Banco",
+  "description": "Aprenda a realizar operações bancárias, abrir uma conta e discutir serviços financeiros em francês.",
+  "image": "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais ouvrir un compte bancaire.",
+    "Comment puis-je faire un virement ?",
+    "J'ai besoin de retirer de l'argent."
+  ],
+  "introduction": "Lidar com questões bancárias em um país estrangeiro pode ser desafiador. Este guia ajudará você a navegar pelo sistema bancário francês, abrir uma conta, realizar operações básicas e discutir serviços financeiros com confiança.",
+  "dialogues": [
+    {
+      "title": "Abrindo uma Conta",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais ouvrir un compte bancaire, s'il vous plaît.", "translation": "Bom dia, eu gostaria de abrir uma conta bancária, por favor." },
+        { "speaker": "Funcionário", "text": "Bonjour. Bien sûr. Quel type de compte souhaitez-vous ouvrir ? Un compte courant ou un compte d'épargne ?", "translation": "Bom dia. Claro. Que tipo de conta você deseja abrir? Uma conta corrente ou uma conta poupança?" },
+        { "speaker": "Você", "text": "Un compte courant, pour commencer.", "translation": "Uma conta corrente, para começar." },
+        { "speaker": "Funcionário", "text": "Très bien. Avez-vous une pièce d'identité et un justificatif de domicile ?", "translation": "Muito bem. Você tem um documento de identidade e um comprovante de residência?" },
+        { "speaker": "Você", "text": "Oui, j'ai mon passeport et une facture d'électricité.", "translation": "Sim, tenho meu passaporte e uma conta de luz." },
+        { "speaker": "Funcionário", "text": "Parfait. Je vais prendre vos informations. Êtes-vous résident en France ?", "translation": "Perfeito. Vou anotar suas informações. Você é residente na França?" },
+        { "speaker": "Você", "text": "Oui, je viens d'arriver pour mes études.", "translation": "Sim, acabei de chegar para meus estudos." },
+        { "speaker": "Funcionário", "text": "D'accord. Je vais vous expliquer les différentes options et les frais associés à nos comptes.", "translation": "Certo. Vou explicar as diferentes opções e taxas associadas às nossas contas." }
+      ]
+    },
+    {
+      "title": "Operações Bancárias",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, j'aimerais retirer 200 euros, s'il vous plaît.", "translation": "Bom dia, eu gostaria de sacar 200 euros, por favor." },
+        { "speaker": "Caixa", "text": "Bonjour. Bien sûr. Avez-vous votre carte bancaire et une pièce d'identité ?", "translation": "Bom dia. Claro. Você tem seu cartão bancário e um documento de identidade?" },
+        { "speaker": "Você", "text": "Oui, voici ma carte et ma carte d'identité.", "translation": "Sim, aqui está meu cartão e minha carteira de identidade." },
+        { "speaker": "Caixa", "text": "Merci. Quelle somme souhaitez-vous retirer ?", "translation": "Obrigado. Qual valor você deseja sacar?" },
+        { "speaker": "Você", "text": "200 euros, s'il vous plaît.", "translation": "200 euros, por favor." },
+        { "speaker": "Caixa", "text": "Voilà vos 200 euros. Souhaitez-vous un reçu ?", "translation": "Aqui estão seus 200 euros. Deseja um recibo?" },
+        { "speaker": "Você", "text": "Oui, s'il vous plaît.", "translation": "Sim, por favor." },
+        { "speaker": "Caixa", "text": "Voici votre reçu. Avez-vous besoin d'autre chose ?", "translation": "Aqui está seu recibo. Precisa de mais alguma coisa?" }
+      ]
+    },
+    {
+      "title": "Serviços Bancários Online",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, j'ai des problèmes pour accéder à mon compte en ligne.", "translation": "Bom dia, estou tendo problemas para acessar minha conta online." },
+        { "speaker": "Atendente", "text": "Je suis désolé pour ce désagrément. Pouvez-vous me donner plus de détails sur le problème ?", "translation": "Lamento pelo inconveniente. Pode me dar mais detalhes sobre o problema?" },
+        { "speaker": "Você", "text": "Quand j'essaie de me connecter, le système dit que mon identifiant ou mot de passe est incorrect.", "translation": "Quando tento me conectar, o sistema diz que meu nome de usuário ou senha está incorreto." },
+        { "speaker": "Atendente", "text": "Je comprends. Avez-vous essayé de réinitialiser votre mot de passe ?", "translation": "Entendo. Você tentou redefinir sua senha?" },
+        { "speaker": "Você", "text": "Non, comment puis-je faire ça ?", "translation": "Não, como posso fazer isso?" },
+        { "speaker": "Atendente", "text": "Sur la page de connexion, cliquez sur 'Mot de passe oublié'. Vous recevrez un lien par email pour créer un nouveau mot de passe.", "translation": "Na página de login, clique em 'Esqueci minha senha'. Você receberá um link por e-mail para criar uma nova senha." },
+        { "speaker": "Você", "text": "D'accord, je vais essayer. Et pour faire un virement en ligne, comment ça marche ?", "translation": "Certo, vou tentar. E para fazer uma transferência online, como funciona?" },
+        { "speaker": "Atendente", "text": "Une fois connecté, allez dans la section 'Virements'. Vous aurez besoin de l'IBAN du destinataire et du montant à transférer.", "translation": "Uma vez conectado, vá para a seção 'Transferências'. Você precisará do IBAN do destinatário e do valor a ser transferido." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la banque", "translation": "o banco" },
+    { "word": "un compte bancaire", "translation": "uma conta bancária" },
+    { "word": "un compte courant", "translation": "uma conta corrente" },
+    { "word": "un compte d'épargne", "translation": "uma conta poupança" },
+    { "word": "retirer de l'argent", "translation": "sacar dinheiro", "example": "Je dois retirer de l'argent au distributeur." },
+    { "word": "déposer de l'argent", "translation": "depositar dinheiro" },
+    { "word": "faire un virement", "translation": "fazer uma transferência" },
+    { "word": "la carte bancaire", "translation": "o cartão bancário" },
+    { "word": "le distributeur automatique", "translation": "o caixa eletrônico" },
+    { "word": "les frais bancaires", "translation": "as taxas bancárias" },
+    { "word": "un relevé bancaire", "translation": "um extrato bancário" },
+    { "word": "un prêt", "translation": "um empréstimo" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Sistema Bancário Francês", 
+      "description": "O sistema bancário francês é bastante desenvolvido, mas pode ter algumas diferenças em relação a outros países. Por exemplo, muitos bancos cobram taxas mensais para manutenção de contas correntes, e os cheques ainda são relativamente comuns na França, embora o uso de cartões e pagamentos móveis esteja crescendo rapidamente." 
+    },
+    { 
+      "title": "RIB e IBAN", 
+      "description": "Na França, você frequentemente precisará fornecer seu 'RIB' (Relevé d'Identité Bancaire), um documento que contém todas as informações da sua conta, incluindo o IBAN e o BIC. Este documento é necessário para configurar débitos diretos, receber seu salário ou fazer transferências regulares." 
+    },
+    { 
+      "title": "Horário Bancário", 
+      "description": "Os bancos na França geralmente abrem das 9h às 17h durante a semana, com alguns fechando para o almoço. Muitas agências não abrem aos sábados ou abrem apenas pela manhã. É sempre recomendável verificar os horários ou marcar uma consulta (rendez-vous) para serviços específicos." 
+    }
+  ],
+  "tips": [
+    "Para abrir uma conta bancária na França como estrangeiro, você geralmente precisará de um passaporte válido, comprovante de residência (como uma conta de luz ou telefone) e, às vezes, comprovante de renda ou status de estudante.",
+    "Muitos bancos franceses oferecem pacotes especiais para estudantes internacionais com taxas reduzidas. Pergunte sobre 'offres pour étudiants étrangers'.",
+    "Ao usar caixas eletrônicos, esteja ciente de que alguns podem cobrar taxas adicionais, especialmente se você usar um cartão de outro país ou banco.",
+    "Aprenda os termos bancários básicos em francês antes de ir ao banco. Isso facilitará muito a comunicação, mesmo que o atendente fale inglês.",
+    "Na França, é comum marcar um horário (rendez-vous) para serviços bancários mais complexos, como abertura de contas ou discussão de investimentos."
+  ],
+  "relatedQuizzes": ["Vocabulário Financeiro", "Números e Quantidades", "Situações Cotidianas"]
+}

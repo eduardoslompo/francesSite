@@ -1,0 +1,56 @@
+{
+  "id": "expressando-opinioes",
+  "title": "Expressando Opiniões",
+  "description": "Aprenda vocabulário e expressões para dar opiniões, expressar preferências e discutir pontos de vista em francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "eo-1",
+      "text": "Como se diz 'Eu acho que...' em francês?",
+      "options": ["Je crois que...", "Je pense que...", "Je sais que...", "Je vois que..."],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Je pense que...' é a expressão francesa para 'Eu acho que...' ou 'Eu penso que...'."
+    },
+    {
+      "id": "eo-2",
+      "text": "Qual expressão você usaria para dizer 'Na minha opinião' em francês?",
+      "options": ["Selon moi", "À mon avis", "Je crois", "Pour moi"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'À mon avis' significa 'Na minha opinião' em francês."
+    },
+    {
+      "id": "eo-3",
+      "text": "Como expressar 'Eu concordo' em francês?",
+      "options": ["Je comprends", "Je suis d'accord", "J'accepte", "Je confirme"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Je suis d'accord' é a expressão francesa para 'Eu concordo'."
+    },
+    {
+      "id": "eo-4",
+      "text": "Qual frase você usaria para discordar educadamente em francês?",
+      "options": ["Je ne suis pas d'accord", "Je ne pense pas", "Je ne crois pas que ce soit vrai", "Je ne suis pas de cet avis"],
+      "correctAnswer": 3,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Je ne suis pas de cet avis' é uma forma educada de dizer 'Eu não concordo com essa opinião' em francês."
+    },
+    {
+      "id": "eo-5",
+      "text": "Como perguntar 'O que você acha?' em francês?",
+      "options": ["Qu'est-ce que tu penses?", "Comment tu trouves?", "Quel est ton avis?", "Toutes les réponses sont correctes"],
+      "correctAnswer": 3,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "Todas as opções são formas corretas de perguntar 'O que você acha?' em francês, com pequenas variações de estilo."
+    }
+  ]
+}

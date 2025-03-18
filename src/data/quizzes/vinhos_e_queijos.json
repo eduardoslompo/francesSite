@@ -1,0 +1,56 @@
+{
+  "id": "vinhos-e-queijos",
+  "title": "Vinhos e Queijos",
+  "description": "Aprenda sobre os famosos vinhos e queijos franceses, suas regiões de origem, características e tradições de degustação.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "gastronomia",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vq-1",
+      "text": "Qual destas é uma região vinícola famosa da França?",
+      "options": ["Bordeaux", "Marseille", "Strasbourg", "Nice"],
+      "correctAnswer": 0,
+      "category": "gastronomia",
+      "difficulty": "iniciante",
+      "explanation": "Bordeaux é uma das regiões vinícolas mais famosas da França, conhecida mundialmente por seus vinhos tintos de alta qualidade, especialmente os feitos com uvas Cabernet Sauvignon e Merlot."
+    },
+    {
+      "id": "vq-2",
+      "text": "Qual destes queijos franceses é conhecido por seu forte odor e sabor intenso?",
+      "options": ["Brie", "Camembert", "Roquefort", "Comté"],
+      "correctAnswer": 2,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "O Roquefort é um queijo azul francês feito com leite de ovelha, conhecido por seu sabor intenso e aroma forte. É envelhecido em cavernas naturais na região de Roquefort-sur-Soulzon."
+    },
+    {
+      "id": "vq-3",
+      "text": "Qual região francesa é famosa pela produção de champanhe?",
+      "options": ["Alsácia", "Champagne", "Loire", "Provença"],
+      "correctAnswer": 1,
+      "category": "gastronomia",
+      "difficulty": "iniciante",
+      "explanation": "A região de Champagne, no nordeste da França, é a única região do mundo que pode produzir vinhos espumantes oficialmente denominados 'champanhe'. Vinhos espumantes similares produzidos em outras regiões devem usar outros nomes."
+    },
+    {
+      "id": "vq-4",
+      "text": "Qual destes queijos franceses tem uma casca laranja-avermelhada e é lavado com salmoura durante a maturação?",
+      "options": ["Époisses", "Chèvre", "Emmental", "Reblochon"],
+      "correctAnswer": 0,
+      "category": "gastronomia",
+      "difficulty": "avancado",
+      "explanation": "O Époisses é um queijo de pasta mole da Borgonha, famoso por seu aroma forte e sabor complexo. Durante a maturação, sua casca é regularmente lavada com uma mistura de água salgada e Marc de Bourgogne (aguardente local), o que lhe confere a característica cor laranja-avermelhada."
+    },
+    {
+      "id": "vq-5",
+      "text": "Qual é a tradução para 'degustação de vinhos' em francês?",
+      "options": ["Dégustation de vin", "Goûter du vin", "Savourer le vin", "Boire du vin"],
+      "correctAnswer": 0,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "'Dégustation de vin' é a expressão francesa para 'degustação de vinhos', o processo de avaliar as características sensoriais de um vinho através da visão, olfato e paladar."
+    }
+  ]
+}

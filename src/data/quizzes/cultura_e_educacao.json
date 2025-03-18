@@ -1,0 +1,56 @@
+{
+  "id": "cultura-e-educacao",
+  "title": "Cultura e Educação",
+  "description": "Aprenda sobre o sistema educacional francês e aspectos culturais relacionados à educação na França.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "educacao",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ce-1",
+      "text": "Qual é o nome do exame final do ensino médio francês?",
+      "options": ["Le Brevet", "Le Baccalauréat", "Le Diplôme", "L'Examen Final"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Le Baccalauréat', frequentemente abreviado como 'le bac', é o exame final do ensino médio francês que permite o acesso ao ensino superior."
+    },
+    {
+      "id": "ce-2",
+      "text": "Qual destas instituições é considerada a mais prestigiosa para formação de altos funcionários na França?",
+      "options": ["La Sorbonne", "L'École Normale Supérieure", "L'École Nationale d'Administration", "L'Université de Lyon"],
+      "correctAnswer": 2,
+      "category": "educacao",
+      "difficulty": "avancado",
+      "explanation": "'L'École Nationale d'Administration' (ENA) é tradicionalmente a instituição mais prestigiosa para a formação de altos funcionários e políticos na França."
+    },
+    {
+      "id": "ce-3",
+      "text": "Como se chama o período de férias escolares de verão na França?",
+      "options": ["Les vacances de Noël", "Les vacances de Pâques", "Les grandes vacances", "Les vacances d'hiver"],
+      "correctAnswer": 2,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Les grandes vacances' é como os franceses chamam as férias escolares de verão, que geralmente vão de julho a início de setembro."
+    },
+    {
+      "id": "ce-4",
+      "text": "Qual é o nome do ministério responsável pela educação na França?",
+      "options": ["Ministère de l'Éducation Nationale", "Ministère de l'Enseignement", "Ministère des Études", "Ministère de la Formation"],
+      "correctAnswer": 0,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Ministère de l'Éducation Nationale' é o nome do ministério responsável pela educação na França."
+    },
+    {
+      "id": "ce-5",
+      "text": "Qual destes NÃO é um nível do sistema educacional francês?",
+      "options": ["L'école maternelle", "L'école primaire", "Le collège", "L'académie"],
+      "correctAnswer": 3,
+      "category": "educacao",
+      "difficulty": "avancado",
+      "explanation": "'L'académie' não é um nível do sistema educacional francês, mas sim uma divisão administrativa. Os níveis são: école maternelle (pré-escola), école primaire (ensino fundamental I), collège (ensino fundamental II) e lycée (ensino médio)."
+    }
+  ]
+}

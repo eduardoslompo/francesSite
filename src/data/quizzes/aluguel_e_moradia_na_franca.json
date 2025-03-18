@@ -1,0 +1,56 @@
+{
+  "id": "aluguel-e-moradia-na-franca",
+  "title": "Aluguel e Moradia na França",
+  "description": "Aprenda vocabulário e expressões essenciais para alugar e viver em uma residência na França.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "amf-1",
+      "text": "Como se diz 'aluguel' em francês?",
+      "options": ["Le loyer", "La location", "Le bail", "L'appartement"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le loyer' é a palavra francesa para 'aluguel', o valor pago mensalmente pelo inquilino ao proprietário."
+    },
+    {
+      "id": "amf-2",
+      "text": "Qual é o termo para 'contrato de aluguel' em francês?",
+      "options": ["La facture", "Le bail", "L'assurance", "Le dépôt"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Le bail' é o termo francês para 'contrato de aluguel', o documento legal que estabelece os termos do aluguel."
+    },
+    {
+      "id": "amf-3",
+      "text": "Como se pergunta 'O apartamento está mobiliado?' em francês?",
+      "options": ["Est-ce qu'il y a un ascenseur?", "Est-ce que l'appartement est meublé?", "Combien coûtent les charges?", "Quand est-ce que je peux emménager?"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Est-ce que l'appartement est meublé?' significa 'O apartamento está mobiliado?'"
+    },
+    {
+      "id": "amf-4",
+      "text": "O que significa 'charges' no contexto de moradia na França?",
+      "options": ["Móveis", "Despesas condominiais", "Impostos", "Eletrodomésticos"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Charges' refere-se às despesas condominiais, como água, aquecimento coletivo, manutenção de áreas comuns, etc."
+    },
+    {
+      "id": "amf-5",
+      "text": "Qual documento é frequentemente exigido como garantia financeira ao alugar um imóvel na França?",
+      "options": ["Carte d'identité", "Relevé d'identité bancaire (RIB)", "Attestation d'un garant", "Carte Vitale"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "avancado",
+      "explanation": "'Attestation d'un garant' (Declaração de um fiador) é frequentemente exigida como garantia financeira, especialmente para estudantes ou pessoas com renda baixa."
+    }
+  ]
+}

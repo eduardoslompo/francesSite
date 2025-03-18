@@ -1,0 +1,56 @@
+{
+  "id": "arte-francesa",
+  "title": "Arte Francesa",
+  "description": "Explore os grandes movimentos artísticos franceses, artistas influentes e obras-primas que transformaram a história da arte mundial.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "af-1",
+      "text": "Qual movimento artístico do século XIX teve origem na França como reação ao Romantismo, buscando retratar a realidade cotidiana?",
+      "options": ["Impressionismo", "Cubismo", "Realismo", "Surrealismo"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "O Realismo foi um movimento artístico surgido na França em meados do século XIX como reação ao Romantismo. Artistas como Gustave Courbet e Honoré Daumier buscavam retratar a realidade social cotidiana, especialmente das classes trabalhadoras, de forma objetiva e sem idealização."
+    },
+    {
+      "id": "af-2",
+      "text": "Qual artista francês é considerado o principal expoente do movimento Fauvista?",
+      "options": ["Claude Monet", "Henri Matisse", "Paul Cézanne", "Edgar Degas"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Henri Matisse (1869-1954) é considerado o principal expoente do Fauvismo, movimento que privilegiava o uso de cores intensas e não-naturalistas. O termo 'fauves' (feras) foi usado pelo crítico Louis Vauxcelles para descrever as obras coloridas e expressivas desses artistas em 1905."
+    },
+    {
+      "id": "af-3",
+      "text": "Qual pintor francês é conhecido por suas cenas da vida noturna parisiense no final do século XIX?",
+      "options": ["Édouard Manet", "Auguste Renoir", "Henri de Toulouse-Lautrec", "Paul Gauguin"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Henri de Toulouse-Lautrec (1864-1901) é célebre por suas representações da vida noturna parisiense do final do século XIX, especialmente do bairro de Montmartre, com seus cabarés, cafés e bordéis. Seu estilo inconfundível também revolucionou a arte do cartaz."
+    },
+    {
+      "id": "af-4",
+      "text": "Qual destes museus parisienses foi originalmente uma estação ferroviária antes de se tornar um importante museu de arte?",
+      "options": ["Musée d'Orsay", "Centre Pompidou", "Musée du Louvre", "Musée de l'Orangerie"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "O Musée d'Orsay foi construído originalmente como a Gare d'Orsay, uma estação ferroviária inaugurada em 1900 para a Exposição Universal. Em 1986, foi transformado em museu dedicado principalmente à arte do período 1848-1914, com foco no Impressionismo e Pós-Impressionismo."
+    },
+    {
+      "id": "af-5",
+      "text": "Qual artista francesa do século XVIII foi uma importante retratista da corte de Maria Antonieta?",
+      "options": ["Berthe Morisot", "Rosa Bonheur", "Élisabeth Vigée Le Brun", "Suzanne Valadon"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Élisabeth Vigée Le Brun (1755-1842) foi uma das mais importantes pintoras do século XVIII e a retratista oficial da rainha Maria Antonieta. Produziu mais de 30 retratos da rainha e teve que fugir da França durante a Revolução Francesa devido à sua associação com a aristocracia."
+    }
+  ]
+}

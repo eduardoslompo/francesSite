@@ -1,0 +1,56 @@
+{
+  "id": "atividades-de-lazer",
+  "title": "Atividades de Lazer",
+  "description": "Aprenda vocabulário e expressões em francês relacionados a atividades de lazer, hobbies e passatempos.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "lazer",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "al-1",
+      "text": "Como se diz 'hobby' em francês?",
+      "options": ["Le travail", "Le passe-temps", "L'obligation", "Le devoir"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "basico",
+      "explanation": "'Le passe-temps' é a palavra francesa para 'hobby' ou 'passatempo'."
+    },
+    {
+      "id": "al-2",
+      "text": "Qual é a tradução de 'ler um livro' em francês?",
+      "options": ["Regarder la télé", "Écouter de la musique", "Lire un livre", "Jouer aux jeux vidéo"],
+      "correctAnswer": 2,
+      "category": "lazer",
+      "difficulty": "basico",
+      "explanation": "'Lire un livre' significa 'ler um livro' em francês."
+    },
+    {
+      "id": "al-3",
+      "text": "Como se diz 'ir ao cinema' em francês?",
+      "options": ["Aller au restaurant", "Aller au cinéma", "Aller au parc", "Aller au musée"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "basico",
+      "explanation": "'Aller au cinéma' significa 'ir ao cinema' em francês."
+    },
+    {
+      "id": "al-4",
+      "text": "Qual frase você usaria para convidar alguém para um passeio?",
+      "options": ["Tu veux faire une promenade?", "Tu aimes te promener?", "Tu sais marcher?", "Tu dois sortir?"],
+      "correctAnswer": 0,
+      "category": "lazer",
+      "difficulty": "intermediario",
+      "explanation": "'Tu veux faire une promenade?' significa 'Você quer dar um passeio?' em francês."
+    },
+    {
+      "id": "al-5",
+      "text": "Como se diz 'tocar um instrumento musical' em francês?",
+      "options": ["Chanter une chanson", "Écouter de la musique", "Jouer d'un instrument de musique", "Danser sur la musique"],
+      "correctAnswer": 2,
+      "category": "lazer",
+      "difficulty": "intermediario",
+      "explanation": "'Jouer d'un instrument de musique' significa 'tocar um instrumento musical' em francês."
+    }
+  ]
+}

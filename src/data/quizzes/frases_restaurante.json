@@ -1,0 +1,56 @@
+{
+  "id": "frases-restaurante",
+  "title": "Frases de Restaurante",
+  "description": "Domine o vocabulário para fazer pedidos e comunicar-se em restaurantes.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "basico",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "fr-1",
+      "text": "Como pedir o cardápio em francês?",
+      "options": ["L'addition, s'il vous plaît", "La carte, s'il vous plaît", "Une table pour deux, s'il vous plaît", "Je voudrais réserver"],
+      "correctAnswer": 1,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "La carte, s'il vous plaît significa \"O cardápio, por favor\" em francês."
+    },
+    {
+      "id": "fr-2",
+      "text": "Como pedir a conta em francês?",
+      "options": ["L'addition, s'il vous plaît", "La carte, s'il vous plaît", "Une table pour deux, s'il vous plaît", "Je voudrais réserver"],
+      "correctAnswer": 0,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "L'addition, s'il vous plaît significa \"A conta, por favor\" em francês."
+    },
+    {
+      "id": "fr-3",
+      "text": "Como dizer \"Eu gostaria de reservar uma mesa\" em francês?",
+      "options": ["L'addition, s'il vous plaît", "La carte, s'il vous plaît", "Une table pour deux, s'il vous plaît", "Je voudrais réserver une table"],
+      "correctAnswer": 3,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "Je voudrais réserver une table significa \"Eu gostaria de reservar uma mesa\" em francês."
+    },
+    {
+      "id": "fr-4",
+      "text": "Como pedir uma mesa para duas pessoas em francês?",
+      "options": ["L'addition, s'il vous plaît", "La carte, s'il vous plaît", "Une table pour deux, s'il vous plaît", "Je voudrais réserver"],
+      "correctAnswer": 2,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "Une table pour deux, s'il vous plaît significa \"Uma mesa para dois, por favor\" em francês."
+    },
+    {
+      "id": "fr-5",
+      "text": "Como perguntar \"Qual é o prato do dia?\" em francês?",
+      "options": ["Qu'est-ce que vous recommandez?", "Quel est le plat du jour?", "Je suis végétarien", "C'est délicieux"],
+      "correctAnswer": 1,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "Quel est le plat du jour? significa \"Qual é o prato do dia?\" em francês."
+    }
+  ]
+}

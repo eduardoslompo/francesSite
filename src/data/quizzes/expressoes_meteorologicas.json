@@ -1,0 +1,56 @@
+{
+  "id": "expressoes-meteorologicas",
+  "title": "Expressões Meteorológicas",
+  "description": "Aprenda expressões comuns relacionadas ao clima e tempo em francês para conversas cotidianas.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "em-1",
+      "text": "Como se diz 'Está chovendo a cântaros' em francês?",
+      "options": ["Il pleut légèrement", "Il pleut à verse", "Il fait du brouillard", "Il y a des averses"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Il pleut à verse' é a expressão francesa equivalente a 'Está chovendo a cântaros' ou 'Está chovendo muito forte'."
+    },
+    {
+      "id": "em-2",
+      "text": "Qual expressão francesa significa 'Está fazendo um tempo maravilhoso'?",
+      "options": ["Il fait un temps épouvantable", "Il fait un temps magnifique", "Il fait lourd", "Il fait frais"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Il fait un temps magnifique' significa 'Está fazendo um tempo maravilhoso' em francês."
+    },
+    {
+      "id": "em-3",
+      "text": "Como se expressa 'Está caindo granizo' em francês?",
+      "options": ["Il neige", "Il gèle", "Il grêle", "Il bruine"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Il grêle' é a expressão francesa para 'Está caindo granizo'."
+    },
+    {
+      "id": "em-4",
+      "text": "Qual expressão você usaria para dizer que 'O céu está nublado'?",
+      "options": ["Le ciel est dégagé", "Le ciel est couvert", "Le ciel est étoilé", "Le ciel est clair"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Le ciel est couvert' significa 'O céu está nublado/coberto' em francês."
+    },
+    {
+      "id": "em-5",
+      "text": "Como se diz 'Está abafado' em francês?",
+      "options": ["Il fait frais", "Il fait lourd", "Il fait du vent", "Il fait sec"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Il fait lourd' é a expressão francesa para 'Está abafado'."
+    }
+  ]
+}

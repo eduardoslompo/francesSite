@@ -1,0 +1,56 @@
+{
+  "id": "lazer-e-tempo-livre",
+  "title": "Lazer e Tempo Livre",
+  "description": "Aprenda vocabulário e expressões relacionadas a atividades de lazer e tempo livre em francês, incluindo hobbies, esportes e entretenimento.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "lazer",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ltl-1",
+      "text": "Como se diz 'hobby' em francês?",
+      "options": ["Le passe-temps", "Le loisir", "L'activité", "Le hobby"],
+      "correctAnswer": 0,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Le passe-temps' é a palavra francesa para 'hobby'. 'Le loisir' significa 'lazer' de forma mais geral."
+    },
+    {
+      "id": "ltl-2",
+      "text": "Qual frase você usaria para convidar alguém para ir ao cinema?",
+      "options": ["Tu veux aller au cinéma?", "On va au cinéma?", "Allons au cinéma!", "Toutes les réponses sont correctes"],
+      "correctAnswer": 3,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "Todas as opções são formas corretas de convidar alguém para ir ao cinema em francês."
+    },
+    {
+      "id": "ltl-3",
+      "text": "Como se diz 'jogar futebol' em francês?",
+      "options": ["Faire du football", "Jouer au football", "Pratiquer le football", "Aller au football"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Jouer au football' é a expressão correta para 'jogar futebol' em francês. Para esportes com bola, usa-se 'jouer à/au'."
+    },
+    {
+      "id": "ltl-4",
+      "text": "Qual é a tradução de 'ler um livro' em francês?",
+      "options": ["Regarder un livre", "Écrire un livre", "Lire un livre", "Étudier un livre"],
+      "correctAnswer": 2,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Lire un livre' significa 'ler um livro' em francês."
+    },
+    {
+      "id": "ltl-5",
+      "text": "Como se pergunta 'O que você gosta de fazer no seu tempo livre?' em francês?",
+      "options": ["Qu'est-ce que tu fais?", "Qu'est-ce que tu aimes faire pendant ton temps libre?", "Comment passes-tu ton temps?", "Quels sont tes loisirs?"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "intermediario",
+      "explanation": "'Qu'est-ce que tu aimes faire pendant ton temps libre?' significa 'O que você gosta de fazer no seu tempo livre?' em francês."
+    }
+  ]
+}

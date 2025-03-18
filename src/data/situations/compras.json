@@ -1,0 +1,90 @@
+{
+  "title": "Compras",
+  "description": "Aprenda vocabulário e expressões essenciais para fazer compras em francês.",
+  "image": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je cherche une chemise en coton.",
+    "Combien coûte ce sac ?",
+    "Est-ce que vous avez ce modèle en taille 40 ?"
+  ],
+  "introduction": "Fazer compras na França pode ser uma experiência cultural enriquecedora. Este guia ajudará você a navegar por lojas de roupas, mercados e grandes magazines, permitindo que você encontre o que procura, pergunte preços e tamanhos, e faça transações com confiança.",
+  "dialogues": [
+    {
+      "title": "Em uma Loja de Roupas",
+      "lines": [
+        { "speaker": "Vendedor", "text": "Bonjour, je peux vous aider ?", "translation": "Bom dia, posso ajudá-lo(a)?" },
+        { "speaker": "Você", "text": "Bonjour. Je cherche un pull en laine pour l'hiver.", "translation": "Bom dia. Estou procurando um suéter de lã para o inverno." },
+        { "speaker": "Vendedor", "text": "Bien sûr. Quelle taille portez-vous ?", "translation": "Claro. Qual tamanho você veste?" },
+        { "speaker": "Você", "text": "Je porte du M, généralement.", "translation": "Eu visto M, geralmente." },
+        { "speaker": "Vendedor", "text": "Nous avons plusieurs modèles en taille M. Préférez-vous un col roulé ou un col en V ?", "translation": "Temos vários modelos em tamanho M. Você prefere gola alta ou decote em V?" },
+        { "speaker": "Você", "text": "Je préfère un col en V. Et je cherche quelque chose en bleu ou en gris.", "translation": "Prefiro decote em V. E estou procurando algo em azul ou cinza." },
+        { "speaker": "Vendedor", "text": "Voici deux modèles qui pourraient vous plaire. Vous pouvez les essayer si vous voulez.", "translation": "Aqui estão dois modelos que podem lhe agradar. Você pode experimentá-los se quiser." },
+        { "speaker": "Você", "text": "Merci. Où sont les cabines d'essayage ?", "translation": "Obrigado(a). Onde ficam os provadores?" }
+      ]
+    },
+    {
+      "title": "No Mercado",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, madame. Je voudrais un kilo de pommes, s'il vous plaît.", "translation": "Bom dia, senhora. Eu gostaria de um quilo de maçãs, por favor." },
+        { "speaker": "Vendedora", "text": "Bonjour ! Quelles pommes voulez-vous ? J'ai des Golden, des Gala et des Granny Smith.", "translation": "Bom dia! Quais maçãs você quer? Tenho Golden, Gala e Granny Smith." },
+        { "speaker": "Você", "text": "Je vais prendre des Gala. Elles ont l'air délicieuses.", "translation": "Vou levar as Gala. Elas parecem deliciosas." },
+        { "speaker": "Vendedora", "text": "Très bon choix. Vous voulez autre chose ?", "translation": "Ótima escolha. Você quer mais alguma coisa?" },
+        { "speaker": "Você", "text": "Oui, je voudrais aussi 500 grammes de fraises et deux avocats.", "translation": "Sim, eu também gostaria de 500 gramas de morangos e dois abacates." },
+        { "speaker": "Vendedora", "text": "Voilà. Ça fait 12 euros 50 en tout.", "translation": "Aqui está. São 12 euros e 50 no total." },
+        { "speaker": "Você", "text": "Est-ce que vous acceptez les cartes bancaires ?", "translation": "Você aceita cartões bancários?" },
+        { "speaker": "Vendedora", "text": "Oui, bien sûr. Vous pouvez payer par carte.", "translation": "Sim, claro. Você pode pagar com cartão." }
+      ]
+    },
+    {
+      "title": "Comprando Souvenirs",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, combien coûte cette petite tour Eiffel ?", "translation": "Com licença, quanto custa esta pequena Torre Eiffel?" },
+        { "speaker": "Vendedor", "text": "La petite est à 5 euros, et la grande à 8 euros.", "translation": "A pequena custa 5 euros, e a grande 8 euros." },
+        { "speaker": "Você", "text": "Je vais prendre deux petites, s'il vous plaît. Et ce magnet de Paris, quel est son prix ?", "translation": "Vou levar duas pequenas, por favor. E este ímã de Paris, qual é o preço?" },
+        { "speaker": "Vendedor", "text": "Les magnets sont à 3 euros chacun, ou 4 pour 10 euros.", "translation": "Os ímãs custam 3 euros cada, ou 4 por 10 euros." },
+        { "speaker": "Você", "text": "Dans ce cas, je vais prendre quatre magnets différents.", "translation": "Nesse caso, vou levar quatro ímãs diferentes." },
+        { "speaker": "Vendedor", "text": "Très bien. Ça fait 20 euros au total.", "translation": "Muito bem. São 20 euros no total." },
+        { "speaker": "Você", "text": "Voici 20 euros. Est-ce que vous pourriez les emballer séparément ? Ce sont des cadeaux.", "translation": "Aqui estão 20 euros. Você poderia embalá-los separadamente? São presentes." },
+        { "speaker": "Vendedor", "text": "Bien sûr, pas de problème. Je vous mets ça dans des petits sachets.", "translation": "Claro, sem problema. Vou colocá-los em saquinhos separados." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "faire des achats", "translation": "fazer compras" },
+    { "word": "le magasin", "translation": "a loja" },
+    { "word": "le marché", "translation": "o mercado" },
+    { "word": "le prix", "translation": "o preço" },
+    { "word": "coûter", "translation": "custar" },
+    { "word": "cher / pas cher", "translation": "caro / barato" },
+    { "word": "la taille", "translation": "o tamanho" },
+    { "word": "essayer", "translation": "experimentar" },
+    { "word": "la cabine d'essayage", "translation": "o provador" },
+    { "word": "payer", "translation": "pagar" },
+    { "word": "la carte bancaire", "translation": "o cartão bancário", "example": "Je préfère payer par carte bancaire." },
+    { "word": "en espèces", "translation": "em dinheiro" },
+    { "word": "la monnaie", "translation": "o troco" },
+    { "word": "le reçu", "translation": "o recibo" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Saudações nas Lojas", 
+      "description": "Na França, é considerado educado cumprimentar os vendedores ao entrar em uma loja com 'Bonjour' e despedir-se com 'Au revoir' ao sair, mesmo que você não compre nada. Ignorar essa etiqueta pode ser visto como rude." 
+    },
+    { 
+      "title": "Tamanhos de Roupas", 
+      "description": "Os tamanhos de roupas na França podem ser diferentes dos padrões brasileiros. Para mulheres, o tamanho 38 francês equivale aproximadamente ao P brasileiro, 40-42 ao M, e 44-46 ao G. Para homens, o 48-50 equivale ao M brasileiro. Calçados também seguem o padrão europeu." 
+    },
+    { 
+      "title": "Horários Comerciais", 
+      "description": "As lojas na França geralmente abrem das 10h às 19h, com algumas fechando para almoço entre 12h e 14h, especialmente em cidades menores. Muitas lojas fecham aos domingos, embora em áreas turísticas de grandes cidades isso esteja mudando. Supermercados maiores costumam ter horários mais estendidos." 
+    }
+  ],
+  "tips": [
+    "Ao experimentar roupas, você pode pedir a opinião do vendedor com 'Qu'est-ce que vous en pensez?' (O que você acha?).",
+    "Em mercados ao ar livre, é possível pechinchar um pouco, mas não é tão comum quanto em outros países. Você pode perguntar 'Vous pouvez faire un prix?' (Pode fazer um preço melhor?).",
+    "Muitas lojas oferecem reembolso de impostos (détaxe) para compras acima de 175 euros feitas por turistas não-europeus. Peça informações sobre isso se fizer compras significativas.",
+    "Nos supermercados franceses, você geralmente precisa pesar frutas e vegetais e imprimir uma etiqueta antes de ir ao caixa.",
+    "Leve suas próprias sacolas para compras em supermercados, pois sacolas plásticas geralmente são cobradas."
+  ],
+  "relatedQuizzes": ["Vocabulário de Compras", "Números e Preços", "Tamanhos e Medidas"]
+}

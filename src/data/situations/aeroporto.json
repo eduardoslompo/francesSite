@@ -1,0 +1,85 @@
+{
+  "title": "Aeroporto",
+  "description": "Aprenda a navegar por aeroportos franceses, fazer check-in e passar pela imigração em francês.",
+  "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais enregistrer mes bagages, s'il vous plaît.",
+    "À quelle heure est mon vol ?",
+    "Où se trouve la porte d'embarquement ?"
+  ],
+  "introduction": "Os aeroportos podem ser lugares estressantes, especialmente em um país estrangeiro. Este guia ajudará você a navegar pelos aeroportos franceses, entender os anúncios e interagir com funcionários em francês com confiança.",
+  "dialogues": [
+    {
+      "title": "Check-in",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais enregistrer pour le vol AF1234 pour Marseille.", "translation": "Bom dia, eu gostaria de fazer check-in para o voo AF1234 para Marselha." },
+        { "speaker": "Atendente", "text": "Bonjour. Puis-je voir votre passeport et votre billet, s'il vous plaît ?", "translation": "Bom dia. Posso ver seu passaporte e sua passagem, por favor?" },
+        { "speaker": "Você", "text": "Voici mon passeport et j'ai ma carte d'embarquement sur mon téléphone.", "translation": "Aqui está meu passaporte e tenho meu cartão de embarque no meu celular." },
+        { "speaker": "Atendente", "text": "Merci. Avez-vous des bagages à enregistrer ?", "translation": "Obrigado. Você tem bagagem para despachar?" },
+        { "speaker": "Você", "text": "Oui, j'ai une valise.", "translation": "Sim, tenho uma mala." },
+        { "speaker": "Atendente", "text": "Veuillez la placer sur la balance... Elle pèse 18 kilos, c'est dans la limite. Voici votre étiquette de bagage.", "translation": "Por favor, coloque-a na balança... Ela pesa 18 quilos, está dentro do limite. Aqui está sua etiqueta de bagagem." },
+        { "speaker": "Você", "text": "Merci. À quelle heure commence l'embarquement ?", "translation": "Obrigado. A que horas começa o embarque?" },
+        { "speaker": "Atendente", "text": "L'embarquement commence à 10h30 à la porte B15. Bon voyage !", "translation": "O embarque começa às 10h30 no portão B15. Boa viagem!" }
+      ]
+    },
+    {
+      "title": "Controle de Passaporte",
+      "lines": [
+        { "speaker": "Agente", "text": "Bonjour, votre passeport s'il vous plaît.", "translation": "Bom dia, seu passaporte, por favor." },
+        { "speaker": "Você", "text": "Bonjour, le voici.", "translation": "Bom dia, aqui está." },
+        { "speaker": "Agente", "text": "Quel est le motif de votre séjour en France ?", "translation": "Qual é o motivo da sua estadia na França?" },
+        { "speaker": "Você", "text": "Je suis ici pour le tourisme. Je vais rester deux semaines.", "translation": "Estou aqui a turismo. Vou ficar duas semanas." },
+        { "speaker": "Agente", "text": "Où allez-vous séjourner ?", "translation": "Onde você vai se hospedar?" },
+        { "speaker": "Você", "text": "J'ai réservé un hôtel à Paris, dans le 6ème arrondissement.", "translation": "Reservei um hotel em Paris, no 6º arrondissement." },
+        { "speaker": "Agente", "text": "Très bien. Bon séjour en France.", "translation": "Muito bem. Boa estadia na França." }
+      ]
+    },
+    {
+      "title": "Anúncios no Aeroporto",
+      "lines": [
+        { "speaker": "Anúncio", "text": "Attention s'il vous plaît. Embarquement immédiat pour le vol Air France 1234 à destination de Marseille, porte B15.", "translation": "Atenção, por favor. Embarque imediato para o voo Air France 1234 com destino a Marselha, portão B15." },
+        { "speaker": "Você", "text": "Excusez-moi, où se trouve la porte B15 ?", "translation": "Com licença, onde fica o portão B15?" },
+        { "speaker": "Passageiro", "text": "Suivez les panneaux vers le terminal B, c'est à environ 10 minutes à pied.", "translation": "Siga as placas para o terminal B, fica a cerca de 10 minutos a pé." },
+        { "speaker": "Você", "text": "Merci beaucoup.", "translation": "Muito obrigado." },
+        { "speaker": "Anúncio", "text": "Dernier appel pour le vol Air France 1234 à destination de Marseille. Les passagers retardataires sont priés de se présenter immédiatement à la porte B15.", "translation": "Última chamada para o voo Air France 1234 com destino a Marselha. Os passageiros atrasados devem se apresentar imediatamente no portão B15." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "l'aéroport (m)", "translation": "o aeroporto" },
+    { "word": "le vol", "translation": "o voo" },
+    { "word": "la carte d'embarquement", "translation": "o cartão de embarque" },
+    { "word": "les bagages (m)", "translation": "as bagagens" },
+    { "word": "la valise", "translation": "a mala" },
+    { "word": "enregistrer", "translation": "fazer check-in", "example": "Je dois enregistrer mes bagages." },
+    { "word": "la porte d'embarquement", "translation": "o portão de embarque" },
+    { "word": "le contrôle de passeport", "translation": "o controle de passaporte" },
+    { "word": "la douane", "translation": "a alfândega" },
+    { "word": "le retard", "translation": "o atraso" },
+    { "word": "annulé", "translation": "cancelado" },
+    { "word": "le décollage", "translation": "a decolagem" },
+    { "word": "l'atterrissage (m)", "translation": "o pouso" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Aeroportos de Paris", 
+      "description": "Paris tem dois aeroportos principais: Charles de Gaulle (CDG) ao norte e Orly (ORY) ao sul. CDG é maior e lida com a maioria dos voos internacionais, enquanto Orly atende principalmente voos domésticos e europeus. Um terceiro aeroporto menor, Paris-Beauvais, é usado principalmente por companhias aéreas de baixo custo." 
+    },
+    { 
+      "title": "Transporte para a Cidade", 
+      "description": "De Charles de Gaulle, você pode pegar o RER B (trem) diretamente para o centro de Paris. De Orly, o Orlyval conecta o aeroporto à linha RER B. Ambos os aeroportos também oferecem serviços de ônibus (como o Roissybus e o Orlybus) e táxis, embora estes últimos possam ser caros." 
+    },
+    { 
+      "title": "Greves", 
+      "description": "Como em outros setores de transporte na França, os aeroportos ocasionalmente podem ser afetados por greves. É aconselhável verificar o status do seu voo antes de ir para o aeroporto se houver notícias de greves." 
+    }
+  ],
+  "tips": [
+    "Chegue ao aeroporto pelo menos 2-3 horas antes de voos internacionais, especialmente em aeroportos movimentados como Charles de Gaulle.",
+    "Muitos funcionários de aeroportos em áreas turísticas falam inglês, mas conhecer frases básicas em francês pode ser útil e apreciado.",
+    "Mantenha seu passaporte e cartão de embarque facilmente acessíveis, pois você precisará mostrá-los várias vezes.",
+    "Os anúncios nos aeroportos franceses geralmente são feitos em francês e inglês, mas nem sempre em outras línguas.",
+    "Se você estiver conectando voos em um aeroporto francês, verifique se precisa passar pela imigração e quanto tempo você tem para a conexão."
+  ],
+  "relatedQuizzes": ["Vocabulário de Viagem", "Situações de Aeroporto", "Transporte na França"]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "literatura-contemporanea",
+  "title": "Literatura Francesa Contemporânea",
+  "description": "Explore autores e obras da literatura francesa dos séculos XX e XXI que moldaram o panorama literário contemporâneo.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "lc-1",
+      "text": "Qual obra de Michel Houellebecq causou polêmica ao ser publicada no mesmo dia do ataque ao Charlie Hebdo em 2015?",
+      "options": ["La Carte et le Territoire", "Sérotonine", "Extension du domaine de la lutte", "Soumission"],
+      "correctAnswer": 3,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Soumission' (Submissão) foi publicado em 7 de janeiro de 2015, o mesmo dia do ataque terrorista ao Charlie Hebdo. O romance, que imagina uma França governada por um partido islâmico em 2022, gerou intenso debate."
+    },
+    {
+      "id": "lc-2",
+      "text": "Qual escritora francesa escreveu 'L'Amant' (O Amante), um romance semi-autobiográfico ambientado na Indochina?",
+      "options": ["Simone de Beauvoir", "Marguerite Duras", "Annie Ernaux", "Françoise Sagan"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Marguerite Duras escreveu 'L'Amant' em 1984, um romance semi-autobiográfico sobre sua juventude na Indochina francesa (atual Vietnã). A obra ganhou o prestigioso Prix Goncourt."
+    },
+    {
+      "id": "lc-3",
+      "text": "Quem é o autor de 'Les Particules élémentaires', romance que analisa as consequências da revolução sexual dos anos 1960?",
+      "options": ["Michel Houellebecq", "Emmanuel Carrère", "Virginie Despentes", "Édouard Louis"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Michel Houellebecq é o autor de 'Les Particules élémentaires' (1998), um romance controverso que analisa criticamente as consequências da revolução sexual e do individualismo nas sociedades ocidentais."
+    },
+    {
+      "id": "lc-4",
+      "text": "Qual escritora francesa recebeu o Prêmio Nobel de Literatura em 2022?",
+      "options": ["Marie NDiaye", "Leïla Slimani", "Annie Ernaux", "Virginie Despentes"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Annie Ernaux recebeu o Prêmio Nobel de Literatura em 2022 por sua obra que mescla autobiografia e sociologia, examinando questões de classe, gênero e memória na sociedade francesa."
+    },
+    {
+      "id": "lc-5",
+      "text": "Qual destes autores é conhecido pelo romance autoficção 'En finir avec Eddy Bellegueule'?",
+      "options": ["Édouard Louis", "Didier Eribon", "Amélie Nothomb", "Patrick Modiano"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Édouard Louis é o autor de 'En finir avec Eddy Bellegueule' (2014), um romance autobiográfico que narra sua infância em uma família operária no norte da França e sua experiência como homossexual em um ambiente hostil."
+    }
+  ]
+} 

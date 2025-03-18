@@ -1,0 +1,56 @@
+{
+  "id": "pontos-turisticos-franceses",
+  "title": "Pontos Turísticos Franceses",
+  "description": "Conheça os principais monumentos, atrações e locais de interesse turístico da França, sua história e importância cultural.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ptf-1",
+      "text": "Qual destes monumentos parisienses foi construído para a Exposição Universal de 1889?",
+      "options": ["Arco do Triunfo", "Torre Eiffel", "Catedral de Notre-Dame", "Sacré-Cœur"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "A Torre Eiffel foi construída para a Exposição Universal de 1889, que celebrava o centenário da Revolução Francesa. Projetada por Gustave Eiffel, inicialmente seria uma estrutura temporária."
+    },
+    {
+      "id": "ptf-2",
+      "text": "Qual é o maior museu de arte do mundo, localizado em Paris?",
+      "options": ["Musée d'Orsay", "Centre Pompidou", "Musée du Louvre", "Musée Rodin"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "O Musée du Louvre (Museu do Louvre) é o maior museu de arte do mundo e um monumento histórico em Paris. Abriga aproximadamente 38.000 objetos da pré-história ao século XXI, incluindo a Mona Lisa e a Vênus de Milo."
+    },
+    {
+      "id": "ptf-3",
+      "text": "Qual destes palácios foi a residência oficial dos reis da França até a Revolução Francesa?",
+      "options": ["Palácio do Eliseu", "Palácio de Versalhes", "Palácio do Luxemburgo", "Palácio das Tulherias"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "O Palácio de Versalhes (Château de Versailles) foi a residência oficial dos reis da França de 1682, quando Luís XIV se mudou da capital, até 1789, início da Revolução Francesa. Hoje é um museu da história da França e Patrimônio Mundial da UNESCO."
+    },
+    {
+      "id": "ptf-4",
+      "text": "Qual destas atrações turísticas está localizada na Côte d'Azur (Costa Azul)?",
+      "options": ["Mont Saint-Michel", "Castelos do Loire", "Promenade des Anglais", "Catedral de Estrasburgo"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "A Promenade des Anglais é um famoso calçadão à beira-mar localizado em Nice, na Côte d'Azur (Costa Azul), região no sudeste da França conhecida por suas praias, clima mediterrâneo e turismo de luxo."
+    },
+    {
+      "id": "ptf-5",
+      "text": "Qual destes locais é famoso por suas cavernas pré-históricas com pinturas rupestres?",
+      "options": ["Lascaux", "Giverny", "Carcassonne", "Chamonix"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "Lascaux, localizado no sudoeste da França, é famoso por suas cavernas que contêm algumas das mais bem preservadas pinturas rupestres pré-históricas, datadas de aproximadamente 17.000 anos atrás. Devido à preservação, os visitantes hoje veem uma réplica chamada Lascaux II."
+    }
+  ]
+}

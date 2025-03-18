@@ -1,0 +1,56 @@
+{
+  "id": "atividades-ao-ar-livre",
+  "title": "Atividades ao Ar Livre",
+  "description": "Aprenda vocabulário e expressões relacionadas a atividades ao ar livre em francês, incluindo esportes, passeios e recreação em ambientes externos.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "lazer",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "aal-1",
+      "text": "Como se diz 'fazer uma caminhada' em francês?",
+      "options": ["Faire une promenade", "Faire du vélo", "Faire du jogging", "Faire de la natation"],
+      "correctAnswer": 0,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Faire une promenade' é a expressão francesa para 'fazer uma caminhada'. 'Faire du vélo' significa 'andar de bicicleta', 'Faire du jogging' significa 'correr' e 'Faire de la natation' significa 'nadar'."
+    },
+    {
+      "id": "aal-2",
+      "text": "Qual é a tradução de 'piquenique' em francês?",
+      "options": ["Le déjeuner", "Le pique-nique", "Le repas", "La collation"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Le pique-nique' é a palavra francesa para 'piquenique'. 'Le déjeuner' significa 'almoço', 'Le repas' significa 'refeição' e 'La collation' significa 'lanche'."
+    },
+    {
+      "id": "aal-3",
+      "text": "Como se diz 'andar de bicicleta' em francês?",
+      "options": ["Faire du vélo", "Faire de la bicyclette", "Pédaler", "Toutes les réponses sont correctes"],
+      "correctAnswer": 3,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "Todas as opções são formas corretas de expressar 'andar de bicicleta' em francês. 'Faire du vélo' e 'Faire de la bicyclette' são as expressões mais comuns, e 'Pédaler' significa literalmente 'pedalar'."
+    },
+    {
+      "id": "aal-4",
+      "text": "Qual destas atividades NÃO é tipicamente realizada ao ar livre?",
+      "options": ["Faire de l'escalade", "Faire du ski", "Faire de la voile", "Faire des échecs"],
+      "correctAnswer": 3,
+      "category": "lazer",
+      "difficulty": "intermediario",
+      "explanation": "'Faire des échecs' (jogar xadrez) não é tipicamente uma atividade ao ar livre. 'Faire de l'escalade' (escalar), 'Faire du ski' (esquiar) e 'Faire de la voile' (velejar) são atividades realizadas ao ar livre."
+    },
+    {
+      "id": "aal-5",
+      "text": "Como se diz 'acampar' em francês?",
+      "options": ["Faire du camping", "Dormir dehors", "Installer une tente", "Séjourner en plein air"],
+      "correctAnswer": 0,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Faire du camping' é a expressão francesa para 'acampar'. 'Dormir dehors' significa 'dormir ao ar livre', 'Installer une tente' significa 'montar uma barraca' e 'Séjourner en plein air' significa 'ficar ao ar livre'."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "title": "Urgências",
+  "description": "Aprenda a comunicar em situações de emergência em francês para obter ajuda quando necessário.",
+  "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Au secours ! J'ai besoin d'aide !",
+    "Il y a eu un accident. Appelez une ambulance, s'il vous plaît.",
+    "Je ne me sens pas bien. Où est l'hôpital le plus proche ?"
+  ],
+  "introduction": "Saber como comunicar em situações de emergência é vital quando se está em um país estrangeiro. Este guia fornecerá frases essenciais e vocabulário para ajudá-lo a lidar com emergências médicas, acidentes e outras situações urgentes em países francófonos.",
+  "dialogues": [
+    {
+      "title": "Emergência Médica",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi ! Je ne me sens pas bien. J'ai des douleurs à la poitrine et du mal à respirer.", "translation": "Com licença! Não estou me sentindo bem. Tenho dores no peito e dificuldade para respirar." },
+        { "speaker": "Passante", "text": "Vous avez besoin d'aide médicale. Je vais appeler les secours tout de suite.", "translation": "Você precisa de ajuda médica. Vou chamar os serviços de emergência imediatamente." },
+        { "speaker": "Você", "text": "Merci beaucoup. Je prends des médicaments pour le cœur. Ils sont dans mon sac.", "translation": "Muito obrigado. Eu tomo remédios para o coração. Eles estão na minha bolsa." },
+        { "speaker": "Passante", "text": "D'accord. Restez calme et asseyez-vous. Les secours arrivent dans quelques minutes.", "translation": "Tudo bem. Fique calmo e sente-se. Os serviços de emergência chegarão em alguns minutos." },
+        { "speaker": "Paramédico", "text": "Bonjour, je suis ambulancier. Pouvez-vous me dire ce qui se passe ?", "translation": "Olá, sou paramédico. Pode me dizer o que está acontecendo?" },
+        { "speaker": "Você", "text": "J'ai des douleurs à la poitrine depuis environ une heure. J'ai des antécédents cardiaques.", "translation": "Tenho dores no peito há cerca de uma hora. Tenho histórico de problemas cardíacos." },
+        { "speaker": "Paramédico", "text": "Nous allons vous emmener à l'hôpital. Avez-vous une carte d'assurance ou une carte européenne d'assurance maladie ?", "translation": "Vamos levá-lo ao hospital. Você tem um cartão de seguro ou um Cartão Europeu de Seguro de Doença?" },
+        { "speaker": "Você", "text": "Oui, elle est dans mon portefeuille, avec mon passeport.", "translation": "Sim, está na minha carteira, junto com meu passaporte." }
+      ]
+    },
+    {
+      "title": "Reportando um Acidente",
+      "lines": [
+        { "speaker": "Você", "text": "Allô, police ? Je veux signaler un accident de la route.", "translation": "Alô, polícia? Quero relatar um acidente de trânsito." },
+        { "speaker": "Atendente", "text": "Police secours, j'écoute. Où a eu lieu l'accident ?", "translation": "Polícia de emergência, estou ouvindo. Onde ocorreu o acidente?" },
+        { "speaker": "Você", "text": "Sur l'avenue Victor Hugo, près du supermarché Casino. Une voiture a heurté un cycliste.", "translation": "Na avenida Victor Hugo, perto do supermercado Casino. Um carro atingiu um ciclista." },
+        { "speaker": "Atendente", "text": "Y a-t-il des blessés ?", "translation": "Há feridos?" },
+        { "speaker": "Você", "text": "Oui, le cycliste est blessé. Il est conscient mais il saigne à la tête.", "translation": "Sim, o ciclista está ferido. Ele está consciente, mas está sangrando na cabeça." },
+        { "speaker": "Atendente", "text": "Une ambulance et une patrouille sont en route. Restez sur place jusqu'à leur arrivée. Pouvez-vous me donner votre nom ?", "translation": "Uma ambulância e uma patrulha estão a caminho. Fique no local até a chegada deles. Pode me dar seu nome?" },
+        { "speaker": "Você", "text": "Je m'appelle Carlos Silva. Je suis touriste brésilien.", "translation": "Meu nome é Carlos Silva. Sou turista brasileiro." },
+        { "speaker": "Atendente", "text": "Merci, Monsieur Silva. Les secours seront là dans environ 5 minutes.", "translation": "Obrigado, Sr. Silva. Os serviços de emergência estarão aí em aproximadamente 5 minutos." }
+      ]
+    },
+    {
+      "title": "Perda de Documentos",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je dois signaler la perte de mon passeport et de mes cartes bancaires.", "translation": "Bom dia, preciso relatar a perda do meu passaporte e dos meus cartões bancários." },
+        { "speaker": "Policial", "text": "Bonjour. Quand et où pensez-vous les avoir perdus ?", "translation": "Bom dia. Quando e onde você acha que os perdeu?" },
+        { "speaker": "Você", "text": "Je pense qu'on me les a volés hier soir dans le métro, ligne 1, vers 22h.", "translation": "Acho que foram roubados ontem à noite no metrô, linha 1, por volta das 22h." },
+        { "speaker": "Policial", "text": "Avez-vous remarqué quelque chose de suspect ? Quelqu'un qui vous aurait bousculé ?", "translation": "Notou algo suspeito? Alguém que tenha esbarrado em você?" },
+        { "speaker": "Você", "text": "Oui, il y avait beaucoup de monde et quelqu'un m'a poussé en sortant à la station Châtelet.", "translation": "Sim, havia muitas pessoas e alguém me empurrou ao sair na estação Châtelet." },
+        { "speaker": "Policial", "text": "Je vais prendre votre déposition. Avez-vous contacté votre ambassade pour le passeport ?", "translation": "Vou registrar seu depoimento. Você contatou sua embaixada sobre o passaporte?" },
+        { "speaker": "Você", "text": "Pas encore. J'ai d'abord bloqué mes cartes bancaires par téléphone.", "translation": "Ainda não. Primeiro bloqueei meus cartões bancários por telefone." },
+        { "speaker": "Policial", "text": "C'est bien. Je vais vous donner une attestation de perte que vous pourrez présenter à votre ambassade pour obtenir un passeport temporaire.", "translation": "Isso é bom. Vou lhe dar um atestado de perda que você poderá apresentar à sua embaixada para obter um passaporte temporário." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "les urgences (f pl)", "translation": "a emergência (serviço hospitalar)" },
+    { "word": "une ambulance", "translation": "uma ambulância" },
+    { "word": "les pompiers (m pl)", "translation": "os bombeiros" },
+    { "word": "la police", "translation": "a polícia" },
+    { "word": "un accident", "translation": "um acidente" },
+    { "word": "appeler les secours", "translation": "chamar os serviços de emergência", "example": "En cas d'urgence, appelez les secours au 15." },
+    { "word": "une blessure", "translation": "um ferimento" },
+    { "word": "saigner", "translation": "sangrar" },
+    { "word": "la douleur", "translation": "a dor" },
+    { "word": "un vol", "translation": "um roubo" },
+    { "word": "porter plainte", "translation": "prestar queixa", "example": "Après le vol, j'ai dû porter plainte au commissariat." },
+    { "word": "une attestation", "translation": "um atestado, uma declaração" },
+    { "word": "les premiers soins (m pl)", "translation": "os primeiros socorros" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Números de Emergência na França", 
+      "description": "Na França, os principais números de emergência são: 15 (SAMU - emergências médicas), 17 (polícia), 18 (bombeiros) e 112 (número de emergência europeu que funciona em toda a União Europeia). Estes números são gratuitos e podem ser discados de qualquer telefone, mesmo sem crédito ou cartão SIM." 
+    },
+    { 
+      "title": "Sistema de Saúde Francês", 
+      "description": "A França tem um sistema de saúde universal que cobre tanto cidadãos quanto visitantes em caso de emergência. No entanto, turistas não-europeus geralmente precisam pagar pelos serviços médicos e depois solicitar reembolso ao seu seguro de viagem. É altamente recomendável ter um seguro de viagem adequado." 
+    },
+    { 
+      "title": "Procedimento em Caso de Roubo", 
+      "description": "Se você for vítima de roubo na França, deve registrar um boletim de ocorrência (porter plainte) na delegacia de polícia mais próxima. Este documento é essencial para solicitar documentos de substituição e para qualquer reclamação de seguro. A polícia francesa geralmente fornece serviços de tradução para turistas." 
+    }
+  ],
+  "tips": [
+    "Sempre leve consigo uma cópia dos seus documentos importantes (passaporte, seguro de viagem) e guarde os originais em um lugar seguro, como o cofre do hotel.",
+    "Tenha um cartão com suas informações médicas importantes (alergias, condições médicas, medicamentos) em francês para mostrar aos profissionais de saúde em caso de emergência.",
+    "Salve os números de emergência locais e o contato da sua embaixada ou consulado no seu telefone antes de viajar.",
+    "Aprenda a dizer sua condição médica, alergias e grupo sanguíneo em francês.",
+    "Em caso de emergência médica em um local público, procure uma farmácia (reconhecível pela cruz verde) - os farmacêuticos franceses são bem treinados e podem oferecer primeiros socorros ou chamar ajuda."
+  ],
+  "relatedQuizzes": ["Vocabulário de Emergências", "Saúde e Bem-estar", "Segurança em Viagens"]
+}

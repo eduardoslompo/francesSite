@@ -1,0 +1,88 @@
+{
+  "title": "Farmácia",
+  "description": "Aprenda a descrever sintomas, pedir medicamentos e interagir em uma farmácia francesa.",
+  "image": "https://images.unsplash.com/photo-1585435557343-3b092031a831?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "J'ai mal à la tête et j'ai de la fièvre.",
+    "Avez-vous quelque chose pour le rhume ?",
+    "Je cherche un médicament contre les allergies."
+  ],
+  "introduction": "As farmácias na França oferecem mais do que apenas medicamentos com receita. Os farmacêuticos franceses são profissionais altamente treinados que podem oferecer conselhos médicos para problemas menores. Este guia ajudará você a descrever sintomas e obter os medicamentos ou conselhos necessários em francês.",
+  "dialogues": [
+    {
+      "title": "Descrevendo Sintomas",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, excusez-moi.", "translation": "Bom dia, com licença." },
+        { "speaker": "Farmacêutico", "text": "Bonjour, je peux vous aider ?", "translation": "Bom dia, posso ajudar?" },
+        { "speaker": "Você", "text": "Oui, j'ai mal à la gorge et je tousse depuis hier.", "translation": "Sim, estou com dor de garganta e tosse desde ontem." },
+        { "speaker": "Farmacêutico", "text": "Avez-vous de la fièvre aussi ?", "translation": "Você também está com febre?" },
+        { "speaker": "Você", "text": "Un peu, je pense. 38 degrés ce matin.", "translation": "Um pouco, eu acho. 38 graus esta manhã." },
+        { "speaker": "Farmacêutico", "text": "D'accord. Avez-vous d'autres symptômes ? Des douleurs musculaires, par exemple ?", "translation": "Certo. Você tem outros sintomas? Dores musculares, por exemplo?" },
+        { "speaker": "Você", "text": "Oui, je me sens fatigué et j'ai un peu mal partout.", "translation": "Sim, me sinto cansado(a) e tenho um pouco de dor por todo o corpo." },
+        { "speaker": "Farmacêutico", "text": "Je vois. Ça ressemble à un début de grippe.", "translation": "Entendo. Parece o início de uma gripe." }
+      ]
+    },
+    {
+      "title": "Recebendo Recomendações",
+      "lines": [
+        { "speaker": "Farmacêutico", "text": "Je vais vous donner quelque chose pour la fièvre et la douleur, et un sirop pour la toux.", "translation": "Vou lhe dar algo para a febre e a dor, e um xarope para a tosse." },
+        { "speaker": "Você", "text": "Merci. Est-ce que je dois prendre ces médicaments avec les repas ?", "translation": "Obrigado(a). Devo tomar esses medicamentos com as refeições?" },
+        { "speaker": "Farmacêutico", "text": "Pour celui-ci contre la fièvre, oui, c'est préférable de le prendre pendant ou après un repas. Le sirop peut être pris à n'importe quel moment.", "translation": "Para este contra a febre, sim, é preferível tomá-lo durante ou após uma refeição. O xarope pode ser tomado a qualquer momento." },
+        { "speaker": "Você", "text": "Combien de fois par jour dois-je les prendre ?", "translation": "Quantas vezes por dia devo tomá-los?" },
+        { "speaker": "Farmacêutico", "text": "Le médicament contre la fièvre, trois fois par jour maximum. Une le matin, une à midi et une le soir. Pour le sirop, deux cuillères à café, matin et soir.", "translation": "O medicamento contra a febre, três vezes por dia no máximo. Uma de manhã, uma ao meio-dia e uma à noite. Para o xarope, duas colheres de chá, manhã e noite." },
+        { "speaker": "Você", "text": "D'accord. Et pendant combien de jours ?", "translation": "Certo. E por quantos dias?" },
+        { "speaker": "Farmacêutico", "text": "Prenez-les pendant trois jours. Si vous ne vous sentez pas mieux après, il faudra consulter un médecin.", "translation": "Tome-os por três dias. Se não se sentir melhor depois disso, precisará consultar um médico." }
+      ]
+    },
+    {
+      "title": "Pagamento e Conselhos Adicionais",
+      "lines": [
+        { "speaker": "Farmacêutico", "text": "Voilà vos médicaments. Ça fait 18 euros 50, s'il vous plaît.", "translation": "Aqui estão seus medicamentos. São 18 euros e 50, por favor." },
+        { "speaker": "Você", "text": "Je peux payer par carte ?", "translation": "Posso pagar com cartão?" },
+        { "speaker": "Farmacêutico", "text": "Bien sûr.", "translation": "Claro." },
+        { "speaker": "Você", "text": "Merci. Avez-vous d'autres conseils ?", "translation": "Obrigado(a). Você tem outros conselhos?" },
+        { "speaker": "Farmacêutico", "text": "Oui, buvez beaucoup d'eau et reposez-vous. Évitez l'alcool pendant que vous prenez ces médicaments. Et si vous avez des vertiges ou des réactions inhabituelles, arrêtez de les prendre et consultez un médecin.", "translation": "Sim, beba muita água e descanse. Evite álcool enquanto estiver tomando esses medicamentos. E se tiver tonturas ou reações incomuns, pare de tomá-los e consulte um médico." },
+        { "speaker": "Você", "text": "D'accord, je comprends. Merci beaucoup pour votre aide.", "translation": "Certo, entendo. Muito obrigado(a) pela sua ajuda." },
+        { "speaker": "Farmacêutico", "text": "Je vous en prie. Bon rétablissement !", "translation": "De nada. Melhoras!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la pharmacie", "translation": "a farmácia" },
+    { "word": "le/la pharmacien(ne)", "translation": "o farmacêutico/a farmacêutica" },
+    { "word": "un médicament", "translation": "um medicamento" },
+    { "word": "une ordonnance", "translation": "uma receita médica" },
+    { "word": "avoir mal à [partie du corps]", "translation": "sentir dor em [parte do corpo]", "example": "J'ai mal à la tête/gorge/ventre." },
+    { "word": "la fièvre", "translation": "a febre" },
+    { "word": "la toux", "translation": "a tosse" },
+    { "word": "un rhume", "translation": "um resfriado" },
+    { "word": "la grippe", "translation": "a gripe" },
+    { "word": "un sirop", "translation": "um xarope" },
+    { "word": "les comprimés", "translation": "os comprimidos" },
+    { "word": "une allergie", "translation": "uma alergia" },
+    { "word": "une cuillère à café", "translation": "uma colher de chá" },
+    { "word": "les effets secondaires", "translation": "os efeitos colaterais" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Papel do Farmacêutico", 
+      "description": "Na França, os farmacêuticos têm formação médica extensa e podem oferecer conselhos para problemas de saúde menores. Muitos franceses consultam o farmacêutico antes de ir ao médico para problemas simples." 
+    },
+    { 
+      "title": "Farmácias de Plantão", 
+      "description": "As farmácias na França se revezam para oferecer serviço 24 horas. Se precisar de uma farmácia fora do horário comercial, procure por 'pharmacie de garde' na internet ou veja a lista afixada na porta de qualquer farmácia local." 
+    },
+    { 
+      "title": "Reembolso de Medicamentos", 
+      "description": "O sistema de saúde francês reembolsa parte do custo de medicamentos prescritos. Se você tiver uma receita médica e estiver coberto pelo sistema de saúde francês, apresente sua 'carte vitale' (cartão de saúde) junto com a receita." 
+    }
+  ],
+  "tips": [
+    "Sempre comece a interação com 'Bonjour' antes de explicar seu problema - a cortesia é muito importante na cultura francesa.",
+    "Tente descrever seus sintomas com a maior precisão possível. Frases como 'J'ai mal à...' (Estou com dor em...) são muito úteis.",
+    "Se você não entender as instruções de dosagem, não hesite em pedir ao farmacêutico para repetir ou explicar de outra forma: 'Pourriez-vous répéter, s'il vous plaît?' (Poderia repetir, por favor?).",
+    "Muitos medicamentos que exigem receita em outros países podem estar disponíveis sem receita na França, mas alguns que são de venda livre em outros lugares podem exigir receita na França.",
+    "As farmácias francesas são identificadas por uma cruz verde iluminada. Elas geralmente estão abertas de segunda a sábado, das 9h às 19h, com pausa para almoço em cidades menores."
+  ],
+  "relatedQuizzes": ["Vocabulário Médico", "Situações de Emergência", "Partes do Corpo"]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "geografia-costeira-francesa",
+  "title": "Geografia Costeira Francesa",
+  "description": "Aprenda sobre as principais regiões costeiras e praias famosas da França.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "geografia",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "gcf-1",
+      "text": "Qual é o nome da famosa região costeira no sul da França?",
+      "options": ["Normandie", "Bretagne", "Côte d'Azur", "Alsace"],
+      "correctAnswer": 2,
+      "category": "geografia",
+      "difficulty": "intermediario",
+      "explanation": "A 'Côte d'Azur' (Costa Azul) é a famosa região costeira no sul da França, conhecida por suas belas praias e resorts luxuosos."
+    },
+    {
+      "id": "gcf-2",
+      "text": "Qual cidade francesa é conhecida como a 'capital da Riviera Francesa'?",
+      "options": ["Marseille", "Cannes", "Saint-Tropez", "Nice"],
+      "correctAnswer": 3,
+      "category": "geografia",
+      "difficulty": "intermediario",
+      "explanation": "Nice é frequentemente considerada a 'capital da Riviera Francesa' e é a maior cidade da Costa Azul."
+    },
+    {
+      "id": "gcf-3",
+      "text": "Qual destas regiões costeiras está localizada no noroeste da França?",
+      "options": ["Bretagne", "Provence", "Côte d'Azur", "Corse"],
+      "correctAnswer": 0,
+      "category": "geografia",
+      "difficulty": "intermediario",
+      "explanation": "A 'Bretagne' (Bretanha) é uma região costeira localizada no noroeste da França, conhecida por suas falésias dramáticas e tradições marítimas."
+    },
+    {
+      "id": "gcf-4",
+      "text": "Qual é a maior ilha francesa no Mediterrâneo?",
+      "options": ["Île de Ré", "Corse", "Porquerolles", "Belle-Île"],
+      "correctAnswer": 1,
+      "category": "geografia",
+      "difficulty": "intermediario",
+      "explanation": "'Corse' (Córsega) é a maior ilha francesa no Mar Mediterrâneo e é conhecida por suas belas praias e montanhas."
+    },
+    {
+      "id": "gcf-5",
+      "text": "Qual praia em Cannes é famosa por sediar o Festival de Cinema?",
+      "options": ["Plage de la Croisette", "Plage du Midi", "Plage du Ponteil", "Plage de Pampelonne"],
+      "correctAnswer": 0,
+      "category": "geografia",
+      "difficulty": "avancado",
+      "explanation": "A 'Plage de la Croisette' em Cannes é famosa por estar localizada próxima ao Palais des Festivals, onde ocorre o famoso Festival de Cinema de Cannes."
+    }
+  ]
+}

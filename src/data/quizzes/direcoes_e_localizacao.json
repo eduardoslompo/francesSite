@@ -1,0 +1,56 @@
+{
+  "id": "direcoes-e-localizacao",
+  "title": "Direções e Localização",
+  "description": "Aprenda vocabulário e expressões relacionadas a direções e localização em francês, incluindo como pedir e dar informações sobre lugares e orientações espaciais.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "viagem",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "dl-1",
+      "text": "Como se pergunta 'Onde fica a estação de metrô?' em francês?",
+      "options": ["Où est la gare?", "Où se trouve la station de métro?", "Comment aller à la station?", "Quelle direction pour le métro?"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Où se trouve la station de métro?' é a forma mais comum de perguntar 'Onde fica a estação de metrô?' em francês."
+    },
+    {
+      "id": "dl-2",
+      "text": "Como se diz 'vire à direita' em francês?",
+      "options": ["Tournez à gauche", "Tournez à droite", "Allez tout droit", "Faites demi-tour"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Tournez à droite' significa 'vire à direita' em francês. 'Tournez à gauche' significa 'vire à esquerda', 'Allez tout droit' significa 'siga em frente' e 'Faites demi-tour' significa 'faça meia-volta'."
+    },
+    {
+      "id": "dl-3",
+      "text": "Qual é a tradução de 'perto daqui' em francês?",
+      "options": ["Loin d'ici", "Près d'ici", "À côté", "En face"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Près d'ici' significa 'perto daqui' em francês. 'Loin d'ici' significa 'longe daqui', 'À côté' significa 'ao lado' e 'En face' significa 'em frente'."
+    },
+    {
+      "id": "dl-4",
+      "text": "Como se pergunta 'Como chego ao museu?' em francês?",
+      "options": ["Où est le musée?", "Comment puis-je aller au musée?", "Le musée est loin?", "Quelle direction pour le musée?"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Comment puis-je aller au musée?' é a forma mais comum de perguntar 'Como chego ao museu?' em francês."
+    },
+    {
+      "id": "dl-5",
+      "text": "Qual destas expressões significa 'na esquina' em francês?",
+      "options": ["Au carrefour", "Au coin de la rue", "À l'intersection", "Toutes les réponses sont correctes"],
+      "correctAnswer": 3,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "Todas as opções são formas corretas de expressar 'na esquina' em francês. 'Au coin de la rue', 'Au carrefour' e 'À l'intersection' são expressões que se referem a uma esquina ou cruzamento de ruas."
+    }
+  ]
+}

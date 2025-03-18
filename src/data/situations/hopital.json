@@ -1,0 +1,89 @@
+{
+  "title": "Hospital",
+  "description": "Aprenda a comunicar-se em situações médicas e hospitalares na França.",
+  "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "J'ai besoin de voir un médecin, s'il vous plaît.",
+    "Je ne me sens pas bien depuis hier.",
+    "Où se trouve le service d'urgence ?"
+  ],
+  "introduction": "Saber como se comunicar em situações médicas é essencial quando se está em um país estrangeiro. Este guia ajudará você a explicar sintomas, entender diagnósticos e navegar pelo sistema de saúde francês em caso de emergência ou consulta médica.",
+  "dialogues": [
+    {
+      "title": "Na Recepção do Hospital",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, j'ai besoin de voir un médecin. Je ne me sens pas bien.", "translation": "Bom dia, preciso ver um médico. Não estou me sentindo bem." },
+        { "speaker": "Recepcionista", "text": "Bonjour. Avez-vous rendez-vous ?", "translation": "Bom dia. Você tem hora marcada?" },
+        { "speaker": "Você", "text": "Non, c'est urgent. J'ai une forte fièvre et des difficultés à respirer.", "translation": "Não, é urgente. Tenho febre alta e dificuldade para respirar." },
+        { "speaker": "Recepcionista", "text": "D'accord. Avez-vous votre carte d'assurance maladie ou la Carte Européenne d'Assurance Maladie ?", "translation": "Certo. Você tem seu cartão de seguro saúde ou o Cartão Europeu de Seguro Saúde?" },
+        { "speaker": "Você", "text": "Oui, voici ma carte d'assurance et mon passeport.", "translation": "Sim, aqui está meu cartão de seguro e meu passaporte." },
+        { "speaker": "Recepcionista", "text": "Merci. Veuillez remplir ce formulaire avec vos informations personnelles et médicales. Un médecin vous verra dès que possible.", "translation": "Obrigado. Por favor, preencha este formulário com suas informações pessoais e médicas. Um médico o verá assim que possível." },
+        { "speaker": "Você", "text": "Combien de temps dois-je attendre approximativement ?", "translation": "Quanto tempo aproximadamente terei que esperar?" },
+        { "speaker": "Recepcionista", "text": "Vu vos symptômes, probablement moins d'une heure. Veuillez vous asseoir dans la salle d'attente.", "translation": "Considerando seus sintomas, provavelmente menos de uma hora. Por favor, sente-se na sala de espera." }
+      ]
+    },
+    {
+      "title": "Consulta com o Médico",
+      "lines": [
+        { "speaker": "Médico", "text": "Bonjour, je suis le Docteur Moreau. Qu'est-ce qui vous amène aujourd'hui ?", "translation": "Bom dia, sou o Doutor Moreau. O que o traz aqui hoje?" },
+        { "speaker": "Você", "text": "Bonjour, Docteur. J'ai de la fièvre, mal à la gorge et des difficultés à respirer depuis hier soir.", "translation": "Bom dia, Doutor. Tenho febre, dor de garganta e dificuldade para respirar desde ontem à noite." },
+        { "speaker": "Médico", "text": "Je vois. Avez-vous d'autres symptômes ? Des douleurs musculaires, de la toux ?", "translation": "Entendo. Tem outros sintomas? Dores musculares, tosse?" },
+        { "speaker": "Você", "text": "Oui, j'ai aussi de la toux et je me sens très fatigué.", "translation": "Sim, também tenho tosse e me sinto muito cansado." },
+        { "speaker": "Médico", "text": "Depuis combien de temps exactement avez-vous ces symptômes ?", "translation": "Há quanto tempo exatamente você tem esses sintomas?" },
+        { "speaker": "Você", "text": "Depuis hier soir, vers 20 heures. La fièvre a commencé pendant la nuit.", "translation": "Desde ontem à noite, por volta das 20 horas. A febre começou durante a noite." },
+        { "speaker": "Médico", "text": "Je vais vous examiner. Veuillez ouvrir la bouche et dire 'Aaah'.", "translation": "Vou examiná-lo. Por favor, abra a boca e diga 'Aaah'." },
+        { "speaker": "Médico", "text": "Votre gorge est très rouge. Je vais prendre votre température et écouter vos poumons.", "translation": "Sua garganta está muito vermelha. Vou medir sua temperatura e auscultar seus pulmões." }
+      ]
+    },
+    {
+      "title": "Diagnóstico e Tratamento",
+      "lines": [
+        { "speaker": "Médico", "text": "Vous avez une bronchite aiguë. Ce n'est pas très grave, mais vous avez besoin de repos et d'un traitement.", "translation": "Você tem uma bronquite aguda. Não é muito grave, mas precisa de repouso e tratamento." },
+        { "speaker": "Você", "text": "Est-ce que c'est contagieux ? Je voyage avec ma famille.", "translation": "É contagioso? Estou viajando com minha família." },
+        { "speaker": "Médico", "text": "C'est légèrement contagieux, mais si votre famille est en bonne santé, le risque est faible. Évitez simplement de partager des ustensiles ou des verres.", "translation": "É levemente contagioso, mas se sua família está com boa saúde, o risco é baixo. Apenas evite compartilhar utensílios ou copos." },
+        { "speaker": "Você", "text": "Quel est le traitement ?", "translation": "Qual é o tratamento?" },
+        { "speaker": "Médico", "text": "Je vais vous prescrire des antibiotiques pour l'infection, un sirop pour la toux et des antipyrétiques pour la fièvre. Prenez-les pendant 7 jours.", "translation": "Vou prescrever antibióticos para a infecção, um xarope para a tosse e antitérmicos para a febre. Tome-os durante 7 dias." },
+        { "speaker": "Você", "text": "Dois-je revenir pour un contrôle ?", "translation": "Devo voltar para um acompanhamento?" },
+        { "speaker": "Médico", "text": "Si les symptômes persistent après 5 jours ou s'aggravent, oui. Sinon, ce n'est pas nécessaire. Voici votre ordonnance et un certificat médical pour votre assurance.", "translation": "Se os sintomas persistirem após 5 dias ou piorarem, sim. Caso contrário, não é necessário. Aqui está sua receita e um atestado médico para seu seguro." },
+        { "speaker": "Você", "text": "Merci beaucoup, Docteur.", "translation": "Muito obrigado, Doutor." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "l'hôpital (m)", "translation": "o hospital" },
+    { "word": "le médecin", "translation": "o médico" },
+    { "word": "la fièvre", "translation": "a febre" },
+    { "word": "la toux", "translation": "a tosse" },
+    { "word": "le mal de gorge", "translation": "a dor de garganta" },
+    { "word": "les difficultés à respirer", "translation": "dificuldades para respirar" },
+    { "word": "l'ordonnance (f)", "translation": "a receita médica", "example": "Le médecin m'a donné une ordonnance pour des antibiotiques." },
+    { "word": "le médicament", "translation": "o medicamento" },
+    { "word": "la pharmacie", "translation": "a farmácia" },
+    { "word": "les urgences", "translation": "a emergência (setor do hospital)" },
+    { "word": "la salle d'attente", "translation": "a sala de espera" },
+    { "word": "l'assurance maladie (f)", "translation": "o seguro saúde" },
+    { "word": "le certificat médical", "translation": "o atestado médico" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Sistema de Saúde Francês", 
+      "description": "O sistema de saúde francês é considerado um dos melhores do mundo. A maioria dos cidadãos franceses e residentes legais têm acesso à cobertura universal de saúde através da Sécurité Sociale. Turistas da União Europeia podem usar o Cartão Europeu de Seguro Saúde (CEAM), enquanto outros visitantes devem ter um seguro de viagem." 
+    },
+    { 
+      "title": "Farmácias na França", 
+      "description": "As farmácias (pharmacies) na França são identificadas por uma cruz verde iluminada. Elas são o único lugar onde você pode comprar medicamentos, mesmo os de venda livre. Em cada cidade, há sempre uma farmácia de plantão (pharmacie de garde) aberta durante a noite e nos fins de semana para emergências." 
+    },
+    { 
+      "title": "Números de Emergência", 
+      "description": "Na França, o número de emergência médica é o 15 (SAMU - Service d'Aide Médicale Urgente). Para a polícia, ligue 17, e para os bombeiros (que também lidam com primeiros socorros), ligue 18. O número de emergência europeu 112 também funciona em toda a França." 
+    }
+  ],
+  "tips": [
+    "Sempre leve consigo seu seguro de viagem e documentos de identidade quando visitar um hospital ou clínica na França.",
+    "Se você toma medicamentos regularmente, leve uma cópia da receita médica em francês ou inglês, usando o nome genérico dos medicamentos.",
+    "Em caso de emergência em uma cidade desconhecida, pergunte na recepção do hotel pela farmácia de plantão mais próxima (pharmacie de garde).",
+    "Muitos médicos franceses falam inglês, especialmente em grandes cidades, mas é útil conhecer termos médicos básicos em francês.",
+    "Se você tem uma condição médica crônica, considere usar uma pulseira ou cartão de alerta médico com informações em francês."
+  ],
+  "relatedQuizzes": ["Vocabulário Médico", "Emergências", "Corpo Humano em Francês"]
+}

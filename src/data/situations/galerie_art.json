@@ -1,0 +1,87 @@
+{
+  "title": "Galeria de Arte",
+  "description": "Aprenda a visitar, apreciar obras e conversar sobre arte em uma galeria francesa.",
+  "image": "https://images.unsplash.com/photo-1545178803-4056771d60a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Quels sont les horaires d'ouverture ?",
+    "Pouvez-vous me parler de cette œuvre ?",
+    "Y a-t-il une exposition temporaire en ce moment ?"
+  ],
+  "introduction": "As galerias de arte na França são espaços culturais importantes onde você pode apreciar obras de artistas contemporâneos e clássicos. Este guia ajudará você a navegar por esses espaços, fazer perguntas sobre as obras e participar de conversas sobre arte em francês.",
+  "dialogues": [
+    {
+      "title": "Na Recepção",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais visiter la galerie.", "translation": "Bom dia, eu gostaria de visitar a galeria." },
+        { "speaker": "Recepcionista", "text": "Bonjour. Bien sûr, l'entrée est à 8 euros. Nous avons aussi une visite guidée à 14h si cela vous intéresse.", "translation": "Bom dia. Claro, a entrada custa 8 euros. Também temos uma visita guiada às 14h, se isso lhe interessar." },
+        { "speaker": "Você", "text": "Ah, une visite guidée serait parfaite. Combien coûte-t-elle ?", "translation": "Ah, uma visita guiada seria perfeita. Quanto custa?" },
+        { "speaker": "Recepcionista", "text": "C'est 5 euros en supplément. La visite dure environ une heure et demie.", "translation": "São 5 euros adicionais. A visita dura aproximadamente uma hora e meia." },
+        { "speaker": "Você", "text": "Parfait. Je prends un billet avec la visite guidée, s'il vous plaît.", "translation": "Perfeito. Eu quero um ingresso com a visita guiada, por favor." },
+        { "speaker": "Recepcionista", "text": "Voilà votre billet. La visite commence dans le hall principal. Vous pouvez visiter librement la galerie en attendant.", "translation": "Aqui está seu ingresso. A visita começa no saguão principal. Você pode visitar livremente a galeria enquanto espera." },
+        { "speaker": "Você", "text": "Merci beaucoup. Est-ce que je peux prendre des photos ?", "translation": "Muito obrigado(a). Posso tirar fotos?" },
+        { "speaker": "Recepcionista", "text": "Oui, mais sans flash, s'il vous plaît. Et certaines œuvres ont une indication 'photos interdites'.", "translation": "Sim, mas sem flash, por favor. E algumas obras têm uma indicação de 'fotos proibidas'." }
+      ]
+    },
+    {
+      "title": "Conversando com o Guia",
+      "lines": [
+        { "speaker": "Guia", "text": "Cette œuvre a été créée en 2018 par l'artiste Sophie Durand. Elle représente la relation entre l'homme et la technologie.", "translation": "Esta obra foi criada em 2018 pela artista Sophie Durand. Ela representa a relação entre o homem e a tecnologia." },
+        { "speaker": "Você", "text": "J'aime beaucoup les couleurs. Quelle technique a-t-elle utilisée ?", "translation": "Gosto muito das cores. Que técnica ela usou?" },
+        { "speaker": "Guia", "text": "C'est une technique mixte : acrylique et collage sur toile. Si vous regardez de près, vous pouvez voir les différentes textures.", "translation": "É uma técnica mista: acrílico e colagem sobre tela. Se você olhar de perto, pode ver as diferentes texturas." },
+        { "speaker": "Você", "text": "Est-ce que l'artiste a d'autres œuvres exposées ici ?", "translation": "A artista tem outras obras expostas aqui?" },
+        { "speaker": "Guia", "text": "Oui, nous avons trois autres tableaux de Sophie Durand dans la salle suivante. Elle est l'une des artistes principales de notre exposition temporaire.", "translation": "Sim, temos mais três quadros de Sophie Durand na sala seguinte. Ela é uma das principais artistas de nossa exposição temporária." },
+        { "speaker": "Você", "text": "Je trouve son travail fascinant. Depuis combien de temps expose-t-elle ?", "translation": "Acho o trabalho dela fascinante. Há quanto tempo ela expõe?" },
+        { "speaker": "Guia", "text": "Elle a commencé à exposer il y a environ dix ans, mais elle a gagné en popularité ces trois dernières années. Avez-vous d'autres questions ?", "translation": "Ela começou a expor há cerca de dez anos, mas ganhou popularidade nos últimos três anos. Você tem outras perguntas?" }
+      ]
+    },
+    {
+      "title": "Discutindo Arte com Outro Visitante",
+      "lines": [
+        { "speaker": "Visitante", "text": "Cette installation est intéressante, n'est-ce pas ?", "translation": "Esta instalação é interessante, não é?" },
+        { "speaker": "Você", "text": "Oui, très. J'essaie de comprendre ce que l'artiste a voulu exprimer.", "translation": "Sim, muito. Estou tentando entender o que o artista quis expressar." },
+        { "speaker": "Visitante", "text": "Pour moi, ça évoque la fragilité de notre environnement. Regardez comment les éléments naturels sont présentés.", "translation": "Para mim, evoca a fragilidade do nosso meio ambiente. Veja como os elementos naturais são apresentados." },
+        { "speaker": "Você", "text": "C'est une interprétation intéressante. J'y voyais plutôt un commentaire sur la solitude urbaine.", "translation": "É uma interpretação interessante. Eu via mais como um comentário sobre a solidão urbana." },
+        { "speaker": "Visitante", "text": "C'est ça qui est fascinant dans l'art contemporain - chacun peut y voir quelque chose de différent. Vous venez souvent dans cette galerie ?", "translation": "É isso que é fascinante na arte contemporânea - cada um pode ver algo diferente. Você vem com frequência a esta galeria?" },
+        { "speaker": "Você", "text": "Non, c'est ma première visite. Et vous ?", "translation": "Não, é minha primeira visita. E você?" },
+        { "speaker": "Visitante", "text": "Je suis un habitué. Si vous aimez ce style, je vous recommande aussi la galerie Lumière près d'ici.", "translation": "Sou um frequentador assíduo. Se você gosta desse estilo, também recomendo a galeria Lumière aqui perto." },
+        { "speaker": "Você", "text": "Merci pour la recommandation. Je vais essayer d'y aller pendant mon séjour.", "translation": "Obrigado(a) pela recomendação. Vou tentar ir lá durante minha estadia." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "une galerie d'art", "translation": "uma galeria de arte" },
+    { "word": "une exposition", "translation": "uma exposição" },
+    { "word": "une œuvre d'art", "translation": "uma obra de arte" },
+    { "word": "un tableau", "translation": "um quadro, uma pintura" },
+    { "word": "une sculpture", "translation": "uma escultura" },
+    { "word": "une installation", "translation": "uma instalação" },
+    { "word": "un artiste / une artiste", "translation": "um artista / uma artista" },
+    { "word": "contempler", "translation": "contemplar", "example": "J'aime contempler cette œuvre pendant des heures." },
+    { "word": "une visite guidée", "translation": "uma visita guiada" },
+    { "word": "un vernissage", "translation": "uma vernissage, abertura de exposição" },
+    { "word": "l'art contemporain", "translation": "a arte contemporânea" },
+    { "word": "une technique mixte", "translation": "uma técnica mista" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Galerias vs. Museus", 
+      "description": "Na França, as galerias de arte (galeries d'art) são geralmente espaços comerciais menores que exibem e vendem obras de artistas contemporâneos, enquanto os museus são instituições públicas maiores com coleções permanentes. As galerias frequentemente organizam vernissages (aberturas de exposição) onde você pode conhecer os artistas." 
+    },
+    { 
+      "title": "Dia Gratuito", 
+      "description": "Muitas galerias de arte na França são gratuitas para visitar, ao contrário dos museus que geralmente cobram entrada. Isso torna as galerias uma ótima opção para apreciar arte sem gastar dinheiro, especialmente em bairros como Le Marais em Paris, conhecido por suas numerosas galerias." 
+    },
+    { 
+      "title": "Etiqueta em Galerias", 
+      "description": "Nas galerias francesas, é comum cumprimentar os funcionários ao entrar com um simples 'Bonjour'. Falar em voz baixa é apreciado, e é perfeitamente aceitável passar tempo contemplando uma única obra. Se você estiver interessado em comprar, os preços geralmente não estão expostos - você precisa perguntar discretamente." 
+    }
+  ],
+  "tips": [
+    "Muitas galerias de arte na França fecham às segundas-feiras e durante o mês de agosto, quando muitos parisienses tiram férias.",
+    "Não hesite em pedir informações sobre os artistas ou obras - os funcionários das galerias geralmente são apaixonados por arte e felizes em compartilhar conhecimento.",
+    "Se você estiver em Paris, o 'Paris Gallery Map' é um recurso útil que mostra todas as galerias de arte da cidade, agrupadas por bairro.",
+    "As aberturas de exposição (vernissages) geralmente acontecem nas quintas ou sextas-feiras à noite e podem ser uma ótima maneira de conhecer artistas e entusiastas de arte locais.",
+    "Algumas galerias oferecem catálogos gratuitos que você pode levar como lembrança da exposição."
+  ],
+  "relatedQuizzes": ["Vocabulário de Arte", "Cultura e Lazer", "Expressando Opiniões"]
+}

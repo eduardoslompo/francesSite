@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-museu",
+  "title": "Vocabulário de Museu",
+  "description": "Aprenda palavras e expressões essenciais para visitar museus na França.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vm-1",
+      "text": "Como se diz 'museu' em francês?",
+      "options": ["Le musée", "La galerie", "L'exposition", "Le monument"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Le musée' é a palavra francesa para 'museu'."
+    },
+    {
+      "id": "vm-2",
+      "text": "Qual é a tradução de 'exposição temporária' em francês?",
+      "options": ["Collection permanente", "Exposition temporaire", "Visite guidée", "Salle d'exposition"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Exposition temporaire' significa 'exposição temporária' em francês."
+    },
+    {
+      "id": "vm-3",
+      "text": "Como se pergunta 'Onde fica a seção de arte moderna?' em francês?",
+      "options": ["Où se trouve la section d'art moderne?", "Quand ferme le musée?", "Combien coûte l'entrée?", "Est-ce qu'il y a une réduction pour les étudiants?"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Où se trouve la section d'art moderne?' significa 'Onde fica a seção de arte moderna?'"
+    },
+    {
+      "id": "vm-4",
+      "text": "O que significa 'audioguide' no contexto de um museu?",
+      "options": ["Catálogo de exposição", "Dispositivo de áudio para guiar a visita", "Sistema de som do museu", "Visita guiada por um profissional"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Audioguide' refere-se a um dispositivo de áudio que fornece informações sobre as obras expostas durante a visita ao museu."
+    },
+    {
+      "id": "vm-5",
+      "text": "Qual expressão você usaria para perguntar se é permitido tirar fotos no museu?",
+      "options": ["Est-ce qu'on peut prendre des photos?", "Y a-t-il une boutique de souvenirs?", "À quelle heure est la prochaine visite guidée?", "Où sont les toilettes?"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Est-ce qu'on peut prendre des photos?' significa 'É permitido tirar fotos?'"
+    }
+  ]
+}

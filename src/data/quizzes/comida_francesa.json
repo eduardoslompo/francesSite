@@ -1,0 +1,56 @@
+{
+  "id": "comida-francesa",
+  "title": "Comida Francesa",
+  "description": "Aprenda sobre pratos típicos, ingredientes e hábitos alimentares franceses.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "gastronomia",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "cf-1",
+      "text": "Qual destes pratos é uma especialidade da região da Alsácia?",
+      "options": ["Bouillabaisse", "Choucroute", "Ratatouille", "Quiche Lorraine"],
+      "correctAnswer": 1,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "A 'Choucroute' (chucrute) é um prato típico da região da Alsácia, feito com repolho fermentado e várias carnes de porco, influenciado pela culinária alemã devido à proximidade geográfica."
+    },
+    {
+      "id": "cf-2",
+      "text": "Qual é o pão tradicional francês, longo e com casca crocante?",
+      "options": ["Croissant", "Brioche", "Baguette", "Pain de mie"],
+      "correctAnswer": 2,
+      "category": "gastronomia",
+      "difficulty": "iniciante",
+      "explanation": "A 'Baguette' é o pão francês tradicional, caracterizado por sua forma longa e fina, com casca crocante e miolo macio. É um símbolo da cultura gastronômica francesa."
+    },
+    {
+      "id": "cf-3",
+      "text": "Qual sobremesa francesa consiste em uma massa folhada com creme de amêndoas?",
+      "options": ["Éclair", "Madeleine", "Galette des Rois", "Crème brûlée"],
+      "correctAnswer": 2,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "A 'Galette des Rois' (Bolo de Reis) é feita com massa folhada recheada com 'frangipane', um creme à base de amêndoas. É tradicionalmente consumida durante a Epifania."
+    },
+    {
+      "id": "cf-4",
+      "text": "Qual é o prato tradicional do sul da França feito com legumes como berinjela, abobrinha e tomate?",
+      "options": ["Cassoulet", "Ratatouille", "Pot-au-feu", "Boeuf Bourguignon"],
+      "correctAnswer": 1,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "'Ratatouille' é um guisado tradicional da Provença, no sul da França, feito com legumes mediterrâneos como berinjela, abobrinha, pimentão, tomate e ervas aromáticas."
+    },
+    {
+      "id": "cf-5",
+      "text": "Qual é o nome do tradicional café da manhã francês?",
+      "options": ["Le petit déjeuner", "Le brunch", "Le déjeuner", "Le goûter"],
+      "correctAnswer": 0,
+      "category": "gastronomia",
+      "difficulty": "iniciante",
+      "explanation": "'Le petit déjeuner' é o termo para café da manhã em francês. Tradicionalmente, consiste em café, pão (como croissant ou baguette) com manteiga e geleia."
+    }
+  ]
+}

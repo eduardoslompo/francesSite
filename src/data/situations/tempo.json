@@ -1,0 +1,89 @@
+{
+  "title": "Tempo",
+  "description": "Aprenda a falar sobre o clima e as condições meteorológicas em francês.",
+  "image": "https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Quel temps fait-il aujourd'hui ?",
+    "Il va pleuvoir demain.",
+    "J'adore le printemps à Paris."
+  ],
+  "introduction": "Falar sobre o tempo é uma parte essencial da comunicação cotidiana em qualquer idioma. Este guia ajudará você a discutir condições climáticas, estações do ano e previsões meteorológicas em francês, permitindo conversas casuais com nativos e ajudando você a se preparar adequadamente para suas atividades diárias.",
+  "dialogues": [
+    {
+      "title": "Conversando sobre o Clima Atual",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour ! Quel temps fait-il aujourd'hui ?", "translation": "Bom dia! Como está o tempo hoje?" },
+        { "speaker": "Vizinho", "text": "Bonjour ! Il fait beau, mais un peu frais ce matin. Le soleil brille, mais il y a du vent.", "translation": "Bom dia! Está bonito, mas um pouco fresco esta manhã. O sol está brilhando, mas está ventando." },
+        { "speaker": "Você", "text": "Ah, je vois. Quelle est la température exactement ?", "translation": "Ah, entendo. Qual é a temperatura exatamente?" },
+        { "speaker": "Vizinho", "text": "Il fait environ 15 degrés maintenant, mais cet après-midi, on prévoit 20 degrés.", "translation": "Está cerca de 15 graus agora, mas esta tarde, preveem 20 graus." },
+        { "speaker": "Você", "text": "C'est parfait pour une promenade alors !", "translation": "É perfeito para um passeio então!" },
+        { "speaker": "Vizinho", "text": "Oui, tout à fait. Mais prenez quand même une veste légère, le vent est assez frais.", "translation": "Sim, exatamente. Mas leve mesmo assim um casaco leve, o vento está bastante fresco." }
+      ]
+    },
+    {
+      "title": "Verificando a Previsão do Tempo",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, j'ai prévu d'aller à la plage demain. Savez-vous quel temps il fera ?", "translation": "Com licença, planejei ir à praia amanhã. Você sabe como estará o tempo?" },
+        { "speaker": "Recepcionista do Hotel", "text": "Laissez-moi vérifier la météo... Demain, il fera très chaud, environ 30 degrés, et ensoleillé toute la journée.", "translation": "Deixe-me verificar a previsão... Amanhã, estará muito quente, cerca de 30 graus, e ensolarado o dia todo." },
+        { "speaker": "Você", "text": "Parfait ! Et pour après-demain ? Je voudrais visiter le musée.", "translation": "Perfeito! E para depois de amanhã? Eu gostaria de visitar o museu." },
+        { "speaker": "Recepcionista do Hotel", "text": "Malheureusement, il y aura un changement de temps. Il va pleuvoir et il fera plus frais, environ 22 degrés.", "translation": "Infelizmente, haverá uma mudança no tempo. Vai chover e estará mais fresco, cerca de 22 graus." },
+        { "speaker": "Você", "text": "C'est une bonne nouvelle pour ma visite au musée alors !", "translation": "É uma boa notícia para minha visita ao museu então!" },
+        { "speaker": "Recepcionista do Hotel", "text": "Effectivement ! C'est toujours agréable de visiter les musées quand il pleut dehors. Voulez-vous que je vous réserve un taxi pour demain matin ?", "translation": "De fato! É sempre agradável visitar museus quando está chovendo lá fora. Quer que eu reserve um táxi para amanhã de manhã?" }
+      ]
+    },
+    {
+      "title": "Falando sobre as Estações do Ano",
+      "lines": [
+        { "speaker": "Amigo Francês", "text": "Quelle est ta saison préférée en France ?", "translation": "Qual é sua estação favorita na França?" },
+        { "speaker": "Você", "text": "J'aime beaucoup le printemps, quand les fleurs commencent à s'épanouir. Et toi ?", "translation": "Eu gosto muito da primavera, quando as flores começam a desabrochar. E você?" },
+        { "speaker": "Amigo Francês", "text": "Moi, je préfère l'automne. J'adore les couleurs des feuilles et la température est idéale, ni trop chaude ni trop froide.", "translation": "Eu prefiro o outono. Adoro as cores das folhas e a temperatura é ideal, nem muito quente nem muito fria." },
+        { "speaker": "Você", "text": "Comment est l'hiver ici ? Est-ce qu'il neige beaucoup ?", "translation": "Como é o inverno aqui? Neva muito?" },
+        { "speaker": "Amigo Francês", "text": "Ça dépend des régions. À Paris, il neige rarement, mais dans les Alpes, il y a beaucoup de neige, c'est parfait pour le ski.", "translation": "Depende das regiões. Em Paris, raramente neva, mas nos Alpes, há muita neve, é perfeito para esquiar." },
+        { "speaker": "Você", "text": "Et l'été ? Fait-il très chaud ?", "translation": "E o verão? Fica muito quente?" },
+        { "speaker": "Amigo Francês", "text": "Ces dernières années, nous avons eu des étés très chauds, avec des canicules. Mais généralement, c'est agréable, surtout dans le sud près de la Méditerranée.", "translation": "Nos últimos anos, tivemos verões muito quentes, com ondas de calor. Mas geralmente, é agradável, especialmente no sul perto do Mediterrâneo." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le temps", "translation": "o tempo (clima)" },
+    { "word": "la météo", "translation": "a previsão do tempo" },
+    { "word": "il fait beau", "translation": "está bonito (ensolarado)" },
+    { "word": "il pleut", "translation": "está chovendo", "example": "Il pleut depuis ce matin." },
+    { "word": "il neige", "translation": "está nevando" },
+    { "word": "il fait chaud", "translation": "está quente" },
+    { "word": "il fait froid", "translation": "está frio" },
+    { "word": "le soleil", "translation": "o sol" },
+    { "word": "les nuages (m)", "translation": "as nuvens" },
+    { "word": "le vent", "translation": "o vento" },
+    { "word": "la pluie", "translation": "a chuva" },
+    { "word": "la neige", "translation": "a neve" },
+    { "word": "l'orage (m)", "translation": "a tempestade", "example": "Il y aura un orage ce soir." },
+    { "word": "les saisons (f)", "translation": "as estações" },
+    { "word": "le printemps", "translation": "a primavera" },
+    { "word": "l'été (m)", "translation": "o verão" },
+    { "word": "l'automne (m)", "translation": "o outono" },
+    { "word": "l'hiver (m)", "translation": "o inverno" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Conversas sobre o Tempo", 
+      "description": "Assim como em muitas culturas, falar sobre o tempo é uma forma comum de iniciar uma conversa casual na França. É um tópico neutro que permite estabelecer contato social sem entrar em assuntos pessoais ou controversos." 
+    },
+    { 
+      "title": "Celsius vs. Fahrenheit", 
+      "description": "A França, como a maioria dos países do mundo, usa a escala Celsius para medir a temperatura. Se você está acostumado com Fahrenheit, lembre-se que 0°C é o ponto de congelamento da água (32°F) e 30°C é considerado muito quente (86°F)." 
+    },
+    { 
+      "title": "Clima Variado da França", 
+      "description": "A França tem vários climas diferentes devido à sua geografia. O norte e oeste têm clima oceânico (temperado e úmido), o leste tem clima continental (invernos frios e verões quentes), e o sul tem clima mediterrâneo (verões quentes e secos, invernos amenos)." 
+    }
+  ],
+  "tips": [
+    "Aplicativos de previsão do tempo como 'Météo-France' são muito úteis para planejar suas atividades diárias na França.",
+    "Mesmo no verão, é bom levar um casaco leve ou um guarda-chuva, especialmente no norte da França, onde o tempo pode mudar rapidamente.",
+    "Quando os franceses dizem 'il fait frais', geralmente significa que está entre 10°C e 15°C - o que pode ser considerado frio para visitantes de países tropicais.",
+    "Durante ondas de calor (canicules), muitos locais públicos na França oferecem 'salles rafraîchies' (salas refrigeradas) para pessoas se refrescarem.",
+    "Se você planeja visitar os Alpes no inverno, verifique as condições das estradas, pois algumas passagens de montanha podem estar fechadas devido à neve."
+  ],
+  "relatedQuizzes": ["Vocabulário do Clima", "Estações do Ano", "Expressões Meteorológicas"]
+}

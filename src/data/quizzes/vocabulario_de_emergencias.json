@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-emergencias",
+  "title": "Vocabulário de Emergências",
+  "description": "Aprenda palavras e frases essenciais para situações de emergência em francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "emergencia",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ve-1",
+      "text": "Como se diz 'Preciso de ajuda!' em francês?",
+      "options": ["J'ai besoin d'aide!", "Je veux de l'aide!", "Aidez-moi, s'il vous plaît!", "Toutes les réponses sont correctes"],
+      "correctAnswer": 3,
+      "category": "emergencia",
+      "difficulty": "iniciante",
+      "explanation": "Todas as opções são formas corretas de pedir ajuda em francês, com pequenas variações de formalidade e urgência."
+    },
+    {
+      "id": "ve-2",
+      "text": "Qual é a palavra francesa para 'ambulância'?",
+      "options": ["L'hôpital", "L'ambulance", "Le secours", "La voiture médicale"],
+      "correctAnswer": 1,
+      "category": "emergencia",
+      "difficulty": "iniciante",
+      "explanation": "'L'ambulance' é a palavra francesa para 'ambulância'."
+    },
+    {
+      "id": "ve-3",
+      "text": "Qual é o número de emergência na França?",
+      "options": ["112", "911", "115", "118"],
+      "correctAnswer": 0,
+      "category": "emergencia",
+      "difficulty": "intermediario",
+      "explanation": "O número 112 é o número de emergência europeu, válido em toda a França e União Europeia."
+    },
+    {
+      "id": "ve-4",
+      "text": "Como você diria 'Houve um acidente' em francês?",
+      "options": ["Il y a eu un accident", "Un accident s'est passé", "J'ai vu un accident", "Les options A et B sont correctes"],
+      "correctAnswer": 3,
+      "category": "emergencia",
+      "difficulty": "intermediario",
+      "explanation": "Tanto 'Il y a eu un accident' quanto 'Un accident s'est passé' são formas corretas de dizer que houve um acidente."
+    },
+    {
+      "id": "ve-5",
+      "text": "Qual frase você usaria para pedir a alguém que chame a polícia?",
+      "options": ["Appelez la police, s'il vous plaît", "La police doit venir", "Je veux la police", "Où est la police?"],
+      "correctAnswer": 0,
+      "category": "emergencia",
+      "difficulty": "intermediario",
+      "explanation": "'Appelez la police, s'il vous plaît' (Chame a polícia, por favor) é a forma mais direta e educada de pedir a alguém que chame a polícia."
+    }
+  ]
+}

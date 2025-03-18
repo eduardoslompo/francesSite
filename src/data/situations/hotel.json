@@ -1,0 +1,87 @@
+{
+  "title": "Hotel",
+  "description": "Aprenda a fazer reservas, check-in, solicitar serviços e resolver problemas em hotéis.",
+  "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais réserver une chambre pour deux nuits.",
+    "À quelle heure est le petit-déjeuner ?",
+    "Il y a un problème avec la climatisation."
+  ],
+  "introduction": "Hospedar-se em um hotel na França requer conhecimento de vocabulário específico e etiqueta. Este guia ajudará você a fazer reservas, realizar check-in, solicitar serviços e resolver problemas comuns durante sua estadia.",
+  "dialogues": [
+    {
+      "title": "Fazendo uma Reserva",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais réserver une chambre, s'il vous plaît.", "translation": "Bom dia, eu gostaria de reservar um quarto, por favor." },
+        { "speaker": "Recepcionista", "text": "Bonjour. Pour quelles dates ?", "translation": "Bom dia. Para quais datas?" },
+        { "speaker": "Você", "text": "Du 15 au 18 juin, pour trois nuits.", "translation": "De 15 a 18 de junho, por três noites." },
+        { "speaker": "Recepcionista", "text": "Pour combien de personnes ?", "translation": "Para quantas pessoas?" },
+        { "speaker": "Você", "text": "Pour deux personnes, avec un grand lit si possible.", "translation": "Para duas pessoas, com uma cama de casal se possível." },
+        { "speaker": "Recepcionista", "text": "Nous avons une chambre double avec vue sur la ville. Le tarif est de 120 euros par nuit, petit-déjeuner inclus.", "translation": "Temos um quarto duplo com vista para a cidade. A tarifa é de 120 euros por noite, café da manhã incluído." },
+        { "speaker": "Você", "text": "Parfait. Est-ce que le Wi-Fi est gratuit ?", "translation": "Perfeito. O Wi-Fi é gratuito?" },
+        { "speaker": "Recepcionista", "text": "Oui, le Wi-Fi est gratuit dans tout l'hôtel. Je peux prendre vos coordonnées pour la réservation ?", "translation": "Sim, o Wi-Fi é gratuito em todo o hotel. Posso anotar seus dados para a reserva?" }
+      ]
+    },
+    {
+      "title": "Check-in",
+      "lines": [
+        { "speaker": "Recepcionista", "text": "Bonjour, bienvenue à l'Hôtel Lumière. Que puis-je faire pour vous ?", "translation": "Bom dia, bem-vindo ao Hotel Lumière. O que posso fazer por você?" },
+        { "speaker": "Você", "text": "Bonjour, j'ai une réservation au nom de Martins.", "translation": "Bom dia, tenho uma reserva em nome de Martins." },
+        { "speaker": "Recepcionista", "text": "Un instant, je vérifie... Oui, une chambre double pour trois nuits. Puis-je voir votre passeport, s'il vous plaît ?", "translation": "Um momento, vou verificar... Sim, um quarto duplo por três noites. Posso ver seu passaporte, por favor?" },
+        { "speaker": "Você", "text": "Bien sûr, le voici.", "translation": "Claro, aqui está." },
+        { "speaker": "Recepcionista", "text": "Merci. Voici votre clé, chambre 304 au troisième étage. L'ascenseur est à droite. Le petit-déjeuner est servi de 7h à 10h au rez-de-chaussée.", "translation": "Obrigado. Aqui está sua chave, quarto 304 no terceiro andar. O elevador fica à direita. O café da manhã é servido das 7h às 10h no térreo." },
+        { "speaker": "Você", "text": "À quelle heure est le check-out ?", "translation": "A que horas é o check-out?" },
+        { "speaker": "Recepcionista", "text": "Le check-out est à midi. Si vous avez besoin de quoi que ce soit pendant votre séjour, n'hésitez pas à appeler la réception en composant le 9.", "translation": "O check-out é ao meio-dia. Se precisar de qualquer coisa durante sua estadia, não hesite em ligar para a recepção discando 9." }
+      ]
+    },
+    {
+      "title": "Resolvendo um Problema",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, j'appelle de la chambre 304. La climatisation ne fonctionne pas.", "translation": "Bom dia, estou ligando do quarto 304. O ar-condicionado não está funcionando." },
+        { "speaker": "Recepcionista", "text": "Je suis désolé pour ce désagrément. Je vais envoyer un technicien tout de suite. Serez-vous dans la chambre ?", "translation": "Lamento pelo inconveniente. Vou enviar um técnico imediatamente. Você estará no quarto?" },
+        { "speaker": "Você", "text": "Oui, je serai là pendant une heure environ.", "translation": "Sim, estarei lá por cerca de uma hora." },
+        { "speaker": "Recepcionista", "text": "Très bien. Le technicien sera là dans 10 minutes maximum.", "translation": "Muito bem. O técnico estará lá em no máximo 10 minutos." },
+        { "speaker": "Você", "text": "Merci beaucoup. Aussi, pourriez-vous me dire s'il y a un sèche-cheveux dans la chambre ? Je ne l'ai pas trouvé.", "translation": "Muito obrigado. Também, poderia me dizer se há um secador de cabelo no quarto? Não o encontrei." },
+        { "speaker": "Recepcionista", "text": "Oui, il devrait être dans le tiroir de la salle de bain. Si vous ne le trouvez pas, nous pouvons vous en apporter un.", "translation": "Sim, ele deveria estar na gaveta do banheiro. Se não o encontrar, podemos trazer um para você." },
+        { "speaker": "Você", "text": "Je vais vérifier à nouveau. Merci pour votre aide.", "translation": "Vou verificar novamente. Obrigado pela sua ajuda." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "l'hôtel (m)", "translation": "o hotel" },
+    { "word": "la chambre", "translation": "o quarto" },
+    { "word": "la réception", "translation": "a recepção" },
+    { "word": "la réservation", "translation": "a reserva" },
+    { "word": "le/la réceptionniste", "translation": "o/a recepcionista" },
+    { "word": "la clé / la carte", "translation": "a chave / o cartão" },
+    { "word": "l'ascenseur (m)", "translation": "o elevador" },
+    { "word": "l'étage (m)", "translation": "o andar" },
+    { "word": "le petit-déjeuner", "translation": "o café da manhã" },
+    { "word": "le check-in / l'enregistrement", "translation": "o check-in" },
+    { "word": "le check-out / le départ", "translation": "o check-out" },
+    { "word": "la climatisation", "translation": "o ar-condicionado" },
+    { "word": "le séjour", "translation": "a estadia", "example": "J'espère que vous avez passé un bon séjour." },
+    { "word": "la chambre simple/double/twin", "translation": "o quarto de solteiro/casal/duas camas" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Classificação de Hotéis", 
+      "description": "Na França, os hotéis são classificados de 1 a 5 estrelas de acordo com critérios oficiais. Esta classificação é exibida na entrada do hotel e indica o nível de conforto e serviços oferecidos." 
+    },
+    { 
+      "title": "Taxas Turísticas", 
+      "description": "A 'taxe de séjour' (taxa turística) é cobrada adicionalmente em muitas cidades francesas. O valor varia de acordo com a classificação do hotel e a localidade, geralmente entre 0,20€ e 4€ por pessoa por noite." 
+    },
+    { 
+      "title": "Café da Manhã", 
+      "description": "O café da manhã francês tradicional (petit-déjeuner continental) é geralmente mais simples que em outros países, consistindo em café, pão, manteiga e geleia. Hotéis maiores oferecem café da manhã buffet mais completo." 
+    }
+  ],
+  "tips": [
+    "Sempre verifique se o café da manhã está incluído na tarifa do quarto, pois muitas vezes é cobrado separadamente.",
+    "Em hotéis menores ou mais antigos, pode ser necessário deixar a chave na recepção quando sair do hotel.",
+    "É comum os hotéis pedirem um cartão de crédito na chegada como garantia para despesas extras.",
+    "Se precisar de um adaptador de tomada, a recepção geralmente pode emprestar um durante sua estadia."
+  ],
+  "relatedQuizzes": ["Vocabulário de Viagem", "Situações Cotidianas", "Números e Datas"]
+}

@@ -1,0 +1,90 @@
+{
+  "title": "Correios",
+  "description": "Aprenda a enviar cartas, pacotes e utilizar os serviços dos correios na França.",
+  "image": "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais envoyer cette lettre en Allemagne.",
+    "Combien coûte un timbre pour une carte postale ?",
+    "Je dois retirer un colis."
+  ],
+  "introduction": "Os correios franceses (La Poste) oferecem diversos serviços além do envio de correspondências, como serviços bancários e de telefonia. Este guia ajudará você a navegar pelos serviços postais na França, enviar cartas e pacotes, e compreender as diferentes opções de envio disponíveis.",
+  "dialogues": [
+    {
+      "title": "Enviando uma Carta",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais envoyer cette lettre au Portugal, s'il vous plaît.", "translation": "Bom dia, eu gostaria de enviar esta carta para Portugal, por favor." },
+        { "speaker": "Atendente", "text": "Bonjour. C'est un envoi standard ou vous préférez un envoi suivi ?", "translation": "Bom dia. É um envio padrão ou você prefere um envio com rastreamento?" },
+        { "speaker": "Você", "text": "Qu'est-ce que ça change exactement ?", "translation": "O que muda exatamente?" },
+        { "speaker": "Atendente", "text": "L'envoi standard est moins cher mais sans suivi. Avec l'envoi suivi, vous pouvez vérifier où se trouve votre lettre pendant l'acheminement.", "translation": "O envio padrão é mais barato, mas sem rastreamento. Com o envio rastreado, você pode verificar onde está sua carta durante o transporte." },
+        { "speaker": "Você", "text": "Je préfère l'envoi suivi alors. Combien ça coûte ?", "translation": "Prefiro o envio rastreado então. Quanto custa?" },
+        { "speaker": "Atendente", "text": "Pour le Portugal, ça fait 5 euros 50.", "translation": "Para Portugal, são 5 euros e 50." },
+        { "speaker": "Você", "text": "D'accord. Et combien de temps pour arriver ?", "translation": "Certo. E quanto tempo para chegar?" },
+        { "speaker": "Atendente", "text": "Environ 4 à 5 jours ouvrables.", "translation": "Aproximadamente 4 a 5 dias úteis." }
+      ]
+    },
+    {
+      "title": "Retirando um Pacote",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, j'ai reçu un avis de passage pour un colis.", "translation": "Bom dia, recebi um aviso de passagem para um pacote." },
+        { "speaker": "Atendente", "text": "Bonjour. Avez-vous l'avis de passage avec vous ?", "translation": "Bom dia. Você tem o aviso de passagem com você?" },
+        { "speaker": "Você", "text": "Oui, le voici.", "translation": "Sim, aqui está." },
+        { "speaker": "Atendente", "text": "Merci. J'ai aussi besoin d'une pièce d'identité, s'il vous plaît.", "translation": "Obrigado. Também preciso de um documento de identidade, por favor." },
+        { "speaker": "Você", "text": "Voici mon passeport.", "translation": "Aqui está meu passaporte." },
+        { "speaker": "Atendente", "text": "Merci. Je vais chercher votre colis. Un instant, s'il vous plaît.", "translation": "Obrigado. Vou buscar seu pacote. Um momento, por favor." },
+        { "speaker": "Atendente", "text": "Voilà votre colis. Pouvez-vous signer ici, s'il vous plaît ?", "translation": "Aqui está seu pacote. Pode assinar aqui, por favor?" },
+        { "speaker": "Você", "text": "Bien sûr. Merci beaucoup.", "translation": "Claro. Muito obrigado(a)." }
+      ]
+    },
+    {
+      "title": "Comprando Selos",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais acheter des timbres pour des cartes postales, s'il vous plaît.", "translation": "Bom dia, eu gostaria de comprar selos para cartões postais, por favor." },
+        { "speaker": "Atendente", "text": "Bonjour. Combien de timbres vous faut-il ?", "translation": "Bom dia. Quantos selos você precisa?" },
+        { "speaker": "Você", "text": "Cinq, s'il vous plaît. C'est pour envoyer en France.", "translation": "Cinco, por favor. É para enviar na França." },
+        { "speaker": "Atendente", "text": "D'accord. Vous voulez des timbres ordinaires ou des timbres de collection ?", "translation": "Certo. Você quer selos comuns ou selos de coleção?" },
+        { "speaker": "Você", "text": "Des timbres ordinaires, c'est pour des cartes postales de vacances.", "translation": "Selos comuns, é para cartões postais de férias." },
+        { "speaker": "Atendente", "text": "Très bien. Ça fait 5 euros 75 pour cinq timbres.", "translation": "Muito bem. São 5 euros e 75 para cinco selos." },
+        { "speaker": "Você", "text": "Voilà. Est-ce que je peux les coller moi-même sur les cartes ?", "translation": "Aqui está. Posso colá-los eu mesmo(a) nos cartões?" },
+        { "speaker": "Atendente", "text": "Bien sûr. Il y a une boîte aux lettres juste à l'extérieur du bureau de poste.", "translation": "Claro. Há uma caixa de correio logo do lado de fora da agência." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le bureau de poste", "translation": "a agência dos correios" },
+    { "word": "une lettre", "translation": "uma carta" },
+    { "word": "un colis", "translation": "um pacote" },
+    { "word": "un timbre", "translation": "um selo" },
+    { "word": "affranchir", "translation": "franquear (colocar selo)", "example": "Il faut affranchir cette lettre." },
+    { "word": "une carte postale", "translation": "um cartão postal" },
+    { "word": "recommandé", "translation": "registrado (com aviso de recebimento)" },
+    { "word": "une boîte aux lettres", "translation": "uma caixa de correio" },
+    { "word": "un envoi", "translation": "um envio" },
+    { "word": "le suivi", "translation": "o rastreamento" },
+    { "word": "un avis de passage", "translation": "um aviso de passagem" },
+    { "word": "une pièce d'identité", "translation": "um documento de identidade" },
+    { "word": "un mandat", "translation": "uma ordem de pagamento" },
+    { "word": "les frais d'envoi", "translation": "as taxas de envio" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "La Poste - Mais que Correios", 
+      "description": "La Poste na França é uma instituição que oferece muito mais do que serviços postais. Também funciona como banco (La Banque Postale), oferece serviços de telefonia móvel, seguros e outros serviços financeiros. É uma presença importante em comunidades rurais, onde muitas vezes é o único serviço público disponível." 
+    },
+    { 
+      "title": "Códigos Postais", 
+      "description": "Os códigos postais franceses têm cinco dígitos. Os dois primeiros indicam o departamento (divisão administrativa). Por exemplo, códigos começando com 75 são de Paris, enquanto 13 indica Marselha (Bouches-du-Rhône)." 
+    },
+    { 
+      "title": "Horários de Funcionamento", 
+      "description": "As agências dos correios na França geralmente fecham para o almoço (entre 12h e 14h) e podem ter horários reduzidos aos sábados. Muitas não abrem aos domingos. É sempre bom verificar os horários de funcionamento, especialmente em cidades menores." 
+    }
+  ],
+  "tips": [
+    "Para envios internacionais, sempre verifique as tarifas atuais, pois elas podem variar dependendo do destino e do peso.",
+    "Se você precisa enviar algo valioso, considere usar o serviço 'recommandé avec accusé de réception' (registrado com aviso de recebimento).",
+    "Muitas agências dos correios têm máquinas automáticas onde você pode pesar suas cartas e pacotes, comprar selos e até mesmo enviar pacotes fora do horário de funcionamento.",
+    "Se você receber um 'avis de passage' (aviso de passagem), geralmente tem 15 dias para retirar seu pacote na agência indicada antes que ele seja devolvido ao remetente.",
+    "Para economizar tempo, você pode preparar seus envios com antecedência usando o site da La Poste, imprimir etiquetas de envio em casa e apenas deixar os pacotes na agência."
+  ],
+  "relatedQuizzes": ["Serviços Públicos", "Vocabulário Administrativo", "Expressões de Cortesia"]
+}

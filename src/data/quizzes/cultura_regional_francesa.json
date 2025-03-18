@@ -1,0 +1,56 @@
+{
+  "id": "cultura-regional-francesa",
+  "title": "Cultura Regional Francesa",
+  "description": "Explore a diversidade cultural das várias regiões da França, suas tradições, dialetos, festivais e especialidades gastronômicas.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "cr-1",
+      "text": "Qual língua regional é falada na Bretanha e faz parte das línguas celtas?",
+      "options": ["L'occitan", "Le basque", "Le breton", "L'alsacien"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Le breton' (o bretão) é uma língua regional falada na Bretanha, no noroeste da França, e pertence à família das línguas celtas. Tem relação com o galês e o córnico, sendo distinto do francês. As placas de rua na região são frequentemente bilíngues, em francês e bretão."
+    },
+    {
+      "id": "cr-2",
+      "text": "Qual evento tradicional é realizado em Nice, na região da Provença-Alpes-Costa Azul, no período de fevereiro?",
+      "options": ["Le Carnaval de Nice", "La Fête des Lumières", "Les Fêtes de Bayonne", "La Féria de Nîmes"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Le Carnaval de Nice' (Carnaval de Nice) é um dos mais antigos e maiores carnavais do mundo, realizado anualmente em fevereiro. Inclui desfiles, carros alegóricos e a tradicional 'bataille de fleurs' (batalha de flores), com uma história que remonta ao século XIII."
+    },
+    {
+      "id": "cr-3",
+      "text": "Qual prato típico da região da Alsácia consiste em chucrute com várias carnes?",
+      "options": ["Le cassoulet", "La bouillabaisse", "La choucroute garnie", "Le pot-au-feu"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'La choucroute garnie' é um prato emblemático da culinária alsaciana, composto por chucrute (repolho fermentado) servido com várias carnes como salsicha, toucinho e carne de porco. Reflete a influência germânica nesta região fronteiriça."
+    },
+    {
+      "id": "cr-4",
+      "text": "Qual região francesa é conhecida por seus vinhos espumantes produzidos pelo método tradicional?",
+      "options": ["Bourgogne", "Bordeaux", "Champagne", "Loire"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "A região de Champagne, no nordeste da França, é mundialmente famosa por seus vinhos espumantes produzidos pelo 'méthode champenoise' (método tradicional). Apenas os espumantes produzidos nesta região delimitada podem legalmente ser chamados de 'Champagne'."
+    },
+    {
+      "id": "cr-5",
+      "text": "Que evento cultural e esportivo tradicional da Provença envolve jovens tentando pegar um objeto preso nos chifres de um touro?",
+      "options": ["La pelote basque", "La course camarguaise", "La pétanque", "Le jeu de boules"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'La course camarguaise' é uma tradição taurina da região da Camarga, na Provença, onde jovens 'raseteurs' tentam pegar pequenos objetos ('cocarde', 'ficelle', 'gland') presos aos chifres do touro sem machucá-lo. Difere das touradas espanholas por não envolver o sacrifício do animal."
+    }
+  ]
+} 

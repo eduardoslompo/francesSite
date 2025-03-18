@@ -1,0 +1,89 @@
+{
+  "title": "No Mercado",
+  "description": "Aprenda a comprar produtos frescos e negociar em mercados franceses.",
+  "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Combien coûte ce kilo de pommes ?",
+    "Je voudrais 500 grammes de fromage, s'il vous plaît.",
+    "Est-ce que ces fruits sont de saison ?"
+  ],
+  "introduction": "Os mercados ao ar livre são uma parte essencial da vida cotidiana francesa. Este guia ajudará você a navegar pelos mercados locais, interagir com vendedores, comprar produtos frescos e descobrir especialidades regionais com confiança.",
+  "dialogues": [
+    {
+      "title": "Comprando Frutas e Legumes",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, monsieur. Je voudrais des pommes, s'il vous plaît.", "translation": "Bom dia, senhor. Eu gostaria de maçãs, por favor." },
+        { "speaker": "Vendedor", "text": "Bonjour ! J'ai des Golden, des Gala et des Granny Smith. Lesquelles préférez-vous ?", "translation": "Bom dia! Tenho Golden, Gala e Granny Smith. Quais você prefere?" },
+        { "speaker": "Você", "text": "Les Gala, elles ont l'air délicieuses. Combien coûtent-elles ?", "translation": "As Gala, elas parecem deliciosas. Quanto custam?" },
+        { "speaker": "Vendedor", "text": "C'est 3,50 euros le kilo. Combien en voulez-vous ?", "translation": "São 3,50 euros o quilo. Quanto você quer?" },
+        { "speaker": "Você", "text": "Un kilo, s'il vous plaît. Et je voudrais aussi des carottes.", "translation": "Um quilo, por favor. E eu também gostaria de cenouras." },
+        { "speaker": "Vendedor", "text": "Mes carottes sont fraîches, elles viennent d'arriver ce matin. C'est 2,20 euros le kilo.", "translation": "Minhas cenouras são frescas, acabaram de chegar esta manhã. São 2,20 euros o quilo." },
+        { "speaker": "Você", "text": "Je vais prendre 500 grammes, alors.", "translation": "Vou levar 500 gramas, então." },
+        { "speaker": "Vendedor", "text": "Voilà ! Ça vous fait 4,60 euros au total.", "translation": "Aqui está! São 4,60 euros no total." }
+      ]
+    },
+    {
+      "title": "Na Banca de Queijos",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, madame. Quels fromages me recommandez-vous ?", "translation": "Bom dia, senhora. Quais queijos você me recomenda?" },
+        { "speaker": "Vendedora", "text": "Bonjour ! Ça dépend de vos goûts. Vous préférez un fromage doux ou fort ?", "translation": "Bom dia! Depende dos seus gostos. Você prefere um queijo suave ou forte?" },
+        { "speaker": "Você", "text": "Plutôt doux. Je débute dans les fromages français.", "translation": "Prefiro suave. Estou começando com os queijos franceses." },
+        { "speaker": "Vendedora", "text": "Dans ce cas, je vous conseille de commencer par un Comté ou un Brie. Le Comté est un fromage à pâte pressée, assez doux mais savoureux.", "translation": "Nesse caso, aconselho começar com um Comté ou um Brie. O Comté é um queijo de massa prensada, bastante suave mas saboroso." },
+        { "speaker": "Você", "text": "Je vais essayer le Comté alors. Je peux le goûter ?", "translation": "Vou experimentar o Comté então. Posso prová-lo?" },
+        { "speaker": "Vendedora", "text": "Bien sûr, voici un petit morceau. Il est affiné 18 mois, celui-ci.", "translation": "Claro, aqui está um pedacinho. Este foi maturado por 18 meses." },
+        { "speaker": "Você", "text": "Mmm, c'est délicieux ! Je vais en prendre 200 grammes.", "translation": "Mmm, está delicioso! Vou levar 200 gramas." },
+        { "speaker": "Vendedora", "text": "Très bon choix ! Vous souhaitez autre chose ?", "translation": "Ótima escolha! Deseja mais alguma coisa?" }
+      ]
+    },
+    {
+      "title": "Comprando Pão Fresco",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour. Je voudrais une baguette tradition, s'il vous plaît.", "translation": "Bom dia. Eu gostaria de uma baguete tradicional, por favor." },
+        { "speaker": "Padeiro", "text": "Bonjour. Bien sûr, elles sont tout juste sorties du four. Vous voulez autre chose ?", "translation": "Bom dia. Claro, elas acabaram de sair do forno. Deseja mais alguma coisa?" },
+        { "speaker": "Você", "text": "Qu'est-ce que vous avez comme pain spécial aujourd'hui ?", "translation": "Que tipo de pão especial você tem hoje?" },
+        { "speaker": "Padeiro", "text": "J'ai un très bon pain aux noix et un pain aux céréales. Le pain aux céréales est excellent avec du fromage.", "translation": "Tenho um muito bom pão de nozes e um pão de cereais. O pão de cereais é excelente com queijo." },
+        { "speaker": "Você", "text": "Je viens d'acheter du Comté, alors je vais prendre le pain aux céréales aussi.", "translation": "Acabei de comprar Comté, então vou levar o pão de cereais também." },
+        { "speaker": "Padeiro", "text": "Parfait ! Une baguette tradition et un pain aux céréales. Ça fait 4,80 euros.", "translation": "Perfeito! Uma baguete tradicional e um pão de cereais. São 4,80 euros." },
+        { "speaker": "Você", "text": "Voilà. Est-ce que vous êtes là tous les jours du marché ?", "translation": "Aqui está. Você está aqui todos os dias de mercado?" },
+        { "speaker": "Padeiro", "text": "Oui, tous les mercredis et samedis, de 8h à 13h. N'hésitez pas à revenir !", "translation": "Sim, todas as quartas e sábados, das 8h às 13h. Não hesite em voltar!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le marché", "translation": "o mercado" },
+    { "word": "le marchand / la marchande", "translation": "o vendedor / a vendedora" },
+    { "word": "les produits frais (m)", "translation": "os produtos frescos" },
+    { "word": "un étal", "translation": "uma banca" },
+    { "word": "les fruits (m)", "translation": "as frutas" },
+    { "word": "les légumes (m)", "translation": "os legumes" },
+    { "word": "le fromage", "translation": "o queijo" },
+    { "word": "le pain", "translation": "o pão" },
+    { "word": "le kilo", "translation": "o quilo" },
+    { "word": "le gramme", "translation": "o grama" },
+    { "word": "coûter", "translation": "custar", "example": "Combien coûte ce fromage ?" },
+    { "word": "de saison", "translation": "da estação, sazonal", "example": "Ces fraises sont de saison." },
+    { "word": "bio", "translation": "orgânico", "example": "Je préfère les légumes bio." }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Dias de Mercado", 
+      "description": "Na França, os mercados ao ar livre (marchés) geralmente acontecem em dias específicos da semana, variando de cidade para cidade. Em Paris, por exemplo, cada bairro tem seu próprio dia de mercado. Os mercados geralmente funcionam das 8h às 13h, e os produtos mais frescos são encontrados logo pela manhã." 
+    },
+    { 
+      "title": "Etiqueta no Mercado", 
+      "description": "Nos mercados franceses, geralmente não é permitido tocar nos produtos antes de comprá-los. Em vez disso, você deve pedir ao vendedor para selecionar os itens para você ou pedir permissão para escolher você mesmo. Sempre cumprimente o vendedor com 'Bonjour' antes de fazer perguntas ou compras." 
+    },
+    { 
+      "title": "Produtos Regionais", 
+      "description": "Os mercados franceses são conhecidos por seus produtos regionais. Cada região da França tem suas especialidades, como queijos específicos, vinhos, embutidos ou doces. Perguntar sobre a origem dos produtos é uma ótima maneira de iniciar uma conversa com os vendedores e aprender mais sobre a cultura gastronômica local." 
+    }
+  ],
+  "tips": [
+    "Leve sua própria sacola reutilizável (un sac réutilisable) para as compras, pois muitos vendedores não fornecem sacolas plásticas.",
+    "Tenha dinheiro em espécie (de l'argent liquide), pois nem todos os vendedores aceitam cartões, especialmente para compras pequenas.",
+    "Chegue cedo para encontrar os produtos mais frescos e evitar as multidões, especialmente nos mercados mais populares.",
+    "Não tenha medo de pedir recomendações aos vendedores sobre como preparar ou servir seus produtos - eles geralmente ficam felizes em compartilhar dicas culinárias.",
+    "Aprenda algumas frases básicas em francês para pedir quantidades específicas, como 'une douzaine' (uma dúzia) para ovos ou 'une barquette' (uma bandeja) para frutas vermelhas."
+  ],
+  "relatedQuizzes": ["Vocabulário de Alimentos", "Compras na França", "Gastronomia Francesa"]
+}

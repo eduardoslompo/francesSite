@@ -1,0 +1,56 @@
+{
+  "id": "expressoes-idiomaticas",
+  "title": "Expressões Idiomáticas",
+  "description": "Aprenda expressões idiomáticas em francês que são essenciais para uma comunicação fluente e cultural.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ei-1",
+      "text": "O que significa a expressão 'avoir un poil dans la main'?",
+      "options": ["Ter sorte", "Ser preguiçoso", "Estar com raiva", "Estar preocupado"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Avoir un poil dans la main' (literalmente 'ter um pelo na mão') significa ser preguiçoso, não gostar de trabalhar."
+    },
+    {
+      "id": "ei-2",
+      "text": "Qual é o significado da expressão 'tomber dans les pommes'?",
+      "options": ["Falhar em algo", "Cair em uma armadilha", "Desmaiar", "Ficar confuso"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Tomber dans les pommes' (literalmente 'cair nas maçãs') é uma expressão idiomática que significa desmaiar."
+    },
+    {
+      "id": "ei-3",
+      "text": "O que significa a expressão 'avoir un chat dans la gorge'?",
+      "options": ["Estar com fome", "Estar rouco", "Estar mentindo", "Estar assustado"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Avoir un chat dans la gorge' (literalmente 'ter um gato na garganta') significa estar rouco ou com a voz falhando, equivalente à expressão 'estar com um sapo na garganta' em português."
+    },
+    {
+      "id": "ei-4",
+      "text": "Qual é o significado da expressão 'coûter les yeux de la tête'?",
+      "options": ["Ser muito caro", "Ser muito difícil", "Ser impressionante", "Ser perigoso"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Coûter les yeux de la tête' (literalmente 'custar os olhos da cabeça') significa que algo é extremamente caro, equivalente à expressão 'custar os olhos da cara' em português."
+    },
+    {
+      "id": "ei-5",
+      "text": "O que significa a expressão 'donner sa langue au chat'?",
+      "options": ["Revelar um segredo", "Desistir de adivinhar", "Prometer algo", "Dizer a verdade"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Donner sa langue au chat' (literalmente 'dar sua língua ao gato') significa desistir de adivinhar ou encontrar uma resposta, equivalente a 'jogar a toalha' em português."
+    }
+  ]
+} 

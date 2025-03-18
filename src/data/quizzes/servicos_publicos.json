@@ -1,0 +1,56 @@
+{
+  "id": "servicos-publicos",
+  "title": "Serviços Públicos",
+  "description": "Aprenda vocabulário e expressões úteis para lidar com serviços públicos na França.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "sp-1",
+      "text": "Como se diz 'correio' em francês?",
+      "options": ["La poste", "Le courrier", "La lettre", "L'enveloppe"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'La poste' é a palavra francesa para o serviço de correios ou a agência postal."
+    },
+    {
+      "id": "sp-2",
+      "text": "Qual é a expressão para 'preencher um formulário' em francês?",
+      "options": ["Signer un document", "Remplir un formulaire", "Écrire une lettre", "Demander un service"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Remplir un formulaire' significa 'preencher um formulário' em francês."
+    },
+    {
+      "id": "sp-3",
+      "text": "Como você pediria informações sobre um serviço público?",
+      "options": ["Je voudrais des informations sur...", "Pouvez-vous m'aider?", "Où se trouve...?", "Toutes les réponses sont correctes"],
+      "correctAnswer": 3,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "Todas as expressões mencionadas são formas adequadas de pedir informações sobre serviços públicos em francês."
+    },
+    {
+      "id": "sp-4",
+      "text": "Qual é o nome da agência de emprego pública na França?",
+      "options": ["Pôle Emploi", "La CAF", "La Sécurité Sociale", "La Mairie"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "avancado",
+      "explanation": "'Pôle Emploi' é a agência nacional de emprego na França, responsável por ajudar os desempregados a encontrar trabalho e gerenciar benefícios de desemprego."
+    },
+    {
+      "id": "sp-5",
+      "text": "O que significa a sigla 'CAF' na França?",
+      "options": ["Centre d'Accueil Français", "Caisse d'Allocations Familiales", "Comité d'Aide Financière", "Centre d'Administration Fiscale"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "avancado",
+      "explanation": "'CAF' significa 'Caisse d'Allocations Familiales', que é a agência responsável por benefícios familiares e sociais na França."
+    }
+  ]
+}

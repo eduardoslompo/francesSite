@@ -1,0 +1,88 @@
+{
+  "title": "Estação de Trem",
+  "description": "Aprenda a comprar bilhetes, entender anúncios e navegar em estações de trem francesas.",
+  "image": "https://images.unsplash.com/photo-1568310344381-55d4d8a9c5a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais un billet pour Paris, s'il vous plaît.",
+    "À quelle heure part le prochain train ?",
+    "Sur quel quai se trouve le train pour Lyon ?"
+  ],
+  "introduction": "As estações de trem (gares) são centros importantes de transporte na França. Este guia ajudará você a comprar bilhetes, entender os anúncios de partida e chegada, e navegar com confiança pelas estações de trem francesas.",
+  "dialogues": [
+    {
+      "title": "Comprando um Bilhete",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais un billet pour Paris, s'il vous plaît.", "translation": "Bom dia, eu gostaria de um bilhete para Paris, por favor." },
+        { "speaker": "Atendente", "text": "Bonjour. Aller simple ou aller-retour ?", "translation": "Bom dia. Só ida ou ida e volta?" },
+        { "speaker": "Você", "text": "Aller-retour, s'il vous plaît.", "translation": "Ida e volta, por favor." },
+        { "speaker": "Atendente", "text": "Pour quelle date ?", "translation": "Para qual data?" },
+        { "speaker": "Você", "text": "Pour demain matin et je voudrais revenir dimanche soir.", "translation": "Para amanhã de manhã e eu gostaria de voltar domingo à noite." },
+        { "speaker": "Atendente", "text": "Il y a un train à 8h15 et un autre à 10h30 demain matin. Lequel préférez-vous ?", "translation": "Há um trem às 8h15 e outro às 10h30 amanhã de manhã. Qual você prefere?" },
+        { "speaker": "Você", "text": "Celui de 10h30, s'il vous plaît.", "translation": "O das 10h30, por favor." },
+        { "speaker": "Atendente", "text": "Et pour le retour dimanche, il y a des trains à 17h, 19h et 21h.", "translation": "E para o retorno no domingo, há trens às 17h, 19h e 21h." },
+        { "speaker": "Você", "text": "Je vais prendre celui de 19h.", "translation": "Vou pegar o das 19h." },
+        { "speaker": "Atendente", "text": "Première ou deuxième classe ?", "translation": "Primeira ou segunda classe?" },
+        { "speaker": "Você", "text": "Deuxième classe, s'il vous plaît.", "translation": "Segunda classe, por favor." },
+        { "speaker": "Atendente", "text": "Ça fait 87 euros. Comment souhaitez-vous payer ?", "translation": "São 87 euros. Como deseja pagar?" },
+        { "speaker": "Você", "text": "Par carte bancaire.", "translation": "Com cartão de crédito." }
+      ]
+    },
+    {
+      "title": "Pedindo Informações",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, sur quel quai se trouve le train pour Lyon ?", "translation": "Com licença, em qual plataforma está o trem para Lyon?" },
+        { "speaker": "Funcionário", "text": "Le train pour Lyon part du quai numéro 5. Il partira à 14h25.", "translation": "O trem para Lyon parte da plataforma número 5. Ele partirá às 14h25." },
+        { "speaker": "Você", "text": "Merci. Est-ce qu'il y a un wagon-restaurant dans ce train ?", "translation": "Obrigado(a). Há um vagão-restaurante neste trem?" },
+        { "speaker": "Funcionário", "text": "Oui, il y a un wagon-restaurant. Il se trouve généralement au milieu du train.", "translation": "Sim, há um vagão-restaurante. Ele geralmente fica no meio do trem." },
+        { "speaker": "Você", "text": "Et est-ce que le train a du retard aujourd'hui ?", "translation": "E o trem está atrasado hoje?" },
+        { "speaker": "Funcionário", "text": "Non, pour l'instant il est à l'heure. Mais je vous conseille de vérifier le panneau d'affichage avant le départ.", "translation": "Não, por enquanto está no horário. Mas aconselho verificar o painel de informações antes da partida." }
+      ]
+    },
+    {
+      "title": "Anúncios na Estação",
+      "lines": [
+        { "speaker": "Anúncio", "text": "Attention, voie 7. Le train numéro 4587 à destination de Marseille partira à 15h45. Départ imminent.", "translation": "Atenção, via 7. O trem número 4587 com destino a Marselha partirá às 15h45. Partida iminente." },
+        { "speaker": "Você", "text": "Excusez-moi, c'est bien le train pour Marseille qui part maintenant ?", "translation": "Com licença, é mesmo o trem para Marselha que está partindo agora?" },
+        { "speaker": "Passageiro", "text": "Oui, c'est ça. Il faut se dépêcher, il va partir dans quelques minutes.", "translation": "Sim, é isso mesmo. É preciso se apressar, ele vai partir em alguns minutos." },
+        { "speaker": "Anúncio", "text": "Nous informons notre aimable clientèle que le train en provenance de Lille aura un retard d'environ 20 minutes. Veuillez nous excuser pour la gêne occasionnée.", "translation": "Informamos aos nossos estimados clientes que o trem proveniente de Lille terá um atraso de aproximadamente 20 minutos. Pedimos desculpas pelo inconveniente." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la gare", "translation": "a estação de trem" },
+    { "word": "le train", "translation": "o trem" },
+    { "word": "le billet", "translation": "o bilhete" },
+    { "word": "le quai", "translation": "a plataforma", "example": "Le train part du quai numéro 3." },
+    { "word": "la voie", "translation": "a via, o trilho" },
+    { "word": "aller simple", "translation": "só ida" },
+    { "word": "aller-retour", "translation": "ida e volta" },
+    { "word": "le départ", "translation": "a partida" },
+    { "word": "l'arrivée (f)", "translation": "a chegada" },
+    { "word": "le retard", "translation": "o atraso", "example": "Le train a 10 minutes de retard." },
+    { "word": "le guichet", "translation": "o guichê" },
+    { "word": "le panneau d'affichage", "translation": "o painel de informações" },
+    { "word": "la première/deuxième classe", "translation": "a primeira/segunda classe" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "SNCF", 
+      "description": "A SNCF (Société Nationale des Chemins de fer Français) é a empresa nacional de ferrovias da França. Ela opera a maioria dos trens no país, incluindo os trens de alta velocidade TGV (Train à Grande Vitesse)." 
+    },
+    { 
+      "title": "Compostagem de Bilhetes", 
+      "description": "Na França, é necessário validar (composter) seu bilhete antes de embarcar no trem. Procure as máquinas amarelas de compostagem nas plataformas ou áreas de espera. Não validar o bilhete pode resultar em multa." 
+    },
+    { 
+      "title": "Gare du Nord", 
+      "description": "A Gare du Nord em Paris é uma das estações de trem mais movimentadas da Europa, servindo mais de 700.000 passageiros por dia. É o principal ponto de partida para viagens internacionais para o Reino Unido, Bélgica, Holanda e Alemanha." 
+    }
+  ],
+  "tips": [
+    "Chegue à estação pelo menos 30 minutos antes da partida do seu trem, especialmente para trens de alta velocidade (TGV) que exigem reserva.",
+    "Verifique regularmente os painéis de informação, pois as plataformas podem mudar de última hora.",
+    "Nas grandes estações, há frequentemente filas nos guichês. Considere usar as máquinas automáticas de venda de bilhetes para economizar tempo.",
+    "Mantenha seu bilhete acessível durante toda a viagem, pois os fiscais podem verificá-lo a qualquer momento durante o trajeto.",
+    "Muitas estações oferecem serviços de armazenamento de bagagem (consigne) se você precisar deixar suas malas por algumas horas."
+  ],
+  "relatedQuizzes": ["Vocabulário de Transporte", "Situações de Viagem", "Números e Horários"]
+}

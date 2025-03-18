@@ -1,0 +1,88 @@
+{
+  "title": "Museu",
+  "description": "Aprenda a comprar ingressos, perguntar sobre exposições e navegar em um museu francês.",
+  "image": "https://images.unsplash.com/photo-1499792304328-d9e04ebaf48e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais deux billets pour l'exposition, s'il vous plaît.",
+    "À quelle heure ferme le musée ?",
+    "Où se trouve la section des impressionnistes ?"
+  ],
+  "introduction": "A França abriga alguns dos museus mais famosos do mundo. Este guia ajudará você a comprar ingressos, perguntar sobre exposições e navegar com confiança pelos museus franceses, aproveitando ao máximo sua experiência cultural.",
+  "dialogues": [
+    {
+      "title": "Comprando Ingressos",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais deux billets pour le musée, s'il vous plaît.", "translation": "Bom dia, eu gostaria de dois ingressos para o museu, por favor." },
+        { "speaker": "Atendente", "text": "Bonjour. Tarif plein ou tarif réduit ?", "translation": "Bom dia. Tarifa cheia ou reduzida?" },
+        { "speaker": "Você", "text": "Qu'est-ce que c'est, le tarif réduit ?", "translation": "O que é a tarifa reduzida?" },
+        { "speaker": "Atendente", "text": "Le tarif réduit est pour les étudiants, les moins de 26 ans et les seniors de plus de 65 ans.", "translation": "A tarifa reduzida é para estudantes, menores de 26 anos e idosos com mais de 65 anos." },
+        { "speaker": "Você", "text": "Je suis étudiant. J'ai ma carte d'étudiant.", "translation": "Sou estudante. Tenho minha carteira de estudante." },
+        { "speaker": "Atendente", "text": "Très bien. Et l'autre personne ?", "translation": "Muito bem. E a outra pessoa?" },
+        { "speaker": "Você", "text": "Tarif plein pour l'autre personne, s'il vous plaît.", "translation": "Tarifa cheia para a outra pessoa, por favor." },
+        { "speaker": "Atendente", "text": "D'accord. Ça fait 18 euros. Souhaitez-vous l'audioguide ? C'est 5 euros supplémentaires par personne.", "translation": "Certo. São 18 euros. Deseja o audioguia? São 5 euros adicionais por pessoa." },
+        { "speaker": "Você", "text": "Oui, deux audioguides, s'il vous plaît.", "translation": "Sim, dois audioguias, por favor." }
+      ]
+    },
+    {
+      "title": "Informações sobre o Museu",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, à quelle heure ferme le musée aujourd'hui ?", "translation": "Com licença, a que horas o museu fecha hoje?" },
+        { "speaker": "Funcionário", "text": "Le musée ferme à 18h, mais la dernière entrée est à 17h15.", "translation": "O museu fecha às 18h, mas a última entrada é às 17h15." },
+        { "speaker": "Você", "text": "Est-ce qu'il y a des expositions temporaires en ce moment ?", "translation": "Há exposições temporárias no momento?" },
+        { "speaker": "Funcionário", "text": "Oui, nous avons une exposition sur l'art moderne au deuxième étage. Elle est incluse dans votre billet.", "translation": "Sim, temos uma exposição sobre arte moderna no segundo andar. Ela está incluída no seu ingresso." },
+        { "speaker": "Você", "text": "Est-ce qu'on peut prendre des photos dans le musée ?", "translation": "Podemos tirar fotos no museu?" },
+        { "speaker": "Funcionário", "text": "Oui, mais sans flash et uniquement pour usage personnel. Les selfie-sticks sont interdits.", "translation": "Sim, mas sem flash e apenas para uso pessoal. Bastões de selfie são proibidos." },
+        { "speaker": "Você", "text": "Merci pour ces informations.", "translation": "Obrigado por essas informações." }
+      ]
+    },
+    {
+      "title": "Navegando pelo Museu",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, où se trouve la section des impressionnistes ?", "translation": "Com licença, onde fica a seção dos impressionistas?" },
+        { "speaker": "Guarda", "text": "La section des impressionnistes est au premier étage, à droite après l'escalier principal.", "translation": "A seção dos impressionistas fica no primeiro andar, à direita depois da escada principal." },
+        { "speaker": "Você", "text": "Merci. Et les toilettes, s'il vous plaît ?", "translation": "Obrigado. E os banheiros, por favor?" },
+        { "speaker": "Guarda", "text": "Les toilettes sont au rez-de-chaussée, près de l'entrée principale.", "translation": "Os banheiros ficam no térreo, perto da entrada principal." },
+        { "speaker": "Você", "text": "Y a-t-il un café dans le musée ?", "translation": "Há um café no museu?" },
+        { "speaker": "Guarda", "text": "Oui, le café est au dernier étage, avec une belle vue sur la ville.", "translation": "Sim, o café fica no último andar, com uma bela vista da cidade." },
+        { "speaker": "Você", "text": "Parfait, merci beaucoup pour votre aide.", "translation": "Perfeito, muito obrigado pela sua ajuda." },
+        { "speaker": "Guarda", "text": "Je vous en prie. Bonne visite !", "translation": "De nada. Boa visita!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le musée", "translation": "o museu" },
+    { "word": "une exposition", "translation": "uma exposição" },
+    { "word": "un billet", "translation": "um ingresso" },
+    { "word": "le tarif plein", "translation": "a tarifa cheia" },
+    { "word": "le tarif réduit", "translation": "a tarifa reduzida" },
+    { "word": "un audioguide", "translation": "um audioguia" },
+    { "word": "une œuvre d'art", "translation": "uma obra de arte" },
+    { "word": "un tableau", "translation": "um quadro, uma pintura" },
+    { "word": "une sculpture", "translation": "uma escultura" },
+    { "word": "un étage", "translation": "um andar", "example": "L'exposition est au deuxième étage." },
+    { "word": "le rez-de-chaussée", "translation": "o térreo" },
+    { "word": "une visite guidée", "translation": "uma visita guiada" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Dias Gratuitos", 
+      "description": "Muitos museus nacionais franceses oferecem entrada gratuita no primeiro domingo de cada mês. Alguns museus também são gratuitos para jovens menores de 26 anos residentes na União Europeia." 
+    },
+    { 
+      "title": "Paris Museum Pass", 
+      "description": "Se você planeja visitar vários museus em Paris, considere comprar o Paris Museum Pass, que oferece entrada ilimitada em mais de 50 museus e monumentos por um período fixo (2, 4 ou 6 dias)." 
+    },
+    { 
+      "title": "Etiqueta em Museus", 
+      "description": "Os franceses valorizam muito o silêncio e o comportamento respeitoso em museus. Falar em voz baixa, não tocar nas obras de arte e manter uma distância respeitosa das peças são comportamentos esperados." 
+    }
+  ],
+  "tips": [
+    "Verifique os horários de funcionamento antes de visitar - muitos museus franceses fecham um dia por semana, geralmente às segundas ou terças-feiras.",
+    "Para evitar filas, considere comprar ingressos online com antecedência, especialmente para museus populares como o Louvre ou o Musée d'Orsay.",
+    "Muitos museus oferecem mapas em vários idiomas - peça um na entrada para facilitar sua navegação.",
+    "Se você tem interesse em uma área específica, pergunte aos funcionários sobre visitas guiadas temáticas, que podem oferecer insights mais profundos.",
+    "Lembre-se de que em muitos museus franceses, as mochilas grandes e malas devem ser deixadas no guarda-volumes (souvent gratuit)."
+  ],
+  "relatedQuizzes": ["Arte Francesa", "Vocabulário de Museu", "Cultura Francesa"]
+}

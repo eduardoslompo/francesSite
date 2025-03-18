@@ -1,0 +1,56 @@
+{
+  "id": "expressoes-formais-em-frances",
+  "title": "Expressões Formais em Francês",
+  "description": "Aprenda expressões formais essenciais para comunicação profissional e acadêmica em francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "comunicacao",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ef-1",
+      "text": "Qual é a forma mais formal de cumprimentar alguém em francês?",
+      "options": ["Salut!", "Bonjour, Monsieur/Madame.", "Coucou!", "Ça va?"],
+      "correctAnswer": 1,
+      "category": "comunicacao",
+      "difficulty": "iniciante",
+      "explanation": "'Bonjour, Monsieur/Madame' é a forma mais formal de cumprimentar alguém em francês."
+    },
+    {
+      "id": "ef-2",
+      "text": "Como se diz formalmente 'Gostaria de marcar uma reunião' em francês?",
+      "options": ["Je veux une réunion", "On se voit quand?", "Je souhaiterais fixer un rendez-vous", "Quand est-ce qu'on peut se voir?"],
+      "correctAnswer": 2,
+      "category": "comunicacao",
+      "difficulty": "intermediario",
+      "explanation": "'Je souhaiterais fixer un rendez-vous' é uma forma formal de dizer 'Gostaria de marcar uma reunião' em francês."
+    },
+    {
+      "id": "ef-3",
+      "text": "Qual expressão formal você usaria para concluir um e-mail profissional?",
+      "options": ["À bientôt", "Veuillez agréer, Madame/Monsieur, l'expression de mes salutations distinguées", "À plus tard", "Merci beaucoup"],
+      "correctAnswer": 1,
+      "category": "comunicacao",
+      "difficulty": "avancado",
+      "explanation": "'Veuillez agréer, Madame/Monsieur, l'expression de mes salutations distinguées' é uma fórmula formal para concluir correspondências profissionais em francês."
+    },
+    {
+      "id": "ef-4",
+      "text": "Como se diz formalmente 'Peço desculpas pelo atraso' em francês?",
+      "options": ["Désolé pour le retard", "Je suis en retard", "Je vous prie de m'excuser pour mon retard", "Pardonnez-moi"],
+      "correctAnswer": 2,
+      "category": "comunicacao",
+      "difficulty": "intermediario",
+      "explanation": "'Je vous prie de m'excuser pour mon retard' é uma forma formal de pedir desculpas pelo atraso em francês."
+    },
+    {
+      "id": "ef-5",
+      "text": "Qual é a expressão formal para solicitar informações?",
+      "options": ["Je veux savoir", "Dis-moi", "Pourriez-vous me renseigner sur", "Tu peux me dire"],
+      "correctAnswer": 2,
+      "category": "comunicacao",
+      "difficulty": "intermediario",
+      "explanation": "'Pourriez-vous me renseigner sur' é uma forma formal de solicitar informações em francês."
+    }
+  ]
+}

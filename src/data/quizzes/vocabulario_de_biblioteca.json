@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-biblioteca",
+  "title": "Vocabulário de Biblioteca",
+  "description": "Aprenda palavras e expressões essenciais para utilizar bibliotecas na França e falar sobre livros em francês.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "educacao",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vb-1",
+      "text": "Como se diz 'biblioteca' em francês?",
+      "options": ["La librairie", "La bibliothèque", "Le livre", "La lecture"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "iniciante",
+      "explanation": "'La bibliothèque' é a palavra francesa para 'biblioteca'. Cuidado para não confundir com 'la librairie', que significa 'livraria'."
+    },
+    {
+      "id": "vb-2",
+      "text": "Qual é a palavra francesa para 'livro'?",
+      "options": ["Le cahier", "Le stylo", "Le livre", "La page"],
+      "correctAnswer": 2,
+      "category": "educacao",
+      "difficulty": "iniciante",
+      "explanation": "'Le livre' é a palavra francesa para 'livro'."
+    },
+    {
+      "id": "vb-3",
+      "text": "Como se pergunta 'Posso emprestar este livro?' em francês?",
+      "options": ["Puis-je acheter ce livre?", "Puis-je emprunter ce livre?", "Où est ce livre?", "Combien coûte ce livre?"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Puis-je emprunter ce livre?' significa 'Posso emprestar este livro?' em francês. O verbo 'emprunter' significa 'tomar emprestado'."
+    },
+    {
+      "id": "vb-4",
+      "text": "Qual é a expressão para 'cartão da biblioteca' em francês?",
+      "options": ["La carte d'identité", "La carte de crédit", "La carte de bibliothèque", "La carte postale"],
+      "correctAnswer": 2,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'La carte de bibliothèque' é a expressão francesa para 'cartão da biblioteca'."
+    },
+    {
+      "id": "vb-5",
+      "text": "Como se diz 'prazo de devolução' em francês?",
+      "options": ["La date d'emprunt", "La date de retour", "La date de publication", "La date d'achat"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "avancado",
+      "explanation": "'La date de retour' significa 'prazo de devolução' ou 'data de retorno' em francês."
+    }
+  ]
+}

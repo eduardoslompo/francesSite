@@ -1,0 +1,56 @@
+{
+  "id": "transportes-na-franca",
+  "title": "Transportes na França",
+  "description": "Aprenda sobre os diversos sistemas de transporte na França, suas características e vocabulário específico.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "viagem",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "trf-1",
+      "text": "Qual é o nome do trem de alta velocidade francês?",
+      "options": ["Le Métro", "Le TGV", "Le RER", "Le Tramway"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Le TGV' (Train à Grande Vitesse) é o nome do trem de alta velocidade francês, que pode atingir velocidades de até 320 km/h."
+    },
+    {
+      "id": "trf-2",
+      "text": "O que é o 'RER' no sistema de transporte parisiense?",
+      "options": ["Um tipo de ônibus", "Uma linha de metrô", "Um sistema de trens regionais", "Um serviço de táxi"],
+      "correctAnswer": 2,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "O 'RER' (Réseau Express Régional) é um sistema de trens regionais que conecta Paris aos subúrbios e complementa o sistema de metrô."
+    },
+    {
+      "id": "trf-3",
+      "text": "Qual cartão é usado para pagar transporte público em Paris?",
+      "options": ["Carte Vitale", "Carte Navigo", "Carte Bleue", "Carte d'Identité"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "A 'Carte Navigo' é o cartão utilizado para pagar transporte público em Paris, permitindo acesso ao metrô, ônibus, RER e bondes."
+    },
+    {
+      "id": "trf-4",
+      "text": "Como se chama o aeroporto internacional principal de Paris?",
+      "options": ["Charles de Gaulle", "Orly", "Beauvais", "Le Bourget"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "O Aeroporto Charles de Gaulle (CDG) é o principal aeroporto internacional de Paris e um dos mais movimentados da Europa."
+    },
+    {
+      "id": "trf-5",
+      "text": "Qual é a companhia ferroviária nacional da França?",
+      "options": ["RATP", "Air France", "SNCF", "Eurostar"],
+      "correctAnswer": 2,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "A SNCF (Société Nationale des Chemins de fer Français) é a companhia ferroviária nacional da França, responsável pela maioria dos serviços de trem no país."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "atracoes-turisticas-francesas",
+  "title": "Atrações Turísticas Francesas",
+  "description": "Aprenda sobre os principais pontos turísticos da França e como falar sobre eles em francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "turismo",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "atf-1",
+      "text": "Qual é o monumento mais visitado da França?",
+      "options": ["La Tour Eiffel", "Le Louvre", "Le Mont Saint-Michel", "Le Château de Versailles"],
+      "correctAnswer": 0,
+      "category": "turismo",
+      "difficulty": "iniciante",
+      "explanation": "'La Tour Eiffel' (A Torre Eiffel) é o monumento mais visitado da França e um dos símbolos mais reconhecíveis do país."
+    },
+    {
+      "id": "atf-2",
+      "text": "Como se diz 'Quero visitar o museu do Louvre' em francês?",
+      "options": ["Je veux aller à la Tour Eiffel", "Je voudrais visiter le musée du Louvre", "Où se trouve Notre-Dame?", "Combien coûte l'entrée au château?"],
+      "correctAnswer": 1,
+      "category": "turismo",
+      "difficulty": "intermediario",
+      "explanation": "'Je voudrais visiter le musée du Louvre' significa 'Quero visitar o museu do Louvre'."
+    },
+    {
+      "id": "atf-3",
+      "text": "Qual destas NÃO é uma atração turística em Paris?",
+      "options": ["L'Arc de Triomphe", "Le Sacré-Cœur", "Les Champs-Élysées", "La Côte d'Azur"],
+      "correctAnswer": 3,
+      "category": "turismo",
+      "difficulty": "intermediario",
+      "explanation": "'La Côte d'Azur' (A Riviera Francesa) não está em Paris, mas no sul da França, ao longo do Mar Mediterrâneo."
+    },
+    {
+      "id": "atf-4",
+      "text": "Como se pergunta 'Qual é o horário de funcionamento do museu?' em francês?",
+      "options": ["Où est le musée?", "Quels sont les horaires d'ouverture du musée?", "Combien coûte le billet d'entrée?", "Est-ce qu'il y a une visite guidée?"],
+      "correctAnswer": 1,
+      "category": "turismo",
+      "difficulty": "intermediario",
+      "explanation": "'Quels sont les horaires d'ouverture du musée?' significa 'Qual é o horário de funcionamento do museu?'"
+    },
+    {
+      "id": "atf-5",
+      "text": "Qual região da França é famosa por seus castelos renascentistas?",
+      "options": ["La Provence", "La Normandie", "La Vallée de la Loire", "L'Alsace"],
+      "correctAnswer": 2,
+      "category": "turismo",
+      "difficulty": "avancado",
+      "explanation": "'La Vallée de la Loire' (O Vale do Loire) é famoso por seus magníficos castelos renascentistas, como Chambord, Chenonceau e Amboise."
+    }
+  ]
+}

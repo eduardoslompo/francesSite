@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-basico",
+  "title": "Vocabulário Básico",
+  "description": "Aprenda as palavras mais essenciais para sua viagem.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "basico",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vb-1",
+      "text": "Como se diz \"Olá\" em francês?",
+      "options": ["Bonjour", "Merci", "Au revoir", "S'il vous plaît"],
+      "correctAnswer": 0,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "Bonjour é a forma mais comum de dizer \"Olá\" em francês."
+    },
+    {
+      "id": "vb-2",
+      "text": "Qual é a tradução de \"Obrigado\" em francês?",
+      "options": ["Pardon", "S'il vous plaît", "Merci", "Excusez-moi"],
+      "correctAnswer": 2,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "Merci é como se diz \"Obrigado\" em francês."
+    },
+    {
+      "id": "vb-3",
+      "text": "Como se diz \"Sim\" em francês?",
+      "options": ["Non", "Oui", "Peut-être", "Bien"],
+      "correctAnswer": 1,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "Oui é a palavra francesa para \"Sim\"."
+    },
+    {
+      "id": "vb-4",
+      "text": "Qual é a tradução de \"Não\" em francês?",
+      "options": ["Non", "Oui", "Peut-être", "Bien"],
+      "correctAnswer": 0,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "Non é a palavra francesa para \"Não\"."
+    },
+    {
+      "id": "vb-5",
+      "text": "Como se diz \"Por favor\" em francês?",
+      "options": ["Merci", "Pardon", "S'il vous plaît", "Excusez-moi"],
+      "correctAnswer": 2,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "S'il vous plaît é como se diz \"Por favor\" em francês."
+    }
+  ]
+}

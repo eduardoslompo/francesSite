@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-culinario-novo",
+  "title": "Vocabulário Culinário",
+  "description": "Aprenda palavras e expressões relacionadas à culinária francesa, incluindo ingredientes, técnicas de preparo e utensílios de cozinha.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "vocabulario",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vcul-1",
+      "text": "Como se diz 'cozinhar' em francês?",
+      "options": ["Manger", "Cuisiner", "Préparer", "Couper"],
+      "correctAnswer": 1,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'Cuisiner' é o verbo que significa 'cozinhar' em francês. Deriva da palavra 'cuisine' (cozinha)."
+    },
+    {
+      "id": "vcul-2",
+      "text": "Qual é a tradução para 'receita' em francês?",
+      "options": ["Le menu", "La recette", "Le plat", "La cuisine"],
+      "correctAnswer": 1,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'La recette' é a palavra francesa para 'receita', um conjunto de instruções para preparar um prato."
+    },
+    {
+      "id": "vcul-3",
+      "text": "Como se diz 'panela' em francês?",
+      "options": ["La casserole", "La poêle", "Le four", "Le couteau"],
+      "correctAnswer": 0,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'La casserole' significa 'panela' em francês. 'La poêle' refere-se especificamente a uma frigideira."
+    },
+    {
+      "id": "vcul-4",
+      "text": "Qual destas palavras se refere a 'tempero' em francês?",
+      "options": ["L'assaisonnement", "La garniture", "Le goût", "La saveur"],
+      "correctAnswer": 0,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'L'assaisonnement' é a palavra francesa para 'tempero', substâncias adicionadas aos alimentos para realçar o sabor."
+    },
+    {
+      "id": "vcul-5",
+      "text": "Como se diz 'sobremesa' em francês?",
+      "options": ["L'entrée", "Le plat principal", "Le dessert", "L'apéritif"],
+      "correctAnswer": 2,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'Le dessert' é a palavra francesa para 'sobremesa', o prato doce servido ao final de uma refeição."
+    }
+  ]
+}

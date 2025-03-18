@@ -1,0 +1,56 @@
+{
+  "id": "emergencias",
+  "title": "Emergências",
+  "description": "Aprenda vocabulário e frases essenciais para situações de emergência em francês, incluindo como pedir ajuda, descrever acidentes e comunicar-se com serviços de emergência.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "saude",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "em-1",
+      "text": "Qual é o número de emergência geral na União Europeia?",
+      "options": ["15", "17", "18", "112"],
+      "correctAnswer": 3,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "O número 112 é o número de emergência geral em toda a União Europeia, incluindo a França. Pode ser usado para qualquer tipo de emergência."
+    },
+    {
+      "id": "em-2",
+      "text": "Como dizer 'Preciso de ajuda imediatamente' em francês?",
+      "options": ["J'ai besoin d'aide tout de suite", "Je veux de l'aide", "Aidez-moi s'il vous plaît", "Je cherche de l'aide"],
+      "correctAnswer": 0,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'J'ai besoin d'aide tout de suite' significa 'Preciso de ajuda imediatamente' em francês."
+    },
+    {
+      "id": "em-3",
+      "text": "Como se diz 'Chame uma ambulância!' em francês?",
+      "options": ["Appelez un médecin!", "Appelez une ambulance!", "Appelez l'hôpital!", "Appelez au secours!"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'Appelez une ambulance!' significa 'Chame uma ambulância!' em francês."
+    },
+    {
+      "id": "em-4",
+      "text": "Qual frase você usaria para informar sobre um incêndio?",
+      "options": ["Il y a un accident", "Il y a un problème", "Il y a un feu", "Il y a une urgence"],
+      "correctAnswer": 2,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'Il y a un feu' significa 'Há um incêndio' em francês."
+    },
+    {
+      "id": "em-5",
+      "text": "Como pedir para alguém chamar a polícia em francês?",
+      "options": ["Appelez la police, s'il vous plaît", "Où est la police?", "Je veux voir la police", "La police est nécessaire"],
+      "correctAnswer": 0,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'Appelez la police, s'il vous plaît' significa 'Por favor, chame a polícia' em francês."
+    }
+  ]
+}

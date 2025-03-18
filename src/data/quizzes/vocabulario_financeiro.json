@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-financeiro",
+  "title": "Vocabulário Financeiro",
+  "description": "Aprenda palavras e expressões essenciais para lidar com bancos e transações financeiras na França.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vf-1",
+      "text": "Como se diz 'banco' em francês?",
+      "options": ["La banque", "Le bureau", "La caisse", "Le guichet"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'La banque' é a palavra francesa para 'banco' (instituição financeira)."
+    },
+    {
+      "id": "vf-2",
+      "text": "Qual é a expressão para 'cartão de crédito' em francês?",
+      "options": ["La carte d'identité", "La carte de crédit", "La carte bancaire", "La carte postale"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'La carte de crédit' é a expressão francesa para 'cartão de crédito'. 'La carte bancaire' também é usado, referindo-se a cartões bancários em geral."
+    },
+    {
+      "id": "vf-3",
+      "text": "Como se diz 'sacar dinheiro' em francês?",
+      "options": ["Déposer de l'argent", "Retirer de l'argent", "Emprunter de l'argent", "Échanger de l'argent"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Retirer de l'argent' significa 'sacar dinheiro' em francês. O verbo 'retirer' significa 'retirar'."
+    },
+    {
+      "id": "vf-4",
+      "text": "Qual é a palavra para 'empréstimo' em francês?",
+      "options": ["Le prêt", "La dette", "L'épargne", "Le virement"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Le prêt' é a palavra francesa para 'empréstimo'."
+    },
+    {
+      "id": "vf-5",
+      "text": "Como se pergunta 'Qual é a taxa de câmbio?' em francês?",
+      "options": ["Quel est le taux d'intérêt?", "Quel est le taux de change?", "Quel est le montant?", "Quel est le solde?"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "avancado",
+      "explanation": "'Quel est le taux de change?' significa 'Qual é a taxa de câmbio?' em francês."
+    }
+  ]
+}

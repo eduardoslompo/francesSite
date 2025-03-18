@@ -1,0 +1,56 @@
+{
+  "id": "situacoes-sociais",
+  "title": "Situações Sociais",
+  "description": "Aprenda a navegar em diferentes situações sociais usando o francês adequado.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ss-1",
+      "text": "Qual é a forma mais adequada de cumprimentar alguém formalmente em francês?",
+      "options": ["Salut!", "Bonjour, Monsieur/Madame", "Ça va?", "Coucou!"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Bonjour, Monsieur/Madame' é a forma mais formal e respeitosa de cumprimentar alguém em francês."
+    },
+    {
+      "id": "ss-2",
+      "text": "Como você se apresentaria em uma reunião de negócios?",
+      "options": ["Je m'appelle... Enchanté(e) de faire votre connaissance", "Salut, moi c'est...", "Yo, je suis...", "Hey, tu peux m'appeler..."],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Je m'appelle... Enchanté(e) de faire votre connaissance' (Meu nome é... Prazer em conhecê-lo) é a forma mais apropriada em um contexto profissional."
+    },
+    {
+      "id": "ss-3",
+      "text": "Qual frase você usaria para agradecer um convite para jantar?",
+      "options": ["Pas mal", "C'est la vie", "Merci beaucoup pour l'invitation", "À demain"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Merci beaucoup pour l'invitation' (Muito obrigado pelo convite) é a forma adequada de agradecer um convite."
+    },
+    {
+      "id": "ss-4",
+      "text": "Como você pediria desculpas por chegar atrasado a um compromisso?",
+      "options": ["Ce n'est pas grave", "Je suis désolé(e) pour le retard", "À la prochaine fois", "C'est gentil"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Je suis désolé(e) pour le retard' (Desculpe pelo atraso) é a forma correta de se desculpar por um atraso."
+    },
+    {
+      "id": "ss-5",
+      "text": "Qual expressão você usaria para se despedir após um encontro social?",
+      "options": ["Bonjour", "À bientôt", "S'il vous plaît", "Bon appétit"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'À bientôt' (Até breve) é uma forma comum e amigável de se despedir após um encontro social."
+    }
+  ]
+}

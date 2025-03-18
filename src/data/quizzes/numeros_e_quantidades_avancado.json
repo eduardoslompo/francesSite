@@ -1,0 +1,56 @@
+{
+  "id": "numeros-e-quantidades-avancado",
+  "title": "Números e Quantidades",
+  "description": "Aprenda a expressar números, quantidades e medidas em francês para situações cotidianas e comerciais.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "nq-1",
+      "text": "Como se diz '1.500' em francês?",
+      "options": ["Mille cinq", "Mille cinq cents", "Quinze cents", "Un mille cinq"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Mille cinq cents' é a forma correta de dizer 1.500 em francês. Note que em francês, diferentemente do português, não se usa ponto para separar os milhares."
+    },
+    {
+      "id": "nq-2",
+      "text": "Qual é a expressão correta para 'meio quilo' em francês?",
+      "options": ["Un demi-kilo", "La moitié d'un kilo", "Cinq cents grammes", "Toutes les réponses sont correctes"],
+      "correctAnswer": 3,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "Todas as opções são formas corretas de expressar 'meio quilo' em francês: 'un demi-kilo', 'la moitié d'un kilo' e 'cinq cents grammes'."
+    },
+    {
+      "id": "nq-3",
+      "text": "Como se expressa a porcentagem em francês? Por exemplo, como se diz '25%'?",
+      "options": ["Vingt-cinq pour cent", "Vingt-cinq pourcent", "Vingt-cinq pour-cent", "Vingt-cinq percents"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Vingt-cinq pour cent' é a forma correta de expressar 25% em francês. 'Pour cent' significa literalmente 'por cento'."
+    },
+    {
+      "id": "nq-4",
+      "text": "Qual é a forma correta de expressar frações em francês? Como se diz '1/3'?",
+      "options": ["Un sur trois", "Un tiers", "Un troisième", "Un de trois"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "avancado",
+      "explanation": "'Un tiers' é a forma correta de dizer 1/3 em francês. Para frações comuns, o francês tem palavras específicas: 'un demi' (1/2), 'un tiers' (1/3), 'un quart' (1/4), etc."
+    },
+    {
+      "id": "nq-5",
+      "text": "Como se pergunta 'Qual é o tamanho?' em francês quando se refere a roupas?",
+      "options": ["Quelle est la taille?", "Quelle est la mesure?", "Quelle est la grandeur?", "Quelle est la dimension?"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Quelle est la taille?' é a forma correta de perguntar o tamanho de roupas em francês. 'La taille' refere-se ao tamanho ou número de roupas e calçados."
+    }
+  ]
+}

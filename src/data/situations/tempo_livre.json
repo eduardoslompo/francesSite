@@ -1,0 +1,88 @@
+{
+  "title": "Tempo Livre",
+  "description": "Aprenda a falar sobre hobbies, lazer e atividades de tempo livre em francês.",
+  "image": "https://images.unsplash.com/photo-1533107862482-0e6974b06ec4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Qu'est-ce que tu aimes faire pendant ton temps libre ?",
+    "Je joue au tennis tous les samedis.",
+    "Ce weekend, nous allons faire une randonnée à la montagne."
+  ],
+  "introduction": "Os franceses valorizam muito o equilíbrio entre trabalho e vida pessoal, dedicando tempo para hobbies e atividades de lazer. Este guia ajudará você a falar sobre seus passatempos favoritos, fazer planos para o fim de semana e convidar amigos para atividades sociais em francês.",
+  "dialogues": [
+    {
+      "title": "Falando sobre Hobbies",
+      "lines": [
+        { "speaker": "Amigo", "text": "Qu'est-ce que tu aimes faire quand tu as du temps libre ?", "translation": "O que você gosta de fazer quando tem tempo livre?" },
+        { "speaker": "Você", "text": "J'adore lire, surtout les romans policiers. Et je fais aussi de la photographie le weekend.", "translation": "Adoro ler, especialmente romances policiais. E também faço fotografia nos fins de semana." },
+        { "speaker": "Amigo", "text": "La photographie ? C'est intéressant ! Quel genre de photos prends-tu ?", "translation": "Fotografia? Isso é interessante! Que tipo de fotos você tira?" },
+        { "speaker": "Você", "text": "Principalement des paysages et de l'architecture. J'aime me promener dans la ville et capturer des détails que les gens ne remarquent pas.", "translation": "Principalmente paisagens e arquitetura. Gosto de passear pela cidade e capturar detalhes que as pessoas não percebem." },
+        { "speaker": "Amigo", "text": "Tu as un compte Instagram où tu partages tes photos ?", "translation": "Você tem uma conta no Instagram onde compartilha suas fotos?" },
+        { "speaker": "Você", "text": "Oui, j'ai créé un compte spécialement pour ma photographie. Et toi, quels sont tes loisirs ?", "translation": "Sim, criei uma conta especialmente para minha fotografia. E você, quais são seus passatempos?" },
+        { "speaker": "Amigo", "text": "Je suis passionné de cuisine. J'essaie de nouvelles recettes presque tous les weekends. Et je fais aussi du vélo quand il fait beau.", "translation": "Sou apaixonado por culinária. Experimento novas receitas quase todos os fins de semana. E também ando de bicicleta quando o tempo está bom." }
+      ]
+    },
+    {
+      "title": "Planejando o Fim de Semana",
+      "lines": [
+        { "speaker": "Colega", "text": "Tu as des projets pour ce weekend ?", "translation": "Você tem planos para este fim de semana?" },
+        { "speaker": "Você", "text": "Oui, je vais au cinéma samedi soir. Il y a un nouveau film français que je veux voir.", "translation": "Sim, vou ao cinema sábado à noite. Há um novo filme francês que quero assistir." },
+        { "speaker": "Colega", "text": "Ça a l'air bien ! Moi, je vais faire du shopping le matin et ensuite je retrouve des amis pour un pique-nique au parc, si le temps le permet.", "translation": "Parece bom! Eu vou fazer compras de manhã e depois encontrar amigos para um piquenique no parque, se o tempo permitir." },
+        { "speaker": "Você", "text": "Un pique-nique, quelle bonne idée ! Et dimanche, je pense aller au musée d'art moderne. Il y a une nouvelle exposition.", "translation": "Um piquenique, que boa ideia! E domingo, penso em ir ao museu de arte moderna. Há uma nova exposição." },
+        { "speaker": "Colega", "text": "J'adore ce musée ! J'y suis allé le mois dernier. Tu devrais aussi visiter le café sur le toit, la vue est magnifique.", "translation": "Adoro esse museu! Fui lá mês passado. Você também deveria visitar o café no terraço, a vista é magnífica." },
+        { "speaker": "Você", "text": "Merci pour le conseil. Et toi, qu'est-ce que tu vas faire dimanche ?", "translation": "Obrigado pela dica. E você, o que vai fazer domingo?" },
+        { "speaker": "Colega", "text": "Je vais me reposer et peut-être regarder une série. J'ai besoin d'une journée tranquille avant de commencer la semaine.", "translation": "Vou descansar e talvez assistir a uma série. Preciso de um dia tranquilo antes de começar a semana." }
+      ]
+    },
+    {
+      "title": "Convidando para uma Atividade",
+      "lines": [
+        { "speaker": "Você", "text": "Salut Marie ! Je vais à un concert de jazz vendredi soir. Ça te dirait de venir avec moi ?", "translation": "Oi Marie! Vou a um show de jazz sexta à noite. Você gostaria de vir comigo?" },
+        { "speaker": "Marie", "text": "Un concert de jazz ? Ça me tente bien ! C'est à quelle heure et où ?", "translation": "Um show de jazz? Isso me interessa! É que horas e onde?" },
+        { "speaker": "Você", "text": "C'est à 20h au Café de la Musique. C'est un petit groupe local, mais ils sont très bons.", "translation": "É às 20h no Café de la Musique. É um pequeno grupo local, mas eles são muito bons." },
+        { "speaker": "Marie", "text": "Je connais cet endroit, l'ambiance y est toujours agréable. Est-ce qu'il faut réserver des places ?", "translation": "Conheço esse lugar, o ambiente é sempre agradável. Precisamos reservar lugares?" },
+        { "speaker": "Você", "text": "J'ai déjà réservé deux places. On pourrait dîner quelque part avant le concert, si tu veux.", "translation": "Já reservei dois lugares. Poderíamos jantar em algum lugar antes do show, se você quiser." },
+        { "speaker": "Marie", "text": "Excellente idée ! Il y a un bon restaurant italien juste à côté. On se retrouve là-bas vers 18h30 ?", "translation": "Excelente ideia! Há um bom restaurante italiano logo ao lado. Nos encontramos lá por volta das 18h30?" },
+        { "speaker": "Você", "text": "Parfait ! Je te confirmerai par message jeudi. Je suis impatient d'y être !", "translation": "Perfeito! Confirmarei por mensagem na quinta-feira. Estou ansioso!" },
+        { "speaker": "Marie", "text": "Moi aussi ! Merci pour l'invitation. À vendredi !", "translation": "Eu também! Obrigada pelo convite. Até sexta!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le temps libre", "translation": "o tempo livre" },
+    { "word": "les loisirs (m)", "translation": "os passatempos, lazeres" },
+    { "word": "un hobby / un passe-temps", "translation": "um hobby / um passatempo" },
+    { "word": "le weekend", "translation": "o fim de semana" },
+    { "word": "faire du sport", "translation": "praticar esporte" },
+    { "word": "lire", "translation": "ler" },
+    { "word": "regarder un film", "translation": "assistir a um filme" },
+    { "word": "écouter de la musique", "translation": "ouvir música" },
+    { "word": "voyager", "translation": "viajar" },
+    { "word": "faire de la randonnée", "translation": "fazer caminhada" },
+    { "word": "faire du vélo", "translation": "andar de bicicleta", "example": "Le dimanche, j'aime faire du vélo dans le parc." },
+    { "word": "jouer d'un instrument", "translation": "tocar um instrumento" },
+    { "word": "faire la cuisine", "translation": "cozinhar" },
+    { "word": "se détendre", "translation": "relaxar" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "A Importância do Lazer na Cultura Francesa", 
+      "description": "Os franceses valorizam muito o equilíbrio entre vida profissional e pessoal. Com uma semana de trabalho oficial de 35 horas, muitos franceses têm tempo para cultivar hobbies e passatempos. As atividades culturais como visitas a museus, concertos e cinema são muito populares, assim como passar tempo ao ar livre em parques e jardins." 
+    },
+    { 
+      "title": "Férias e Tempo Livre", 
+      "description": "A França é conhecida por sua generosa política de férias, com pelo menos cinco semanas de férias pagas por ano. Durante o verão, especialmente em agosto, muitos franceses tiram férias prolongadas. As atividades de lazer variam de acordo com a estação: no verão, praias e campo; no inverno, esportes de inverno nas montanhas são muito populares." 
+    },
+    { 
+      "title": "Cultura de Café e Socialização", 
+      "description": "Os cafés na França não são apenas lugares para tomar uma bebida, mas espaços sociais importantes onde as pessoas se encontram com amigos, leem, observam a vida passar ou simplesmente relaxam. Passar horas em um café conversando ou lendo é uma forma de lazer muito apreciada pelos franceses." 
+    }
+  ],
+  "tips": [
+    "Ao falar sobre hobbies em francês, use expressões como 'j'aime' (eu gosto), 'j'adore' (eu adoro), 'je suis passionné(e) de' (sou apaixonado por) ou 'je m'intéresse à' (me interesso por).",
+    "Para atividades esportivas, use a estrutura 'faire du/de la/de l'' seguida pelo esporte: 'faire du football' (jogar futebol), 'faire de la natation' (nadar), 'faire de l'escalade' (escalar).",
+    "Para instrumentos musicais, use 'jouer du/de la/de l'': 'jouer du piano' (tocar piano), 'jouer de la guitare' (tocar violão).",
+    "Ao convidar alguém para uma atividade, você pode usar expressões como 'Ça te dit de...?' ou 'Tu voudrais...?' (Você gostaria de...?).",
+    "Os franceses geralmente planejam suas atividades sociais com antecedência, especialmente para restaurantes populares ou eventos culturais onde pode ser necessário fazer reservas."
+  ],
+  "relatedQuizzes": ["Vocabulário de Lazer", "Atividades Culturais", "Convites e Planos Sociais"]
+}

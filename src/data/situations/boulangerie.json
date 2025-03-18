@@ -1,0 +1,88 @@
+{
+  "title": "Padaria",
+  "description": "Aprenda a comprar pães, doces e outros produtos em uma padaria francesa.",
+  "image": "https://images.unsplash.com/photo-1568254183919-78a4f43a2877?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais une baguette, s'il vous plaît.",
+    "Avez-vous des croissants frais ?",
+    "Combien coûte ce pain au chocolat ?"
+  ],
+  "introduction": "As boulangeries (padarias) são estabelecimentos essenciais na vida cotidiana francesa. Neste guia, você aprenderá como pedir diferentes tipos de pães e doces, entender as especialidades francesas e interagir com confiança em uma autêntica padaria francesa.",
+  "dialogues": [
+    {
+      "title": "Comprando Pão",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais une baguette, s'il vous plaît.", "translation": "Bom dia, eu gostaria de uma baguete, por favor." },
+        { "speaker": "Padeiro", "text": "Bonjour. Une baguette traditionnelle ou une baguette bien cuite ?", "translation": "Bom dia. Uma baguete tradicional ou uma baguete bem assada?" },
+        { "speaker": "Você", "text": "Une baguette traditionnelle, s'il vous plaît.", "translation": "Uma baguete tradicional, por favor." },
+        { "speaker": "Padeiro", "text": "Très bien. Ce sera tout ?", "translation": "Muito bem. Será só isso?" },
+        { "speaker": "Você", "text": "Non, je voudrais aussi deux croissants, s'il vous plaît.", "translation": "Não, eu também gostaria de dois croissants, por favor." },
+        { "speaker": "Padeiro", "text": "Voilà. Ça fait 4 euros 20, s'il vous plaît.", "translation": "Aqui está. São 4 euros e 20, por favor." },
+        { "speaker": "Você", "text": "Voilà. Merci beaucoup.", "translation": "Aqui está. Muito obrigado(a)." },
+        { "speaker": "Padeiro", "text": "Merci à vous. Bonne journée !", "translation": "Obrigado. Tenha um bom dia!" }
+      ]
+    },
+    {
+      "title": "Pedindo Doces",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, qu'est-ce que vous recommandez comme pâtisserie ?", "translation": "Bom dia, o que você recomenda como doce?" },
+        { "speaker": "Vendedor", "text": "Bonjour ! Nos éclairs au chocolat sont très populaires, et nous avons aussi d'excellents macarons.", "translation": "Bom dia! Nossos éclairs de chocolate são muito populares, e também temos excelentes macarons." },
+        { "speaker": "Você", "text": "Je vais prendre un éclair au chocolat et deux macarons, s'il vous plaît.", "translation": "Vou levar um éclair de chocolate e dois macarons, por favor." },
+        { "speaker": "Vendedor", "text": "Très bon choix. Quels parfums de macarons souhaitez-vous ?", "translation": "Ótima escolha. Quais sabores de macarons você gostaria?" },
+        { "speaker": "Você", "text": "Un à la vanille et un au caramel, s'il vous plaît.", "translation": "Um de baunilha e um de caramelo, por favor." },
+        { "speaker": "Vendedor", "text": "Parfait. Ce sera 8 euros 50, s'il vous plaît.", "translation": "Perfeito. Serão 8 euros e 50, por favor." },
+        { "speaker": "Você", "text": "Est-ce que je peux avoir une boîte pour les macarons ?", "translation": "Posso ter uma caixa para os macarons?" },
+        { "speaker": "Vendedor", "text": "Bien sûr, je vous les mets dans une petite boîte.", "translation": "Claro, vou colocá-los em uma pequena caixa." }
+      ]
+    },
+    {
+      "title": "Encomendando um Bolo",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, j'aimerais commander un gâteau d'anniversaire.", "translation": "Bom dia, eu gostaria de encomendar um bolo de aniversário." },
+        { "speaker": "Padeiro", "text": "Bonjour. Pour combien de personnes ?", "translation": "Bom dia. Para quantas pessoas?" },
+        { "speaker": "Você", "text": "Pour huit personnes, s'il vous plaît.", "translation": "Para oito pessoas, por favor." },
+        { "speaker": "Padeiro", "text": "Très bien. Quel type de gâteau souhaitez-vous ?", "translation": "Muito bem. Que tipo de bolo você gostaria?" },
+        { "speaker": "Você", "text": "Un fraisier, si possible.", "translation": "Um bolo de morango, se possível." },
+        { "speaker": "Padeiro", "text": "Oui, c'est possible. Pour quand en avez-vous besoin ?", "translation": "Sim, é possível. Para quando você precisa?" },
+        { "speaker": "Você", "text": "Pour samedi prochain, vers 15h.", "translation": "Para o próximo sábado, por volta das 15h." },
+        { "speaker": "Padeiro", "text": "Parfait. Pouvez-vous me laisser votre nom et numéro de téléphone ?", "translation": "Perfeito. Pode me deixar seu nome e número de telefone?" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la boulangerie", "translation": "a padaria" },
+    { "word": "le boulanger / la boulangère", "translation": "o padeiro / a padeira" },
+    { "word": "une baguette", "translation": "uma baguete" },
+    { "word": "un pain", "translation": "um pão" },
+    { "word": "un pain au chocolat", "translation": "um pão de chocolate" },
+    { "word": "un croissant", "translation": "um croissant" },
+    { "word": "une pâtisserie", "translation": "um doce, uma confeitaria" },
+    { "word": "un éclair", "translation": "um éclair (doce alongado com recheio e cobertura)" },
+    { "word": "un macaron", "translation": "um macaron (doce francês feito de claras e amêndoas)", "example": "Les macarons sont disponibles en plusieurs saveurs." },
+    { "word": "un gâteau", "translation": "um bolo" },
+    { "word": "une tarte", "translation": "uma torta" },
+    { "word": "une viennoiserie", "translation": "um produto de confeitaria à base de massa folhada" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "A Baguete Francesa", 
+      "description": "A baguete é um símbolo da cultura francesa, protegida por lei. Uma baguete tradicional deve ser feita apenas com farinha, água, sal e fermento, sem aditivos. Muitos franceses compram baguetes frescas diariamente, e é comum ver pessoas caminhando com baguetes debaixo do braço." 
+    },
+    { 
+      "title": "Horários das Padarias", 
+      "description": "As padarias francesas geralmente abrem muito cedo (por volta das 6h30 ou 7h) e podem fechar durante o almoço. Muitas fecham um dia por semana, tradicionalmente às segundas-feiras. É comum haver filas nas padarias, especialmente nos fins de semana de manhã." 
+    },
+    { 
+      "title": "Tipos de Pães", 
+      "description": "Além da famosa baguete, as padarias francesas oferecem uma variedade de pães: pain de campagne (pão rústico), pain complet (pão integral), pain aux céréales (pão de cereais), entre outros. Cada região da França também tem suas especialidades locais." 
+    }
+  ],
+  "tips": [
+    "Sempre cumprimente o padeiro com 'Bonjour' ao entrar na padaria - é considerado educado e essencial na cultura francesa.",
+    "Se quiser uma baguete mais crocante, peça 'bien cuite' (bem assada); se preferir mais macia, peça 'pas trop cuite' (não muito assada).",
+    "As padarias francesas geralmente têm produtos diferentes dependendo do horário do dia. Para ter mais opções, vá pela manhã.",
+    "Muitas padarias oferecem 'formules' ou combos para café da manhã ou lanche, que podem incluir um sanduíche, uma bebida e um doce por um preço especial.",
+    "Se você planeja comprar um bolo especial ou uma grande quantidade de pães para uma ocasião, é recomendável fazer o pedido com alguns dias de antecedência."
+  ],
+  "relatedQuizzes": ["Vocabulário de Alimentos", "Comida Francesa", "Situações Cotidianas"]
+}

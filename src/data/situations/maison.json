@@ -1,0 +1,96 @@
+{
+  "title": "Casa",
+  "description": "Aprenda vocabulário relacionado à casa, móveis e atividades domésticas em francês.",
+  "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "J'habite dans un appartement au troisième étage.",
+    "La cuisine est à côté de la salle à manger.",
+    "Je dois faire le ménage aujourd'hui."
+  ],
+  "introduction": "Saber falar sobre sua casa e atividades domésticas é essencial para conversas cotidianas. Este guia ajudará você a descrever diferentes tipos de moradia, cômodos, móveis e tarefas domésticas em francês.",
+  "dialogues": [
+    {
+      "title": "Descrevendo sua Casa",
+      "lines": [
+        { "speaker": "Amigo", "text": "Comment est ton nouvel appartement ? Tu t'y plais ?", "translation": "Como é seu novo apartamento? Você está gostando?" },
+        { "speaker": "Você", "text": "Oui, beaucoup ! C'est un trois-pièces au quatrième étage d'un immeuble ancien.", "translation": "Sim, muito! É um apartamento de três cômodos no quarto andar de um prédio antigo." },
+        { "speaker": "Amigo", "text": "Il y a un ascenseur ?", "translation": "Tem elevador?" },
+        { "speaker": "Você", "text": "Heureusement, oui ! L'appartement a un salon lumineux, une chambre, une petite cuisine équipée et une salle de bain.", "translation": "Felizmente, sim! O apartamento tem uma sala de estar iluminada, um quarto, uma pequena cozinha equipada e um banheiro." },
+        { "speaker": "Amigo", "text": "Tu as une terrasse ou un balcon ?", "translation": "Você tem um terraço ou uma varanda?" },
+        { "speaker": "Você", "text": "J'ai un petit balcon qui donne sur un jardin. C'est très calme, on n'entend pas le bruit de la rue.", "translation": "Tenho uma pequena varanda que dá para um jardim. É muito tranquilo, não se ouve o barulho da rua." },
+        { "speaker": "Amigo", "text": "Ça a l'air parfait ! Tu as déjà acheté tous les meubles ?", "translation": "Parece perfeito! Você já comprou todos os móveis?" },
+        { "speaker": "Você", "text": "Presque. Il me manque encore une table à manger et des étagères pour les livres.", "translation": "Quase. Ainda me falta uma mesa de jantar e estantes para os livros." }
+      ]
+    },
+    {
+      "title": "Tarefas Domésticas",
+      "lines": [
+        { "speaker": "Colega de Apartamento", "text": "On devrait établir un planning pour les tâches ménagères, qu'en penses-tu ?", "translation": "Deveríamos estabelecer um cronograma para as tarefas domésticas, o que você acha?" },
+        { "speaker": "Você", "text": "Bonne idée. Qu'est-ce que tu proposes ?", "translation": "Boa ideia. O que você propõe?" },
+        { "speaker": "Colega de Apartamento", "text": "Je peux m'occuper de passer l'aspirateur et de faire la vaisselle. Et toi, tu pourrais faire les courses et la lessive ?", "translation": "Posso me encarregar de passar o aspirador e lavar a louça. E você poderia fazer as compras e lavar a roupa?" },
+        { "speaker": "Você", "text": "Ça me va. Et pour la salle de bain et la cuisine, on alterne chaque semaine ?", "translation": "Isso me serve. E para o banheiro e a cozinha, alternamos a cada semana?" },
+        { "speaker": "Colega de Apartamento", "text": "Parfait. Je déteste nettoyer la salle de bain, mais bon, c'est juste.", "translation": "Perfeito. Eu odeio limpar o banheiro, mas tudo bem, é justo." },
+        { "speaker": "Você", "text": "On pourrait aussi faire un grand ménage ensemble une fois par mois, pour les vitres et le balcon.", "translation": "Poderíamos também fazer uma limpeza geral juntos uma vez por mês, para as janelas e a varanda." },
+        { "speaker": "Colega de Apartamento", "text": "D'accord. Et pour les poubelles, on les descend à tour de rôle ?", "translation": "Concordo. E quanto ao lixo, levamos para baixo em turnos?" },
+        { "speaker": "Você", "text": "Oui, celui qui part le matin peut s'en occuper.", "translation": "Sim, quem sair de manhã pode se encarregar disso." }
+      ]
+    },
+    {
+      "title": "Problemas no Apartamento",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, Madame Martin. J'ai un problème avec le chauffage dans mon appartement.", "translation": "Bom dia, Senhora Martin. Tenho um problema com o aquecimento no meu apartamento." },
+        { "speaker": "Proprietária", "text": "Bonjour. Qu'est-ce qui ne va pas exactement ?", "translation": "Bom dia. O que exatamente não está funcionando?" },
+        { "speaker": "Você", "text": "Le radiateur de la chambre ne chauffe pas du tout, et il fait très froid la nuit.", "translation": "O radiador do quarto não esquenta nada, e está muito frio à noite." },
+        { "speaker": "Proprietária", "text": "Avez-vous vérifié s'il est bien allumé ? Il y a un bouton sur le côté.", "translation": "Você verificou se ele está ligado? Há um botão na lateral." },
+        { "speaker": "Você", "text": "Oui, j'ai tout vérifié. Je pense qu'il est en panne.", "translation": "Sim, verifiquei tudo. Acho que está quebrado." },
+        { "speaker": "Proprietária", "text": "Je vais envoyer un plombier demain matin. Vous serez chez vous ?", "translation": "Vou enviar um encanador amanhã de manhã. Você estará em casa?" },
+        { "speaker": "Você", "text": "Oui, je travaille de la maison cette semaine. Aussi, il y a une fuite sous l'évier de la cuisine.", "translation": "Sim, estou trabalhando de casa esta semana. Além disso, há um vazamento sob a pia da cozinha." },
+        { "speaker": "Proprietária", "text": "Je le signalerai au plombier. En attendant, mettez un seau pour récupérer l'eau et fermez le robinet principal si nécessaire.", "translation": "Vou informar ao encanador. Enquanto isso, coloque um balde para recolher a água e feche a torneira principal se necessário." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la maison", "translation": "a casa" },
+    { "word": "l'appartement (m)", "translation": "o apartamento" },
+    { "word": "le salon", "translation": "a sala de estar" },
+    { "word": "la chambre", "translation": "o quarto" },
+    { "word": "la cuisine", "translation": "a cozinha" },
+    { "word": "la salle de bain", "translation": "o banheiro" },
+    { "word": "les toilettes (f)", "translation": "o banheiro (vaso sanitário)" },
+    { "word": "le balcon", "translation": "a varanda" },
+    { "word": "l'étage (m)", "translation": "o andar" },
+    { "word": "le meuble", "translation": "o móvel" },
+    { "word": "le lit", "translation": "a cama" },
+    { "word": "la table", "translation": "a mesa" },
+    { "word": "la chaise", "translation": "a cadeira" },
+    { "word": "l'armoire (f)", "translation": "o armário" },
+    { "word": "le canapé", "translation": "o sofá" },
+    { "word": "faire le ménage", "translation": "fazer a limpeza", "example": "Je dois faire le ménage avant l'arrivée de mes invités." },
+    { "word": "passer l'aspirateur", "translation": "passar o aspirador" },
+    { "word": "faire la vaisselle", "translation": "lavar a louça" },
+    { "word": "faire la lessive", "translation": "lavar a roupa" },
+    { "word": "le loyer", "translation": "o aluguel" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Apartamentos Parisienses", 
+      "description": "Os apartamentos em Paris são frequentemente pequenos e caros, especialmente no centro da cidade. Muitos prédios antigos não têm elevador, e os apartamentos são classificados pelo número de cômodos (por exemplo, 'un deux-pièces' significa um apartamento com sala e um quarto, sem contar cozinha e banheiro)." 
+    },
+    { 
+      "title": "Contratos de Aluguel", 
+      "description": "Na França, os contratos de aluguel são geralmente de longa duração (3 anos para proprietários particulares, 6 anos para empresas). Os inquilinos têm muitos direitos, e o processo de despejo é complexo e demorado, o que explica por que os proprietários são tão exigentes na seleção de inquilinos." 
+    },
+    { 
+      "title": "Taxas de Condomínio", 
+      "description": "Além do aluguel, os inquilinos geralmente pagam 'charges' (taxas de condomínio) que cobrem a manutenção das áreas comuns, aquecimento central (se houver) e outros serviços. É importante verificar o que está incluído nestas taxas antes de alugar." 
+    }
+  ],
+  "tips": [
+    "Ao procurar um apartamento na França, esteja preparado para fornecer muitos documentos, incluindo comprovantes de renda, extratos bancários e um fiador (garant).",
+    "A classificação energética (DPE - Diagnostic de Performance Énergétique) é importante ao escolher uma moradia, pois afeta diretamente os custos de aquecimento.",
+    "Em prédios de apartamentos, respeite as regras de convivência (règlement de copropriété), especialmente em relação a ruídos após as 22h.",
+    "Ao se mudar, faça um inventário detalhado (état des lieux) com o proprietário para evitar disputas sobre o depósito de garantia quando sair.",
+    "Na França, é comum que os inquilinos instalem seus próprios móveis e eletrodomésticos, incluindo luminárias, cortinas e até mesmo a cozinha completa."
+  ],
+  "relatedQuizzes": ["Vocabulário da Casa", "Tarefas Domésticas", "Aluguel e Moradia na França"]
+}

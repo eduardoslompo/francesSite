@@ -1,0 +1,56 @@
+{
+  "id": "tradicoes-familiares-francesas",
+  "title": "Tradições Familiares Francesas",
+  "description": "Aprenda sobre as tradições e costumes familiares na cultura francesa, incluindo celebrações, refeições e práticas cotidianas.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "familia",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "tff-1",
+      "text": "Qual refeição é tradicionalmente um momento importante de reunião familiar na França?",
+      "options": ["O café da manhã", "O almoço de domingo", "O lanche da tarde", "O jantar de sexta-feira"],
+      "correctAnswer": 1,
+      "category": "familia",
+      "difficulty": "avancado",
+      "explanation": "O almoço de domingo ('le déjeuner du dimanche') é tradicionalmente um momento importante de reunião familiar na França, onde várias gerações se reúnem para uma refeição elaborada."
+    },
+    {
+      "id": "tff-2",
+      "text": "Qual destas é uma tradição familiar francesa durante o Natal?",
+      "options": ["Trocar presentes no dia 24 de dezembro", "Comer 'bûche de Noël' (tronco de Natal)", "Esconder ovos no jardim", "Fazer um piquenique no parque"],
+      "correctAnswer": 1,
+      "category": "familia",
+      "difficulty": "avancado",
+      "explanation": "A 'bûche de Noël' (tronco de Natal) é uma sobremesa tradicional em forma de tronco que as famílias francesas comem durante as celebrações de Natal."
+    },
+    {
+      "id": "tff-3",
+      "text": "Na tradição francesa, quando se celebra a 'Fête des Rois' (Festa dos Reis)?",
+      "options": ["No Natal", "No Ano Novo", "No dia 6 de janeiro (Epifania)", "Na Páscoa"],
+      "correctAnswer": 2,
+      "category": "familia",
+      "difficulty": "avancado",
+      "explanation": "A 'Fête des Rois' é celebrada no dia 6 de janeiro, dia da Epifania, quando as famílias compartilham a 'galette des rois' (bolo dos reis) e quem encontra a 'fève' (pequeno objeto escondido) torna-se rei ou rainha por um dia."
+    },
+    {
+      "id": "tff-4",
+      "text": "Qual é o costume familiar francês relacionado ao 'Poisson d'Avril' (Peixe de Abril)?",
+      "options": ["Comer peixe em família", "Pescar juntos no rio", "Pregar peças e colar peixes de papel nas costas das pessoas", "Visitar o aquário local"],
+      "correctAnswer": 2,
+      "category": "familia",
+      "difficulty": "avancado",
+      "explanation": "No dia 1º de abril, o 'Poisson d'Avril' é uma tradição onde as crianças (e adultos) pregam peças e colam discretamente peixes de papel nas costas das pessoas, similar ao nosso 'Dia da Mentira'."
+    },
+    {
+      "id": "tff-5",
+      "text": "Qual é a tradição familiar francesa relacionada à 'Chandeleur' (Candelária)?",
+      "options": ["Acender velas em memória dos antepassados", "Fazer e comer crepes", "Trocar presentes entre familiares", "Plantar uma árvore"],
+      "correctAnswer": 1,
+      "category": "familia",
+      "difficulty": "avancado",
+      "explanation": "Na 'Chandeleur', celebrada em 2 de fevereiro, a tradição familiar francesa é fazer e comer crepes. Existe até uma superstição de que se você conseguir virar o crepe na frigideira com uma moeda na mão, terá prosperidade durante o ano."
+    }
+  ]
+}

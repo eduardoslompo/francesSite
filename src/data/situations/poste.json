@@ -1,0 +1,88 @@
+{
+  "title": "Correios",
+  "description": "Aprenda a enviar cartas e pacotes, comprar selos e utilizar serviços postais na França.",
+  "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais envoyer cette lettre en France.",
+    "Combien coûte un timbre pour l'étranger ?",
+    "Je dois retirer un colis."
+  ],
+  "introduction": "Os correios (La Poste) na França oferecem diversos serviços além do envio de correspondências. Este guia ajudará você a enviar cartas e pacotes, comprar selos, preencher formulários e utilizar outros serviços postais com confiança.",
+  "dialogues": [
+    {
+      "title": "Enviando uma Carta",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais envoyer cette lettre au Portugal, s'il vous plaît.", "translation": "Bom dia, eu gostaria de enviar esta carta para Portugal, por favor." },
+        { "speaker": "Atendente", "text": "Bonjour. Vous voulez l'envoyer en courrier normal ou en recommandé ?", "translation": "Bom dia. Você quer enviá-la por correio normal ou registrado?" },
+        { "speaker": "Você", "text": "Quelle est la différence de prix ?", "translation": "Qual é a diferença de preço?" },
+        { "speaker": "Atendente", "text": "Le courrier normal coûte 1,65€ et le recommandé 5,75€, mais avec le recommandé vous pouvez suivre votre envoi et avoir une preuve de livraison.", "translation": "O correio normal custa 1,65€ e o registrado 5,75€, mas com o registrado você pode rastrear seu envio e ter uma prova de entrega." },
+        { "speaker": "Você", "text": "Je vais prendre le courrier normal, s'il vous plaît.", "translation": "Vou escolher o correio normal, por favor." },
+        { "speaker": "Atendente", "text": "Très bien. Ça fait 1,65€.", "translation": "Muito bem. São 1,65€." },
+        { "speaker": "Você", "text": "Voici 2€.", "translation": "Aqui estão 2€." },
+        { "speaker": "Atendente", "text": "Merci. Voici votre monnaie et votre reçu.", "translation": "Obrigado. Aqui está seu troco e seu recibo." }
+      ]
+    },
+    {
+      "title": "Enviando um Pacote",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je dois envoyer ce colis aux États-Unis.", "translation": "Bom dia, preciso enviar este pacote para os Estados Unidos." },
+        { "speaker": "Atendente", "text": "Bonjour. Je vais devoir peser votre colis. Contient-il des objets de valeur ou des produits interdits ?", "translation": "Bom dia. Vou precisar pesar seu pacote. Ele contém objetos de valor ou produtos proibidos?" },
+        { "speaker": "Você", "text": "Non, ce sont juste des livres et des souvenirs.", "translation": "Não, são apenas livros e lembranças." },
+        { "speaker": "Atendente", "text": "D'accord. Votre colis pèse 1,2 kg. Pour les États-Unis, vous avez plusieurs options : l'envoi économique qui prend 2 à 3 semaines, ou l'envoi prioritaire qui prend 5 à 7 jours.", "translation": "Certo. Seu pacote pesa 1,2 kg. Para os Estados Unidos, você tem várias opções: o envio econômico que leva de 2 a 3 semanas, ou o envio prioritário que leva de 5 a 7 dias." },
+        { "speaker": "Você", "text": "Quel est le prix pour chaque option ?", "translation": "Qual é o preço para cada opção?" },
+        { "speaker": "Atendente", "text": "L'envoi économique coûte 24,50€ et l'envoi prioritaire 38,90€.", "translation": "O envio econômico custa 24,50€ e o envio prioritário 38,90€." },
+        { "speaker": "Você", "text": "Je vais choisir l'envoi économique.", "translation": "Vou escolher o envio econômico." },
+        { "speaker": "Atendente", "text": "Très bien. Vous devez remplir ce formulaire de douane, s'il vous plaît.", "translation": "Muito bem. Você deve preencher este formulário alfandegário, por favor." }
+      ]
+    },
+    {
+      "title": "Retirando um Pacote",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, j'ai reçu cet avis de passage pour un colis.", "translation": "Bom dia, recebi este aviso de passagem para um pacote." },
+        { "speaker": "Atendente", "text": "Bonjour. Puis-je voir l'avis et une pièce d'identité, s'il vous plaît ?", "translation": "Bom dia. Posso ver o aviso e um documento de identidade, por favor?" },
+        { "speaker": "Você", "text": "Oui, voici mon passeport et l'avis.", "translation": "Sim, aqui está meu passaporte e o aviso." },
+        { "speaker": "Atendente", "text": "Merci. Un instant, je vais chercher votre colis.", "translation": "Obrigado. Um momento, vou buscar seu pacote." },
+        { "speaker": "Atendente", "text": "Voici votre colis. Il vient du Canada et il y a des frais de douane à payer.", "translation": "Aqui está seu pacote. Ele vem do Canadá e há taxas alfandegárias a pagar." },
+        { "speaker": "Você", "text": "Combien dois-je payer ?", "translation": "Quanto devo pagar?" },
+        { "speaker": "Atendente", "text": "Les frais de douane s'élèvent à 15,30€. Vous pouvez payer par carte ou en espèces.", "translation": "As taxas alfandegárias são de 15,30€. Você pode pagar com cartão ou em dinheiro." },
+        { "speaker": "Você", "text": "Je vais payer en espèces. Voici 20€.", "translation": "Vou pagar em dinheiro. Aqui estão 20€." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la poste", "translation": "os correios" },
+    { "word": "une lettre", "translation": "uma carta" },
+    { "word": "un colis", "translation": "um pacote" },
+    { "word": "un timbre", "translation": "um selo" },
+    { "word": "affranchir", "translation": "franquear", "example": "Il faut affranchir cette lettre." },
+    { "word": "recommandé", "translation": "registrado" },
+    { "word": "une enveloppe", "translation": "um envelope" },
+    { "word": "un formulaire", "translation": "um formulário" },
+    { "word": "les frais de douane", "translation": "as taxas alfandegárias" },
+    { "word": "un avis de passage", "translation": "um aviso de passagem" },
+    { "word": "suivre un envoi", "translation": "rastrear um envio" },
+    { "word": "le délai de livraison", "translation": "o prazo de entrega" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "La Poste na França", 
+      "description": "La Poste na França é uma instituição pública que oferece serviços postais, bancários e de telefonia. Além de enviar correspondências, você pode abrir uma conta bancária, pagar contas e até mesmo comprar um telefone celular em algumas agências." 
+    },
+    { 
+      "title": "Códigos Postais", 
+      "description": "Os códigos postais franceses têm 5 dígitos. Os dois primeiros indicam o departamento (divisão administrativa). Por exemplo, os códigos que começam com 75 são de Paris, enquanto 13 indica Marselha (Bouches-du-Rhône)." 
+    },
+    { 
+      "title": "Colissimo e Chronopost", 
+      "description": "Para envios dentro da França e internacionais, La Poste oferece diferentes serviços como Colissimo (serviço padrão para pacotes) e Chronopost (serviço expresso). Cada um tem diferentes prazos de entrega e preços." 
+    }
+  ],
+  "tips": [
+    "Verifique os horários de funcionamento da agência postal antes de ir, pois muitas fecham para o almoço e podem ter horários reduzidos aos sábados.",
+    "Para envios internacionais, sempre verifique as restrições do país de destino, pois alguns itens podem ser proibidos ou taxados.",
+    "Se você vai morar na França, pode solicitar o redirecionamento de correspondência ('suivi de courrier') quando mudar de endereço.",
+    "Para evitar filas, muitas agências postais têm máquinas automáticas onde você pode pesar cartas e pacotes, comprar selos e até enviar correspondências registradas.",
+    "Se você receber um 'avis de passage' porque não estava em casa para receber um pacote, pode agendar uma nova entrega online ou buscar na agência postal indicada no aviso."
+  ],
+  "relatedQuizzes": ["Vocabulário Postal", "Serviços Públicos", "Números e Quantidades"]
+}

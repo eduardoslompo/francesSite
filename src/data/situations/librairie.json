@@ -1,0 +1,88 @@
+{
+  "title": "Livraria",
+  "description": "Aprenda a procurar livros, pedir recomendações e fazer compras em uma livraria francesa.",
+  "image": "https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je cherche un livre sur l'histoire de France.",
+    "Avez-vous des recommandations pour un débutant ?",
+    "Je voudrais acheter ce livre, s'il vous plaît."
+  ],
+  "introduction": "As livrarias francesas são tesouros culturais onde você pode encontrar desde clássicos da literatura até as mais recentes publicações. Este guia ajudará você a navegar por uma livraria francesa, pedir recomendações e comprar livros com confiança.",
+  "dialogues": [
+    {
+      "title": "Procurando um Livro",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, excusez-moi.", "translation": "Bom dia, com licença." },
+        { "speaker": "Vendedor", "text": "Bonjour, je peux vous aider ?", "translation": "Bom dia, posso ajudá-lo(a)?" },
+        { "speaker": "Você", "text": "Je cherche un livre sur l'histoire de France. Avez-vous des suggestions ?", "translation": "Estou procurando um livro sobre a história da França. Você tem sugestões?" },
+        { "speaker": "Vendedor", "text": "Bien sûr. Vous cherchez quelque chose de général ou une période spécifique ?", "translation": "Claro. Você está procurando algo geral ou um período específico?" },
+        { "speaker": "Você", "text": "Plutôt général, je débute en français et je voudrais améliorer mon vocabulaire.", "translation": "Algo mais geral, estou começando em francês e gostaria de melhorar meu vocabulário." },
+        { "speaker": "Vendedor", "text": "Dans ce cas, je vous recommande 'Histoire de France pour les Nuls'. C'est accessible et bien illustré.", "translation": "Nesse caso, recomendo 'História da França para Leigos'. É acessível e bem ilustrado." },
+        { "speaker": "Você", "text": "Ça semble parfait. Où puis-je le trouver ?", "translation": "Parece perfeito. Onde posso encontrá-lo?" },
+        { "speaker": "Vendedor", "text": "Suivez-moi, je vais vous montrer.", "translation": "Siga-me, vou lhe mostrar." }
+      ]
+    },
+    {
+      "title": "Pedindo Recomendações",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, j'aimerais découvrir la littérature française, mais je ne sais pas par où commencer.", "translation": "Com licença, eu gostaria de descobrir a literatura francesa, mas não sei por onde começar." },
+        { "speaker": "Vendedor", "text": "Vous avez déjà lu des auteurs français ?", "translation": "Você já leu autores franceses?" },
+        { "speaker": "Você", "text": "Non, pas encore. Je suis débutant en français.", "translation": "Não, ainda não. Sou iniciante em francês." },
+        { "speaker": "Vendedor", "text": "Je comprends. Je vous conseille de commencer par des livres bilingues ou des histoires courtes.", "translation": "Entendo. Aconselho começar com livros bilíngues ou histórias curtas." },
+        { "speaker": "Você", "text": "C'est une bonne idée. Vous avez des livres bilingues français-portugais ?", "translation": "É uma boa ideia. Você tem livros bilíngues francês-português?" },
+        { "speaker": "Vendedor", "text": "Oui, nous avons une section de livres bilingues. Les contes de Maupassant sont disponibles en édition bilingue.", "translation": "Sim, temos uma seção de livros bilíngues. Os contos de Maupassant estão disponíveis em edição bilíngue." },
+        { "speaker": "Você", "text": "Parfait ! Je vais regarder ça.", "translation": "Perfeito! Vou dar uma olhada nisso." }
+      ]
+    },
+    {
+      "title": "Comprando um Livro",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais acheter ce livre, s'il vous plaît.", "translation": "Bom dia, eu gostaria de comprar este livro, por favor." },
+        { "speaker": "Caixa", "text": "Bonjour. Vous avez la carte de fidélité de la librairie ?", "translation": "Bom dia. Você tem o cartão de fidelidade da livraria?" },
+        { "speaker": "Você", "text": "Non, je n'en ai pas.", "translation": "Não, não tenho." },
+        { "speaker": "Caixa", "text": "Souhaitez-vous la créer ? C'est gratuit et vous bénéficiez de 5% de réduction sur vos achats.", "translation": "Gostaria de criar um? É gratuito e você recebe 5% de desconto em suas compras." },
+        { "speaker": "Você", "text": "Oui, pourquoi pas. Comment ça marche ?", "translation": "Sim, por que não. Como funciona?" },
+        { "speaker": "Caixa", "text": "Il suffit de remplir ce formulaire avec votre nom et votre email. Ça ne prend qu'une minute.", "translation": "Basta preencher este formulário com seu nome e e-mail. Leva apenas um minuto." },
+        { "speaker": "Você", "text": "D'accord. Voilà, c'est fait.", "translation": "Tudo bem. Pronto, está feito." },
+        { "speaker": "Caixa", "text": "Merci. Avec la réduction, ça fait 18 euros 50. Comment souhaitez-vous payer ?", "translation": "Obrigado. Com o desconto, são 18 euros e 50. Como deseja pagar?" },
+        { "speaker": "Você", "text": "Par carte bancaire, s'il vous plaît.", "translation": "Com cartão de crédito, por favor." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la librairie", "translation": "a livraria" },
+    { "word": "le livre", "translation": "o livro" },
+    { "word": "le libraire / la libraire", "translation": "o livreiro / a livreira" },
+    { "word": "chercher", "translation": "procurar", "example": "Je cherche un livre sur la cuisine française." },
+    { "word": "recommander", "translation": "recomendar", "example": "Pouvez-vous me recommander un bon roman ?" },
+    { "word": "la littérature", "translation": "a literatura" },
+    { "word": "un auteur / une auteure", "translation": "um autor / uma autora" },
+    { "word": "un roman", "translation": "um romance (tipo de livro)" },
+    { "word": "une bande dessinée", "translation": "uma história em quadrinhos" },
+    { "word": "un dictionnaire", "translation": "um dicionário" },
+    { "word": "la carte de fidélité", "translation": "o cartão de fidelidade" },
+    { "word": "la réduction", "translation": "o desconto" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Livrarias Independentes", 
+      "description": "A França tem uma forte tradição de livrarias independentes, protegidas por leis que regulam o preço dos livros. Isso significa que o mesmo livro custa o mesmo preço em qualquer lugar, permitindo que pequenas livrarias compitam com grandes redes." 
+    },
+    { 
+      "title": "Prix Littéraires", 
+      "description": "Os prêmios literários franceses, como o Prix Goncourt, são muito prestigiados e podem transformar um livro em best-seller da noite para o dia. As livrarias geralmente destacam os livros premiados em seções especiais." 
+    },
+    { 
+      "title": "Rentrée Littéraire", 
+      "description": "A 'rentrée littéraire' é um período no final do verão/início do outono quando as editoras francesas lançam seus principais títulos do ano. É um momento importante no calendário cultural francês." 
+    }
+  ],
+  "tips": [
+    "Não hesite em pedir ajuda aos funcionários das livrarias francesas - eles geralmente são apaixonados por livros e têm boas recomendações.",
+    "Muitas livrarias francesas têm seções de livros em idiomas estrangeiros ou edições bilíngues, perfeitas para estudantes de francês.",
+    "Algumas livrarias maiores oferecem serviço de encomenda se o livro que você procura não estiver disponível.",
+    "Aproveite para explorar as seções de livros de bolso ('livres de poche') - são versões mais baratas de muitos títulos populares.",
+    "Muitas livrarias francesas organizam eventos como leituras de autores e sessões de autógrafos - fique atento aos cartazes anunciando esses eventos."
+  ],
+  "relatedQuizzes": ["Vocabulário de Livraria", "Literatura Francesa", "Situações Cotidianas"]
+}

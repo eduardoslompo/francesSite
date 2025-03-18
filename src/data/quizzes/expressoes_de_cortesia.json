@@ -1,0 +1,56 @@
+{
+  "id": "expressoes-de-cortesia",
+  "title": "Expressões de Cortesia",
+  "description": "Aprenda expressões de polidez e cortesia essenciais para comunicação em francês.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ec-1",
+      "text": "Qual é a forma mais comum de dizer 'Por favor' em francês?",
+      "options": ["Merci", "S'il vous plaît", "Pardon", "Excusez-moi"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'S'il vous plaît' é a expressão formal para 'por favor' em francês, usada na maioria das situações."
+    },
+    {
+      "id": "ec-2",
+      "text": "Como você diria 'Obrigado(a)' em francês?",
+      "options": ["S'il vous plaît", "Pardon", "Merci", "De rien"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Merci' é a palavra francesa para 'obrigado(a)'."
+    },
+    {
+      "id": "ec-3",
+      "text": "Qual expressão você usaria para pedir desculpas por um pequeno incômodo?",
+      "options": ["Merci beaucoup", "Excusez-moi", "Félicitations", "Bon courage"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Excusez-moi' (desculpe-me) é usado para pedir desculpas por pequenos incômodos ou para chamar a atenção de alguém educadamente."
+    },
+    {
+      "id": "ec-4",
+      "text": "Como você responderia quando alguém lhe agradece em francês?",
+      "options": ["Merci", "S'il vous plaît", "De rien", "Pardon"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'De rien' (de nada) é uma resposta comum quando alguém lhe agradece. Outras respostas possíveis incluem 'Je vous en prie' ou 'Avec plaisir'."
+    },
+    {
+      "id": "ec-5",
+      "text": "Qual expressão de cortesia você usaria ao final de uma carta formal?",
+      "options": ["À bientôt", "Veuillez agréer, Madame/Monsieur, l'expression de mes salutations distinguées", "Merci beaucoup", "Bonne journée"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "avancado",
+      "explanation": "'Veuillez agréer, Madame/Monsieur, l'expression de mes salutations distinguées' é uma fórmula formal de encerramento usada em correspondências profissionais em francês."
+    }
+  ]
+}

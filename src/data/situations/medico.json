@@ -1,0 +1,83 @@
+{
+  "title": "Médico",
+  "description": "Aprenda a marcar consultas médicas, explicar sintomas e entender diagnósticos em francês.",
+  "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "J'ai besoin de prendre rendez-vous avec un médecin.",
+    "J'ai mal à la tête depuis hier.",
+    "Où est la pharmacie la plus proche ?"
+  ],
+  "introduction": "Lidar com questões médicas em um país estrangeiro pode ser desafiador. Este guia ajudará você a marcar consultas, explicar seus sintomas e entender as recomendações médicas em francês.",
+  "dialogues": [
+    {
+      "title": "Marcando uma Consulta",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, j'aimerais prendre rendez-vous avec un médecin généraliste, s'il vous plaît.", "translation": "Bom dia, eu gostaria de marcar uma consulta com um clínico geral, por favor." },
+        { "speaker": "Secretária", "text": "Bonjour. C'est pour quel motif ?", "translation": "Bom dia. Qual é o motivo?" },
+        { "speaker": "Você", "text": "J'ai de la fièvre et mal à la gorge depuis deux jours.", "translation": "Estou com febre e dor de garganta há dois dias." },
+        { "speaker": "Secretária", "text": "Je comprends. Le Dr. Moreau peut vous recevoir demain à 14h30. Ça vous convient ?", "translation": "Entendo. O Dr. Moreau pode atendê-lo(a) amanhã às 14h30. Isso lhe convém?" },
+        { "speaker": "Você", "text": "Oui, c'est parfait. Est-ce que je dois apporter quelque chose ?", "translation": "Sim, é perfeito. Preciso trazer alguma coisa?" },
+        { "speaker": "Secretária", "text": "Apportez votre carte Vitale si vous en avez une, sinon une pièce d'identité et votre moyen de paiement.", "translation": "Traga seu cartão Vitale se tiver um, caso contrário, um documento de identidade e seu meio de pagamento." }
+      ]
+    },
+    {
+      "title": "Durante a Consulta",
+      "lines": [
+        { "speaker": "Médico", "text": "Bonjour, je suis le Dr. Moreau. Qu'est-ce qui vous amène aujourd'hui ?", "translation": "Bom dia, sou o Dr. Moreau. O que o(a) traz hoje?" },
+        { "speaker": "Você", "text": "J'ai de la fièvre, mal à la gorge et je me sens très fatigué(e).", "translation": "Estou com febre, dor de garganta e me sinto muito cansado(a)." },
+        { "speaker": "Médico", "text": "Depuis quand avez-vous ces symptômes ?", "translation": "Desde quando você tem esses sintomas?" },
+        { "speaker": "Você", "text": "Depuis environ trois jours. La fièvre a commencé hier.", "translation": "Há cerca de três dias. A febre começou ontem." },
+        { "speaker": "Médico", "text": "Je vais vous examiner. Ouvrez la bouche et dites 'Aaah', s'il vous plaît.", "translation": "Vou examiná-lo(a). Abra a boca e diga 'Aaah', por favor." },
+        { "speaker": "Você", "text": "Aaah...", "translation": "Aaah..." },
+        { "speaker": "Médico", "text": "Votre gorge est très rouge. Je pense que c'est une angine. Je vais vous prescrire des antibiotiques.", "translation": "Sua garganta está muito vermelha. Acho que é uma amigdalite. Vou prescrever antibióticos para você." }
+      ]
+    },
+    {
+      "title": "Recebendo a Prescrição",
+      "lines": [
+        { "speaker": "Médico", "text": "Voici votre ordonnance. Prenez ces antibiotiques trois fois par jour pendant sept jours.", "translation": "Aqui está sua receita. Tome estes antibióticos três vezes ao dia durante sete dias." },
+        { "speaker": "Você", "text": "Est-ce que je dois prendre les médicaments avant ou après les repas ?", "translation": "Devo tomar os medicamentos antes ou depois das refeições?" },
+        { "speaker": "Médico", "text": "Prenez-les après les repas pour éviter les maux d'estomac. Buvez beaucoup d'eau et reposez-vous.", "translation": "Tome-os após as refeições para evitar dores de estômago. Beba muita água e descanse." },
+        { "speaker": "Você", "text": "Combien de temps avant de me sentir mieux ?", "translation": "Quanto tempo até eu me sentir melhor?" },
+        { "speaker": "Médico", "text": "Vous devriez commencer à vous sentir mieux dans 48 heures. Si la fièvre persiste, revenez me voir.", "translation": "Você deve começar a se sentir melhor em 48 horas. Se a febre persistir, volte para me ver." },
+        { "speaker": "Você", "text": "Merci beaucoup, Docteur.", "translation": "Muito obrigado(a), Doutor." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le médecin", "translation": "o médico" },
+    { "word": "le rendez-vous", "translation": "a consulta/compromisso", "example": "J'ai un rendez-vous chez le médecin demain." },
+    { "word": "la fièvre", "translation": "a febre" },
+    { "word": "le mal de tête", "translation": "a dor de cabeça" },
+    { "word": "le mal de gorge", "translation": "a dor de garganta" },
+    { "word": "tousser", "translation": "tossir" },
+    { "word": "éternuer", "translation": "espirrar" },
+    { "word": "l'ordonnance (f)", "translation": "a receita médica" },
+    { "word": "les médicaments (m)", "translation": "os medicamentos" },
+    { "word": "la pharmacie", "translation": "a farmácia" },
+    { "word": "les symptômes (m)", "translation": "os sintomas" },
+    { "word": "le traitement", "translation": "o tratamento" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Sistema de Saúde Francês", 
+      "description": "A França tem um sistema de saúde universal chamado 'Sécurité Sociale'. Os residentes têm um cartão chamado 'Carte Vitale' que cobre a maioria dos custos médicos. Como turista, você pode precisar pagar adiantado e solicitar reembolso do seu seguro de viagem." 
+    },
+    { 
+      "title": "Médicos de Família", 
+      "description": "Na França, o 'médecin généraliste' (clínico geral) é geralmente o primeiro ponto de contato para problemas de saúde. Eles podem encaminhá-lo para especialistas se necessário." 
+    },
+    { 
+      "title": "Farmácias", 
+      "description": "As farmácias francesas são identificadas por uma cruz verde iluminada. Elas se alternam para serviço noturno e de fim de semana - procure por 'pharmacie de garde' para encontrar a farmácia de plantão mais próxima." 
+    }
+  ],
+  "tips": [
+    "Sempre leve seu passaporte ou documento de identidade para consultas médicas.",
+    "É útil ter um seguro de viagem que cubra despesas médicas na França.",
+    "Muitos médicos franceses falam inglês, especialmente em áreas turísticas, mas é útil conhecer termos médicos básicos em francês.",
+    "Mantenha uma lista de quaisquer alergias ou condições médicas pré-existentes traduzidas para o francês.",
+    "O número de emergência em toda a União Europeia é 112, mas na França você também pode ligar para 15 para emergências médicas específicas."
+  ],
+  "relatedQuizzes": ["Vocabulário Médico", "Situações de Emergência", "Saúde e Bem-estar"]
+}

@@ -1,0 +1,88 @@
+{
+  "title": "Shopping",
+  "description": "Aprenda a se comunicar em centros comerciais e lojas na França.",
+  "image": "https://images.unsplash.com/photo-1581417478175-a9ef18f210c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je cherche un magasin de vêtements, s'il vous plaît.",
+    "À quel étage se trouve le rayon électronique ?",
+    "Est-ce que vous acceptez les cartes de crédit ?"
+  ],
+  "introduction": "Os centros comerciais (centres commerciaux) na França oferecem uma experiência de compras completa com diversas lojas, restaurantes e serviços. Este guia ajudará você a navegar pelos shoppings franceses, encontrar o que procura e interagir com vendedores durante suas compras.",
+  "dialogues": [
+    {
+      "title": "Pedindo Informações",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, excusez-moi. Où puis-je trouver le plan du centre commercial ?", "translation": "Bom dia, com licença. Onde posso encontrar o mapa do shopping?" },
+        { "speaker": "Funcionário", "text": "Bonjour. Il y a un plan à chaque entrée du centre et à côté des ascenseurs.", "translation": "Bom dia. Há um mapa em cada entrada do shopping e ao lado dos elevadores." },
+        { "speaker": "Você", "text": "Merci. Je cherche une boutique de chaussures. Pouvez-vous me dire où elle se trouve ?", "translation": "Obrigado. Estou procurando uma loja de sapatos. Pode me dizer onde ela fica?" },
+        { "speaker": "Funcionário", "text": "Bien sûr. Il y a plusieurs boutiques de chaussures. Vous cherchez une marque en particulier ?", "translation": "Claro. Há várias lojas de sapatos. Você está procurando alguma marca em particular?" },
+        { "speaker": "Você", "text": "Non, pas vraiment. Je veux juste voir les options disponibles.", "translation": "Não, não realmente. Só quero ver as opções disponíveis." },
+        { "speaker": "Funcionário", "text": "Dans ce cas, je vous conseille d'aller au deuxième étage. Il y a un regroupement de boutiques de chaussures dans l'aile est.", "translation": "Nesse caso, aconselho você a ir ao segundo andar. Há um agrupamento de lojas de sapatos na ala leste." },
+        { "speaker": "Você", "text": "Parfait. Et où se trouvent les toilettes, s'il vous plaît ?", "translation": "Perfeito. E onde ficam os banheiros, por favor?" },
+        { "speaker": "Funcionário", "text": "Les toilettes sont au premier étage, à côté de la zone de restauration.", "translation": "Os banheiros ficam no primeiro andar, ao lado da praça de alimentação." }
+      ]
+    },
+    {
+      "title": "Em uma Loja de Roupas",
+      "lines": [
+        { "speaker": "Vendedor", "text": "Bonjour, je peux vous aider ?", "translation": "Bom dia, posso ajudá-lo(a)?" },
+        { "speaker": "Você", "text": "Bonjour. Je regarde juste pour l'instant, merci.", "translation": "Bom dia. Estou apenas olhando por enquanto, obrigado(a)." },
+        { "speaker": "Vendedor", "text": "Pas de problème. N'hésitez pas si vous avez besoin d'aide ou de conseils.", "translation": "Sem problema. Não hesite se precisar de ajuda ou conselhos." },
+        { "speaker": "Você", "text": "En fait, je cherche une chemise en taille M. Avez-vous ce modèle en bleu ?", "translation": "Na verdade, estou procurando uma camisa tamanho M. Você tem este modelo em azul?" },
+        { "speaker": "Vendedor", "text": "Laissez-moi vérifier... Oui, nous l'avons en bleu marine et en bleu ciel. Quelle teinte préférez-vous ?", "translation": "Deixe-me verificar... Sim, temos em azul marinho e azul claro. Qual tom você prefere?" },
+        { "speaker": "Você", "text": "Je préfère le bleu marine. Est-ce que je peux l'essayer ?", "translation": "Prefiro o azul marinho. Posso experimentá-la?" },
+        { "speaker": "Vendedor", "text": "Bien sûr. Les cabines d'essayage sont au fond du magasin, à droite. Je vous y accompagne.", "translation": "Claro. Os provadores ficam no fundo da loja, à direita. Vou acompanhá-lo(a) até lá." }
+      ]
+    },
+    {
+      "title": "No Caixa",
+      "lines": [
+        { "speaker": "Caixa", "text": "Bonjour. Avez-vous trouvé tout ce que vous cherchiez ?", "translation": "Bom dia. Encontrou tudo o que procurava?" },
+        { "speaker": "Você", "text": "Oui, merci. Je vais prendre cette chemise et ce pantalon.", "translation": "Sim, obrigado(a). Vou levar esta camisa e esta calça." },
+        { "speaker": "Caixa", "text": "Très bien. Ça vous fait un total de 89,50 euros. Comment souhaitez-vous payer ?", "translation": "Muito bem. O total é 89,50 euros. Como deseja pagar?" },
+        { "speaker": "Você", "text": "Par carte de crédit, s'il vous plaît.", "translation": "Com cartão de crédito, por favor." },
+        { "speaker": "Caixa", "text": "Parfait. Vous pouvez insérer votre carte dans le terminal et suivre les instructions.", "translation": "Perfeito. Você pode inserir seu cartão no terminal e seguir as instruções." },
+        { "speaker": "Você", "text": "Est-ce que vous faites la détaxe pour les touristes ?", "translation": "Vocês fazem reembolso de impostos para turistas?" },
+        { "speaker": "Caixa", "text": "Oui, pour les achats de plus de 100 euros. Si vous achetez quelque chose d'autre pour atteindre ce montant, je pourrai vous faire un formulaire de détaxe.", "translation": "Sim, para compras acima de 100 euros. Se você comprar algo mais para atingir esse valor, poderei fazer um formulário de reembolso de impostos para você." },
+        { "speaker": "Você", "text": "Je comprends. Je vais juste prendre ces articles aujourd'hui. Merci.", "translation": "Entendo. Vou levar apenas estes itens hoje. Obrigado(a)." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le centre commercial", "translation": "o shopping center" },
+    { "word": "le magasin", "translation": "a loja" },
+    { "word": "l'étage (m)", "translation": "o andar" },
+    { "word": "le rayon", "translation": "a seção (de uma loja)" },
+    { "word": "la cabine d'essayage", "translation": "o provador" },
+    { "word": "essayer", "translation": "experimentar (roupas)" },
+    { "word": "la taille", "translation": "o tamanho" },
+    { "word": "la caisse", "translation": "o caixa" },
+    { "word": "payer", "translation": "pagar" },
+    { "word": "la carte de crédit", "translation": "o cartão de crédito" },
+    { "word": "la détaxe", "translation": "o reembolso de impostos (para turistas)" },
+    { "word": "les soldes (f)", "translation": "as liquidações", "example": "Les soldes d'été commencent en juillet." },
+    { "word": "la réduction", "translation": "o desconto" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Horários de Funcionamento", 
+      "description": "Os shoppings na França geralmente abrem das 10h às 20h, de segunda a sábado. Alguns centros comerciais maiores em Paris e outras grandes cidades podem ficar abertos até mais tarde e também aos domingos, especialmente em áreas turísticas. No entanto, muitas lojas individuais dentro dos shoppings podem seguir horários diferentes." 
+    },
+    { 
+      "title": "Liquidações (Les Soldes)", 
+      "description": "Na França, as liquidações oficiais acontecem duas vezes por ano: no inverno (geralmente em janeiro) e no verão (geralmente em julho). Estas são regulamentadas pelo governo e duram cerca de 4-6 semanas. Durante este período, você encontrará descontos significativos em muitas lojas." 
+    },
+    { 
+      "title": "Reembolso de Impostos", 
+      "description": "Visitantes não-europeus que gastam mais de 100 euros em uma única loja em um único dia podem solicitar o reembolso do imposto sobre valor agregado (TVA). Para isso, peça um formulário de détaxe na loja, que deverá ser carimbado na alfândega quando você sair da União Europeia." 
+    }
+  ],
+  "tips": [
+    "Nas lojas francesas, é costume cumprimentar os vendedores com 'Bonjour' ao entrar e 'Au revoir' ao sair, mesmo que você não compre nada.",
+    "Muitas lojas de departamento maiores oferecem serviços de atendimento ao cliente multilíngue, especialmente em áreas turísticas.",
+    "Se você estiver procurando por tamanhos de roupas, lembre-se que o sistema francês é diferente. Por exemplo, um tamanho M americano pode corresponder a um tamanho 38-40 na França.",
+    "Durante as liquidações oficiais (les soldes), os preços tendem a diminuir progressivamente ao longo das semanas, mas a seleção também diminui rapidamente.",
+    "Muitos shoppings franceses têm excelentes praças de alimentação ou restaurantes onde você pode experimentar a culinária local."
+  ],
+  "relatedQuizzes": ["Vocabulário de Compras", "Números e Preços", "Expressões Úteis para Turistas"]
+}

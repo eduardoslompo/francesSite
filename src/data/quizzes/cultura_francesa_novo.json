@@ -1,0 +1,56 @@
+{
+  "id": "cultura-francesa-novo",
+  "title": "Cultura Francesa",
+  "description": "Explore os aspectos fascinantes da cultura francesa, desde arte e literatura até costumes sociais e tradições.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "cfn-1",
+      "text": "Qual destes museus abriga a famosa pintura 'Mona Lisa'?",
+      "options": ["Musée d'Orsay", "Centre Pompidou", "Musée du Louvre", "Musée Rodin"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "A 'Mona Lisa' de Leonardo da Vinci está exposta no Musée du Louvre (Museu do Louvre), o museu mais visitado do mundo."
+    },
+    {
+      "id": "cfn-2",
+      "text": "Qual festival de cinema internacional é realizado anualmente em Cannes, França?",
+      "options": ["Festival de Cannes", "Festival de Veneza", "Festival de Berlim", "Festival de Sundance"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "O Festival de Cannes é um dos festivais de cinema mais prestigiados do mundo, realizado anualmente na cidade de Cannes, no sul da França."
+    },
+    {
+      "id": "cfn-3",
+      "text": "Qual destes escritores franceses escreveu 'Os Miseráveis'?",
+      "options": ["Albert Camus", "Victor Hugo", "Gustave Flaubert", "Émile Zola"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Os Miseráveis' (Les Misérables) foi escrito por Victor Hugo, um dos mais importantes escritores do romantismo francês."
+    },
+    {
+      "id": "cfn-4",
+      "text": "Qual é a bebida alcoólica tradicionalmente consumida como aperitivo na França?",
+      "options": ["Pastis", "Cognac", "Champagne", "Bordeaux"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "O Pastis é uma bebida anisada tradicionalmente consumida como aperitivo, especialmente no sul da França. É geralmente diluído com água."
+    },
+    {
+      "id": "cfn-5",
+      "text": "Qual destas é uma tradição francesa de Ano Novo?",
+      "options": ["Le Réveillon", "La Galette des Rois", "La Chandeleur", "Le Poisson d'Avril"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Le Réveillon' é a celebração da véspera de Ano Novo na França, que geralmente inclui um jantar festivo com família e amigos."
+    }
+  ]
+}

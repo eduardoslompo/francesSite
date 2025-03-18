@@ -1,0 +1,56 @@
+{
+  "id": "numeros-e-precos-novo",
+  "title": "Números e Preços",
+  "description": "Aprenda a contar em francês e a entender preços, moedas e expressões relacionadas a valores monetários.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "vocabulario",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "np-1",
+      "text": "Como se diz '99' em francês?",
+      "options": ["Quatre-vingt-dix-neuf", "Nonante-neuf", "Cent moins un", "Neuf-neuf"],
+      "correctAnswer": 0,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "Em francês da França, '99' se diz 'quatre-vingt-dix-neuf' (literalmente 'quatro vezes vinte mais dezenove'). Note que em algumas regiões francófonas como a Bélgica e a Suíça, usa-se 'nonante-neuf'."
+    },
+    {
+      "id": "np-2",
+      "text": "Qual é a moeda oficial da França?",
+      "options": ["Le franc", "L'euro", "Le dollar", "La livre"],
+      "correctAnswer": 1,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "A moeda oficial da França é o euro (l'euro), desde que substituiu o franco francês em 2002."
+    },
+    {
+      "id": "np-3",
+      "text": "Como se escreve corretamente o preço €5,50 em francês?",
+      "options": ["Cinq euros cinquante", "Cinq euros et cinquante centimes", "Cinq virgule cinquante euros", "Todas as opções estão corretas"],
+      "correctAnswer": 3,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "Todas as formas apresentadas são corretas em francês. 'Cinq euros cinquante', 'cinq euros et cinquante centimes' e 'cinq virgule cinquante euros' são maneiras válidas de expressar €5,50."
+    },
+    {
+      "id": "np-4",
+      "text": "Como se pergunta 'Qual é o desconto?' em francês?",
+      "options": ["Quelle est la remise?", "Quel est le prix?", "Combien ça coûte?", "C'est en solde?"],
+      "correctAnswer": 0,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'Quelle est la remise?' significa 'Qual é o desconto?' em francês. 'La remise' é a palavra para 'desconto'."
+    },
+    {
+      "id": "np-5",
+      "text": "O que significa a expressão 'C'est bon marché'?",
+      "options": ["É caro", "É barato", "É no mercado", "É uma boa compra"],
+      "correctAnswer": 1,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'C'est bon marché' significa 'É barato' em francês. Apesar de conter a palavra 'marché' (mercado), esta expressão se refere ao preço baixo de algo."
+    }
+  ]
+}

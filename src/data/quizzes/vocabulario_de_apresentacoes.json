@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-apresentacoes",
+  "title": "Vocabulário de Apresentações",
+  "description": "Aprenda palavras e expressões essenciais para apresentações formais e informais em francês.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "va-1",
+      "text": "Qual é a forma mais comum de dizer 'Meu nome é...' em francês?",
+      "options": ["Je suis...", "Je m'appelle...", "Mon nom est...", "C'est moi..."],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Je m'appelle...' é a forma mais comum de se apresentar em francês, equivalente a 'Meu nome é...' em português."
+    },
+    {
+      "id": "va-2",
+      "text": "Como você perguntaria 'Como você se chama?' em francês?",
+      "options": ["Comment allez-vous?", "Comment vous appelez-vous?", "Quel âge avez-vous?", "D'où venez-vous?"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Comment vous appelez-vous?' é a forma formal de perguntar 'Como você se chama?' em francês."
+    },
+    {
+      "id": "va-3",
+      "text": "Qual expressão você usaria para dizer 'Prazer em conhecê-lo(a)' em um contexto formal?",
+      "options": ["Salut!", "À bientôt!", "Enchanté(e) de faire votre connaissance", "Comment ça va?"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Enchanté(e) de faire votre connaissance' é uma expressão formal que significa 'Prazer em conhecê-lo(a)'."
+    },
+    {
+      "id": "va-4",
+      "text": "Como você diria 'Eu sou de...' (indicando sua origem) em francês?",
+      "options": ["J'habite à...", "Je viens de...", "Je travaille à...", "Je voyage à..."],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Je viens de...' é a forma correta de dizer 'Eu sou de...' ou 'Eu venho de...' em francês."
+    },
+    {
+      "id": "va-5",
+      "text": "Qual frase você usaria para perguntar a profissão de alguém?",
+      "options": ["Quel est votre travail?", "Qu'est-ce que vous faites dans la vie?", "Où travaillez-vous?", "Depuis quand travaillez-vous?"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Qu'est-ce que vous faites dans la vie?' (literalmente 'O que você faz na vida?') é uma forma comum e educada de perguntar sobre a profissão de alguém."
+    }
+  ]
+}

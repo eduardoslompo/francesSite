@@ -1,0 +1,56 @@
+{
+  "id": "situacoes-de-emergencia",
+  "title": "Situações de Emergência",
+  "description": "Aprenda vocabulário e frases úteis para lidar com situações de emergência em francês, incluindo termos médicos, pedidos de ajuda e comunicação com serviços de emergência.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "saude",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "se-1",
+      "text": "Como pedir ajuda em uma emergência em francês?",
+      "options": ["Excusez-moi!", "À l'aide!", "Pardon!", "S'il vous plaît!"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "'À l'aide!' significa 'Socorro!' ou 'Ajuda!' em francês e é a expressão mais comum para pedir ajuda em situações de emergência."
+    },
+    {
+      "id": "se-2",
+      "text": "Qual é o número de telefone para emergências médicas na França?",
+      "options": ["112", "911", "15", "17"],
+      "correctAnswer": 2,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "O número 15 (SAMU) é o número de emergências médicas na França. O 112 é o número de emergência europeu, o 17 é para a polícia e o 18 para os bombeiros."
+    },
+    {
+      "id": "se-3",
+      "text": "Como dizer 'Preciso de um médico urgentemente' em francês?",
+      "options": ["Je cherche un médecin", "J'ai besoin d'un médecin de toute urgence", "Je vais chez le médecin", "Je voudrais voir un médecin"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'J'ai besoin d'un médecin de toute urgence' significa 'Preciso de um médico urgentemente' em francês."
+    },
+    {
+      "id": "se-4",
+      "text": "Como se diz 'Houve um acidente' em francês?",
+      "options": ["Il y a eu un accident", "J'ai eu un accident", "C'est un accident", "Voilà un accident"],
+      "correctAnswer": 0,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'Il y a eu un accident' significa 'Houve um acidente' em francês."
+    },
+    {
+      "id": "se-5",
+      "text": "Qual frase você usaria para informar que alguém está inconsciente?",
+      "options": ["Il est malade", "Il est blessé", "Il est inconscient", "Il est fatigué"],
+      "correctAnswer": 2,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'Il est inconscient' significa 'Ele está inconsciente' em francês."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-postal",
+  "title": "Vocabulário Postal",
+  "description": "Aprenda palavras e expressões essenciais para se comunicar em um correio francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "servicos",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vpo-1",
+      "text": "Como se diz 'correio' em francês?",
+      "options": ["La poste", "Le courrier", "La lettre", "L'enveloppe"],
+      "correctAnswer": 0,
+      "category": "servicos",
+      "difficulty": "iniciante",
+      "explanation": "'La poste' é a palavra francesa para 'correio' ou 'agência postal'."
+    },
+    {
+      "id": "vpo-2",
+      "text": "Qual é a tradução de 'selo' em francês?",
+      "options": ["L'enveloppe", "Le timbre", "La carte postale", "Le colis"],
+      "correctAnswer": 1,
+      "category": "servicos",
+      "difficulty": "iniciante",
+      "explanation": "'Le timbre' significa 'selo' em francês."
+    },
+    {
+      "id": "vpo-3",
+      "text": "Como se pergunta 'Quanto custa enviar esta carta para o Brasil?' em francês?",
+      "options": ["Où est le bureau de poste?", "Combien coûte l'envoi de cette lettre au Brésil?", "Je voudrais acheter des timbres.", "Avez-vous des enveloppes?"],
+      "correctAnswer": 1,
+      "category": "servicos",
+      "difficulty": "intermediario",
+      "explanation": "'Combien coûte l'envoi de cette lettre au Brésil?' significa 'Quanto custa enviar esta carta para o Brasil?'"
+    },
+    {
+      "id": "vpo-4",
+      "text": "O que significa 'recommandé' no contexto postal?",
+      "options": ["Carta comum", "Carta registrada", "Cartão postal", "Pacote internacional"],
+      "correctAnswer": 1,
+      "category": "servicos",
+      "difficulty": "intermediario",
+      "explanation": "'Recommandé' refere-se a uma 'carta registrada', um serviço que fornece comprovante de envio e exige assinatura na entrega."
+    },
+    {
+      "id": "vpo-5",
+      "text": "Qual expressão você usaria para perguntar se há uma caixa de correio próxima?",
+      "options": ["Y a-t-il une boîte aux lettres près d'ici?", "Où puis-je acheter des timbres?", "À quelle heure ferme la poste?", "Comment envoyer un colis à l'étranger?"],
+      "correctAnswer": 0,
+      "category": "servicos",
+      "difficulty": "intermediario",
+      "explanation": "'Y a-t-il une boîte aux lettres près d'ici?' significa 'Há uma caixa de correio próxima daqui?'"
+    }
+  ]
+}

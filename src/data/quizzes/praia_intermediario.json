@@ -1,0 +1,101 @@
+{
+  "id": "praia-intermediario",
+  "title": "Na Praia - Nível Intermediário",
+  "description": "Teste seus conhecimentos intermediários sobre vocabulário, expressões e situações comuns nas praias francesas.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "lazer",
+  "questionsCount": 10,
+  "questions": [
+    {
+      "id": "pi-1",
+      "text": "Como você perguntaria se pode alugar cadeiras e guarda-sóis?",
+      "options": ["Est-ce qu'on peut louer des chaises et des parasols?", "Où sont les chaises et les parasols?", "Combien coûtent les chaises et les parasols?", "Je voudrais des chaises et des parasols."],
+      "correctAnswer": 0,
+      "category": "expressões",
+      "difficulty": "intermediario",
+      "explanation": "'Est-ce qu'on peut louer des chaises et des parasols?' significa 'Podemos alugar cadeiras e guarda-sóis?'"
+    },
+    {
+      "id": "pi-2",
+      "text": "Como você diria 'Eu gostaria de duas cadeiras e um guarda-sol, por favor'?",
+      "options": ["Je veux deux chaises et un parasol.", "Donnez-moi deux chaises et un parasol.", "Je voudrais deux chaises et un parasol, s'il vous plaît.", "Avez-vous deux chaises et un parasol?"],
+      "correctAnswer": 2,
+      "category": "expressões",
+      "difficulty": "intermediario",
+      "explanation": "'Je voudrais deux chaises et un parasol, s'il vous plaît' é a forma educada de dizer 'Eu gostaria de duas cadeiras e um guarda-sol, por favor'."
+    },
+    {
+      "id": "pi-3",
+      "text": "O que significa a expressão 'Vous préférez vous installer près de l'eau ou plus loin?'",
+      "options": ["Você prefere água quente ou fria?", "Você prefere se instalar perto da água ou mais longe?", "Você prefere nadar ou ficar na areia?", "Você prefere água mineral ou natural?"],
+      "correctAnswer": 1,
+      "category": "expressões",
+      "difficulty": "intermediario",
+      "explanation": "'Vous préférez vous installer près de l'eau ou plus loin?' significa 'Você prefere se instalar perto da água ou mais longe?'"
+    },
+    {
+      "id": "pi-4",
+      "text": "O que significa 'Le drapeau orange signifie baignade surveillée mais dangereuse'?",
+      "options": ["A bandeira laranja significa que o banho é proibido.", "A bandeira laranja significa que o banho é vigiado, mas perigoso.", "A bandeira laranja significa que há águas-vivas.", "A bandeira laranja significa que a praia está fechada."],
+      "correctAnswer": 1,
+      "category": "cultural",
+      "difficulty": "intermediario",
+      "explanation": "'Le drapeau orange signifie baignade surveillée mais dangereuse' significa 'A bandeira laranja significa que o banho é vigiado, mas perigoso'."
+    },
+    {
+      "id": "pi-5",
+      "text": "Como você perguntaria 'A que horas é a maré alta?'",
+      "options": ["Quand est-ce que la plage ouvre?", "À quelle heure est la marée haute?", "Quand est-ce qu'on peut se baigner?", "À quelle heure ferme la plage?"],
+      "correctAnswer": 1,
+      "category": "expressões",
+      "difficulty": "intermediario",
+      "explanation": "'À quelle heure est la marée haute?' significa 'A que horas é a maré alta?'"
+    },
+    {
+      "id": "pi-6",
+      "text": "O que significa 'méduses' em português?",
+      "options": ["Conchas", "Peixes", "Águas-vivas", "Algas"],
+      "correctAnswer": 2,
+      "category": "vocabulário",
+      "difficulty": "intermediario",
+      "explanation": "'Méduses' significa 'águas-vivas' em português."
+    },
+    {
+      "id": "pi-7",
+      "text": "Qual é o significado da expressão 'restez où vous avez pied'?",
+      "options": ["Fique onde você pode ver seus pés", "Fique onde você consegue tocar o pé no chão", "Fique onde você pode andar", "Fique onde você pode sentar"],
+      "correctAnswer": 1,
+      "category": "expressões",
+      "difficulty": "intermediario",
+      "explanation": "'Restez où vous avez pied' significa 'Fique onde você consegue tocar o pé no chão', ou seja, onde a água não é muito profunda."
+    },
+    {
+      "id": "pi-8",
+      "text": "Qual cor de bandeira indica 'banho seguro' nas praias francesas?",
+      "options": ["Verde", "Amarela", "Vermelha", "Azul"],
+      "correctAnswer": 0,
+      "category": "cultural",
+      "difficulty": "intermediario",
+      "explanation": "A bandeira verde indica 'banho seguro' nas praias francesas."
+    },
+    {
+      "id": "pi-9",
+      "text": "O que significa 'plage naturiste'?",
+      "options": ["Praia ecológica", "Praia selvagem", "Praia nudista", "Praia privada"],
+      "correctAnswer": 2,
+      "category": "cultural",
+      "difficulty": "intermediario",
+      "explanation": "'Plage naturiste' significa 'praia nudista' em francês."
+    },
+    {
+      "id": "pi-10",
+      "text": "Como você pediria um sorvete de limão em francês?",
+      "options": ["Je voudrais un citron, s'il vous plaît.", "Je voudrais une glace au citron, s'il vous plaît.", "Je voudrais un jus de citron, s'il vous plaît.", "Je voudrais un sorbet, s'il vous plaît."],
+      "correctAnswer": 1,
+      "category": "expressões",
+      "difficulty": "intermediario",
+      "explanation": "'Je voudrais une glace au citron, s'il vous plaît' significa 'Eu gostaria de um sorvete de limão, por favor'."
+    }
+  ]
+}

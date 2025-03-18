@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-alimentos",
+  "title": "Vocabulário de Alimentos",
+  "description": "Aprenda palavras e expressões essenciais relacionadas a alimentos e comidas em francês.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "va-1",
+      "text": "Como se diz 'pão' em francês?",
+      "options": ["Le gâteau", "Le pain", "La viande", "Le fromage"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le pain' é a palavra francesa para 'pão'."
+    },
+    {
+      "id": "va-2",
+      "text": "Qual é a tradução de 'fruta' em francês?",
+      "options": ["Le légume", "Le fruit", "La boisson", "Le dessert"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le fruit' significa 'fruta' em francês."
+    },
+    {
+      "id": "va-3",
+      "text": "Como se diz 'queijo' em francês?",
+      "options": ["Le fromage", "Le yaourt", "Le beurre", "La crème"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le fromage' é a palavra francesa para 'queijo'."
+    },
+    {
+      "id": "va-4",
+      "text": "Qual frase você usaria para perguntar o preço de um alimento?",
+      "options": ["Combien coûte ce fruit?", "Où est le marché?", "Est-ce que c'est frais?", "Je voudrais un kilo, s'il vous plaît."],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Combien coûte ce fruit?' significa 'Quanto custa esta fruta?' em francês."
+    },
+    {
+      "id": "va-5",
+      "text": "Como se diz 'legume' em francês?",
+      "options": ["Le fruit", "La viande", "Le légume", "Le poisson"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le légume' significa 'legume' em francês."
+    }
+  ]
+}

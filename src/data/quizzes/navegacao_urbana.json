@@ -1,0 +1,56 @@
+{
+  "id": "navegacao-urbana",
+  "title": "Navegação Urbana",
+  "description": "Aprenda vocabulário e expressões úteis para se orientar e navegar em cidades francófonas.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "viagem",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "nu-1",
+      "text": "Como se pergunta 'Como chego à estação de metrô?' em francês?",
+      "options": ["Comment je vais à la gare?", "Comment puis-je aller à la station de métro?", "Où se trouve le métro?", "Quelle direction pour le métro?"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Comment puis-je aller à la station de métro?' é a forma correta de perguntar como chegar à estação de metrô em francês."
+    },
+    {
+      "id": "nu-2",
+      "text": "Qual expressão você usaria para pedir direções a um cruzamento específico?",
+      "options": ["Comment aller au carrefour?", "Où est le feu rouge?", "Comment puis-je trouver l'intersection de ces rues?", "Quelle direction?"],
+      "correctAnswer": 2,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Comment puis-je trouver l'intersection de ces rues?' significa 'Como posso encontrar o cruzamento dessas ruas?' em francês."
+    },
+    {
+      "id": "nu-3",
+      "text": "O que significa 'tourner à gauche' em português?",
+      "options": ["Seguir em frente", "Virar à direita", "Virar à esquerda", "Fazer o retorno"],
+      "correctAnswer": 2,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Tourner à gauche' significa 'virar à esquerda' em português."
+    },
+    {
+      "id": "nu-4",
+      "text": "Como você perguntaria 'Este ônibus vai para o centro da cidade?' em francês?",
+      "options": ["Ce bus va au centre-ville?", "Où va ce bus?", "C'est le bus pour le centre?", "Le centre-ville est loin?"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Ce bus va au centre-ville?' é a forma correta de perguntar se o ônibus vai para o centro da cidade em francês."
+    },
+    {
+      "id": "nu-5",
+      "text": "Qual é a tradução de 'Estou perdido(a), pode me ajudar?' em francês?",
+      "options": ["Je ne comprends pas le plan", "Je suis perdu(e), pouvez-vous m'aider?", "Où sommes-nous maintenant?", "Je cherche mon chemin"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Je suis perdu(e), pouvez-vous m'aider?' significa 'Estou perdido(a), pode me ajudar?' em francês."
+    }
+  ]
+}

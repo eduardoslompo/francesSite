@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-arte",
+  "title": "Vocabulário de Arte",
+  "description": "Aprenda palavras e expressões relacionadas à arte francesa, incluindo termos para diferentes estilos, técnicas e apreciação artística.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "va-1",
+      "text": "Como se diz 'pintura' em francês?",
+      "options": ["La peinture", "Le tableau", "L'art", "Le dessin"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'La peinture' é a palavra francesa para 'pintura'."
+    },
+    {
+      "id": "va-2",
+      "text": "Qual é a palavra francesa para 'escultura'?",
+      "options": ["Le portrait", "La sculpture", "L'esquisse", "La toile"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'La sculpture' significa 'escultura' em francês."
+    },
+    {
+      "id": "va-3",
+      "text": "Como se pergunta 'Quem é o artista?' em francês?",
+      "options": ["Quel est le prix?", "Qui est l'artiste?", "De quelle période est cette œuvre?", "Où est exposée cette œuvre?"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Qui est l'artiste?' significa 'Quem é o artista?' em francês."
+    },
+    {
+      "id": "va-4",
+      "text": "Qual destas expressões significa 'obra-prima' em francês?",
+      "options": ["Le chef-d'œuvre", "La collection", "L'exposition", "La galerie"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Le chef-d'œuvre' é a expressão francesa para 'obra-prima'."
+    },
+    {
+      "id": "va-5",
+      "text": "Como se diz 'arte contemporânea' em francês?",
+      "options": ["L'art ancien", "L'art moderne", "L'art contemporain", "L'art classique"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'L'art contemporain' significa 'arte contemporânea' em francês."
+    }
+  ]
+}

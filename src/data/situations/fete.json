@@ -1,0 +1,88 @@
+{
+  "title": "Festa",
+  "description": "Aprenda a participar de festas e celebrações na cultura francesa.",
+  "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Joyeux anniversaire !",
+    "Je vous invite à ma pendaison de crémaillère.",
+    "Qu'est-ce qu'on fête aujourd'hui ?"
+  ],
+  "introduction": "As celebrações e festas são uma parte importante da vida social francesa. Este guia ajudará você a entender os diferentes tipos de celebrações, como se comportar, o que dizer e como participar plenamente dessas ocasiões especiais.",
+  "dialogues": [
+    {
+      "title": "Convite para uma Festa",
+      "lines": [
+        { "speaker": "Amigo", "text": "Salut ! J'organise une petite fête samedi soir pour mon anniversaire. Tu es libre ?", "translation": "Oi! Estou organizando uma pequena festa no sábado à noite para o meu aniversário. Você está livre?" },
+        { "speaker": "Você", "text": "Oui, je suis libre ! À quelle heure ça commence ?", "translation": "Sim, estou livre! A que horas começa?" },
+        { "speaker": "Amigo", "text": "Vers 20h, mais tu peux venir quand tu veux. C'est chez moi, tu connais l'adresse ?", "translation": "Por volta das 20h, mas você pode vir quando quiser. É na minha casa, você conhece o endereço?" },
+        { "speaker": "Você", "text": "Je crois que oui, mais tu peux me la renvoyer pour être sûr ?", "translation": "Acho que sim, mas você pode me enviar novamente para ter certeza?" },
+        { "speaker": "Amigo", "text": "Bien sûr, c'est au 15 rue des Lilas, appartement 3B. Il y aura une dizaine de personnes, rien de trop grand.", "translation": "Claro, é na Rua dos Lilases, 15, apartamento 3B. Haverá cerca de dez pessoas, nada muito grande." },
+        { "speaker": "Você", "text": "Super ! Je dois apporter quelque chose ?", "translation": "Ótimo! Devo trazer alguma coisa?" },
+        { "speaker": "Amigo", "text": "Si tu veux, tu peux apporter une bouteille ou un dessert, mais ce n'est pas obligatoire.", "translation": "Se quiser, pode trazer uma garrafa ou uma sobremesa, mas não é obrigatório." },
+        { "speaker": "Você", "text": "D'accord, j'apporterai une bouteille de vin. À samedi alors !", "translation": "Certo, vou trazer uma garrafa de vinho. Até sábado então!" }
+      ]
+    },
+    {
+      "title": "Na Festa",
+      "lines": [
+        { "speaker": "Anfitrião", "text": "Ah, te voilà ! Entre, je suis content que tu aies pu venir.", "translation": "Ah, aí está você! Entre, estou feliz que você tenha podido vir." },
+        { "speaker": "Você", "text": "Merci de m'avoir invité. Tiens, c'est pour toi. Joyeux anniversaire !", "translation": "Obrigado pelo convite. Aqui, é para você. Feliz aniversário!" },
+        { "speaker": "Anfitrião", "text": "Oh, merci beaucoup ! Tu n'aurais pas dû. Viens, je vais te présenter aux autres.", "translation": "Oh, muito obrigado! Não precisava. Venha, vou apresentá-lo aos outros." },
+        { "speaker": "Você", "text": "Avec plaisir. C'est une belle soirée, la musique est super.", "translation": "Com prazer. É uma bela noite, a música está ótima." },
+        { "speaker": "Anfitrião", "text": "Tout le monde, je vous présente mon ami(e). Il/Elle vient du Brésil et apprend le français.", "translation": "Pessoal, apresento a vocês meu amigo(a). Ele/Ela vem do Brasil e está aprendendo francês." },
+        { "speaker": "Convidado", "text": "Enchanté ! Comment trouves-tu la France jusqu'à présent ?", "translation": "Prazer! Como você está achando a França até agora?" },
+        { "speaker": "Você", "text": "J'adore ! Les gens sont très accueillants et la culture est fascinante.", "translation": "Eu adoro! As pessoas são muito acolhedoras e a cultura é fascinante." }
+      ]
+    },
+    {
+      "title": "Celebrando o Ano Novo",
+      "lines": [
+        { "speaker": "Amigo", "text": "Il est presque minuit ! Tout le monde est prêt pour le compte à rebours ?", "translation": "É quase meia-noite! Todo mundo está pronto para a contagem regressiva?" },
+        { "speaker": "Você", "text": "Oui ! J'ai mon verre de champagne. C'est la première fois que je fête le Nouvel An en France.", "translation": "Sim! Tenho minha taça de champanhe. É a primeira vez que comemoro o Ano Novo na França." },
+        { "speaker": "Amigo", "text": "Tu vas voir, c'est une tradition de s'embrasser sous le gui à minuit et de se souhaiter la bonne année.", "translation": "Você vai ver, é uma tradição se beijar sob o visco à meia-noite e desejar um feliz ano novo." },
+        { "speaker": "Todos", "text": "Dix, neuf, huit, sept, six, cinq, quatre, trois, deux, un... Bonne année !", "translation": "Dez, nove, oito, sete, seis, cinco, quatro, três, dois, um... Feliz ano novo!" },
+        { "speaker": "Amigo", "text": "Bonne année ! Que cette année t'apporte santé, bonheur et réussite !", "translation": "Feliz ano novo! Que este ano lhe traga saúde, felicidade e sucesso!" },
+        { "speaker": "Você", "text": "Bonne année à toi aussi ! Merci pour cette soirée merveilleuse.", "translation": "Feliz ano novo para você também! Obrigado por esta noite maravilhosa." },
+        { "speaker": "Amigo", "text": "Maintenant, on va manger la galette des rois. C'est une tradition du mois de janvier.", "translation": "Agora, vamos comer o bolo de reis. É uma tradição do mês de janeiro." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la fête", "translation": "a festa, a celebração" },
+    { "word": "l'anniversaire (m)", "translation": "o aniversário" },
+    { "word": "inviter", "translation": "convidar", "example": "Je t'invite à ma fête d'anniversaire." },
+    { "word": "le/la invité(e)", "translation": "o/a convidado(a)" },
+    { "word": "l'hôte (m) / l'hôtesse (f)", "translation": "o anfitrião / a anfitriã" },
+    { "word": "célébrer", "translation": "celebrar" },
+    { "word": "porter un toast", "translation": "fazer um brinde" },
+    { "word": "le cadeau", "translation": "o presente" },
+    { "word": "les félicitations (f)", "translation": "os parabéns, as felicitações" },
+    { "word": "la pendaison de crémaillère", "translation": "a festa de inauguração da casa nova" },
+    { "word": "le Nouvel An", "translation": "o Ano Novo" },
+    { "word": "le réveillon", "translation": "a ceia (de Natal ou Ano Novo)", "example": "Nous organisons un réveillon le 31 décembre." },
+    { "word": "le champagne", "translation": "o champanhe" },
+    { "word": "trinquer", "translation": "brindar", "example": "Trinquons à votre santé !" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "La Galette des Rois", 
+      "description": "A 'galette des rois' (bolo de reis) é uma tradição francesa celebrada no início de janeiro, especialmente no dia 6 (Dia de Reis). É um bolo de massa folhada recheado com frangipane (creme de amêndoas) que contém uma pequena figurinha chamada 'fève'. Quem encontrar a fève em sua fatia é coroado rei ou rainha do dia." 
+    },
+    { 
+      "title": "Festas Nacionais", 
+      "description": "O principal feriado nacional francês é o 14 de julho (Dia da Bastilha), que comemora a Revolução Francesa. É celebrado com desfiles militares, bailes de bombeiros (bals des pompiers) e fogos de artifício. Outras celebrações importantes incluem o Natal (Noël), Páscoa (Pâques) e Todos os Santos (Toussaint)." 
+    },
+    { 
+      "title": "Presentes e Etiqueta", 
+      "description": "Quando convidado para uma casa francesa, é costume trazer um pequeno presente como flores, chocolates ou uma garrafa de vinho. As flores devem ser em número ímpar (exceto 13, considerado de má sorte) e não devem ser crisântemos (associados a cemitérios). É considerado educado abrir presentes na frente de quem os deu." 
+    }
+  ],
+  "tips": [
+    "Nas festas francesas, é comum chegar um pouco atrasado (10-15 minutos) para jantares em casas particulares, mas seja pontual para eventos formais.",
+    "Ao brindar (porter un toast), olhe nos olhos da pessoa com quem está brindando, não na taça.",
+    "Em aniversários, a tradição é que o aniversariante ofereça bebidas e comida aos convidados, diferente de alguns países onde os convidados pagam pela pessoa que faz aniversário.",
+    "Para festas em casa (soirées), geralmente é apreciado perguntar se você pode trazer algo, mesmo que o anfitrião diga que não é necessário.",
+    "Nas celebrações de Ano Novo, é tradição ligar para amigos e familiares durante o mês de janeiro para desejar 'Bonne Année'."
+  ],
+  "relatedQuizzes": ["Vocabulário de Celebrações", "Tradições Francesas", "Expressões de Cortesia"]
+}

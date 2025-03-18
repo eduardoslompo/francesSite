@@ -1,0 +1,87 @@
+{
+  "title": "Biblioteca",
+  "description": "Aprenda a navegar, pedir informações e emprestar livros em uma biblioteca francesa.",
+  "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je cherche un livre sur l'histoire de France.",
+    "Puis-je emprunter ce livre ?",
+    "Quand dois-je rendre ce livre ?"
+  ],
+  "introduction": "As bibliotecas na França são espaços culturais importantes que oferecem muito mais do que apenas livros. Este guia ajudará você a navegar pelo sistema de bibliotecas francês, pedir informações, emprestar materiais e aproveitar os diversos recursos disponíveis.",
+  "dialogues": [
+    {
+      "title": "Pedindo Informações",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, excusez-moi de vous déranger.", "translation": "Bom dia, desculpe incomodar." },
+        { "speaker": "Bibliotecário", "text": "Bonjour, je peux vous aider ?", "translation": "Bom dia, posso ajudar?" },
+        { "speaker": "Você", "text": "Je cherche un livre sur l'histoire de France. Où puis-je le trouver ?", "translation": "Estou procurando um livro sobre a história da França. Onde posso encontrá-lo?" },
+        { "speaker": "Bibliotecário", "text": "Les livres d'histoire sont au deuxième étage, section C. Vous cherchez une période particulière ?", "translation": "Os livros de história estão no segundo andar, seção C. Você está procurando um período específico?" },
+        { "speaker": "Você", "text": "Oui, je m'intéresse à la Révolution française.", "translation": "Sim, estou interessado(a) na Revolução Francesa." },
+        { "speaker": "Bibliotecário", "text": "Dans ce cas, allez voir les étagères 15 à 18. Vous y trouverez plusieurs ouvrages sur cette période.", "translation": "Nesse caso, vá ver as estantes 15 a 18. Você encontrará várias obras sobre esse período." },
+        { "speaker": "Você", "text": "Merci beaucoup pour votre aide.", "translation": "Muito obrigado(a) pela sua ajuda." },
+        { "speaker": "Bibliotecário", "text": "Je vous en prie. N'hésitez pas à revenir me voir si vous avez besoin d'autre chose.", "translation": "De nada. Não hesite em voltar se precisar de mais alguma coisa." }
+      ]
+    },
+    {
+      "title": "Emprestando um Livro",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais emprunter ces livres, s'il vous plaît.", "translation": "Bom dia, eu gostaria de emprestar estes livros, por favor." },
+        { "speaker": "Bibliotecário", "text": "Bonjour. Avez-vous une carte de bibliothèque ?", "translation": "Bom dia. Você tem um cartão da biblioteca?" },
+        { "speaker": "Você", "text": "Non, pas encore. Comment puis-je l'obtenir ?", "translation": "Não, ainda não. Como posso obtê-lo?" },
+        { "speaker": "Bibliotecário", "text": "Vous devez remplir ce formulaire et présenter une pièce d'identité et un justificatif de domicile.", "translation": "Você precisa preencher este formulário e apresentar um documento de identidade e um comprovante de residência." },
+        { "speaker": "Você", "text": "J'ai mon passeport et une facture d'électricité. Ça convient ?", "translation": "Tenho meu passaporte e uma conta de luz. Isso serve?" },
+        { "speaker": "Bibliotecário", "text": "Oui, c'est parfait. Veuillez remplir ce formulaire, s'il vous plaît.", "translation": "Sim, é perfeito. Por favor, preencha este formulário." },
+        { "speaker": "Você", "text": "Voilà, c'est fait. Combien de livres puis-je emprunter à la fois ?", "translation": "Pronto, está feito. Quantos livros posso emprestar de uma vez?" },
+        { "speaker": "Bibliotecário", "text": "Vous pouvez emprunter jusqu'à 5 livres pour une durée de 3 semaines. Voici votre carte. Les livres doivent être rendus avant le 25 mai.", "translation": "Você pode emprestar até 5 livros por um período de 3 semanas. Aqui está seu cartão. Os livros devem ser devolvidos antes de 25 de maio." }
+      ]
+    },
+    {
+      "title": "Devolvendo Materiais",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je viens rendre ces livres.", "translation": "Bom dia, vim devolver estes livros." },
+        { "speaker": "Bibliotecário", "text": "Bonjour. Je vais les scanner. Avez-vous apprécié votre lecture ?", "translation": "Bom dia. Vou escaneá-los. Você gostou da sua leitura?" },
+        { "speaker": "Você", "text": "Oui, beaucoup ! Surtout celui sur la Révolution française.", "translation": "Sim, muito! Especialmente o sobre a Revolução Francesa." },
+        { "speaker": "Bibliotecário", "text": "Parfait ! Oh, ce livre a un jour de retard. Il y a une petite amende de 50 centimes.", "translation": "Perfeito! Oh, este livro está com um dia de atraso. Há uma pequena multa de 50 centavos." },
+        { "speaker": "Você", "text": "Je suis désolé(e) pour le retard. Voici 50 centimes.", "translation": "Sinto muito pelo atraso. Aqui estão 50 centavos." },
+        { "speaker": "Bibliotecário", "text": "Merci. Souhaitez-vous emprunter d'autres livres aujourd'hui ?", "translation": "Obrigado. Deseja emprestar outros livros hoje?" },
+        { "speaker": "Você", "text": "Pas aujourd'hui, mais je reviendrai bientôt. Merci !", "translation": "Hoje não, mas voltarei em breve. Obrigado(a)!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la bibliothèque", "translation": "a biblioteca" },
+    { "word": "un livre", "translation": "um livro" },
+    { "word": "emprunter", "translation": "emprestar, tomar emprestado", "example": "J'aimerais emprunter ce roman." },
+    { "word": "rendre", "translation": "devolver, retornar", "example": "Je dois rendre ces livres demain." },
+    { "word": "une carte de bibliothèque", "translation": "um cartão de biblioteca" },
+    { "word": "un rayon", "translation": "uma prateleira, seção" },
+    { "word": "une étagère", "translation": "uma estante" },
+    { "word": "un étage", "translation": "um andar" },
+    { "word": "une amende", "translation": "uma multa" },
+    { "word": "un retard", "translation": "um atraso" },
+    { "word": "un justificatif de domicile", "translation": "um comprovante de residência" },
+    { "word": "une pièce d'identité", "translation": "um documento de identidade" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Sistema de Bibliotecas Francês", 
+      "description": "A França possui uma extensa rede de bibliotecas públicas, desde pequenas bibliotecas municipais até grandes bibliotecas nacionais como a Bibliothèque nationale de France (BnF). Muitas bibliotecas universitárias também são acessíveis ao público mediante cadastro." 
+    },
+    { 
+      "title": "Médiathèques", 
+      "description": "Além das bibliotecas tradicionais, a França possui 'médiathèques', que são centros culturais que oferecem não apenas livros, mas também CDs, DVDs, acesso à internet, exposições e eventos culturais." 
+    },
+    { 
+      "title": "Cartão de Biblioteca", 
+      "description": "Para obter um cartão de biblioteca na França, geralmente é necessário apresentar um documento de identidade e um comprovante de residência recente (como uma conta de luz ou telefone). Alguns municípios oferecem cartões gratuitos para residentes, enquanto outros cobram uma taxa anual." 
+    }
+  ],
+  "tips": [
+    "Muitas bibliotecas francesas têm horários específicos e podem fechar durante o almoço (geralmente entre 12h e 14h) e nos domingos e segundas-feiras.",
+    "Fale em voz baixa nas bibliotecas francesas - o silêncio é muito valorizado nesses espaços.",
+    "Algumas bibliotecas oferecem tours guiados em inglês para visitantes estrangeiros - pergunte na recepção.",
+    "Muitas bibliotecas universitárias permitem que não-estudantes utilizem os materiais no local, mesmo sem cartão.",
+    "Se você não encontrar um livro específico, pergunte sobre o sistema de empréstimo entre bibliotecas ('prêt entre bibliothèques')."
+  ],
+  "relatedQuizzes": ["Vocabulário de Biblioteca", "Cultura e Educação", "Situações Cotidianas"]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-roupas",
+  "title": "Vocabulário de Roupas",
+  "description": "Aprenda palavras e expressões essenciais para comprar roupas e acessórios em lojas francesas.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vr-1",
+      "text": "Como se diz 'camisa' em francês?",
+      "options": ["La chemise", "Le pantalon", "La jupe", "Le manteau"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'La chemise' é a palavra francesa para 'camisa'."
+    },
+    {
+      "id": "vr-2",
+      "text": "Qual é a palavra francesa para 'calça'?",
+      "options": ["La robe", "Le pantalon", "Le chapeau", "Les chaussures"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le pantalon' é a palavra francesa para 'calça'."
+    },
+    {
+      "id": "vr-3",
+      "text": "Como se pergunta 'Posso experimentar isto?' em francês?",
+      "options": ["Combien ça coûte?", "Je peux essayer ceci?", "Avez-vous ma taille?", "Où est la cabine d'essayage?"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Je peux essayer ceci?' significa 'Posso experimentar isto?' em francês."
+    },
+    {
+      "id": "vr-4",
+      "text": "Qual é a expressão para 'provador' em francês?",
+      "options": ["La caisse", "Le rayon", "La cabine d'essayage", "Le magasin"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'La cabine d'essayage' é a expressão francesa para 'provador' (o local onde se experimenta roupas)."
+    },
+    {
+      "id": "vr-5",
+      "text": "Como se diz 'Fica bem em mim?' em francês?",
+      "options": ["C'est à la mode?", "Ça me va bien?", "C'est de quelle couleur?", "C'est de quelle taille?"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Ça me va bien?' significa 'Fica bem em mim?' em francês, uma pergunta comum ao experimentar roupas."
+    }
+  ]
+}

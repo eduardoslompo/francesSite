@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-medico",
+  "title": "Vocabulário Médico",
+  "description": "Aprenda termos médicos e vocabulário relacionado à saúde em francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "saude",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vm-1",
+      "text": "Como se diz 'dor de cabeça' em francês?",
+      "options": ["Mal au ventre", "Mal à la gorge", "Mal à la tête", "Mal au dos"],
+      "correctAnswer": 2,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "'Mal à la tête' significa 'dor de cabeça' em francês."
+    },
+    {
+      "id": "vm-2",
+      "text": "Qual é a palavra francesa para 'febre'?",
+      "options": ["La toux", "La fièvre", "Le rhume", "La grippe"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "'La fièvre' é a palavra francesa para 'febre'."
+    },
+    {
+      "id": "vm-3",
+      "text": "Como se diz 'farmácia' em francês?",
+      "options": ["L'hôpital", "La clinique", "Le cabinet médical", "La pharmacie"],
+      "correctAnswer": 3,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "'La pharmacie' significa 'farmácia' em francês."
+    },
+    {
+      "id": "vm-4",
+      "text": "Qual frase você usaria para dizer que está com dor de garganta?",
+      "options": ["J'ai mal au ventre", "J'ai mal à la gorge", "J'ai de la fièvre", "J'ai un rhume"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "'J'ai mal à la gorge' significa 'Estou com dor de garganta' em francês."
+    },
+    {
+      "id": "vm-5",
+      "text": "Como se chama uma 'receita médica' em francês?",
+      "options": ["Une prescription", "Une ordonnance", "Un médicament", "Un traitement"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'Une ordonnance' é o termo francês para 'receita médica'."
+    }
+  ]
+}

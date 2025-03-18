@@ -1,0 +1,56 @@
+{
+  "id": "comunicacao-no-escritorio",
+  "title": "Comunicação no Escritório",
+  "description": "Aprenda vocabulário e expressões em francês para comunicação eficaz no ambiente de trabalho corporativo.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "profissional",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ce-1",
+      "text": "Como se diz 'reunião' em francês?",
+      "options": ["Le bureau", "La réunion", "Le travail", "Le rendez-vous"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "iniciante",
+      "explanation": "'La réunion' é a palavra francesa para 'reunião'."
+    },
+    {
+      "id": "ce-2",
+      "text": "Qual é a tradução de 'enviar um e-mail' em francês?",
+      "options": ["Recevoir un e-mail", "Envoyer un e-mail", "Lire un e-mail", "Écrire une lettre"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "iniciante",
+      "explanation": "'Envoyer un e-mail' significa 'enviar um e-mail' em francês."
+    },
+    {
+      "id": "ce-3",
+      "text": "Como se diz 'colega de trabalho' em francês?",
+      "options": ["Le patron", "Le collègue de travail", "L'employé", "Le directeur"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "intermediario",
+      "explanation": "'Le collègue de travail' significa 'colega de trabalho' em francês."
+    },
+    {
+      "id": "ce-4",
+      "text": "Qual frase você usaria para pedir a opinião de um colega sobre um projeto?",
+      "options": ["Pouvez-vous m'aider?", "Qu'est-ce que vous pensez de ce projet?", "Quand est la date limite?", "Où est le bureau?"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "intermediario",
+      "explanation": "'Qu'est-ce que vous pensez de ce projet?' significa 'O que você acha deste projeto?' em francês."
+    },
+    {
+      "id": "ce-5",
+      "text": "Como se diz 'apresentação de slides' em francês?",
+      "options": ["Le document", "La présentation PowerPoint", "Le rapport", "Le fichier"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'La présentation PowerPoint' é como geralmente se refere a uma 'apresentação de slides' em francês no contexto profissional."
+    }
+  ]
+}

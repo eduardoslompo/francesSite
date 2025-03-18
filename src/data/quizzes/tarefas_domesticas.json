@@ -1,0 +1,56 @@
+{
+  "id": "tarefas-domesticas",
+  "title": "Tarefas Domésticas",
+  "description": "Aprenda vocabulário e expressões relacionadas a tarefas domésticas em francês, incluindo limpeza, organização e manutenção da casa.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "casa",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "td-1",
+      "text": "Como se diz 'limpar a casa' em francês?",
+      "options": ["Nettoyer la maison", "Ranger la maison", "Balayer la maison", "Laver la maison"],
+      "correctAnswer": 0,
+      "category": "casa",
+      "difficulty": "iniciante",
+      "explanation": "'Nettoyer la maison' é a expressão francesa para 'limpar a casa'. 'Ranger la maison' significa 'arrumar/organizar a casa', 'Balayer la maison' significa 'varrer a casa' e 'Laver la maison' significa 'lavar a casa'."
+    },
+    {
+      "id": "td-2",
+      "text": "Qual é a tradução de 'lavar a louça' em francês?",
+      "options": ["Laver le linge", "Faire la vaisselle", "Nettoyer la cuisine", "Essuyer les plats"],
+      "correctAnswer": 1,
+      "category": "casa",
+      "difficulty": "iniciante",
+      "explanation": "'Faire la vaisselle' é a expressão francesa para 'lavar a louça'. 'Laver le linge' significa 'lavar a roupa', 'Nettoyer la cuisine' significa 'limpar a cozinha' e 'Essuyer les plats' significa 'secar os pratos'."
+    },
+    {
+      "id": "td-3",
+      "text": "Como se diz 'passar roupa' em francês?",
+      "options": ["Laver les vêtements", "Sécher les vêtements", "Repasser les vêtements", "Plier les vêtements"],
+      "correctAnswer": 2,
+      "category": "casa",
+      "difficulty": "iniciante",
+      "explanation": "'Repasser les vêtements' é a expressão francesa para 'passar roupa'. 'Laver les vêtements' significa 'lavar as roupas', 'Sécher les vêtements' significa 'secar as roupas' e 'Plier les vêtements' significa 'dobrar as roupas'."
+    },
+    {
+      "id": "td-4",
+      "text": "Qual destas expressões significa 'tirar o pó' em francês?",
+      "options": ["Passer l'aspirateur", "Faire le ménage", "Faire les courses", "Faire la poussière"],
+      "correctAnswer": 3,
+      "category": "casa",
+      "difficulty": "intermediario",
+      "explanation": "'Faire la poussière' é a expressão francesa para 'tirar o pó'. 'Passer l'aspirateur' significa 'passar o aspirador', 'Faire le ménage' significa 'fazer a limpeza (geral)' e 'Faire les courses' significa 'fazer compras'."
+    },
+    {
+      "id": "td-5",
+      "text": "Como se diz 'tirar o lixo' em francês?",
+      "options": ["Sortir les poubelles", "Nettoyer les déchets", "Jeter les ordures", "Vider la corbeille"],
+      "correctAnswer": 0,
+      "category": "casa",
+      "difficulty": "intermediario",
+      "explanation": "'Sortir les poubelles' é a expressão francesa para 'tirar o lixo'. 'Jeter les ordures' significa 'jogar o lixo fora' e 'Vider la corbeille' significa 'esvaziar a lixeira'."
+    }
+  ]
+}

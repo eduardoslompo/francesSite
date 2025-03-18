@@ -1,0 +1,56 @@
+{
+  "id": "cultura-e-lazer",
+  "title": "Cultura e Lazer",
+  "description": "Aprenda vocabulário e expressões relacionadas a atividades culturais e de lazer em francês, incluindo termos para diferentes formas de entretenimento e passatempos.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "cl-1",
+      "text": "Como se diz 'teatro' em francês?",
+      "options": ["Le cinéma", "Le théâtre", "L'opéra", "Le concert"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Le théâtre' é a palavra francesa para 'teatro'."
+    },
+    {
+      "id": "cl-2",
+      "text": "Qual é a expressão francesa para 'visitar um museu'?",
+      "options": ["Aller au musée", "Visiter un musée", "Explorer un musée", "Regarder un musée"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Visiter un musée' significa 'visitar um museu' em francês."
+    },
+    {
+      "id": "cl-3",
+      "text": "Como se diz 'ler um livro' em francês?",
+      "options": ["Regarder un livre", "Écrire un livre", "Lire un livre", "Acheter un livre"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Lire un livre' significa 'ler um livro' em francês."
+    },
+    {
+      "id": "cl-4",
+      "text": "Qual destas expressões significa 'assistir a um filme' em francês?",
+      "options": ["Voir un film", "Écouter un film", "Lire un film", "Jouer un film"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Voir un film' significa 'assistir a um filme' em francês."
+    },
+    {
+      "id": "cl-5",
+      "text": "Como se pergunta 'Quais são seus hobbies?' em francês?",
+      "options": ["Qu'est-ce que tu fais?", "Quels sont tes loisirs?", "Comment passes-tu ton temps?", "Qu'est-ce que tu aimes?"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Quels sont tes loisirs?' é a forma de perguntar 'Quais são seus hobbies?' em francês."
+    }
+  ]
+}

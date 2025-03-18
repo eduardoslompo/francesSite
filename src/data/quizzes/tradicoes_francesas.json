@@ -1,0 +1,56 @@
+{
+  "id": "tradicoes-francesas",
+  "title": "Tradições Francesas",
+  "description": "Aprenda sobre as principais tradições e costumes culturais da França, incluindo festividades nacionais, práticas regionais e celebrações típicas.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "tf-1",
+      "text": "Qual é a festa nacional francesa, celebrada em 14 de julho?",
+      "options": ["La Toussaint", "La Fête Nationale (Le 14 Juillet)", "L'Armistice", "La Fête du Travail"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'La Fête Nationale', também conhecida como 'Le 14 Juillet', comemora a Tomada da Bastilha em 1789, um evento importante da Revolução Francesa."
+    },
+    {
+      "id": "tf-2",
+      "text": "Qual tradição francesa acontece no primeiro domingo após o Dia de Todos os Santos?",
+      "options": ["La Fête des Mères", "Le Beaujolais Nouveau", "La Fête des Rois", "Le Mardi Gras"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Le Beaujolais Nouveau' é uma celebração do vinho novo da região de Beaujolais, que ocorre na terceira quinta-feira de novembro, não no primeiro domingo após o Dia de Todos os Santos."
+    },
+    {
+      "id": "tf-3",
+      "text": "Qual é a tradição francesa de 1º de maio?",
+      "options": ["Dar chocolates", "Oferecer lírios-do-vale (muguet)", "Trocar presentes", "Fazer piqueniques"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "No dia 1º de maio, Dia do Trabalho na França, existe a tradição de oferecer lírios-do-vale (muguet) como símbolo de boa sorte e felicidade."
+    },
+    {
+      "id": "tf-4",
+      "text": "O que é 'La Galette des Rois' na tradição francesa?",
+      "options": ["Um bolo servido no dia da Epifania", "Um pão especial de Páscoa", "Uma sobremesa de Natal", "Um doce típico do verão"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'La Galette des Rois' é um bolo tradicional servido no dia da Epifania (6 de janeiro). Contém uma pequena figurinha ('fève') e quem a encontra torna-se rei ou rainha por um dia."
+    },
+    {
+      "id": "tf-5",
+      "text": "Qual é a tradição francesa associada ao dia 2 de fevereiro?",
+      "options": ["Acender velas", "Fazer crepes", "Visitar cemitérios", "Decorar árvores"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "No dia 2 de fevereiro, 'La Chandeleur' (Candelária), os franceses têm a tradição de fazer e comer crepes. Existe a superstição de que virar o crepe na frigideira segurando uma moeda na outra mão traz prosperidade."
+    }
+  ]
+}

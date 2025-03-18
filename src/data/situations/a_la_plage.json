@@ -1,0 +1,89 @@
+{
+  "title": "Na Praia",
+  "description": "Aprenda vocabulário e expressões úteis para aproveitar um dia na praia francesa.",
+  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Où est la plage la plus proche ?",
+    "Est-ce qu'on peut louer des parasols ici ?",
+    "Attention aux vagues, elles sont fortes aujourd'hui !"
+  ],
+  "introduction": "As praias francesas, seja na Riviera Francesa, na costa atlântica ou nas ilhas ultramarinas, são destinos populares. Este guia ajudará você a aproveitar ao máximo sua experiência na praia, desde alugar equipamentos até interagir com salva-vidas e outros banhistas.",
+  "dialogues": [
+    {
+      "title": "Chegando à Praia",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, est-ce que cette plage est surveillée ?", "translation": "Bom dia, esta praia é vigiada por salva-vidas?" },
+        { "speaker": "Atendente", "text": "Oui, de 10h à 19h. Les sauveteurs sont dans la tour rouge là-bas.", "translation": "Sim, das 10h às 19h. Os salva-vidas estão naquela torre vermelha ali." },
+        { "speaker": "Você", "text": "Parfait. Est-ce qu'on peut louer des chaises et des parasols ?", "translation": "Perfeito. Podemos alugar cadeiras e guarda-sóis?" },
+        { "speaker": "Atendente", "text": "Bien sûr. C'est 5 euros la chaise et 7 euros le parasol pour la journée.", "translation": "Claro. São 5 euros a cadeira e 7 euros o guarda-sol para o dia todo." },
+        { "speaker": "Você", "text": "Je voudrais deux chaises et un parasol, s'il vous plaît.", "translation": "Eu gostaria de duas cadeiras e um guarda-sol, por favor." },
+        { "speaker": "Atendente", "text": "Ça fait 17 euros. Vous préférez vous installer près de l'eau ou plus loin ?", "translation": "São 17 euros. Você prefere se instalar perto da água ou mais longe?" },
+        { "speaker": "Você", "text": "Plus près de l'eau, si possible.", "translation": "Mais perto da água, se possível." },
+        { "speaker": "Atendente", "text": "Suivez-moi, je vais vous montrer un bon emplacement.", "translation": "Siga-me, vou mostrar um bom lugar." }
+      ]
+    },
+    {
+      "title": "No Quiosque da Praia",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais une bouteille d'eau et une glace, s'il vous plaît.", "translation": "Bom dia, eu gostaria de uma garrafa de água e um sorvete, por favor." },
+        { "speaker": "Vendedor", "text": "Bonjour. Quelle saveur de glace voulez-vous ? Nous avons vanille, chocolat, fraise et citron.", "translation": "Bom dia. Que sabor de sorvete você quer? Temos baunilha, chocolate, morango e limão." },
+        { "speaker": "Você", "text": "Une glace au citron, s'il vous plaît. Et l'eau, elle est fraîche ?", "translation": "Um sorvete de limão, por favor. E a água, está gelada?" },
+        { "speaker": "Vendedor", "text": "Oui, elle sort du réfrigérateur. Vous voulez une grande ou une petite bouteille ?", "translation": "Sim, acabou de sair da geladeira. Você quer uma garrafa grande ou pequena?" },
+        { "speaker": "Você", "text": "Une petite, ça suffira. Combien je vous dois ?", "translation": "Uma pequena será suficiente. Quanto eu lhe devo?" },
+        { "speaker": "Vendedor", "text": "Ça fait 5,50 euros. Vous avez la monnaie exacte ?", "translation": "São 5,50 euros. Você tem o valor exato?" },
+        { "speaker": "Você", "text": "Oui, voilà. Est-ce que vous vendez aussi des chapeaux de soleil ?", "translation": "Sim, aqui está. Você também vende chapéus de sol?" },
+        { "speaker": "Vendedor", "text": "Oui, nous en avons à côté de la caisse. Ils coûtent 12 euros.", "translation": "Sim, temos ao lado do caixa. Eles custam 12 euros." }
+      ]
+    },
+    {
+      "title": "Conversando com o Salva-vidas",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, est-ce qu'on peut se baigner aujourd'hui ? Je vois un drapeau orange.", "translation": "Com licença, podemos nadar hoje? Vejo uma bandeira laranja." },
+        { "speaker": "Salva-vidas", "text": "Le drapeau orange signifie baignade surveillée mais dangereuse. Les vagues sont assez fortes aujourd'hui.", "translation": "A bandeira laranja significa que o banho é vigiado, mas perigoso. As ondas estão bastante fortes hoje." },
+        { "speaker": "Você", "text": "Je comprends. Est-ce qu'il y a une zone plus sûre pour nager ?", "translation": "Entendo. Existe uma área mais segura para nadar?" },
+        { "speaker": "Salva-vidas", "text": "Oui, restez entre les drapeaux bleus là-bas. Et ne nagez pas trop loin, restez où vous avez pied.", "translation": "Sim, fique entre as bandeiras azuis ali. E não nade muito longe, fique onde você consegue tocar o pé no chão." },
+        { "speaker": "Você", "text": "Merci pour ces conseils. Y a-t-il des méduses aujourd'hui ?", "translation": "Obrigado pelos conselhos. Há águas-vivas hoje?" },
+        { "speaker": "Salva-vidas", "text": "Non, nous n'avons pas signalé de méduses aujourd'hui. Mais si vous en voyez une, venez nous prévenir.", "translation": "Não, não relatamos águas-vivas hoje. Mas se você vir uma, venha nos avisar." },
+        { "speaker": "Você", "text": "D'accord. À quelle heure est la marée haute ?", "translation": "Certo. A que horas é a maré alta?" },
+        { "speaker": "Salva-vidas", "text": "La marée haute est à 15h30. Ne laissez pas vos affaires trop près de l'eau.", "translation": "A maré alta é às 15h30. Não deixe seus pertences muito perto da água." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la plage", "translation": "a praia" },
+    { "word": "le sable", "translation": "a areia" },
+    { "word": "la mer", "translation": "o mar" },
+    { "word": "les vagues (f)", "translation": "as ondas" },
+    { "word": "le parasol", "translation": "o guarda-sol" },
+    { "word": "la serviette de plage", "translation": "a toalha de praia" },
+    { "word": "la crème solaire", "translation": "o protetor solar" },
+    { "word": "se baigner", "translation": "banhar-se, nadar", "example": "Je vais me baigner dans la mer." },
+    { "word": "bronzer", "translation": "bronzear-se", "example": "Elle bronze au soleil." },
+    { "word": "le sauveteur / la sauveteuse", "translation": "o salva-vidas / a salva-vidas" },
+    { "word": "la marée haute", "translation": "a maré alta" },
+    { "word": "la marée basse", "translation": "a maré baixa" },
+    { "word": "les coquillages (m)", "translation": "as conchas" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Sistema de Bandeiras nas Praias", 
+      "description": "As praias francesas usam um sistema de bandeiras para indicar as condições de banho: verde (banho seguro), amarela (banho com cuidado), vermelha (banho proibido) e roxa (poluição, banho proibido). Bandeiras azuis delimitam áreas vigiadas por salva-vidas." 
+    },
+    { 
+      "title": "Topless e Nudismo", 
+      "description": "Em muitas praias francesas, especialmente na Riviera Francesa, é comum ver mulheres fazendo topless. Existem também praias oficialmente designadas como naturistas (nudistas). Estas praias são claramente sinalizadas como 'plage naturiste'." 
+    },
+    { 
+      "title": "Etiqueta na Praia", 
+      "description": "Os franceses valorizam o espaço pessoal na praia. Evite se instalar muito perto de outras pessoas se houver espaço disponível. Sacudir toalhas perto de outros banhistas ou jogar areia é considerado rude. Música alta também não é bem-vista em muitas praias." 
+    }
+  ],
+  "tips": [
+    "Muitas praias francesas são de pedras ou seixos, especialmente na Côte d'Azur. Considere levar calçados apropriados para água.",
+    "Nas praias mais populares, chegue cedo para garantir um bom lugar, especialmente durante a alta temporada (julho e agosto).",
+    "Leve água potável suficiente, pois as bebidas nos quiosques de praia podem ser caras.",
+    "Respeite sempre as instruções dos salva-vidas e os sinais de segurança.",
+    "Em algumas praias, você pode alugar equipamentos esportivos como caiaques, pranchas de stand-up paddle ou equipamentos de snorkel."
+  ],
+  "relatedQuizzes": ["Vocabulário de Praia", "Atividades de Verão", "Geografia Costeira Francesa"]
+}

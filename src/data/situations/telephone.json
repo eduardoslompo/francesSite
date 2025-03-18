@@ -1,0 +1,90 @@
+{
+  "title": "Telefone",
+  "description": "Aprenda a fazer e receber chamadas telefônicas em francês com confiança.",
+  "image": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Allô, je voudrais parler à Monsieur Dupont, s'il vous plaît.",
+    "Pourriez-vous épeler votre nom, s'il vous plaît ?",
+    "Je vous rappellerai plus tard."
+  ],
+  "introduction": "Fazer e receber chamadas telefônicas em francês pode ser desafiador, pois você não tem o auxílio da linguagem corporal. Este guia ajudará você a dominar as expressões essenciais para conversas telefônicas, desde cumprimentos iniciais até como encerrar uma chamada adequadamente.",
+  "dialogues": [
+    {
+      "title": "Ligando para um Amigo",
+      "lines": [
+        { "speaker": "Amigo", "text": "Allô ?", "translation": "Alô?" },
+        { "speaker": "Você", "text": "Allô, c'est Marie. Comment ça va ?", "translation": "Alô, é a Marie. Como vai?" },
+        { "speaker": "Amigo", "text": "Marie ! Ça va bien, merci. Et toi ?", "translation": "Marie! Estou bem, obrigado. E você?" },
+        { "speaker": "Você", "text": "Très bien ! Dis-moi, es-tu libre ce weekend ? J'organise une petite fête samedi soir.", "translation": "Muito bem! Diga-me, você está livre neste fim de semana? Estou organizando uma pequena festa no sábado à noite." },
+        { "speaker": "Amigo", "text": "Samedi soir ? Attends, je vérifie mon agenda... Oui, je suis libre ! À quelle heure ?", "translation": "Sábado à noite? Espere, vou verificar minha agenda... Sim, estou livre! A que horas?" },
+        { "speaker": "Você", "text": "À partir de 20h, chez moi. Tu te souviens de l'adresse ?", "translation": "A partir das 20h, na minha casa. Você se lembra do endereço?" },
+        { "speaker": "Amigo", "text": "Oui, je m'en souviens. Je peux apporter quelque chose ?", "translation": "Sim, eu me lembro. Posso trazer alguma coisa?" },
+        { "speaker": "Você", "text": "Si tu veux, tu peux apporter une bouteille de vin ou un dessert.", "translation": "Se você quiser, pode trazer uma garrafa de vinho ou uma sobremesa." }
+      ]
+    },
+    {
+      "title": "Ligando para uma Empresa",
+      "lines": [
+        { "speaker": "Recepcionista", "text": "Bonjour, entreprise Durand, je vous écoute.", "translation": "Bom dia, empresa Durand, estou ouvindo." },
+        { "speaker": "Você", "text": "Bonjour, je voudrais parler à Madame Lefèvre, s'il vous plaît.", "translation": "Bom dia, eu gostaria de falar com a Senhora Lefèvre, por favor." },
+        { "speaker": "Recepcionista", "text": "De la part de qui ?", "translation": "Da parte de quem?" },
+        { "speaker": "Você", "text": "De la part de Jean Moreau, de la société Bellevue.", "translation": "Da parte de Jean Moreau, da empresa Bellevue." },
+        { "speaker": "Recepcionista", "text": "Un instant, je vous la passe.", "translation": "Um momento, vou transferir para ela." },
+        { "speaker": "Recepcionista", "text": "Je suis désolé, Madame Lefèvre est en réunion. Voulez-vous laisser un message ?", "translation": "Sinto muito, a Senhora Lefèvre está em reunião. Gostaria de deixar uma mensagem?" },
+        { "speaker": "Você", "text": "Oui, pourriez-vous lui dire de me rappeler au 06 12 34 56 78 dès qu'elle sera disponible ?", "translation": "Sim, poderia dizer a ela para me ligar de volta no número 06 12 34 56 78 assim que estiver disponível?" },
+        { "speaker": "Recepcionista", "text": "Bien sûr, je lui transmettrai le message.", "translation": "Claro, vou transmitir a mensagem para ela." }
+      ]
+    },
+    {
+      "title": "Resolvendo um Problema por Telefone",
+      "lines": [
+        { "speaker": "Atendente", "text": "Service client Orange, Nathalie à votre écoute. Comment puis-je vous aider ?", "translation": "Serviço ao cliente Orange, Nathalie ao seu dispor. Como posso ajudá-lo?" },
+        { "speaker": "Você", "text": "Bonjour, j'ai un problème avec ma connexion internet qui ne fonctionne plus depuis ce matin.", "translation": "Bom dia, estou com um problema com minha conexão de internet que não funciona mais desde esta manhã." },
+        { "speaker": "Atendente", "text": "Je comprends. Puis-je avoir votre numéro de client, s'il vous plaît ?", "translation": "Entendo. Posso ter seu número de cliente, por favor?" },
+        { "speaker": "Você", "text": "Oui, c'est le 765432.", "translation": "Sim, é o 765432." },
+        { "speaker": "Atendente", "text": "Merci. Et pourriez-vous me confirmer votre adresse ?", "translation": "Obrigada. E poderia me confirmar seu endereço?" },
+        { "speaker": "Você", "text": "15 rue des Lilas, à Lyon.", "translation": "15 rua dos Lilases, em Lyon." },
+        { "speaker": "Atendente", "text": "Parfait. J'ai vérifié votre ligne et il semble y avoir une panne dans votre quartier. Nos techniciens travaillent déjà sur le problème.", "translation": "Perfeito. Verifiquei sua linha e parece haver uma falha em seu bairro. Nossos técnicos já estão trabalhando no problema." },
+        { "speaker": "Você", "text": "Ah, d'accord. Savez-vous quand le problème sera résolu ?", "translation": "Ah, entendo. Você sabe quando o problema será resolvido?" },
+        { "speaker": "Atendente", "text": "Normalement, d'ici la fin de la journée. Je peux vous envoyer un SMS quand la connexion sera rétablie.", "translation": "Normalmente, até o final do dia. Posso enviar uma mensagem de texto quando a conexão for restabelecida." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "allô", "translation": "alô" },
+    { "word": "appeler", "translation": "ligar, telefonar", "example": "Je vais l'appeler demain." },
+    { "word": "rappeler", "translation": "ligar de volta", "example": "Je vous rappellerai plus tard." },
+    { "word": "décrocher", "translation": "atender o telefone", "example": "Il a décroché après trois sonneries." },
+    { "word": "raccrocher", "translation": "desligar o telefone", "example": "Ne raccrochez pas, s'il vous plaît." },
+    { "word": "le combiné", "translation": "o fone" },
+    { "word": "le téléphone portable/le portable/le mobile", "translation": "o celular" },
+    { "word": "le numéro", "translation": "o número" },
+    { "word": "la sonnerie", "translation": "o toque" },
+    { "word": "laisser un message", "translation": "deixar uma mensagem", "example": "Vous pouvez laisser un message après le bip." },
+    { "word": "être en ligne", "translation": "estar na linha", "example": "Ne quittez pas, il est en ligne." },
+    { "word": "le répondeur", "translation": "a secretária eletrônica" },
+    { "word": "la tonalité", "translation": "o tom de discagem" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Etiqueta Telefônica Francesa", 
+      "description": "Na França, é comum se apresentar imediatamente ao atender o telefone, especialmente em contextos profissionais. Em vez de dizer apenas 'Allô', muitos franceses dirão 'Allô, [seu nome]' ou, em um ambiente de trabalho, '[nome da empresa], [seu nome] à l'appareil'." 
+    },
+    { 
+      "title": "Horários para Telefonemas", 
+      "description": "Os franceses consideram inapropriado fazer ligações antes das 9h ou depois das 21h, a menos que seja uma emergência ou você tenha uma relação muito próxima com a pessoa. Para chamadas de negócios, o horário apropriado é entre 9h e 18h nos dias úteis." 
+    },
+    { 
+      "title": "Números de Telefone Franceses", 
+      "description": "Os números de telefone na França têm 10 dígitos, geralmente agrupados em pares (XX XX XX XX XX). Os números de celular começam com 06 ou 07, os números fixos começam com 01 a 05 dependendo da região, e os números gratuitos começam com 08." 
+    }
+  ],
+  "tips": [
+    "Sempre fale claramente e um pouco mais devagar ao telefone, pois a compreensão pode ser mais difícil sem pistas visuais.",
+    "Tenha um papel e caneta à mão para anotar informações importantes durante a chamada.",
+    "Se você não entendeu algo, não hesite em pedir para a pessoa repetir: 'Pourriez-vous répéter, s'il vous plaît?'",
+    "Ao soletrar palavras pelo telefone, use o alfabeto fonético francês ou mencione palavras que começam com a letra em questão (por exemplo, 'B comme Bordeaux').",
+    "Confirme sempre os detalhes importantes no final da chamada para evitar mal-entendidos."
+  ],
+  "relatedQuizzes": ["Vocabulário Telefônico", "Situações de Emergência", "Comunicação Profissional"]
+}

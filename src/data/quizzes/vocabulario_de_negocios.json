@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-negocios",
+  "title": "Vocabulário de Negócios",
+  "description": "Aprenda termos e expressões essenciais para o ambiente corporativo e de negócios em francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "trabalho",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vdn-1",
+      "text": "Como se diz 'empresa' em francês?",
+      "options": ["L'entreprise", "Le bureau", "Le travail", "L'affaire"],
+      "correctAnswer": 0,
+      "category": "trabalho",
+      "difficulty": "iniciante",
+      "explanation": "'L'entreprise' é a palavra francesa para 'empresa'."
+    },
+    {
+      "id": "vdn-2",
+      "text": "Qual é a tradução de 'negociação' em francês?",
+      "options": ["La réunion", "La négociation", "Le contrat", "Le marché"],
+      "correctAnswer": 1,
+      "category": "trabalho",
+      "difficulty": "intermediario",
+      "explanation": "'La négociation' é o termo usado para 'negociação' em francês."
+    },
+    {
+      "id": "vdn-3",
+      "text": "Como você diria 'lucro' em francês?",
+      "options": ["Le bénéfice", "La perte", "Le revenu", "Le coût"],
+      "correctAnswer": 0,
+      "category": "trabalho",
+      "difficulty": "intermediario",
+      "explanation": "'Le bénéfice' é a palavra francesa para 'lucro'."
+    },
+    {
+      "id": "vdn-4",
+      "text": "Qual é a expressão para 'fazer um acordo' em francês?",
+      "options": ["Conclure un accord", "Signer un contrat", "Faire une réunion", "Discuter un projet"],
+      "correctAnswer": 0,
+      "category": "trabalho",
+      "difficulty": "avancado",
+      "explanation": "'Conclure un accord' significa 'fazer/concluir um acordo' em francês."
+    },
+    {
+      "id": "vdn-5",
+      "text": "Como se diz 'acionista' em francês?",
+      "options": ["Le directeur", "L'employé", "L'actionnaire", "Le gérant"],
+      "correctAnswer": 2,
+      "category": "trabalho",
+      "difficulty": "avancado",
+      "explanation": "'L'actionnaire' é a palavra francesa para 'acionista'."
+    }
+  ]
+}

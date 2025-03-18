@@ -1,0 +1,88 @@
+{
+  "title": "Encontros",
+  "description": "Aprenda a socializar, fazer amizades e expressar interesse romântico em francês.",
+  "image": "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Tu viens souvent ici ?",
+    "On pourrait prendre un café un de ces jours.",
+    "Je peux avoir ton numéro ?"
+  ],
+  "introduction": "Conhecer novas pessoas e desenvolver relacionamentos é uma parte essencial da experiência cultural francesa. Este guia ajudará você a navegar pelas nuances sociais de fazer amizades, encontros casuais e expressar interesse romântico em contextos francófonos.",
+  "dialogues": [
+    {
+      "title": "Conhecendo Alguém em um Café",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, cette place est libre ?", "translation": "Com licença, este lugar está livre?" },
+        { "speaker": "Pessoa", "text": "Oui, bien sûr, je vous en prie.", "translation": "Sim, claro, fique à vontade." },
+        { "speaker": "Você", "text": "Merci beaucoup. Il y a beaucoup de monde aujourd'hui.", "translation": "Muito obrigado(a). Há muita gente hoje." },
+        { "speaker": "Pessoa", "text": "Oui, c'est toujours comme ça le weekend. Vous venez souvent ici ?", "translation": "Sim, é sempre assim nos fins de semana. Você vem aqui com frequência?" },
+        { "speaker": "Você", "text": "C'est ma première fois. On m'a recommandé ce café pour son excellent café et son ambiance.", "translation": "É minha primeira vez. Recomendaram-me este café pelo seu excelente café e ambiente." },
+        { "speaker": "Pessoa", "text": "La recommandation était bonne ! Je m'appelle Thomas/Sophie, et vous ?", "translation": "A recomendação foi boa! Meu nome é Thomas/Sophie, e o seu?" },
+        { "speaker": "Você", "text": "Je m'appelle [votre nom]. Je suis brésilien(ne) et je suis ici pour améliorer mon français.", "translation": "Meu nome é [seu nome]. Sou brasileiro(a) e estou aqui para melhorar meu francês." },
+        { "speaker": "Pessoa", "text": "Votre français est déjà très bon ! Si vous voulez pratiquer, on pourrait prendre un café ensemble un autre jour ?", "translation": "Seu francês já é muito bom! Se quiser praticar, poderíamos tomar um café juntos outro dia?" }
+      ]
+    },
+    {
+      "title": "Convidando Alguém para Sair",
+      "lines": [
+        { "speaker": "Você", "text": "J'ai beaucoup apprécié notre conversation l'autre jour.", "translation": "Gostei muito da nossa conversa outro dia." },
+        { "speaker": "Pessoa", "text": "Moi aussi, c'était très agréable.", "translation": "Eu também, foi muito agradável." },
+        { "speaker": "Você", "text": "Je me demandais si vous seriez libre ce weekend pour aller voir une exposition au musée ?", "translation": "Eu estava me perguntando se você estaria livre neste fim de semana para ir ver uma exposição no museu?" },
+        { "speaker": "Pessoa", "text": "Ce weekend ? Oui, je suis libre samedi après-midi. Quelle exposition voulez-vous voir ?", "translation": "Este fim de semana? Sim, estou livre sábado à tarde. Que exposição você quer ver?" },
+        { "speaker": "Você", "text": "Il y a une nouvelle exposition d'art contemporain au Centre Pompidou. Ça vous intéresse ?", "translation": "Há uma nova exposição de arte contemporânea no Centro Pompidou. Isso lhe interessa?" },
+        { "speaker": "Pessoa", "text": "Oui, j'adore l'art contemporain ! On pourrait se retrouver directement là-bas vers 14h ?", "translation": "Sim, adoro arte contemporânea! Poderíamos nos encontrar diretamente lá por volta das 14h?" },
+        { "speaker": "Você", "text": "Parfait ! Je peux avoir votre numéro de téléphone, au cas où ?", "translation": "Perfeito! Posso ter seu número de telefone, caso seja necessário?" },
+        { "speaker": "Pessoa", "text": "Bien sûr, c'est le 06 12 34 56 78. Et le vôtre ?", "translation": "Claro, é 06 12 34 56 78. E o seu?" }
+      ]
+    },
+    {
+      "title": "Um Encontro Romântico",
+      "lines": [
+        { "speaker": "Você", "text": "Ce restaurant est vraiment charmant. Comment avez-vous connu cet endroit ?", "translation": "Este restaurante é realmente encantador. Como você conheceu este lugar?" },
+        { "speaker": "Pessoa", "text": "C'est un de mes endroits préférés à Paris. J'aime beaucoup la cuisine française traditionnelle.", "translation": "É um dos meus lugares favoritos em Paris. Gosto muito da culinária francesa tradicional." },
+        { "speaker": "Você", "text": "La nourriture est délicieuse. Je passe vraiment une excellente soirée avec vous.", "translation": "A comida está deliciosa. Estou realmente tendo uma excelente noite com você." },
+        { "speaker": "Pessoa", "text": "Moi aussi, je suis content(e) que vous ayez accepté mon invitation. Vous êtes une personne très intéressante.", "translation": "Eu também, estou feliz que você tenha aceitado meu convite. Você é uma pessoa muito interessante." },
+        { "speaker": "Você", "text": "Merci, c'est gentil. J'aimerais beaucoup qu'on se revoie.", "translation": "Obrigado(a), é gentil. Eu gostaria muito que nos víssemos novamente." },
+        { "speaker": "Pessoa", "text": "Avec plaisir ! Il y a un festival de cinéma en plein air la semaine prochaine. Ça vous dirait d'y aller ensemble ?", "translation": "Com prazer! Há um festival de cinema ao ar livre na próxima semana. Você gostaria de ir junto?" },
+        { "speaker": "Você", "text": "Ça me plairait beaucoup. C'est un rendez-vous alors !", "translation": "Eu gostaria muito. É um encontro então!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "rencontrer", "translation": "encontrar, conhecer", "example": "J'ai rencontré mon meilleur ami à l'université." },
+    { "word": "la rencontre", "translation": "o encontro" },
+    { "word": "draguer", "translation": "paquerar, flertar" },
+    { "word": "flirter", "translation": "flertar" },
+    { "word": "le rendez-vous", "translation": "o encontro marcado" },
+    { "word": "sortir ensemble", "translation": "sair juntos, namorar" },
+    { "word": "le/la petit(e) ami(e)", "translation": "o namorado/a namorada" },
+    { "word": "tomber amoureux/amoureuse", "translation": "se apaixonar" },
+    { "word": "séduire", "translation": "seduzir" },
+    { "word": "le coup de foudre", "translation": "amor à primeira vista" },
+    { "word": "être attiré(e) par", "translation": "ser atraído(a) por", "example": "Je suis très attiré par sa personnalité." },
+    { "word": "faire connaissance", "translation": "conhecer-se" },
+    { "word": "échanger les numéros", "translation": "trocar números" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "La Bise", 
+      "description": "Na França, é comum cumprimentar com 'la bise' (beijos na bochecha), mesmo em primeiros encontros. O número de beijos varia de região para região (de 1 a 4). Em contextos profissionais ou formais, um aperto de mão pode ser mais apropriado, especialmente entre homens." 
+    },
+    { 
+      "title": "Tutoyement vs Vouvoiement", 
+      "description": "Saber quando usar 'tu' (informal) ou 'vous' (formal) é crucial em encontros sociais. Geralmente, começa-se com 'vous' até que a pessoa ofereça mudar para 'tu'. Entre jovens ou em ambientes informais, o 'tu' é adotado mais rapidamente. Em contextos românticos, a transição para 'tu' pode indicar um avanço na intimidade." 
+    },
+    { 
+      "title": "Encontros à Francesa", 
+      "description": "Os encontros românticos na França tendem a ser menos estruturados e 'rotulados' que em algumas culturas. É comum sair em grupo antes de encontros individuais. O conceito de 'dating' exclusivo não é tão definido; muitas vezes, se você está saindo regularmente com alguém, já pode ser considerado um relacionamento sem uma discussão formal sobre exclusividade." 
+    }
+  ],
+  "tips": [
+    "Na França, a abordagem direta para flertar é menos comum. Prefere-se uma conversa inteligente e bem-humorada que demonstre interesse genuíno na pessoa.",
+    "Elogios muito diretos sobre a aparência podem ser considerados superficiais. Elogios sobre personalidade, inteligência ou senso de humor são mais apreciados.",
+    "Em encontros românticos, é comum dividir a conta ('faire moitié-moitié'), embora em primeiros encontros, quem convidou frequentemente se oferece para pagar.",
+    "Pontualidade é importante em encontros românticos, diferente de reuniões sociais casuais onde um pequeno atraso é aceitável.",
+    "Manter contato visual durante conversas é considerado sinal de sinceridade e interesse genuíno."
+  ],
+  "relatedQuizzes": ["Vocabulário de Relacionamentos", "Expressões de Cortesia", "Situações Sociais"]
+}

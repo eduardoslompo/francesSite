@@ -1,0 +1,56 @@
+{
+  "id": "relacoes-de-parentesco",
+  "title": "Relações de Parentesco",
+  "description": "Aprenda termos mais específicos para relações familiares em francês, incluindo parentescos distantes e relações por afinidade.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "familia",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "rp-1",
+      "text": "Como se diz 'sogra' em francês?",
+      "options": ["La belle-mère", "La marâtre", "La tante", "La grand-mère"],
+      "correctAnswer": 0,
+      "category": "familia",
+      "difficulty": "intermediario",
+      "explanation": "'La belle-mère' pode significar tanto 'sogra' quanto 'madrasta' em francês."
+    },
+    {
+      "id": "rp-2",
+      "text": "Qual é o termo francês para 'cunhado'?",
+      "options": ["Le beau-frère", "Le gendre", "Le neveu", "Le cousin"],
+      "correctAnswer": 0,
+      "category": "familia",
+      "difficulty": "intermediario",
+      "explanation": "'Le beau-frère' significa 'cunhado' em francês."
+    },
+    {
+      "id": "rp-3",
+      "text": "Como se diz 'sobrinha' em francês?",
+      "options": ["La cousine", "La belle-fille", "La nièce", "La petite-fille"],
+      "correctAnswer": 2,
+      "category": "familia",
+      "difficulty": "intermediario",
+      "explanation": "'La nièce' é a palavra francesa para 'sobrinha'."
+    },
+    {
+      "id": "rp-4",
+      "text": "Qual destas palavras significa 'genro' em francês?",
+      "options": ["Le beau-fils", "Le gendre", "Le neveu", "Le petit-fils"],
+      "correctAnswer": 1,
+      "category": "familia",
+      "difficulty": "intermediario",
+      "explanation": "'Le gendre' é o termo francês para 'genro', enquanto 'le beau-fils' pode significar tanto 'enteado' quanto 'genro'."
+    },
+    {
+      "id": "rp-5",
+      "text": "Como se diz 'padrasto' em francês?",
+      "options": ["Le parrain", "Le beau-père", "Le père adoptif", "Le tuteur"],
+      "correctAnswer": 1,
+      "category": "familia",
+      "difficulty": "intermediario",
+      "explanation": "'Le beau-père' pode significar tanto 'sogro' quanto 'padrasto' em francês."
+    }
+  ]
+}

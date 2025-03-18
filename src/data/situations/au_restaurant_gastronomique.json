@@ -1,0 +1,87 @@
+{
+  "title": "No Restaurante Gastronômico",
+  "description": "Aprenda a navegar pela experiência da alta gastronomia francesa com confiança.",
+  "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je souhaiterais réserver une table pour le dîner.",
+    "Pourriez-vous nous recommander un bon vin pour accompagner ce plat ?",
+    "Le chef propose-t-il un menu dégustation ?"
+  ],
+  "introduction": "A gastronomia francesa é reconhecida mundialmente como uma das mais refinadas. Este guia ajudará você a navegar pelo protocolo, vocabulário especializado e etiqueta necessários para aproveitar plenamente a experiência em um restaurante gastronômico francês.",
+  "dialogues": [
+    {
+      "title": "Fazendo uma Reserva",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je souhaiterais réserver une table pour deux personnes pour samedi prochain.", "translation": "Bom dia, eu gostaria de reservar uma mesa para duas pessoas para o próximo sábado." },
+        { "speaker": "Maître d'hôtel", "text": "Bonjour, monsieur/madame. Pour quel service ? Déjeuner ou dîner ?", "translation": "Bom dia, senhor/senhora. Para qual serviço? Almoço ou jantar?" },
+        { "speaker": "Você", "text": "Pour le dîner, vers 20h si possible.", "translation": "Para o jantar, por volta das 20h, se possível." },
+        { "speaker": "Maître d'hôtel", "text": "Samedi prochain à 20h... Je peux vous proposer une table à 19h30 ou à 20h30, mais nous sommes complets à 20h.", "translation": "Próximo sábado às 20h... Posso oferecer uma mesa às 19h30 ou às 20h30, mas estamos completos às 20h." },
+        { "speaker": "Você", "text": "19h30 sera parfait. Est-ce qu'il y a un code vestimentaire à respecter ?", "translation": "19h30 será perfeito. Existe um código de vestimenta a ser respeitado?" },
+        { "speaker": "Maître d'hôtel", "text": "Nous recommandons une tenue élégante. Les messieurs sont priés de porter au minimum une veste, et nous n'acceptons pas les shorts ou les sandales.", "translation": "Recomendamos traje elegante. Os senhores são solicitados a usar no mínimo um blazer, e não aceitamos shorts ou sandálias." },
+        { "speaker": "Você", "text": "Très bien, merci. À quel nom dois-je faire la réservation ?", "translation": "Muito bem, obrigado. Em que nome devo fazer a reserva?" },
+        { "speaker": "Maître d'hôtel", "text": "Votre nom, s'il vous plaît, et un numéro de téléphone pour confirmation.", "translation": "Seu nome, por favor, e um número de telefone para confirmação." }
+      ]
+    },
+    {
+      "title": "Chegando ao Restaurante",
+      "lines": [
+        { "speaker": "Maître d'hôtel", "text": "Bonsoir, bienvenue au Château d'Or. Avez-vous une réservation ?", "translation": "Boa noite, bem-vindo ao Château d'Or. Tem uma reserva?" },
+        { "speaker": "Você", "text": "Bonsoir. Oui, j'ai réservé une table pour deux personnes au nom de Dubois pour 19h30.", "translation": "Boa noite. Sim, reservei uma mesa para duas pessoas em nome de Dubois para 19h30." },
+        { "speaker": "Maître d'hôtel", "text": "Parfait, Monsieur/Madame Dubois. Votre table est prête. Puis-je prendre vos manteaux ?", "translation": "Perfeito, Sr./Sra. Dubois. Sua mesa está pronta. Posso pegar seus casacos?" },
+        { "speaker": "Você", "text": "Oui, merci beaucoup.", "translation": "Sim, muito obrigado." },
+        { "speaker": "Maître d'hôtel", "text": "Je vous en prie. Suivez-moi, je vais vous conduire à votre table.", "translation": "De nada. Siga-me, vou levá-lo à sua mesa." },
+        { "speaker": "Você", "text": "Est-ce que le chef propose un menu spécial ce soir ?", "translation": "O chef oferece um menu especial esta noite?" },
+        { "speaker": "Maître d'hôtel", "text": "Oui, le chef propose un menu dégustation en sept services avec des produits de saison. Le sommelier peut vous suggérer un accord mets-vins si vous le souhaitez.", "translation": "Sim, o chef oferece um menu degustação de sete pratos com produtos da estação. O sommelier pode sugerir uma harmonização com vinhos, se desejar." }
+      ]
+    },
+    {
+      "title": "Pedindo a Refeição",
+      "lines": [
+        { "speaker": "Sommelier", "text": "Bonsoir. Souhaitez-vous commencer par un apéritif ?", "translation": "Boa noite. Gostaria de começar com um aperitivo?" },
+        { "speaker": "Você", "text": "Bonsoir. Qu'est-ce que vous nous recommandez ?", "translation": "Boa noite. O que você nos recomenda?" },
+        { "speaker": "Sommelier", "text": "Pour commencer la soirée, je vous suggère notre champagne maison ou peut-être un kir royal.", "translation": "Para começar a noite, sugiro nosso champanhe da casa ou talvez um kir royal." },
+        { "speaker": "Você", "text": "Deux coupes de champagne, s'il vous plaît. Et nous prendrons le menu dégustation avec l'accord mets-vins.", "translation": "Duas taças de champanhe, por favor. E vamos pedir o menu degustação com a harmonização de vinhos." },
+        { "speaker": "Sommelier", "text": "Excellent choix. Avez-vous des allergies ou des restrictions alimentaires dont le chef devrait être informé ?", "translation": "Excelente escolha. Vocês têm alguma alergia ou restrição alimentar que o chef deveria saber?" },
+        { "speaker": "Você", "text": "Je ne mange pas de fruits de mer, est-ce un problème pour le menu dégustation ?", "translation": "Eu não como frutos do mar, isso é um problema para o menu degustação?" },
+        { "speaker": "Sommelier", "text": "Pas du tout. Le chef adaptera le menu en conséquence. Je vous apporte votre champagne tout de suite.", "translation": "De modo algum. O chef adaptará o menu de acordo. Vou trazer seu champanhe imediatamente." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le restaurant gastronomique", "translation": "o restaurante gastronômico" },
+    { "word": "le chef", "translation": "o chef" },
+    { "word": "le maître d'hôtel", "translation": "o maître (gerente do salão)" },
+    { "word": "le sommelier", "translation": "o sommelier (especialista em vinhos)" },
+    { "word": "le menu dégustation", "translation": "o menu degustação" },
+    { "word": "l'accord mets-vins (m)", "translation": "a harmonização de comida e vinho" },
+    { "word": "la carte des vins", "translation": "a carta de vinhos" },
+    { "word": "l'amuse-bouche (m)", "translation": "o amuse-bouche (aperitivo pequeno)" },
+    { "word": "l'entrée (f)", "translation": "a entrada" },
+    { "word": "le plat principal", "translation": "o prato principal" },
+    { "word": "le dessert", "translation": "a sobremesa" },
+    { "word": "le digestif", "translation": "o digestivo (bebida alcoólica após a refeição)" },
+    { "word": "l'addition (f)", "translation": "a conta" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Sistema de Estrelas Michelin", 
+      "description": "O Guia Michelin é uma referência mundial em gastronomia, especialmente na França. Os restaurantes podem receber de uma a três estrelas: uma estrela significa 'muito bom em sua categoria', duas estrelas 'excelente cozinha, vale a pena o desvio' e três estrelas 'cozinha excepcional, vale uma viagem especial'." 
+    },
+    { 
+      "title": "Etiqueta à Mesa", 
+      "description": "Em restaurantes gastronômicos franceses, a etiqueta é importante. Mantenha as mãos (não os cotovelos) sobre a mesa, use os talheres de fora para dentro conforme os pratos são servidos, e nunca peça sal ou pimenta antes de provar a comida, pois isso pode ser considerado um insulto ao chef." 
+    },
+    { 
+      "title": "Serviço e Gorjeta", 
+      "description": "O serviço (15%) já está incluído na conta como 'service compris'. Em restaurantes gastronômicos, é comum deixar uma gorjeta adicional para um serviço excepcional, geralmente entre 5% e 10% do valor total." 
+    }
+  ],
+  "tips": [
+    "Reserve com bastante antecedência, especialmente para restaurantes com estrelas Michelin, que podem ter listas de espera de meses.",
+    "Chegue pontualmente. Atrasos podem resultar no cancelamento da sua reserva em restaurantes muito concorridos.",
+    "Se você não entender algo no menu, não hesite em perguntar. Os funcionários estão lá para melhorar sua experiência.",
+    "Uma refeição gastronômica francesa completa pode durar várias horas. Reserve tempo suficiente para apreciar a experiência sem pressa.",
+    "Fotografar a comida é cada vez mais comum, mas em restaurantes muito tradicionais ou formais, é educado pedir permissão primeiro."
+  ],
+  "relatedQuizzes": ["Vocabulário Gastronômico", "Vinhos Franceses", "Etiqueta à Mesa"]
+}

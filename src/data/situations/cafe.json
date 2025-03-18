@@ -1,0 +1,87 @@
+{
+  "title": "Café",
+  "description": "Aprenda a pedir bebidas, lanches e interagir em um café francês.",
+  "image": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais un café, s'il vous plaît.",
+    "Avez-vous des croissants frais ?",
+    "L'addition, s'il vous plaît."
+  ],
+  "introduction": "Os cafés são parte essencial da vida cotidiana francesa. Este guia ajudará você a pedir bebidas e lanches, entender o menu e apreciar a cultura única dos cafés franceses.",
+  "dialogues": [
+    {
+      "title": "Pedindo no Balcão",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais un café, s'il vous plaît.", "translation": "Bom dia, eu gostaria de um café, por favor." },
+        { "speaker": "Barista", "text": "Bonjour. Un café simple ou un café crème ?", "translation": "Bom dia. Um café simples ou um café com leite?" },
+        { "speaker": "Você", "text": "Un café simple, s'il vous plaît. Et un croissant aussi.", "translation": "Um café simples, por favor. E um croissant também." },
+        { "speaker": "Barista", "text": "Très bien. Vous prenez ça ici ou à emporter ?", "translation": "Muito bem. Vai consumir aqui ou levar?" },
+        { "speaker": "Você", "text": "Je vais le prendre ici.", "translation": "Vou consumir aqui." },
+        { "speaker": "Barista", "text": "Ça fait 4 euros 50, s'il vous plaît.", "translation": "São 4 euros e 50, por favor." },
+        { "speaker": "Você", "text": "Voilà. Merci.", "translation": "Aqui está. Obrigado(a)." },
+        { "speaker": "Barista", "text": "Merci. Installez-vous, je vous apporte ça tout de suite.", "translation": "Obrigado. Sente-se, eu trago isso imediatamente." }
+      ]
+    },
+    {
+      "title": "Sentado na Mesa",
+      "lines": [
+        { "speaker": "Garçom", "text": "Bonjour, qu'est-ce que je vous sers ?", "translation": "Bom dia, o que posso servir?" },
+        { "speaker": "Você", "text": "Bonjour, je voudrais un chocolat chaud et une tartine, s'il vous plaît.", "translation": "Bom dia, eu gostaria de um chocolate quente e uma torrada, por favor." },
+        { "speaker": "Garçom", "text": "Très bien. Vous désirez autre chose ?", "translation": "Muito bem. Deseja mais alguma coisa?" },
+        { "speaker": "Você", "text": "Non, c'est tout pour l'instant, merci.", "translation": "Não, é só isso por enquanto, obrigado(a)." },
+        { "speaker": "Garçom", "text": "Je vous apporte ça tout de suite.", "translation": "Trago isso imediatamente." },
+        { "speaker": "Você", "text": "Excusez-moi, avez-vous le Wi-Fi ?", "translation": "Com licença, vocês têm Wi-Fi?" },
+        { "speaker": "Garçom", "text": "Oui, le mot de passe est affiché près de la caisse.", "translation": "Sim, a senha está afixada perto do caixa." }
+      ]
+    },
+    {
+      "title": "Pedindo a Conta",
+      "lines": [
+        { "speaker": "Você", "text": "S'il vous plaît ?", "translation": "Por favor?" },
+        { "speaker": "Garçom", "text": "Oui, Monsieur/Madame ?", "translation": "Sim, senhor/senhora?" },
+        { "speaker": "Você", "text": "L'addition, s'il vous plaît.", "translation": "A conta, por favor." },
+        { "speaker": "Garçom", "text": "Tout de suite. Vous avez pris un chocolat chaud et une tartine, c'est bien ça ?", "translation": "Imediatamente. Você pediu um chocolate quente e uma torrada, correto?" },
+        { "speaker": "Você", "text": "Oui, c'est ça.", "translation": "Sim, isso mesmo." },
+        { "speaker": "Garçom", "text": "Ça fait 7 euros 50, s'il vous plaît.", "translation": "São 7 euros e 50, por favor." },
+        { "speaker": "Você", "text": "Voilà 8 euros. Gardez la monnaie.", "translation": "Aqui estão 8 euros. Fique com o troco." },
+        { "speaker": "Garçom", "text": "Merci beaucoup. Bonne journée !", "translation": "Muito obrigado. Tenha um bom dia!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le café", "translation": "o café (estabelecimento ou bebida)" },
+    { "word": "un café", "translation": "um café (expresso)" },
+    { "word": "un café crème", "translation": "um café com leite" },
+    { "word": "un café allongé", "translation": "um café longo (com mais água)" },
+    { "word": "un chocolat chaud", "translation": "um chocolate quente" },
+    { "word": "un thé", "translation": "um chá" },
+    { "word": "un croissant", "translation": "um croissant" },
+    { "word": "une tartine", "translation": "uma torrada com manteiga", "example": "Une tartine de pain avec du beurre." },
+    { "word": "un pain au chocolat", "translation": "um pão de chocolate" },
+    { "word": "le serveur / la serveuse", "translation": "o garçom / a garçonete" },
+    { "word": "sur place", "translation": "no local (para consumir no estabelecimento)" },
+    { "word": "à emporter", "translation": "para viagem" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Cultura do Café", 
+      "description": "Os cafés na França são mais do que apenas lugares para tomar café - são instituições sociais onde as pessoas se encontram, leem, observam a vida passar ou simplesmente relaxam. É perfeitamente aceitável ocupar uma mesa por horas com apenas uma bebida." 
+    },
+    { 
+      "title": "Diferenças nos Cafés", 
+      "description": "Um 'café' na França é geralmente um expresso pequeno e forte. Se você quiser algo mais parecido com o café americano, peça um 'café allongé' (café com mais água). Um 'café au lait' é geralmente servido apenas no café da manhã." 
+    },
+    { 
+      "title": "Preços Diferentes", 
+      "description": "Em muitos cafés franceses, o preço varia dependendo de onde você consome: mais barato no balcão (au comptoir), um pouco mais caro na mesa dentro do estabelecimento (en salle), e mais caro ainda no terraço (en terrasse)." 
+    }
+  ],
+  "tips": [
+    "Sempre cumprimente o funcionário com 'Bonjour' antes de fazer seu pedido - é considerado rude não fazê-lo.",
+    "Em cafés franceses, você geralmente precisa chamar o garçom quando estiver pronto para pedir ou pagar - eles não virão automaticamente à sua mesa.",
+    "O café da manhã típico francês é leve: geralmente um café e um croissant ou uma tartine (pão com manteiga e geleia).",
+    "Se você quiser água da torneira (gratuita), peça 'une carafe d'eau'.",
+    "Muitos cafés oferecem Wi-Fi gratuito para os clientes - basta pedir a senha ('le mot de passe du Wi-Fi')."
+  ],
+  "relatedQuizzes": ["Vocabulário de Café", "Comida e Bebida", "Situações Cotidianas"]
+}

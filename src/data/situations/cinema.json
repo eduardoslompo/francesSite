@@ -1,0 +1,87 @@
+{
+  "title": "Cinema",
+  "description": "Aprenda a comprar ingressos, perguntar sobre horários e pedir lanches em um cinema francês.",
+  "image": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais deux places pour le film à 20h, s'il vous plaît.",
+    "Quels films sont à l'affiche aujourd'hui ?",
+    "Est-ce que ce film est en version originale sous-titrée ?"
+  ],
+  "introduction": "Ir ao cinema na França é uma experiência cultural popular. Este guia ajudará você a comprar ingressos, entender as diferentes opções de filmes e pedir lanches com confiança em um cinema francês.",
+  "dialogues": [
+    {
+      "title": "Comprando Ingressos",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais deux places pour 'Le Voyage de Chihiro', s'il vous plaît.", "translation": "Bom dia, eu gostaria de dois ingressos para 'A Viagem de Chihiro', por favor." },
+        { "speaker": "Atendente", "text": "Bonjour. Pour quelle séance ?", "translation": "Bom dia. Para qual sessão?" },
+        { "speaker": "Você", "text": "Pour la séance de 20h, s'il vous plaît.", "translation": "Para a sessão das 20h, por favor." },
+        { "speaker": "Atendente", "text": "D'accord. Vous préférez être placés où ? Devant, au milieu ou au fond ?", "translation": "Certo. Vocês preferem ficar onde? Na frente, no meio ou no fundo?" },
+        { "speaker": "Você", "text": "Au milieu, si possible.", "translation": "No meio, se possível." },
+        { "speaker": "Atendente", "text": "J'ai deux places au milieu, rangée H, places 15 et 16. Ça vous convient ?", "translation": "Tenho dois lugares no meio, fileira H, lugares 15 e 16. Serve para vocês?" },
+        { "speaker": "Você", "text": "Oui, parfait.", "translation": "Sim, perfeito." },
+        { "speaker": "Atendente", "text": "Ça fait 22 euros, s'il vous plaît.", "translation": "São 22 euros, por favor." }
+      ]
+    },
+    {
+      "title": "Informações sobre Filmes",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, quels films sont à l'affiche aujourd'hui ?", "translation": "Com licença, quais filmes estão em cartaz hoje?" },
+        { "speaker": "Funcionário", "text": "Nous avons 'Le Roi Lion' en VF, 'Parasite' en VOST, et 'Amélie Poulain' en version restaurée.", "translation": "Temos 'O Rei Leão' dublado, 'Parasita' legendado, e 'O Fabuloso Destino de Amélie Poulain' em versão restaurada." },
+        { "speaker": "Você", "text": "Qu'est-ce que ça veut dire, 'VF' et 'VOST' ?", "translation": "O que significa 'VF' e 'VOST'?" },
+        { "speaker": "Funcionário", "text": "'VF' signifie 'Version Française', donc le film est doublé en français. 'VOST' veut dire 'Version Originale Sous-Titrée', donc le film est en langue originale avec des sous-titres français.", "translation": "'VF' significa 'Versão Francesa', então o filme é dublado em francês. 'VOST' significa 'Versão Original Legendada', então o filme está no idioma original com legendas em francês." },
+        { "speaker": "Você", "text": "Je comprends. Et à quelle heure commence 'Parasite' ?", "translation": "Entendo. E a que horas começa 'Parasita'?" },
+        { "speaker": "Funcionário", "text": "Il y a une séance à 18h30 et une autre à 21h15.", "translation": "Há uma sessão às 18h30 e outra às 21h15." },
+        { "speaker": "Você", "text": "Merci beaucoup pour ces informations.", "translation": "Muito obrigado por essas informações." }
+      ]
+    },
+    {
+      "title": "Comprando Lanches",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais un grand pop-corn salé, s'il vous plaît.", "translation": "Bom dia, eu gostaria de uma pipoca grande salgada, por favor." },
+        { "speaker": "Atendente", "text": "Bonjour. Oui, un grand pop-corn salé. Vous désirez une boisson avec ?", "translation": "Bom dia. Sim, uma pipoca grande salgada. Deseja uma bebida também?" },
+        { "speaker": "Você", "text": "Oui, deux sodas moyens, s'il vous plaît.", "translation": "Sim, dois refrigerantes médios, por favor." },
+        { "speaker": "Atendente", "text": "Quels parfums ? Nous avons cola, orange, citron...", "translation": "Quais sabores? Temos cola, laranja, limão..." },
+        { "speaker": "Você", "text": "Un cola et un orange, s'il vous plaît.", "translation": "Um cola e um laranja, por favor." },
+        { "speaker": "Atendente", "text": "Voilà. Ça fait 15 euros 50, s'il vous plaît.", "translation": "Aqui está. São 15 euros e 50, por favor." },
+        { "speaker": "Você", "text": "Voici 20 euros.", "translation": "Aqui estão 20 euros." },
+        { "speaker": "Atendente", "text": "Merci. Voici votre monnaie. Bon film !", "translation": "Obrigado. Aqui está seu troco. Bom filme!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le cinéma", "translation": "o cinema" },
+    { "word": "un film", "translation": "um filme" },
+    { "word": "une place / un billet", "translation": "um ingresso" },
+    { "word": "une séance", "translation": "uma sessão" },
+    { "word": "la salle", "translation": "a sala" },
+    { "word": "l'écran (m)", "translation": "a tela" },
+    { "word": "la rangée", "translation": "a fileira" },
+    { "word": "VF (Version Française)", "translation": "versão dublada em francês" },
+    { "word": "VOST (Version Originale Sous-Titrée)", "translation": "versão original legendada" },
+    { "word": "à l'affiche", "translation": "em cartaz", "example": "Quels films sont à l'affiche cette semaine ?" },
+    { "word": "le pop-corn", "translation": "a pipoca" },
+    { "word": "la bande-annonce", "translation": "o trailer" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Cinéma d'Art et d'Essai", 
+      "description": "A França tem uma forte tradição de 'cinéma d'art et d'essai' (cinema de arte), com muitas salas dedicadas a filmes independentes, clássicos e estrangeiros. Paris, em particular, tem dezenas dessas salas especializadas." 
+    },
+    { 
+      "title": "Dublagem vs. Legendagem", 
+      "description": "Na França, os filmes estrangeiros são frequentemente oferecidos tanto em versão dublada (VF) quanto em versão original legendada (VOST). Os filmes para crianças geralmente são exibidos apenas em versão dublada." 
+    },
+    { 
+      "title": "Carte Illimitée", 
+      "description": "Muitas redes de cinema na França oferecem um 'carte illimitée' (cartão ilimitado) que permite assistir a quantos filmes quiser por uma taxa mensal fixa. É uma ótima opção para quem vai frequentemente ao cinema." 
+    }
+  ],
+  "tips": [
+    "Nas grandes cidades francesas, é recomendável reservar ingressos online para filmes populares, especialmente nos fins de semana.",
+    "Muitos cinemas oferecem tarifas reduzidas em certos dias da semana (geralmente às terças ou quartas-feiras) ou para sessões matinais.",
+    "Ao contrário de outros países, na França é comum que haja um intervalo (entracte) durante a exibição de filmes mais longos.",
+    "Os trailers (bandes-annonces) geralmente começam no horário anunciado, com o filme começando cerca de 15-20 minutos depois.",
+    "Alguns cinemas franceses têm assentos numerados (places numérotées), então verifique seu ingresso para saber onde sentar."
+  ],
+  "relatedQuizzes": ["Cinema Francês", "Vocabulário de Entretenimento", "Cultura Francesa"]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "comunicacao-no-ambiente-de-trabalho",
+  "title": "Comunicação no Ambiente de Trabalho",
+  "description": "Aprenda vocabulário e expressões em francês para comunicação profissional eficaz no ambiente de trabalho.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "vocabulario",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "cat-1",
+      "text": "Como se diz 'reunião' em francês?",
+      "options": ["La réunion", "Le rendez-vous", "La conférence", "L'entretien"],
+      "correctAnswer": 0,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'La réunion' é a palavra francesa para 'reunião', um encontro profissional onde várias pessoas se reúnem para discutir assuntos de trabalho."
+    },
+    {
+      "id": "cat-2",
+      "text": "Qual é a expressão formal para iniciar um e-mail profissional em francês?",
+      "options": ["Salut", "Bonjour", "Madame, Monsieur", "Cher ami"],
+      "correctAnswer": 2,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'Madame, Monsieur' é a forma mais formal de iniciar um e-mail profissional em francês quando não se conhece o destinatário. Equivale a 'Prezado(a) Senhor(a)' em português."
+    },
+    {
+      "id": "cat-3",
+      "text": "Como se diz 'prazo' em francês?",
+      "options": ["Le temps", "La date", "Le délai", "La période"],
+      "correctAnswer": 2,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'Le délai' é a palavra francesa para 'prazo', o limite de tempo para concluir uma tarefa ou projeto."
+    },
+    {
+      "id": "cat-4",
+      "text": "Qual destas frases seria apropriada para solicitar algo educadamente a um colega de trabalho?",
+      "options": ["Tu peux faire ça", "Fais-le maintenant", "Pourriez-vous faire cela, s'il vous plaît?", "J'ai besoin de ça"],
+      "correctAnswer": 2,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'Pourriez-vous faire cela, s'il vous plaît?' (Você poderia fazer isso, por favor?) é uma forma educada e profissional de solicitar algo a um colega de trabalho em francês."
+    },
+    {
+      "id": "cat-5",
+      "text": "Como se diz 'apresentação' (de um projeto ou produto) em francês?",
+      "options": ["La présentation", "L'exposition", "Le discours", "Le spectacle"],
+      "correctAnswer": 0,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'La présentation' é a palavra francesa para 'apresentação', como a apresentação de um projeto, produto ou ideia em um contexto profissional."
+    }
+  ]
+}

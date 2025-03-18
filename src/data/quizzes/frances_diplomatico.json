@@ -1,0 +1,56 @@
+{
+  "id": "frances-diplomatico",
+  "title": "Francês Diplomático",
+  "description": "Domine o vocabulário e expressões utilizadas em contextos diplomáticos e relações internacionais em língua francesa.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "profissional",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "fd-1",
+      "text": "Qual é o termo francês para 'embaixador'?",
+      "options": ["Député", "Ambassadeur", "Consul", "Diplomate"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Ambassadeur' é o termo francês para 'embaixador', o representante diplomático de mais alto nível de um país em outro. Um 'député' é um membro da Assembleia Nacional, um 'consul' tem funções mais limitadas que um embaixador, e 'diplomate' é um termo genérico para qualquer funcionário diplomático."
+    },
+    {
+      "id": "fd-2",
+      "text": "Como se chama, em francês, o princípio de não interferência nos assuntos internos de outros países?",
+      "options": ["Principe de souveraineté", "Principe de non-ingérence", "Principe de neutralité", "Principe de réciprocité"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Principe de non-ingérence' (princípio de não ingerência) refere-se à norma diplomática e de direito internacional que proíbe a interferência nos assuntos internos de outros estados soberanos."
+    },
+    {
+      "id": "fd-3",
+      "text": "Qual expressão francesa designa um acordo informal entre países antes de um tratado formal?",
+      "options": ["Accord-cadre", "Modus vivendi", "Entente cordiale", "Protocole d'entente"],
+      "correctAnswer": 3,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Protocole d'entente' (memorando de entendimento) é um tipo de acordo informal entre países que estabelece bases para futuras negociações ou um tratado formal, sem criar obrigações juridicamente vinculativas."
+    },
+    {
+      "id": "fd-4",
+      "text": "Qual é o termo francês para o conjunto de privilégios e imunidades concedidos às missões diplomáticas?",
+      "options": ["Immunité consulaire", "Privilèges diplomatiques", "Immunité diplomatique", "Statut diplomatique"],
+      "correctAnswer": 2,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Immunité diplomatique' (imunidade diplomática) refere-se ao conjunto de privilégios e proteções legais concedidos aos diplomatas em países estrangeiros, incluindo isenção de processos judiciais e impostos do país anfitrião."
+    },
+    {
+      "id": "fd-5",
+      "text": "Como se chama, em francês, o documento que autoriza um diplomata a representar seu país?",
+      "options": ["Lettre de créance", "Passeport diplomatique", "Visa diplomatique", "Carte d'identité diplomatique"],
+      "correctAnswer": 0,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Lettre de créance' (carta credencial) é o documento formal apresentado por um embaixador ao chefe de Estado do país anfitrião, autorizando-o a representar seu país. O 'passeport diplomatique' é um documento de viagem, não de autorização representativa."
+    }
+  ]
+} 

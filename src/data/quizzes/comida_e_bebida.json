@@ -1,0 +1,56 @@
+{
+  "id": "comida-e-bebida",
+  "title": "Comida e Bebida",
+  "description": "Aprenda vocabulário essencial sobre comidas e bebidas para pedir em cafés e restaurantes franceses.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "cb-1",
+      "text": "Como se diz 'água' em francês?",
+      "options": ["Le jus", "Le vin", "L'eau", "Le lait"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'L'eau' é a palavra francesa para 'água'."
+    },
+    {
+      "id": "cb-2",
+      "text": "Qual é a tradução de 'sanduíche' em francês?",
+      "options": ["Le sandwich", "La pizza", "La salade", "Le gâteau"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le sandwich' é a palavra francesa para 'sanduíche'."
+    },
+    {
+      "id": "cb-3",
+      "text": "Como se pede um copo de vinho tinto em francês?",
+      "options": ["Un verre de vin blanc", "Un verre de vin rouge", "Un verre d'eau", "Un verre de bière"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Un verre de vin rouge' significa 'um copo de vinho tinto' em francês."
+    },
+    {
+      "id": "cb-4",
+      "text": "Qual destas opções é uma sobremesa francesa tradicional?",
+      "options": ["Le poulet", "La crème brûlée", "Le fromage", "La baguette"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'La crème brûlée' é uma sobremesa francesa tradicional feita com creme de leite e uma camada de açúcar caramelizado por cima."
+    },
+    {
+      "id": "cb-5",
+      "text": "Como se diz 'bom apetite' em francês?",
+      "options": ["À votre santé", "Bon appétit", "Merci beaucoup", "S'il vous plaît"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Bon appétit' é a expressão francesa para desejar 'bom apetite' antes de uma refeição."
+    }
+  ]
+}

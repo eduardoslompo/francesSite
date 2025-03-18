@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-natureza",
+  "title": "Vocabulário de Natureza",
+  "description": "Aprenda palavras e expressões relacionadas à natureza em francês, incluindo flora, fauna, paisagens naturais e termos ambientais.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "natureza",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vn-1",
+      "text": "Como se diz 'floresta' em francês?",
+      "options": ["Le bois", "La forêt", "Le jardin", "La jungle"],
+      "correctAnswer": 1,
+      "category": "natureza",
+      "difficulty": "iniciante",
+      "explanation": "'La forêt' é a palavra francesa para 'floresta'. 'Le bois' significa 'bosque' ou 'madeira', 'Le jardin' significa 'jardim' e 'La jungle' significa 'selva'."
+    },
+    {
+      "id": "vn-2",
+      "text": "Qual é a tradução de 'montanha' em francês?",
+      "options": ["La colline", "Le mont", "La montagne", "Le pic"],
+      "correctAnswer": 2,
+      "category": "natureza",
+      "difficulty": "iniciante",
+      "explanation": "'La montagne' é a palavra francesa para 'montanha'. 'La colline' significa 'colina', 'Le mont' é usado para montes específicos (como Mont Blanc) e 'Le pic' significa 'pico'."
+    },
+    {
+      "id": "vn-3",
+      "text": "Como se diz 'rio' em francês?",
+      "options": ["Le lac", "La rivière", "Le fleuve", "L'océan"],
+      "correctAnswer": 1,
+      "category": "natureza",
+      "difficulty": "iniciante",
+      "explanation": "'La rivière' é a palavra francesa para 'rio'. Em francês, também existe 'Le fleuve', que se refere a um rio que deságua no mar."
+    },
+    {
+      "id": "vn-4",
+      "text": "Qual destas palavras significa 'árvore' em francês?",
+      "options": ["La fleur", "La feuille", "L'arbre", "La plante"],
+      "correctAnswer": 2,
+      "category": "natureza",
+      "difficulty": "iniciante",
+      "explanation": "'L'arbre' é a palavra francesa para 'árvore'. 'La fleur' significa 'flor', 'La feuille' significa 'folha' e 'La plante' significa 'planta'."
+    },
+    {
+      "id": "vn-5",
+      "text": "Como se diz 'pássaro' em francês?",
+      "options": ["L'oiseau", "Le poisson", "L'insecte", "Le papillon"],
+      "correctAnswer": 0,
+      "category": "natureza",
+      "difficulty": "iniciante",
+      "explanation": "'L'oiseau' é a palavra francesa para 'pássaro'. 'Le poisson' significa 'peixe', 'L'insecte' significa 'inseto' e 'Le papillon' significa 'borboleta'."
+    }
+  ]
+}

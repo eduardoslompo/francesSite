@@ -1,0 +1,85 @@
+{
+  "title": "Transporte Público",
+  "description": "Aprenda a navegar pelo sistema de transporte público francês, comprar bilhetes e pedir informações.",
+  "image": "https://images.unsplash.com/photo-1581262208435-41726149a759?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais un ticket pour Paris, s'il vous plaît.",
+    "À quelle heure part le prochain train ?",
+    "Où se trouve l'arrêt de bus ?"
+  ],
+  "introduction": "O sistema de transporte público na França é eficiente e abrangente. Este guia ajudará você a comprar bilhetes, entender os horários e navegar pelo metrô, ônibus e trens com confiança.",
+  "dialogues": [
+    {
+      "title": "Comprando um Bilhete",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais un ticket de métro, s'il vous plaît.", "translation": "Bom dia, eu gostaria de um bilhete de metrô, por favor." },
+        { "speaker": "Atendente", "text": "Bonjour. Un aller simple ou un carnet ?", "translation": "Bom dia. Uma passagem única ou um carnê?" },
+        { "speaker": "Você", "text": "C'est quoi un carnet ?", "translation": "O que é um carnê?" },
+        { "speaker": "Atendente", "text": "C'est un lot de 10 tickets, c'est moins cher que d'acheter 10 tickets séparément.", "translation": "É um lote de 10 bilhetes, é mais barato que comprar 10 bilhetes separadamente." },
+        { "speaker": "Você", "text": "D'accord, je vais prendre un carnet alors.", "translation": "Ok, vou levar um carnê então." },
+        { "speaker": "Atendente", "text": "Ça fait 16 euros 90, s'il vous plaît.", "translation": "São 16 euros e 90, por favor." },
+        { "speaker": "Você", "text": "Voilà. Est-ce que ces tickets sont valables pour le bus aussi ?", "translation": "Aqui está. Esses bilhetes são válidos para o ônibus também?" },
+        { "speaker": "Atendente", "text": "Oui, ils sont valables pour le métro, le bus et le tramway dans Paris.", "translation": "Sim, eles são válidos para o metrô, o ônibus e o bonde em Paris." }
+      ]
+    },
+    {
+      "title": "Pedindo Informações",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, pour aller à la Tour Eiffel, quel métro dois-je prendre ?", "translation": "Com licença, para ir à Torre Eiffel, qual metrô devo pegar?" },
+        { "speaker": "Passageiro", "text": "Vous pouvez prendre la ligne 6 jusqu'à Bir-Hakeim ou la ligne 9 jusqu'au Trocadéro.", "translation": "Você pode pegar a linha 6 até Bir-Hakeim ou a linha 9 até Trocadéro." },
+        { "speaker": "Você", "text": "Merci. Et où est la station de métro la plus proche ?", "translation": "Obrigado. E onde fica a estação de metrô mais próxima?" },
+        { "speaker": "Passageiro", "text": "Continuez tout droit et tournez à droite au prochain carrefour. Vous verrez le symbole M.", "translation": "Continue reto e vire à direita no próximo cruzamento. Você verá o símbolo M." },
+        { "speaker": "Você", "text": "C'est loin ?", "translation": "É longe?" },
+        { "speaker": "Passageiro", "text": "Non, c'est à environ 5 minutes à pied.", "translation": "Não, fica a cerca de 5 minutos a pé." }
+      ]
+    },
+    {
+      "title": "No Trem",
+      "lines": [
+        { "speaker": "Anúncio", "text": "Prochain arrêt : Gare de Lyon. Correspondance : lignes 1 et 14, RER A et D.", "translation": "Próxima parada: Gare de Lyon. Conexões: linhas 1 e 14, RER A e D." },
+        { "speaker": "Você", "text": "Pardon, est-ce que ce train va à Châtelet ?", "translation": "Com licença, este trem vai para Châtelet?" },
+        { "speaker": "Passageiro", "text": "Oui, c'est dans deux stations.", "translation": "Sim, é daqui a duas estações." },
+        { "speaker": "Você", "text": "Merci beaucoup. Je dois descendre à Châtelet pour prendre le RER B.", "translation": "Muito obrigado. Preciso descer em Châtelet para pegar o RER B." },
+        { "speaker": "Passageiro", "text": "Vous allez à l'aéroport ?", "translation": "Você vai para o aeroporto?" },
+        { "speaker": "Você", "text": "Oui, à Charles de Gaulle.", "translation": "Sim, para Charles de Gaulle." },
+        { "speaker": "Passageiro", "text": "Alors il faut prendre le RER B direction Aéroport Charles de Gaulle.", "translation": "Então você precisa pegar o RER B direção Aeroporto Charles de Gaulle." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le métro", "translation": "o metrô" },
+    { "word": "le bus", "translation": "o ônibus" },
+    { "word": "le train", "translation": "o trem" },
+    { "word": "le tramway", "translation": "o bonde" },
+    { "word": "la station", "translation": "a estação" },
+    { "word": "l'arrêt (m)", "translation": "a parada" },
+    { "word": "le ticket", "translation": "o bilhete", "example": "Je voudrais un ticket, s'il vous plaît." },
+    { "word": "le carnet", "translation": "o carnê (de bilhetes)" },
+    { "word": "la correspondance", "translation": "a conexão/baldeação" },
+    { "word": "la ligne", "translation": "a linha" },
+    { "word": "la direction", "translation": "a direção", "example": "Quelle direction dois-je prendre?" },
+    { "word": "le quai", "translation": "a plataforma" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Validação de Bilhetes", 
+      "description": "Na França, é obrigatório validar seu bilhete antes de entrar no metrô, ônibus ou trem. Procure as máquinas de validação (composteurs) e insira seu bilhete. Não validar o bilhete pode resultar em multa." 
+    },
+    { 
+      "title": "Navigo Pass", 
+      "description": "Para estadias mais longas em Paris, considere obter um passe Navigo, que oferece viagens ilimitadas por uma semana ou um mês. É necessário uma foto de identidade para obter o cartão." 
+    },
+    { 
+      "title": "Greves", 
+      "description": "As greves (grèves) de transporte são relativamente comuns na França. Fique atento aos anúncios e tenha sempre um plano alternativo de viagem." 
+    }
+  ],
+  "tips": [
+    "Mantenha seu bilhete até o final da viagem, pois há verificações aleatórias pelos fiscais (contrôleurs).",
+    "O metrô de Paris fecha por volta da 1h da manhã durante a semana e 2h nos fins de semana. Verifique os horários do último trem.",
+    "Baixe o aplicativo RATP para navegar facilmente pelo sistema de transporte público de Paris.",
+    "Nas escadas rolantes, fique à direita se quiser ficar parado e à esquerda se quiser subir ou descer andando.",
+    "Alguns ônibus noturnos (Noctilien) operam quando o metrô está fechado."
+  ],
+  "relatedQuizzes": ["Vocabulário de Transporte", "Navegação Urbana", "Situações Cotidianas"]
+}

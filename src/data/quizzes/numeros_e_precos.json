@@ -1,0 +1,56 @@
+{
+  "id": "numeros-e-precos",
+  "title": "Números e Preços",
+  "description": "Aprenda a contar, expressar valores monetários e negociar preços em francês.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "compras",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "np-1",
+      "text": "Como se diz '99' em francês?",
+      "options": ["Quatre-vingt-dix", "Quatre-vingt-dix-neuf", "Nonante-neuf", "Cent moins un"],
+      "correctAnswer": 1,
+      "category": "numeros",
+      "difficulty": "iniciante",
+      "explanation": "'Quatre-vingt-dix-neuf' (literalmente 'quatro-vinte-dez-nove') é a forma padrão de dizer 99 em francês. Na Bélgica e Suíça, 'nonante-neuf' também é usado."
+    },
+    {
+      "id": "np-2",
+      "text": "Qual é a forma correta de escrever €25,50 em francês?",
+      "options": ["Vingt-cinq euros et cinquante centimes", "Vingt-cinq euros cinquante", "Vingt-cinq virgule cinquante euros", "Todas as alternativas"],
+      "correctAnswer": 3,
+      "category": "precos",
+      "difficulty": "iniciante",
+      "explanation": "Todas as formas mencionadas são aceitáveis em francês, embora 'vingt-cinq euros cinquante' seja a mais comum no dia a dia."
+    },
+    {
+      "id": "np-3",
+      "text": "Como você perguntaria 'Você pode me dar um desconto?' em francês?",
+      "options": ["Pouvez-vous me faire une réduction?", "Est-ce que c'est le prix final?", "C'est trop cher pour moi", "Je voudrais payer moins"],
+      "correctAnswer": 0,
+      "category": "compras",
+      "difficulty": "intermediario",
+      "explanation": "'Pouvez-vous me faire une réduction?' é a forma mais direta e educada de pedir um desconto em francês."
+    },
+    {
+      "id": "np-4",
+      "text": "Qual é a expressão para 'É muito caro' em francês?",
+      "options": ["C'est bon marché", "C'est trop cher", "C'est un bon prix", "C'est abordable"],
+      "correctAnswer": 1,
+      "category": "precos",
+      "difficulty": "iniciante",
+      "explanation": "'C'est trop cher' significa 'É muito caro' em francês."
+    },
+    {
+      "id": "np-5",
+      "text": "Como você diria '50% de desconto' em francês?",
+      "options": ["Cinquante pour cent de réduction", "Une réduction de moitié", "Demi-prix", "Todas as alternativas"],
+      "correctAnswer": 3,
+      "category": "compras",
+      "difficulty": "intermediario",
+      "explanation": "Todas as expressões mencionadas são formas de expressar '50% de desconto' em francês, sendo 'cinquante pour cent de réduction' a mais formal e 'demi-prix' (meio preço) a mais coloquial."
+    }
+  ]
+}

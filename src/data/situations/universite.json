@@ -1,0 +1,88 @@
+{
+  "title": "Universidade",
+  "description": "Aprenda a se comunicar no ambiente universitário francês, desde a matrícula até as aulas.",
+  "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais m'inscrire à un cours de littérature française.",
+    "Où se trouve la bibliothèque universitaire ?",
+    "Quand est la date limite pour rendre le devoir ?"
+  ],
+  "introduction": "As universidades francesas têm uma rica tradição acadêmica e um sistema educacional único. Este guia ajudará você a navegar pelo ambiente universitário francês, desde o processo de matrícula até a participação em aulas e exames.",
+  "dialogues": [
+    {
+      "title": "Matrícula em um Curso",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais m'inscrire à l'université pour le semestre prochain.", "translation": "Bom dia, eu gostaria de me matricular na universidade para o próximo semestre." },
+        { "speaker": "Secretária", "text": "Bonjour. Vous êtes étudiant en échange ou vous souhaitez suivre un cursus complet ?", "translation": "Bom dia. Você é um estudante de intercâmbio ou deseja seguir um curso completo?" },
+        { "speaker": "Você", "text": "Je suis étudiant en échange pour un semestre.", "translation": "Sou estudante de intercâmbio por um semestre." },
+        { "speaker": "Secretária", "text": "Très bien. Avez-vous déjà choisi vos cours ?", "translation": "Muito bem. Você já escolheu seus cursos?" },
+        { "speaker": "Você", "text": "Oui, je m'intéresse aux cours de littérature française et de linguistique.", "translation": "Sim, estou interessado(a) nos cursos de literatura francesa e linguística." },
+        { "speaker": "Secretária", "text": "Parfait. Vous devez remplir ce formulaire et fournir une copie de votre passeport, de votre carte d'étudiant et de votre attestation d'assurance.", "translation": "Perfeito. Você deve preencher este formulário e fornecer uma cópia do seu passaporte, carteira de estudante e comprovante de seguro." },
+        { "speaker": "Você", "text": "D'accord. Et quand commence le semestre exactement ?", "translation": "Certo. E quando começa o semestre exatamente?" },
+        { "speaker": "Secretária", "text": "Les cours commencent le 15 septembre. Il y aura une réunion d'orientation pour les étudiants internationaux le 10 septembre.", "translation": "As aulas começam em 15 de setembro. Haverá uma reunião de orientação para estudantes internacionais em 10 de setembro." }
+      ]
+    },
+    {
+      "title": "Na Biblioteca",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, où puis-je trouver les livres de littérature française ?", "translation": "Com licença, onde posso encontrar os livros de literatura francesa?" },
+        { "speaker": "Bibliotecário", "text": "Les livres de littérature française sont au deuxième étage, section C.", "translation": "Os livros de literatura francesa estão no segundo andar, seção C." },
+        { "speaker": "Você", "text": "Merci. Est-ce que je peux emprunter des livres avec ma carte d'étudiant ?", "translation": "Obrigado(a). Posso emprestar livros com minha carteira de estudante?" },
+        { "speaker": "Bibliotecário", "text": "Oui, mais vous devez d'abord activer votre carte à l'accueil. Vous pouvez emprunter jusqu'à 5 livres pour une durée de 3 semaines.", "translation": "Sim, mas você deve primeiro ativar seu cartão na recepção. Você pode emprestar até 5 livros por um período de 3 semanas." },
+        { "speaker": "Você", "text": "Et pour les articles scientifiques, comment puis-je y accéder ?", "translation": "E para os artigos científicos, como posso acessá-los?" },
+        { "speaker": "Bibliotecário", "text": "Vous avez accès à toutes nos bases de données en ligne. Je peux vous montrer comment les utiliser si vous voulez.", "translation": "Você tem acesso a todos os nossos bancos de dados online. Posso mostrar como usá-los se quiser." },
+        { "speaker": "Você", "text": "Oui, ce serait très utile, merci.", "translation": "Sim, isso seria muito útil, obrigado(a)." }
+      ]
+    },
+    {
+      "title": "Durante a Aula",
+      "lines": [
+        { "speaker": "Professor", "text": "Bonjour à tous. Aujourd'hui, nous allons étudier l'œuvre de Victor Hugo. Qui peut me dire ce qu'il sait de cet auteur ?", "translation": "Bom dia a todos. Hoje, vamos estudar a obra de Victor Hugo. Quem pode me dizer o que sabe sobre este autor?" },
+        { "speaker": "Você", "text": "Il était un écrivain romantique du 19ème siècle et a écrit 'Les Misérables'.", "translation": "Ele era um escritor romântico do século 19 e escreveu 'Os Miseráveis'." },
+        { "speaker": "Professor", "text": "Très bien. Et quels sont les thèmes principaux de son œuvre ?", "translation": "Muito bem. E quais são os temas principais de sua obra?" },
+        { "speaker": "Outro Estudante", "text": "La justice sociale, la rédemption et la révolution.", "translation": "A justiça social, a redenção e a revolução." },
+        { "speaker": "Professor", "text": "Excellent. Pour la semaine prochaine, je vous demande de lire les 50 premières pages des 'Misérables' et de préparer une analyse des personnages principaux.", "translation": "Excelente. Para a próxima semana, peço que leiam as 50 primeiras páginas de 'Os Miseráveis' e preparem uma análise dos personagens principais." },
+        { "speaker": "Você", "text": "Excusez-moi, est-ce que ce devoir doit être rendu par écrit ou présenté oralement ?", "translation": "Com licença, este dever deve ser entregue por escrito ou apresentado oralmente?" },
+        { "speaker": "Professor", "text": "Ce sera un travail écrit de 2 à 3 pages à rendre sur la plateforme en ligne avant lundi prochain.", "translation": "Será um trabalho escrito de 2 a 3 páginas a ser entregue na plataforma online antes da próxima segunda-feira." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "l'université (f)", "translation": "a universidade" },
+    { "word": "le/la professeur", "translation": "o/a professor(a)" },
+    { "word": "l'étudiant(e) (m/f)", "translation": "o/a estudante" },
+    { "word": "le cours", "translation": "o curso, a aula" },
+    { "word": "la faculté", "translation": "a faculdade" },
+    { "word": "s'inscrire", "translation": "matricular-se", "example": "Je dois m'inscrire aux cours avant la fin du mois." },
+    { "word": "le semestre", "translation": "o semestre" },
+    { "word": "la bibliothèque", "translation": "a biblioteca" },
+    { "word": "emprunter", "translation": "emprestar, tomar emprestado" },
+    { "word": "le devoir", "translation": "o dever, a tarefa" },
+    { "word": "l'examen (m)", "translation": "o exame, a prova" },
+    { "word": "la dissertation", "translation": "a dissertação, o ensaio" },
+    { "word": "la recherche", "translation": "a pesquisa" },
+    { "word": "la bourse d'études", "translation": "a bolsa de estudos" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Sistema Universitário Francês", 
+      "description": "O sistema universitário francês é diferente do brasileiro. Após o ensino médio (lycée), os estudantes podem seguir para a universidade, grandes écoles (escolas de elite) ou institutos técnicos. O sistema de notas vai de 0 a 20, sendo 10 a nota mínima para aprovação." 
+    },
+    { 
+      "title": "La Sorbonne", 
+      "description": "A Universidade de Sorbonne em Paris é uma das mais antigas e prestigiosas da Europa, fundada no século XIII. Hoje, o nome 'Sorbonne' refere-se a várias instituições que formavam a antiga Universidade de Paris." 
+    },
+    { 
+      "title": "Relação Professor-Aluno", 
+      "description": "Nas universidades francesas, a relação entre professores e alunos tende a ser mais formal do que em alguns outros países. É comum usar os títulos apropriados (Monsieur/Madame) ao dirigir-se aos professores, e o uso do 'vous' (forma formal de 'você') é obrigatório." 
+    }
+  ],
+  "tips": [
+    "Chegue pontualmente às aulas. Na França, a pontualidade é muito valorizada e alguns professores podem não permitir a entrada de alunos atrasados.",
+    "Participe ativamente das discussões em sala de aula, mas sempre levante a mão antes de falar.",
+    "Muitas universidades francesas oferecem cursos de francês para estudantes internacionais. Aproveite essa oportunidade para melhorar seu idioma.",
+    "Familiarize-se com o sistema de bibliotecas da universidade logo no início do semestre, pois será um recurso importante para seus estudos.",
+    "As universidades francesas geralmente têm um restaurante universitário (RU) que oferece refeições a preços acessíveis para estudantes."
+  ],
+  "relatedQuizzes": ["Vocabulário Acadêmico", "Sistema Educacional Francês", "Expressões Formais"]
+}

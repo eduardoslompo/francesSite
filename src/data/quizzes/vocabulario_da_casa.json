@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-da-casa",
+  "title": "Vocabulário da Casa",
+  "description": "Aprenda palavras e expressões relacionadas à casa e aos cômodos em francês, incluindo móveis, eletrodomésticos e objetos do cotidiano doméstico.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "casa",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vdc-1",
+      "text": "Como se diz 'sala de estar' em francês?",
+      "options": ["La chambre", "La cuisine", "Le salon", "La salle de bains"],
+      "correctAnswer": 2,
+      "category": "casa",
+      "difficulty": "iniciante",
+      "explanation": "'Le salon' é a palavra francesa para 'sala de estar'. 'La chambre' significa 'quarto', 'La cuisine' significa 'cozinha' e 'La salle de bains' significa 'banheiro'."
+    },
+    {
+      "id": "vdc-2",
+      "text": "Qual é a tradução de 'cozinha' em francês?",
+      "options": ["La chambre", "La cuisine", "Le salon", "La salle à manger"],
+      "correctAnswer": 1,
+      "category": "casa",
+      "difficulty": "iniciante",
+      "explanation": "'La cuisine' é a palavra francesa para 'cozinha'. 'La chambre' significa 'quarto', 'Le salon' significa 'sala de estar' e 'La salle à manger' significa 'sala de jantar'."
+    },
+    {
+      "id": "vdc-3",
+      "text": "Como se diz 'cama' em francês?",
+      "options": ["La table", "La chaise", "L'armoire", "Le lit"],
+      "correctAnswer": 3,
+      "category": "casa",
+      "difficulty": "iniciante",
+      "explanation": "'Le lit' é a palavra francesa para 'cama'. 'La table' significa 'mesa', 'La chaise' significa 'cadeira' e 'L'armoire' significa 'armário'."
+    },
+    {
+      "id": "vdc-4",
+      "text": "Qual destas palavras significa 'janela' em francês?",
+      "options": ["La porte", "Le mur", "La fenêtre", "Le plafond"],
+      "correctAnswer": 2,
+      "category": "casa",
+      "difficulty": "iniciante",
+      "explanation": "'La fenêtre' é a palavra francesa para 'janela'. 'La porte' significa 'porta', 'Le mur' significa 'parede' e 'Le plafond' significa 'teto'."
+    },
+    {
+      "id": "vdc-5",
+      "text": "Como se diz 'geladeira' em francês?",
+      "options": ["Le réfrigérateur", "Le four", "La machine à laver", "Le lave-vaisselle"],
+      "correctAnswer": 0,
+      "category": "casa",
+      "difficulty": "intermediario",
+      "explanation": "'Le réfrigérateur' (ou 'le frigo' na forma coloquial) é a palavra francesa para 'geladeira'. 'Le four' significa 'forno', 'La machine à laver' significa 'máquina de lavar roupa' e 'Le lave-vaisselle' significa 'lava-louças'."
+    }
+  ]
+}

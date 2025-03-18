@@ -1,0 +1,87 @@
+{
+  "title": "Jardim Público",
+  "description": "Aprenda a conversar, pedir informações e desfrutar de atividades em um jardim público francês.",
+  "image": "https://images.unsplash.com/photo-1464865885825-be7cd16fad8d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Où se trouve l'entrée principale du jardin ?",
+    "À quelle heure ferme le jardin ?",
+    "Est-ce qu'on peut pique-niquer ici ?"
+  ],
+  "introduction": "Os jardins públicos na França são espaços verdes bem cuidados onde os franceses vão para relaxar, socializar e aproveitar a natureza. Este guia ajudará você a navegar por esses espaços, perguntar sobre atividades disponíveis e apreciar este aspecto importante da vida urbana francesa.",
+  "dialogues": [
+    {
+      "title": "Pedindo Informações",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, excusez-moi de vous déranger.", "translation": "Bom dia, desculpe incomodar." },
+        { "speaker": "Guarda do Parque", "text": "Bonjour, je peux vous aider ?", "translation": "Bom dia, posso ajudar?" },
+        { "speaker": "Você", "text": "Oui, s'il vous plaît. À quelle heure ferme le jardin aujourd'hui ?", "translation": "Sim, por favor. A que horas o jardim fecha hoje?" },
+        { "speaker": "Guarda do Parque", "text": "Le jardin ferme à 20h en été. Les portes sont fermées automatiquement, donc n'oubliez pas de sortir avant.", "translation": "O jardim fecha às 20h no verão. Os portões são fechados automaticamente, então não se esqueça de sair antes." },
+        { "speaker": "Você", "text": "Merci. Est-ce qu'il y a un plan du jardin disponible ?", "translation": "Obrigado(a). Existe um mapa do jardim disponível?" },
+        { "speaker": "Guarda do Parque", "text": "Oui, bien sûr. Vous pouvez en prendre un à l'entrée principale ou au kiosque d'information là-bas.", "translation": "Sim, claro. Você pode pegar um na entrada principal ou no quiosque de informações ali." },
+        { "speaker": "Você", "text": "Parfait, merci beaucoup pour ces informations.", "translation": "Perfeito, muito obrigado(a) por essas informações." },
+        { "speaker": "Guarda do Parque", "text": "Je vous en prie. Bonne visite !", "translation": "De nada. Boa visita!" }
+      ]
+    },
+    {
+      "title": "Perguntando sobre Atividades",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, est-ce qu'on peut pique-niquer dans ce jardin ?", "translation": "Bom dia, podemos fazer piquenique neste jardim?" },
+        { "speaker": "Funcionário", "text": "Bonjour. Oui, bien sûr, mais seulement dans les zones désignées. Vous voyez les pelouses avec les panneaux 'Pique-nique autorisé' ?", "translation": "Bom dia. Sim, claro, mas apenas nas áreas designadas. Você vê os gramados com as placas 'Piquenique permitido'?" },
+        { "speaker": "Você", "text": "Ah oui, je vois. Et est-ce qu'il y a des activités organisées dans le jardin ?", "translation": "Ah sim, estou vendo. E existem atividades organizadas no jardim?" },
+        { "speaker": "Funcionário", "text": "Oui, il y a un concert gratuit ce soir à 18h près du kiosque à musique. Et le dimanche matin, il y a des séances de tai-chi ouvertes à tous.", "translation": "Sim, há um concerto gratuito esta noite às 18h perto do coreto. E no domingo de manhã, há sessões de tai chi abertas a todos." },
+        { "speaker": "Você", "text": "C'est intéressant ! Est-ce qu'il faut s'inscrire pour le tai-chi ?", "translation": "Isso é interessante! Precisa se inscrever para o tai chi?" },
+        { "speaker": "Funcionário", "text": "Non, vous pouvez simplement vous présenter à 9h près de la fontaine centrale. C'est gratuit et ouvert à tous les niveaux.", "translation": "Não, você pode simplesmente aparecer às 9h perto da fonte central. É gratuito e aberto a todos os níveis." },
+        { "speaker": "Você", "text": "Merci beaucoup pour ces informations.", "translation": "Muito obrigado(a) por essas informações." }
+      ]
+    },
+    {
+      "title": "Conversando com Outros Visitantes",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, est-ce que ce banc est libre ?", "translation": "Com licença, este banco está livre?" },
+        { "speaker": "Visitante", "text": "Oui, bien sûr, asseyez-vous.", "translation": "Sim, claro, sente-se." },
+        { "speaker": "Você", "text": "Merci. C'est un très beau jardin, n'est-ce pas ?", "translation": "Obrigado(a). É um jardim muito bonito, não é?" },
+        { "speaker": "Visitante", "text": "Oui, c'est mon préféré dans la ville. Je viens ici presque tous les jours quand il fait beau.", "translation": "Sim, é o meu favorito na cidade. Venho aqui quase todos os dias quando o tempo está bom." },
+        { "speaker": "Você", "text": "Je comprends pourquoi ! Les fleurs sont magnifiques. Vous connaissez le nom de ces fleurs violettes là-bas ?", "translation": "Entendo por quê! As flores são magníficas. Você sabe o nome daquelas flores roxas ali?" },
+        { "speaker": "Visitante", "text": "Ce sont des lavandes. Elles sont typiques du sud de la France, surtout en Provence.", "translation": "São lavandas. Elas são típicas do sul da França, especialmente na Provença." },
+        { "speaker": "Você", "text": "Ah, merci ! J'adore leur parfum. C'est très agréable de discuter avec vous.", "translation": "Ah, obrigado(a)! Adoro o perfume delas. É muito agradável conversar com você." },
+        { "speaker": "Visitante", "text": "De même. Profitez bien de votre visite !", "translation": "Igualmente. Aproveite bem sua visita!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le jardin public", "translation": "o jardim público, parque" },
+    { "word": "un banc", "translation": "um banco (para sentar)" },
+    { "word": "une pelouse", "translation": "um gramado", "example": "Il est interdit de marcher sur les pelouses." },
+    { "word": "une fleur", "translation": "uma flor" },
+    { "word": "un arbre", "translation": "uma árvore" },
+    { "word": "une fontaine", "translation": "uma fonte" },
+    { "word": "un kiosque à musique", "translation": "um coreto" },
+    { "word": "un pique-nique", "translation": "um piquenique" },
+    { "word": "un gardien / une gardienne", "translation": "um guarda / uma guarda" },
+    { "word": "une entrée", "translation": "uma entrada" },
+    { "word": "une sortie", "translation": "uma saída" },
+    { "word": "un plan", "translation": "um mapa, planta" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Jardins Históricos", 
+      "description": "A França é famosa por seus jardins históricos, como o Jardin du Luxembourg e o Jardin des Tuileries em Paris, que são exemplos do estilo formal francês de jardinagem. Esses espaços são considerados obras de arte e são meticulosamente mantidos." 
+    },
+    { 
+      "title": "Regras de Comportamento", 
+      "description": "Os jardins públicos franceses geralmente têm regras estritas sobre onde você pode andar ou sentar. Muitas vezes, apenas certas áreas de gramado são designadas para sentar ou fazer piquenique, indicadas por placas específicas. Respeitar essas regras é importante para os franceses." 
+    },
+    { 
+      "title": "Atividades Culturais", 
+      "description": "Muitos jardins públicos na França hospedam eventos culturais gratuitos, especialmente durante o verão, como concertos, exposições de arte ao ar livre e aulas de dança. Estes são uma ótima maneira de experimentar a cultura local e conhecer pessoas." 
+    }
+  ],
+  "tips": [
+    "Verifique os horários de abertura e fechamento dos jardins públicos, pois muitos são fechados à noite e os portões podem ser trancados automaticamente.",
+    "Respeite as placas que indicam onde você pode ou não pisar, sentar ou fazer piquenique.",
+    "Muitos jardins públicos franceses têm banheiros públicos gratuitos, mas pode ser necessário ter algumas moedas para usá-los.",
+    "Os quiosques de informações nos jardins maiores geralmente oferecem mapas gratuitos e informações sobre eventos especiais.",
+    "Nos dias quentes, os jardins públicos são um ótimo lugar para escapar do calor, pois as árvores proporcionam sombra natural."
+  ],
+  "relatedQuizzes": ["Vocabulário de Natureza", "Lazer e Tempo Livre", "Situações Cotidianas"]
+}

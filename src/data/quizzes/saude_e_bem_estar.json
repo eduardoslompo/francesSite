@@ -1,0 +1,56 @@
+{
+  "id": "saude-e-bem-estar",
+  "title": "Saúde e Bem-estar",
+  "description": "Aprenda vocabulário e expressões relacionadas à saúde e bem-estar em francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "saude",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "sbe-1",
+      "text": "Como se diz 'Estou me sentindo bem' em francês?",
+      "options": ["Je me sens bien", "Je suis en bonne santé", "Je vais bien", "Toutes les réponses sont correctes"],
+      "correctAnswer": 3,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "Todas as opções são formas corretas de expressar que você está se sentindo bem em francês."
+    },
+    {
+      "id": "sbe-2",
+      "text": "Qual é a expressão francesa para 'estilo de vida saudável'?",
+      "options": ["Mode de vie actif", "Mode de vie sain", "Bonne santé quotidienne", "Vie en forme"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'Mode de vie sain' é a expressão francesa para 'estilo de vida saudável'."
+    },
+    {
+      "id": "sbe-3",
+      "text": "Como você perguntaria 'Como você está se sentindo?' em francês?",
+      "options": ["Comment allez-vous?", "Comment vous sentez-vous?", "Ça va bien?", "Les options A et B sont correctes"],
+      "correctAnswer": 3,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "Tanto 'Comment allez-vous?' quanto 'Comment vous sentez-vous?' são formas corretas de perguntar como alguém está se sentindo."
+    },
+    {
+      "id": "sbe-4",
+      "text": "Qual é a palavra francesa para 'bem-estar'?",
+      "options": ["Santé", "Bien-être", "Forme", "Vitalité"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'Bien-être' é a palavra francesa para 'bem-estar'."
+    },
+    {
+      "id": "sbe-5",
+      "text": "Como você diria 'Preciso fazer exercícios regularmente' em francês?",
+      "options": ["J'ai besoin de faire du sport régulièrement", "Je dois faire de l'exercice régulièrement", "Il me faut faire de l'activité physique régulièrement", "Toutes les réponses sont correctes"],
+      "correctAnswer": 3,
+      "category": "saude",
+      "difficulty": "avancado",
+      "explanation": "Todas as opções são formas corretas de expressar a necessidade de fazer exercícios regularmente em francês."
+    }
+  ]
+}

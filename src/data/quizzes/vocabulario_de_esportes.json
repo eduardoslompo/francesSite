@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-esportes",
+  "title": "Vocabulário de Esportes",
+  "description": "Aprenda palavras e expressões em francês relacionadas a esportes, competições e atividades físicas.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "lazer",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ve-1",
+      "text": "Como se diz 'futebol' em francês?",
+      "options": ["Le basket-ball", "Le football", "Le tennis", "Le rugby"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Le football' é a palavra francesa para 'futebol'."
+    },
+    {
+      "id": "ve-2",
+      "text": "Qual é a tradução de 'nadar' em francês?",
+      "options": ["Courir", "Sauter", "Nager", "Marcher"],
+      "correctAnswer": 2,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Nager' significa 'nadar' em francês."
+    },
+    {
+      "id": "ve-3",
+      "text": "Como se diz 'jogar tênis' em francês?",
+      "options": ["Faire du vélo", "Jouer au tennis", "Faire de la natation", "Jouer au football"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "intermediario",
+      "explanation": "'Jouer au tennis' significa 'jogar tênis' em francês."
+    },
+    {
+      "id": "ve-4",
+      "text": "Qual frase você usaria para perguntar se alguém pratica esportes?",
+      "options": ["Tu aimes les sports?", "Tu fais du sport?", "Tu regardes le sport?", "Tu connais les sports?"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "intermediario",
+      "explanation": "'Tu fais du sport?' significa 'Você pratica esportes?' em francês."
+    },
+    {
+      "id": "ve-5",
+      "text": "Como se diz 'Jogos Olímpicos' em francês?",
+      "options": ["Les matchs internationaux", "Les Jeux Olympiques", "Les compétitions mondiales", "Les tournois sportifs"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "avancado",
+      "explanation": "'Les Jeux Olympiques' significa 'Jogos Olímpicos' em francês."
+    }
+  ]
+}

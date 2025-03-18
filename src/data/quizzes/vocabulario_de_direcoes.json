@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-direcoes",
+  "title": "Vocabulário de Direções",
+  "description": "Aprenda palavras e expressões em francês relacionadas a direções, orientação espacial e como pedir e dar informações sobre localização.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "vocabulario",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vd-1",
+      "text": "Como se diz 'à direita' em francês?",
+      "options": ["À gauche", "À droite", "Tout droit", "En arrière"],
+      "correctAnswer": 1,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'À droite' significa 'à direita' em francês. É uma expressão essencial para dar ou receber direções."
+    },
+    {
+      "id": "vd-2",
+      "text": "Qual é a tradução para 'Como chegar a...?' em francês?",
+      "options": ["Où est...?", "Comment aller à...?", "Pouvez-vous m'aider?", "Je cherche..."],
+      "correctAnswer": 1,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'Comment aller à...?' é a forma correta de perguntar 'Como chegar a...?' em francês quando você precisa de direções para um lugar específico."
+    },
+    {
+      "id": "vd-3",
+      "text": "Como se diz 'siga em frente' em francês?",
+      "options": ["Tournez à gauche", "Tournez à droite", "Allez tout droit", "Revenez en arrière"],
+      "correctAnswer": 2,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'Allez tout droit' significa 'siga em frente' em francês. É uma instrução comum ao dar direções."
+    },
+    {
+      "id": "vd-4",
+      "text": "Qual destas expressões significa 'na esquina' em francês?",
+      "options": ["Au carrefour", "Au coin", "Au centre", "Au bout"],
+      "correctAnswer": 1,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'Au coin' significa 'na esquina' em francês. Por exemplo: 'La pharmacie est au coin de la rue' (A farmácia fica na esquina da rua)."
+    },
+    {
+      "id": "vd-5",
+      "text": "Como se pergunta 'Onde fica a estação de metrô mais próxima?' em francês?",
+      "options": ["Où est la gare?", "Où est la station de métro la plus proche?", "Comment aller à la station?", "Y a-t-il un métro ici?"],
+      "correctAnswer": 1,
+      "category": "vocabulario",
+      "difficulty": "intermediario",
+      "explanation": "'Où est la station de métro la plus proche?' é a forma correta de perguntar 'Onde fica a estação de metrô mais próxima?' em francês."
+    }
+  ]
+}

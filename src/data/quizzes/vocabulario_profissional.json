@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-profissional",
+  "title": "Vocabulário Profissional",
+  "description": "Aprenda palavras e expressões essenciais para o ambiente de trabalho em francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "trabalho",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vp-1",
+      "text": "Como se diz 'reunião' em francês?",
+      "options": ["Le bureau", "La réunion", "Le travail", "L'entreprise"],
+      "correctAnswer": 1,
+      "category": "trabalho",
+      "difficulty": "iniciante",
+      "explanation": "'La réunion' é a palavra francesa para 'reunião'."
+    },
+    {
+      "id": "vp-2",
+      "text": "Qual é a tradução de 'currículo' em francês?",
+      "options": ["Le CV (Curriculum Vitae)", "La lettre de motivation", "L'entretien", "Le poste"],
+      "correctAnswer": 0,
+      "category": "trabalho",
+      "difficulty": "iniciante",
+      "explanation": "'Le CV' (abreviação de Curriculum Vitae) é o termo usado para 'currículo' em francês."
+    },
+    {
+      "id": "vp-3",
+      "text": "Como você diria 'Sou responsável por...' em francês?",
+      "options": ["Je travaille comme...", "Je suis responsable de...", "Je m'occupe...", "J'ai l'expérience de..."],
+      "correctAnswer": 1,
+      "category": "trabalho",
+      "difficulty": "intermediario",
+      "explanation": "'Je suis responsable de...' é a forma correta de dizer 'Sou responsável por...' em francês."
+    },
+    {
+      "id": "vp-4",
+      "text": "Qual frase você usaria para perguntar sobre o horário de trabalho?",
+      "options": ["Quels sont les horaires de travail?", "Quel est le salaire?", "Où se trouve le bureau?", "Quand commence le travail?"],
+      "correctAnswer": 0,
+      "category": "trabalho",
+      "difficulty": "intermediario",
+      "explanation": "'Quels sont les horaires de travail?' significa 'Quais são os horários de trabalho?' em francês."
+    },
+    {
+      "id": "vp-5",
+      "text": "Como se diz 'prazo' em francês?",
+      "options": ["Le projet", "La date", "La réunion", "La date limite"],
+      "correctAnswer": 3,
+      "category": "trabalho",
+      "difficulty": "intermediario",
+      "explanation": "'La date limite' é a expressão francesa para 'prazo'."
+    }
+  ]
+}

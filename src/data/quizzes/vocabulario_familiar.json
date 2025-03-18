@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-familiar",
+  "title": "Vocabulário Familiar",
+  "description": "Aprenda palavras e expressões relacionadas à família em francês, incluindo termos para diferentes membros da família e relações familiares.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "familia",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vf-1",
+      "text": "Como se diz 'pai' em francês?",
+      "options": ["Le frère", "Le père", "L'oncle", "Le fils"],
+      "correctAnswer": 1,
+      "category": "familia",
+      "difficulty": "iniciante",
+      "explanation": "'Le père' é a palavra francesa para 'pai'."
+    },
+    {
+      "id": "vf-2",
+      "text": "Qual é a palavra francesa para 'mãe'?",
+      "options": ["La mère", "La sœur", "La tante", "La fille"],
+      "correctAnswer": 0,
+      "category": "familia",
+      "difficulty": "iniciante",
+      "explanation": "'La mère' significa 'mãe' em francês."
+    },
+    {
+      "id": "vf-3",
+      "text": "Como se diz 'irmão' em francês?",
+      "options": ["Le cousin", "Le neveu", "Le frère", "Le beau-frère"],
+      "correctAnswer": 2,
+      "category": "familia",
+      "difficulty": "iniciante",
+      "explanation": "'Le frère' significa 'irmão' em francês."
+    },
+    {
+      "id": "vf-4",
+      "text": "Qual destas palavras significa 'avô' em francês?",
+      "options": ["Le grand-père", "Le beau-père", "Le père", "Le parrain"],
+      "correctAnswer": 0,
+      "category": "familia",
+      "difficulty": "iniciante",
+      "explanation": "'Le grand-père' é a expressão francesa para 'avô'."
+    },
+    {
+      "id": "vf-5",
+      "text": "Como se diz 'família' em francês?",
+      "options": ["Les parents", "La maison", "La famille", "Les proches"],
+      "correctAnswer": 2,
+      "category": "familia",
+      "difficulty": "iniciante",
+      "explanation": "'La famille' significa 'família' em francês."
+    }
+  ]
+}

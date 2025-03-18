@@ -1,0 +1,56 @@
+{
+  "id": "gastronomia-francesa",
+  "title": "Gastronomia Francesa",
+  "description": "Explore o vocabulário específico, técnicas e tradições da alta gastronomia francesa, reconhecida como Patrimônio Cultural Imaterial da UNESCO.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "gf-1",
+      "text": "Qual termo culinário francês descreve a mistura de ingredientes picados usada como base para muitos pratos?",
+      "options": ["Roux", "Mirepoix", "Bouquet garni", "Brunoise"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Mirepoix' é uma mistura de cenoura, cebola e aipo finamente picados, usada como base aromática para molhos, sopas e ensopados na culinária francesa."
+    },
+    {
+      "id": "gf-2",
+      "text": "Qual técnica de cozimento francês consiste em cozinhar lentamente alimentos submersos em gordura a baixa temperatura?",
+      "options": ["Flambé", "Confit", "Sous-vide", "Sauté"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Confit' é uma técnica de preservação e cozimento onde os alimentos (tradicionalmente pato, ganso ou porco) são lentamente cozidos submersos em sua própria gordura a baixa temperatura."
+    },
+    {
+      "id": "gf-3",
+      "text": "Qual destas NÃO é uma das cinco 'mães dos molhos' (sauces mères) da culinária francesa clássica?",
+      "options": ["Béchamel", "Velouté", "Demi-glace", "Mayonnaise"],
+      "correctAnswer": 3,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "As cinco 'mães dos molhos' da culinária francesa clássica, segundo Auguste Escoffier, são: béchamel, velouté, espanhol (que origina o demi-glace), hollandaise e tomate. A maionese não faz parte deste grupo, sendo classificada como um molho frio emulsionado."
+    },
+    {
+      "id": "gf-4",
+      "text": "Qual o nome do sistema de organização de cozinha profissional criado pelo chef francês Auguste Escoffier?",
+      "options": ["Nouvelle Cuisine", "Cuisine du Terroir", "Brigade de Cuisine", "Mise en Place"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Brigade de Cuisine' é o sistema hierárquico de organização da cozinha profissional criado por Auguste Escoffier, que divide as funções por estações de trabalho (garde-manger, saucier, pâtissier, etc.) e estabelece uma clara cadeia de comando."
+    },
+    {
+      "id": "gf-5",
+      "text": "Qual famoso método de cozimento francês envolve o cozimento de alimentos selados em um recipiente com vegetais aromáticos e vinho?",
+      "options": ["En papillote", "À la meunière", "En cocotte", "Braisé"],
+      "correctAnswer": 3,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Braisé' (brasear) é um método de cozimento onde os alimentos são primeiro selados em alta temperatura e depois cozidos lentamente em líquido (geralmente vinho e caldo) com vegetais aromáticos em um recipiente tampado."
+    }
+  ]
+}

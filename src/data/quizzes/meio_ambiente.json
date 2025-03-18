@@ -1,0 +1,56 @@
+{
+  "id": "meio-ambiente",
+  "title": "Meio Ambiente",
+  "description": "Aprenda vocabulário e expressões em francês relacionados ao meio ambiente, ecologia e sustentabilidade.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "natureza",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ma-1",
+      "text": "Como se diz 'meio ambiente' em francês?",
+      "options": ["Le climat", "L'environnement", "La nature", "L'écologie"],
+      "correctAnswer": 1,
+      "category": "natureza",
+      "difficulty": "iniciante",
+      "explanation": "'L'environnement' é a palavra francesa para 'meio ambiente'."
+    },
+    {
+      "id": "ma-2",
+      "text": "Qual é a tradução de 'poluição' em francês?",
+      "options": ["La pollution", "Le déchet", "Le gaspillage", "La destruction"],
+      "correctAnswer": 0,
+      "category": "natureza",
+      "difficulty": "iniciante",
+      "explanation": "'La pollution' significa 'poluição' em francês."
+    },
+    {
+      "id": "ma-3",
+      "text": "Como se diz 'reciclagem' em francês?",
+      "options": ["La réutilisation", "Le recyclage", "La réduction", "La conservation"],
+      "correctAnswer": 1,
+      "category": "natureza",
+      "difficulty": "intermediario",
+      "explanation": "'Le recyclage' é a palavra francesa para 'reciclagem'."
+    },
+    {
+      "id": "ma-4",
+      "text": "Qual frase você usaria para falar sobre 'aquecimento global'?",
+      "options": ["La couche d'ozone", "Le réchauffement climatique", "Les énergies renouvelables", "La biodiversité"],
+      "correctAnswer": 1,
+      "category": "natureza",
+      "difficulty": "intermediario",
+      "explanation": "'Le réchauffement climatique' significa 'aquecimento global' em francês."
+    },
+    {
+      "id": "ma-5",
+      "text": "Como se diz 'desenvolvimento sustentável' em francês?",
+      "options": ["Développement économique", "Développement durable", "Développement social", "Développement industriel"],
+      "correctAnswer": 1,
+      "category": "natureza",
+      "difficulty": "avancado",
+      "explanation": "'Développement durable' significa 'desenvolvimento sustentável' em francês."
+    }
+  ]
+}

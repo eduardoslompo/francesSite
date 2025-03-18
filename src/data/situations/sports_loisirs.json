@@ -1,0 +1,89 @@
+{
+  "title": "Esportes e Lazer",
+  "description": "Aprenda a falar sobre atividades esportivas e de lazer em francês para participar de eventos sociais e recreativos.",
+  "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais m'inscrire à un cours de tennis.",
+    "Quelles sont les activités disponibles ce week-end ?",
+    "Est-ce qu'il y a un parc où on peut faire du jogging ?"
+  ],
+  "introduction": "Participar de atividades esportivas e de lazer é uma excelente maneira de socializar e se integrar à cultura francesa. Este guia ajudará você a falar sobre seus hobbies, encontrar atividades locais e participar de eventos esportivos em países francófonos.",
+  "dialogues": [
+    {
+      "title": "Na Academia",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais des informations sur les abonnements à votre salle de sport.", "translation": "Bom dia, eu gostaria de informações sobre as assinaturas da sua academia." },
+        { "speaker": "Recepcionista", "text": "Bonjour. Nous proposons plusieurs formules : mensuelle, trimestrielle ou annuelle. Qu'est-ce qui vous intéresserait ?", "translation": "Bom dia. Oferecemos várias opções: mensal, trimestral ou anual. O que lhe interessaria?" },
+        { "speaker": "Você", "text": "Je préfère un abonnement mensuel pour commencer. Quels sont les services inclus ?", "translation": "Prefiro uma assinatura mensal para começar. Quais serviços estão incluídos?" },
+        { "speaker": "Recepcionista", "text": "L'abonnement mensuel vous donne accès à toutes les machines, aux cours collectifs et à l'espace bien-être avec sauna.", "translation": "A assinatura mensal dá acesso a todas as máquinas, aulas em grupo e à área de bem-estar com sauna." },
+        { "speaker": "Você", "text": "Y a-t-il des cours de yoga ?", "translation": "Há aulas de yoga?" },
+        { "speaker": "Recepcionista", "text": "Oui, nous avons des cours de yoga les lundis, mercredis et vendredis à 18h. Voici le planning des cours.", "translation": "Sim, temos aulas de yoga às segundas, quartas e sextas-feiras às 18h. Aqui está o cronograma das aulas." },
+        { "speaker": "Você", "text": "Parfait. Et quels sont les horaires d'ouverture ?", "translation": "Perfeito. E quais são os horários de funcionamento?" },
+        { "speaker": "Recepcionista", "text": "Nous sommes ouverts de 7h à 22h en semaine, et de 9h à 20h le week-end. Souhaitez-vous vous inscrire aujourd'hui ?", "translation": "Estamos abertos das 7h às 22h durante a semana, e das 9h às 20h nos fins de semana. Gostaria de se inscrever hoje?" }
+      ]
+    },
+    {
+      "title": "Alugando Equipamentos Esportivos",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais louer deux vélos pour la journée, s'il vous plaît.", "translation": "Bom dia, eu gostaria de alugar duas bicicletas para o dia, por favor." },
+        { "speaker": "Atendente", "text": "Bonjour. Quel type de vélos cherchez-vous ? Nous avons des VTT, des vélos de ville et des vélos électriques.", "translation": "Bom dia. Que tipo de bicicletas você está procurando? Temos mountain bikes, bicicletas urbanas e bicicletas elétricas." },
+        { "speaker": "Você", "text": "Deux vélos de ville, s'il vous plaît. Nous voulons faire une balade le long de la rivière.", "translation": "Duas bicicletas urbanas, por favor. Queremos dar um passeio ao longo do rio." },
+        { "speaker": "Atendente", "text": "Très bon choix. Je vous conseille de prendre l'itinéraire des quais, c'est très agréable. Avez-vous besoin de casques ?", "translation": "Ótima escolha. Aconselho a pegar o percurso dos cais, é muito agradável. Vocês precisam de capacetes?" },
+        { "speaker": "Você", "text": "Oui, deux casques aussi. Et est-ce qu'il y a un antivol avec les vélos ?", "translation": "Sim, dois capacetes também. E há um cadeado com as bicicletas?" },
+        { "speaker": "Atendente", "text": "Bien sûr, chaque vélo est équipé d'un antivol. Je dois juste prendre une pièce d'identité et un dépôt de caution de 100 euros.", "translation": "Claro, cada bicicleta está equipada com um cadeado. Só preciso de um documento de identidade e um depósito de caução de 100 euros." },
+        { "speaker": "Você", "text": "Voici mon passeport. Je peux payer la caution par carte bancaire ?", "translation": "Aqui está meu passaporte. Posso pagar a caução com cartão de crédito?" },
+        { "speaker": "Atendente", "text": "Oui, c'est possible. Les vélos doivent être retournés avant 19h ce soir. Profitez bien de votre balade !", "translation": "Sim, é possível. As bicicletas devem ser devolvidas antes das 19h desta noite. Aproveitem o passeio!" }
+      ]
+    },
+    {
+      "title": "Participando de um Evento Esportivo",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, je voudrais m'inscrire à la course de 10 km qui aura lieu dimanche prochain.", "translation": "Com licença, eu gostaria de me inscrever para a corrida de 10 km que acontecerá no próximo domingo." },
+        { "speaker": "Organizador", "text": "Bien sûr. Avez-vous déjà participé à cette course auparavant ?", "translation": "Claro. Você já participou desta corrida antes?" },
+        { "speaker": "Você", "text": "Non, c'est la première fois, mais je cours régulièrement dans mon pays.", "translation": "Não, é a primeira vez, mas eu corro regularmente no meu país." },
+        { "speaker": "Organizador", "text": "Parfait. Vous devez remplir ce formulaire et présenter un certificat médical de moins de six mois.", "translation": "Perfeito. Você deve preencher este formulário e apresentar um atestado médico com menos de seis meses." },
+        { "speaker": "Você", "text": "Je n'ai pas de certificat médical. Est-ce vraiment obligatoire ?", "translation": "Não tenho atestado médico. É realmente obrigatório?" },
+        { "speaker": "Organizador", "text": "Oui, c'est obligatoire en France pour toutes les compétitions. Mais vous pouvez consulter un médecin à la clinique du sport à côté, ils font des certificats rapidement.", "translation": "Sim, é obrigatório na França para todas as competições. Mas você pode consultar um médico na clínica esportiva ao lado, eles fazem atestados rapidamente." },
+        { "speaker": "Você", "text": "D'accord, je vais y aller. Quel est le prix de l'inscription ?", "translation": "Certo, vou lá. Qual é o preço da inscrição?" },
+        { "speaker": "Organizador", "text": "C'est 15 euros, et vous recevrez un t-shirt, un dossard avec puce électronique et une médaille à l'arrivée. Le départ est à 9h, mais venez une heure avant pour récupérer votre kit.", "translation": "São 15 euros, e você receberá uma camiseta, um número de peito com chip eletrônico e uma medalha na chegada. A largada é às 9h, mas venha uma hora antes para pegar seu kit." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le sport", "translation": "o esporte" },
+    { "word": "les loisirs (m pl)", "translation": "o lazer, as atividades de lazer" },
+    { "word": "faire du jogging", "translation": "correr, fazer corrida" },
+    { "word": "nager", "translation": "nadar" },
+    { "word": "le vélo", "translation": "a bicicleta" },
+    { "word": "faire du vélo", "translation": "andar de bicicleta", "example": "J'aime faire du vélo le week-end." },
+    { "word": "la randonnée", "translation": "a caminhada, o trekking" },
+    { "word": "le terrain de sport", "translation": "o campo esportivo" },
+    { "word": "la salle de sport", "translation": "a academia" },
+    { "word": "s'inscrire", "translation": "inscrever-se", "example": "Je voudrais m'inscrire au club de tennis." },
+    { "word": "un abonnement", "translation": "uma assinatura" },
+    { "word": "louer", "translation": "alugar", "example": "On peut louer des kayaks au bord du lac." },
+    { "word": "un match", "translation": "uma partida" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Certificado Médico para Esportes", 
+      "description": "Na França, é obrigatório apresentar um certificado médico (certificat médical) para se inscrever em competições esportivas ou em algumas academias. Este documento, emitido por um médico, atesta que você está apto a praticar o esporte em questão e geralmente é válido por um ano." 
+    },
+    { 
+      "title": "Vélib' e Sistemas de Compartilhamento", 
+      "description": "Muitas cidades francesas possuem sistemas de compartilhamento de bicicletas, como o Vélib' em Paris. Estes sistemas permitem alugar bicicletas por curtos períodos usando um aplicativo ou cartão. É uma forma econômica e ecológica de se deslocar nas cidades." 
+    },
+    { 
+      "title": "Esportes Populares na França", 
+      "description": "O futebol é o esporte mais popular na França, seguido pelo tênis, ciclismo e rugby. A França tem uma forte cultura ciclística, evidenciada pelo Tour de France, uma das competições mais prestigiosas do mundo. Os franceses também valorizam muito atividades ao ar livre como caminhadas e esqui nas regiões montanhosas." 
+    }
+  ],
+  "tips": [
+    "Muitas cidades francesas têm 'parcours de santé' (percursos de saúde) em parques públicos, que são circuitos com equipamentos para exercícios físicos gratuitos.",
+    "Para atividades aquáticas em piscinas públicas, é obrigatório usar touca de natação (bonnet de bain) e, para homens, sungas (maillot de bain) em vez de bermudas.",
+    "As associações esportivas municipais geralmente oferecem atividades a preços acessíveis. Informe-se na prefeitura (mairie) da cidade.",
+    "Muitos eventos esportivos populares, como corridas de rua, têm inscrições que se esgotam rapidamente. Planeje-se com antecedência.",
+    "Durante o verão, muitas cidades organizam atividades gratuitas em parques e praias, como yoga, tai chi ou dança. Consulte o site da prefeitura para informações."
+  ],
+  "relatedQuizzes": ["Vocabulário de Esportes", "Atividades de Lazer", "Saúde e Bem-estar"]
+}

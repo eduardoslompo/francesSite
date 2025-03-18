@@ -1,0 +1,91 @@
+{
+  "title": "Animais",
+  "description": "Vocabulário relacionado a animais de estimação e veterinários.",
+  "image": "https://images.unsplash.com/photo-1450778869180-41d0601e046e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Mon chien/chat est malade.",
+    "Où puis-je promener mon chien?",
+    "Avez-vous de la nourriture pour..."
+  ],
+  "introduction": "Falar sobre animais de estimação ou lidar com situações envolvendo animais na França requer um vocabulário específico. Este guia ajudará você a comunicar-se efetivamente em situações relacionadas a animais, desde conversar sobre seu animal de estimação até buscar ajuda veterinária.",
+  "dialogues": [
+    {
+      "title": "No Veterinário",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, j'ai un rendez-vous pour mon chat. Il s'appelle Félix.", "translation": "Bom dia, tenho uma consulta marcada para meu gato. Ele se chama Félix." },
+        { "speaker": "Recepcionista", "text": "Bonjour. Oui, je vois le rendez-vous. Quel est le problème avec Félix ?", "translation": "Bom dia. Sim, estou vendo a consulta. Qual é o problema com Félix?" },
+        { "speaker": "Você", "text": "Il ne mange pas depuis deux jours et il semble très fatigué.", "translation": "Ele não come há dois dias e parece muito cansado." },
+        { "speaker": "Recepcionista", "text": "Je comprends. Veuillez vous asseoir, le vétérinaire vous appellera dans quelques minutes.", "translation": "Entendo. Por favor, sente-se, o veterinário chamará você em alguns minutos." },
+        { "speaker": "Veterinário", "text": "Bonjour, je suis Dr. Martin. Alors, Félix ne mange pas ?", "translation": "Bom dia, sou o Dr. Martin. Então, Félix não está comendo?" },
+        { "speaker": "Você", "text": "Oui, et il est très léthargique. Je suis inquiet.", "translation": "Sim, e ele está muito letárgico. Estou preocupado." },
+        { "speaker": "Veterinário", "text": "Depuis quand avez-vous remarqué ces symptômes ?", "translation": "Desde quando você notou esses sintomas?" },
+        { "speaker": "Você", "text": "Depuis environ deux jours. Avant, il était très actif.", "translation": "Há cerca de dois dias. Antes, ele era muito ativo." },
+        { "speaker": "Veterinário", "text": "Je vais l'examiner. A-t-il ses vaccins à jour ?", "translation": "Vou examiná-lo. As vacinas dele estão em dia?" },
+        { "speaker": "Você", "text": "Oui, il a été vacciné il y a six mois.", "translation": "Sim, ele foi vacinado há seis meses." }
+      ]
+    },
+    {
+      "title": "No Parque com Cachorro",
+      "lines": [
+        { "speaker": "Passante", "text": "Oh, quel joli chien ! Quelle race est-ce ?", "translation": "Oh, que cachorro bonito! Qual é a raça?" },
+        { "speaker": "Você", "text": "Merci ! C'est un berger allemand mélangé avec un labrador.", "translation": "Obrigado! É um pastor alemão misturado com labrador." },
+        { "speaker": "Passante", "text": "Il est très beau. Comment s'appelle-t-il ?", "translation": "Ele é muito bonito. Como ele se chama?" },
+        { "speaker": "Você", "text": "Il s'appelle Max. Il a trois ans.", "translation": "Ele se chama Max. Tem três anos." },
+        { "speaker": "Passante", "text": "Est-ce qu'il est amical avec les autres chiens ?", "translation": "Ele é amigável com outros cachorros?" },
+        { "speaker": "Você", "text": "Oui, très amical. Il adore jouer avec d'autres chiens.", "translation": "Sim, muito amigável. Ele adora brincar com outros cachorros." },
+        { "speaker": "Passante", "text": "J'ai aussi un chien, un petit terrier. Peut-être qu'ils pourraient jouer ensemble un jour.", "translation": "Eu também tenho um cachorro, um pequeno terrier. Talvez eles possam brincar juntos um dia." },
+        { "speaker": "Você", "text": "Avec plaisir ! Nous venons ici tous les matins vers 9h.", "translation": "Com prazer! Nós vimos aqui todas as manhãs por volta das 9h." }
+      ]
+    },
+    {
+      "title": "Na Loja de Animais",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je cherche de la nourriture pour mon chat stérilisé.", "translation": "Bom dia, estou procurando comida para meu gato castrado." },
+        { "speaker": "Vendedor", "text": "Bonjour ! Nous avons plusieurs marques spéciales pour chats stérilisés. Préférez-vous des croquettes ou de la pâtée ?", "translation": "Bom dia! Temos várias marcas especiais para gatos castrados. Você prefere ração seca ou úmida?" },
+        { "speaker": "Você", "text": "Des croquettes, s'il vous plaît. Quelle marque recommandez-vous ?", "translation": "Ração seca, por favor. Qual marca você recomenda?" },
+        { "speaker": "Vendedor", "text": "Cette marque est très populaire et de bonne qualité. Elle contient moins de calories et plus de fibres, idéale pour les chats stérilisés.", "translation": "Esta marca é muito popular e de boa qualidade. Contém menos calorias e mais fibras, ideal para gatos castrados." },
+        { "speaker": "Você", "text": "Parfait. Je vais prendre ce paquet de 2 kilos. Avez-vous aussi des jouets pour chats ?", "translation": "Perfeito. Vou levar este pacote de 2 quilos. Vocês também têm brinquedos para gatos?" },
+        { "speaker": "Vendedor", "text": "Bien sûr, suivez-moi. Nous avons des balles, des souris en peluche, des jouets à plumes...", "translation": "Claro, siga-me. Temos bolas, ratos de pelúcia, brinquedos com penas..." },
+        { "speaker": "Você", "text": "Je vais prendre cette souris électronique. Mon chat adore chasser.", "translation": "Vou levar este rato eletrônico. Meu gato adora caçar." },
+        { "speaker": "Vendedor", "text": "Excellent choix ! C'est l'un de nos jouets les plus populaires.", "translation": "Excelente escolha! É um dos nossos brinquedos mais populares." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "l'animal (m) / les animaux (pl)", "translation": "o animal / os animais" },
+    { "word": "le chat / la chatte", "translation": "o gato / a gata" },
+    { "word": "le chien / la chienne", "translation": "o cachorro / a cadela" },
+    { "word": "le vétérinaire", "translation": "o veterinário" },
+    { "word": "la laisse", "translation": "a coleira" },
+    { "word": "la nourriture pour animaux", "translation": "a ração para animais" },
+    { "word": "les croquettes (f)", "translation": "a ração seca" },
+    { "word": "la pâtée", "translation": "a ração úmida" },
+    { "word": "le jouet", "translation": "o brinquedo" },
+    { "word": "promener (un chien)", "translation": "passear (com um cachorro)", "example": "Je promène mon chien deux fois par jour." },
+    { "word": "aboyer", "translation": "latir" },
+    { "word": "miauler", "translation": "miar" },
+    { "word": "stérilisé / castré", "translation": "esterilizado / castrado" },
+    { "word": "le vaccin", "translation": "a vacina" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Animais de Estimação na França", 
+      "description": "Os franceses adoram animais de estimação, especialmente cães e gatos. É comum ver pessoas levando seus cães a restaurantes, lojas e transporte público. No entanto, existem regras específicas, como a obrigação de manter cães na coleira em áreas públicas." 
+    },
+    { 
+      "title": "Identificação de Animais", 
+      "description": "Na França, é obrigatório que cães e gatos sejam identificados por microchip ou tatuagem. Além disso, certos cães considerados potencialmente perigosos devem ser registrados e seus donos precisam ter um permis de détention (permissão de posse)." 
+    },
+    { 
+      "title": "Veterinários e Cuidados", 
+      "description": "O sistema veterinário francês é de alta qualidade, mas os custos podem ser elevados. Existem seguros de saúde para animais de estimação que podem ajudar a cobrir despesas médicas. As farmácias veterinárias (pharmacies vétérinaires) vendem medicamentos específicos para animais." 
+    }
+  ],
+  "tips": [
+    "Sempre limpe após seu cão em áreas públicas. Há multas para quem não recolhe os dejetos de seus animais.",
+    "Em Paris e outras grandes cidades, existem parques específicos para cães (espaces canins) onde eles podem correr sem coleira.",
+    "Se você estiver viajando com um animal de estimação, verifique antecipadamente se seu hotel ou acomodação aceita animais (accepte les animaux).",
+    "Mantenha sempre o cartão de vacinação do seu animal atualizado, especialmente se estiver viajando entre países da UE."
+  ],
+  "relatedQuizzes": ["Vocabulário Básico", "Situações Cotidianas"]
+}

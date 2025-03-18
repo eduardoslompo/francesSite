@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-do-clima",
+  "title": "Vocabulário do Clima",
+  "description": "Aprenda palavras e expressões essenciais relacionadas ao clima e tempo em francês.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vc-1",
+      "text": "Como se diz 'tempo' (meteorológico) em francês?",
+      "options": ["Le temps", "La météo", "Le ciel", "La température"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le temps' é a palavra francesa para 'tempo' no sentido meteorológico."
+    },
+    {
+      "id": "vc-2",
+      "text": "Qual é a tradução de 'chover' em francês?",
+      "options": ["Neiger", "Pleuvoir", "Venter", "Geler"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Pleuvoir' significa 'chover' em francês."
+    },
+    {
+      "id": "vc-3",
+      "text": "Como se diz 'nuvem' em francês?",
+      "options": ["Le nuage", "La pluie", "Le soleil", "Le vent"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le nuage' é a palavra francesa para 'nuvem'."
+    },
+    {
+      "id": "vc-4",
+      "text": "Qual frase você usaria para perguntar sobre o tempo?",
+      "options": ["Quelle heure est-il?", "Quel temps fait-il aujourd'hui?", "Comment allez-vous?", "Où est la station météo?"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Quel temps fait-il aujourd'hui?' significa 'Como está o tempo hoje?'"
+    },
+    {
+      "id": "vc-5",
+      "text": "Como se diz 'ensolarado' em francês?",
+      "options": ["Pluvieux", "Nuageux", "Ensoleillé", "Venteux"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Ensoleillé' significa 'ensolarado' em francês."
+    }
+  ]
+}

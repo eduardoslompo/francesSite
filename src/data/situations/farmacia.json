@@ -1,0 +1,84 @@
+{
+  "title": "Farmácia",
+  "description": "Aprenda a comprar medicamentos, explicar sintomas e entender instruções em uma farmácia francesa.",
+  "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "J'ai besoin d'un médicament pour le mal de tête.",
+    "Avez-vous quelque chose pour la toux ?",
+    "Je cherche une pharmacie de garde."
+  ],
+  "introduction": "As farmácias na França oferecem muito mais do que apenas medicamentos com receita. Os farmacêuticos são profissionais altamente treinados que podem oferecer conselhos sobre problemas de saúde menores. Este guia ajudará você a navegar por uma farmácia francesa com confiança.",
+  "dialogues": [
+    {
+      "title": "Comprando um Medicamento Sem Receita",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, j'ai mal à la tête. Avez-vous quelque chose pour ça ?", "translation": "Bom dia, estou com dor de cabeça. Você tem algo para isso?" },
+        { "speaker": "Farmacêutico", "text": "Bonjour. Depuis combien de temps avez-vous mal à la tête ?", "translation": "Bom dia. Há quanto tempo você está com dor de cabeça?" },
+        { "speaker": "Você", "text": "Depuis ce matin. C'est une douleur sourde, ici.", "translation": "Desde esta manhã. É uma dor surda, aqui." },
+        { "speaker": "Farmacêutico", "text": "Je vous conseille du paracétamol. Prenez un comprimé toutes les 6 heures, maximum 4 par jour.", "translation": "Recomendo paracetamol. Tome um comprimido a cada 6 horas, máximo 4 por dia." },
+        { "speaker": "Você", "text": "D'accord. Est-ce que je peux le prendre à jeun ?", "translation": "Ok. Posso tomá-lo com o estômago vazio?" },
+        { "speaker": "Farmacêutico", "text": "C'est préférable de le prendre après avoir mangé. Voulez-vous autre chose ?", "translation": "É preferível tomá-lo depois de comer. Deseja mais alguma coisa?" },
+        { "speaker": "Você", "text": "Non, merci. C'est combien ?", "translation": "Não, obrigado(a). Quanto custa?" },
+        { "speaker": "Farmacêutico", "text": "Ça fait 4 euros 50, s'il vous plaît.", "translation": "São 4 euros e 50, por favor." }
+      ]
+    },
+    {
+      "title": "Apresentando uma Receita",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, j'ai une ordonnance à vous présenter.", "translation": "Bom dia, tenho uma receita para apresentar." },
+        { "speaker": "Farmacêutico", "text": "Bonjour. Je peux voir l'ordonnance, s'il vous plaît ?", "translation": "Bom dia. Posso ver a receita, por favor?" },
+        { "speaker": "Você", "text": "Voici. C'est pour des antibiotiques.", "translation": "Aqui está. É para antibióticos." },
+        { "speaker": "Farmacêutico", "text": "Merci. Avez-vous votre carte Vitale ?", "translation": "Obrigado. Você tem seu cartão Vitale?" },
+        { "speaker": "Você", "text": "Non, je suis touriste. Je n'ai pas de carte Vitale.", "translation": "Não, sou turista. Não tenho cartão Vitale." },
+        { "speaker": "Farmacêutico", "text": "D'accord. Dans ce cas, vous devrez payer le montant total. Je vous prépare ça tout de suite.", "translation": "Entendo. Nesse caso, você terá que pagar o valor total. Vou preparar isso imediatamente." }
+      ]
+    },
+    {
+      "title": "Procurando uma Farmácia de Plantão",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, savez-vous où je peux trouver une pharmacie ouverte maintenant ? Il est tard.", "translation": "Com licença, você sabe onde posso encontrar uma farmácia aberta agora? Está tarde." },
+        { "speaker": "Passante", "text": "Il vous faut une pharmacie de garde. Attendez, je vais vérifier sur mon téléphone.", "translation": "Você precisa de uma farmácia de plantão. Espere, vou verificar no meu telefone." },
+        { "speaker": "Passante", "text": "Il y a une pharmacie de garde à deux rues d'ici, sur l'avenue Victor Hugo.", "translation": "Há uma farmácia de plantão a duas ruas daqui, na avenida Victor Hugo." },
+        { "speaker": "Você", "text": "Comment puis-je la reconnaître ?", "translation": "Como posso reconhecê-la?" },
+        { "speaker": "Passante", "text": "Cherchez la croix verte qui clignote. Et il y aura une affiche 'Pharmacie de Garde' sur la porte.", "translation": "Procure pela cruz verde piscando. E haverá um cartaz 'Farmácia de Plantão' na porta." },
+        { "speaker": "Você", "text": "Merci beaucoup pour votre aide.", "translation": "Muito obrigado(a) pela sua ajuda." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la pharmacie", "translation": "a farmácia" },
+    { "word": "le pharmacien / la pharmacienne", "translation": "o farmacêutico / a farmacêutica" },
+    { "word": "l'ordonnance (f)", "translation": "a receita médica" },
+    { "word": "le médicament", "translation": "o medicamento" },
+    { "word": "le comprimé", "translation": "o comprimido" },
+    { "word": "la gélule", "translation": "a cápsula" },
+    { "word": "le sirop", "translation": "o xarope" },
+    { "word": "la pommade", "translation": "a pomada" },
+    { "word": "la posologie", "translation": "a posologia", "example": "Quelle est la posologie de ce médicament?" },
+    { "word": "la pharmacie de garde", "translation": "a farmácia de plantão" },
+    { "word": "remboursable", "translation": "reembolsável" },
+    { "word": "sans ordonnance", "translation": "sem receita" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Papel do Farmacêutico", 
+      "description": "Na França, os farmacêuticos são profissionais de saúde altamente respeitados que podem oferecer conselhos sobre problemas de saúde menores. Muitos franceses consultam o farmacêutico antes de ir ao médico para problemas simples." 
+    },
+    { 
+      "title": "Medicamentos Genéricos", 
+      "description": "Os farmacêuticos franceses são obrigados por lei a oferecer a opção de medicamentos genéricos ('médicaments génériques') quando disponíveis, a menos que o médico tenha especificamente indicado o contrário na receita." 
+    },
+    { 
+      "title": "Farmácias de Plantão", 
+      "description": "As farmácias se revezam para oferecer serviço 24 horas. A lista de 'pharmacies de garde' (farmácias de plantão) pode ser encontrada na porta de qualquer farmácia, em jornais locais ou ligando para o número 3237." 
+    }
+  ],
+  "tips": [
+    "Muitos medicamentos que são vendidos sem receita em outros países podem exigir receita médica na França.",
+    "Sempre informe o farmacêutico sobre quaisquer alergias ou condições médicas que você tenha antes de comprar medicamentos.",
+    "As farmácias francesas vendem muitos produtos de cuidados com a pele e cosméticos de alta qualidade, muitas vezes a preços mais baixos que em outros países.",
+    "Se você estiver tomando medicamentos regularmente, traga uma cópia da receita em francês ou inglês quando viajar para a França.",
+    "Algumas farmácias maiores em áreas turísticas podem ter funcionários que falam inglês."
+  ],
+  "relatedQuizzes": ["Vocabulário Médico", "Situações de Emergência", "Saúde e Bem-estar"]
+}

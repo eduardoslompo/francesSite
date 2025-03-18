@@ -1,0 +1,88 @@
+{
+  "title": "Loja de Roupas",
+  "description": "Aprenda a comprar roupas, perguntar sobre tamanhos e experimentar peças em uma loja francesa.",
+  "image": "https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je cherche une chemise en taille M.",
+    "Est-ce que je peux l'essayer ?",
+    "Avez-vous ce modèle en bleu ?"
+  ],
+  "introduction": "Comprar roupas em uma loja francesa pode ser uma experiência divertida e cultural. Este guia ajudará você a navegar pelas seções, perguntar sobre tamanhos, cores e estilos, experimentar peças e fazer pagamentos com confiança.",
+  "dialogues": [
+    {
+      "title": "Procurando Roupas",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je cherche une chemise pour homme.", "translation": "Bom dia, estou procurando uma camisa masculina." },
+        { "speaker": "Vendedor", "text": "Bonjour. Quel style de chemise cherchez-vous ? Décontractée ou habillée ?", "translation": "Bom dia. Que estilo de camisa você está procurando? Casual ou social?" },
+        { "speaker": "Você", "text": "Plutôt décontractée, pour l'été.", "translation": "Mais casual, para o verão." },
+        { "speaker": "Vendedor", "text": "Très bien. Les chemises d'été sont par ici. Quelle est votre taille ?", "translation": "Muito bem. As camisas de verão estão por aqui. Qual é o seu tamanho?" },
+        { "speaker": "Você", "text": "Je fais du M, normalement.", "translation": "Eu uso M, normalmente." },
+        { "speaker": "Vendedor", "text": "D'accord. Nous avons plusieurs modèles en M. Avez-vous une préférence de couleur ?", "translation": "Certo. Temos vários modelos em M. Você tem alguma preferência de cor?" },
+        { "speaker": "Você", "text": "J'aime bien le bleu ou le vert.", "translation": "Eu gosto de azul ou verde." },
+        { "speaker": "Vendedor", "text": "Voici une chemise bleue à motifs et une verte unie. Qu'en pensez-vous ?", "translation": "Aqui está uma camisa azul estampada e uma verde lisa. O que você acha?" }
+      ]
+    },
+    {
+      "title": "Experimentando Roupas",
+      "lines": [
+        { "speaker": "Você", "text": "Est-ce que je peux essayer ces deux chemises ?", "translation": "Posso experimentar estas duas camisas?" },
+        { "speaker": "Vendedor", "text": "Bien sûr. Les cabines d'essayage sont au fond du magasin, à droite.", "translation": "Claro. Os provadores estão no fundo da loja, à direita." },
+        { "speaker": "Você", "text": "Merci beaucoup.", "translation": "Muito obrigado." },
+        { "speaker": "Vendedor", "text": "Je vous en prie. Appelez-moi si vous avez besoin d'une autre taille.", "translation": "De nada. Chame-me se precisar de outro tamanho." },
+        { "speaker": "Você", "text": "Excusez-moi, je pense que j'ai besoin d'une taille L pour la chemise bleue.", "translation": "Com licença, acho que preciso de um tamanho L para a camisa azul." },
+        { "speaker": "Vendedor", "text": "Pas de problème, je vais vous chercher ça tout de suite.", "translation": "Sem problema, vou buscar isso para você imediatamente." },
+        { "speaker": "Vendedor", "text": "Voilà la chemise bleue en taille L. Comment vous va la verte ?", "translation": "Aqui está a camisa azul em tamanho L. Como ficou a verde?" },
+        { "speaker": "Você", "text": "La verte me va très bien, mais je préfère le modèle bleu en L.", "translation": "A verde me serviu muito bem, mas prefiro o modelo azul em L." }
+      ]
+    },
+    {
+      "title": "Pagamento",
+      "lines": [
+        { "speaker": "Você", "text": "Je vais prendre la chemise bleue, s'il vous plaît.", "translation": "Vou levar a camisa azul, por favor." },
+        { "speaker": "Vendedor", "text": "Excellent choix. Souhaitez-vous voir autre chose ?", "translation": "Excelente escolha. Deseja ver mais alguma coisa?" },
+        { "speaker": "Você", "text": "Non, ce sera tout pour aujourd'hui.", "translation": "Não, isso é tudo por hoje." },
+        { "speaker": "Vendedor", "text": "Très bien. Je vous accompagne à la caisse.", "translation": "Muito bem. Vou acompanhá-lo(a) ao caixa." },
+        { "speaker": "Caixa", "text": "Bonjour. Ça fait 45 euros, s'il vous plaît.", "translation": "Bom dia. São 45 euros, por favor." },
+        { "speaker": "Você", "text": "Je peux payer par carte ?", "translation": "Posso pagar com cartão?" },
+        { "speaker": "Caixa", "text": "Bien sûr. Vous pouvez insérer votre carte et composer votre code.", "translation": "Claro. Você pode inserir seu cartão e digitar seu código." },
+        { "speaker": "Caixa", "text": "Voilà votre ticket et votre achat. Merci et bonne journée !", "translation": "Aqui está seu recibo e sua compra. Obrigado e tenha um bom dia!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la boutique", "translation": "a loja" },
+    { "word": "les vêtements (m)", "translation": "as roupas" },
+    { "word": "une chemise", "translation": "uma camisa" },
+    { "word": "un pantalon", "translation": "uma calça" },
+    { "word": "une robe", "translation": "um vestido" },
+    { "word": "un pull", "translation": "um suéter" },
+    { "word": "une veste", "translation": "um casaco/jaqueta" },
+    { "word": "la taille", "translation": "o tamanho", "example": "Quelle est votre taille ?" },
+    { "word": "essayer", "translation": "experimentar", "example": "Je voudrais essayer ce pantalon." },
+    { "word": "la cabine d'essayage", "translation": "o provador" },
+    { "word": "ça me va bien/mal", "translation": "isso me cai bem/mal" },
+    { "word": "en solde", "translation": "em promoção" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Tamanhos Franceses", 
+      "description": "Os tamanhos de roupas na França podem ser diferentes dos padrões internacionais. Por exemplo, um tamanho 38 para mulheres na França equivale aproximadamente a um tamanho P/S nos EUA. É sempre bom experimentar as peças antes de comprar." 
+    },
+    { 
+      "title": "Les Soldes", 
+      "description": "Na França, há dois períodos oficiais de liquidação por ano (geralmente em janeiro e julho), chamados 'les soldes'. Durante estas épocas, você pode encontrar descontos significativos em roupas e outros itens. As liquidações são regulamentadas pelo governo e têm datas específicas." 
+    },
+    { 
+      "title": "Atendimento Personalizado", 
+      "description": "Em boutiques menores na França, é comum receber um atendimento mais personalizado. Os vendedores geralmente cumprimentam os clientes quando entram e oferecem ajuda. É considerado educado retribuir a saudação e agradecer pela assistência, mesmo que você não compre nada." 
+    }
+  ],
+  "tips": [
+    "Sempre cumprimente os vendedores com 'Bonjour' ao entrar em uma loja francesa - é considerado educado e essencial.",
+    "Se você não tem certeza do seu tamanho francês, peça ajuda ao vendedor dizendo 'Je ne connais pas ma taille française' (Eu não conheço meu tamanho francês).",
+    "Em lojas menores, é comum que os vendedores tragam as roupas até você ou as levem ao provador. Não se surpreenda com este serviço personalizado.",
+    "Se você não deseja ser abordado por vendedores, pode dizer educadamente 'Je regarde seulement, merci' (Estou apenas olhando, obrigado).",
+    "Muitas lojas na França fecham para o almoço (geralmente entre 12h e 14h), especialmente em cidades menores. Verifique os horários antes de ir."
+  ],
+  "relatedQuizzes": ["Vocabulário de Roupas", "Compras na França", "Números e Quantidades"]
+}

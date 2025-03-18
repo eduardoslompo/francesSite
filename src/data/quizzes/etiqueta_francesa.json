@@ -1,0 +1,56 @@
+{
+  "id": "etiqueta-francesa",
+  "title": "Etiqueta Francesa",
+  "description": "Aprenda sobre as regras de etiqueta e comportamento social na cultura francesa.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ef-1",
+      "text": "Qual é a forma correta de cumprimentar alguém na França?",
+      "options": ["Um abraço forte", "Aperto de mão ou 'la bise' (beijo no rosto)", "Uma reverência", "Acenar de longe"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "Na França, o cumprimento formal é geralmente um aperto de mão, enquanto entre amigos e familiares é comum 'la bise', que consiste em beijos nas bochechas (geralmente dois ou quatro, dependendo da região)."
+    },
+    {
+      "id": "ef-2",
+      "text": "Quando convidado para jantar na casa de alguém na França, o que é considerado educado levar?",
+      "options": ["Nada, não é costume levar presentes", "Uma sobremesa ou uma garrafa de vinho", "Dinheiro para ajudar com os custos", "Um prato principal para complementar a refeição"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "Na cultura francesa, é educado levar uma garrafa de vinho, flores ou uma sobremesa quando convidado para jantar na casa de alguém."
+    },
+    {
+      "id": "ef-3",
+      "text": "Qual é a etiqueta adequada à mesa durante uma refeição formal na França?",
+      "options": ["Começar a comer assim que receber seu prato", "Esperar que todos sejam servidos e que o anfitrião diga 'Bon appétit'", "Elogiar cada prato em voz alta", "Terminar tudo no prato o mais rápido possível"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "Na França, é educado esperar que todos à mesa sejam servidos e que o anfitrião dê o sinal para começar, geralmente dizendo 'Bon appétit'."
+    },
+    {
+      "id": "ef-4",
+      "text": "Como você deve se dirigir a um professor ou pessoa em posição de autoridade na França?",
+      "options": ["Pelo primeiro nome", "Como 'tu' (forma informal de 'você')", "Como 'vous' (forma formal de 'você') e usando Monsieur/Madame", "Não é necessário usar formas específicas de tratamento"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "Na França, pessoas em posição de autoridade devem ser tratadas formalmente, usando 'vous' e os títulos Monsieur (Sr.) ou Madame (Sra.)."
+    },
+    {
+      "id": "ef-5",
+      "text": "Qual é a atitude francesa em relação à pontualidade em compromissos sociais?",
+      "options": ["É aceitável chegar até 30 minutos atrasado em jantares", "A pontualidade extrema é sempre esperada", "Chegar cedo é considerado educado", "Não há expectativas quanto à pontualidade"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Na cultura francesa, para jantares e eventos sociais, é geralmente aceitável e até esperado chegar alguns minutos (10-15) após o horário marcado. Para compromissos profissionais, no entanto, a pontualidade é importante."
+    }
+  ]
+}

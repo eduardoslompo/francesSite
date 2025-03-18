@@ -1,0 +1,90 @@
+{
+  "title": "Entrevista de Emprego",
+  "description": "Aprenda vocabulário e expressões essenciais para entrevistas de emprego em francês.",
+  "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Pourriez-vous me parler de votre expérience professionnelle ?",
+    "Quelles sont vos compétences principales ?",
+    "Pourquoi voulez-vous travailler dans notre entreprise ?"
+  ],
+  "introduction": "Preparar-se para uma entrevista de emprego em francês requer conhecimento de vocabulário específico e expressões formais. Este guia ajudará você a apresentar suas qualificações, responder a perguntas comuns e fazer uma boa impressão em contextos profissionais francófonos.",
+  "dialogues": [
+    {
+      "title": "Chegando para a Entrevista",
+      "lines": [
+        { "speaker": "Recepcionista", "text": "Bonjour, que puis-je faire pour vous ?", "translation": "Bom dia, o que posso fazer por você?" },
+        { "speaker": "Você", "text": "Bonjour, j'ai rendez-vous avec Madame Dubois à 10h pour un entretien. Je m'appelle Sophie Martins.", "translation": "Bom dia, tenho uma reunião com a Senhora Dubois às 10h para uma entrevista. Meu nome é Sophie Martins." },
+        { "speaker": "Recepcionista", "text": "Oui, bien sûr. Madame Dubois vous attend. Je vais vous annoncer. Veuillez vous asseoir un instant, s'il vous plaît.", "translation": "Sim, claro. A Senhora Dubois está esperando por você. Vou anunciá-la. Por favor, sente-se um momento." },
+        { "speaker": "Você", "text": "Merci beaucoup.", "translation": "Muito obrigada." },
+        { "speaker": "Recrutadora", "text": "Bonjour, Madame Martins. Je suis Claire Dubois, responsable des ressources humaines. Enchantée de vous rencontrer.", "translation": "Bom dia, Senhora Martins. Sou Claire Dubois, responsável pelos recursos humanos. Prazer em conhecê-la." },
+        { "speaker": "Você", "text": "Bonjour, Madame Dubois. Le plaisir est partagé. Merci de m'accorder cet entretien.", "translation": "Bom dia, Senhora Dubois. O prazer é mútuo. Obrigada por me conceder esta entrevista." },
+        { "speaker": "Recrutadora", "text": "Je vous en prie. Suivez-moi, nous allons discuter dans mon bureau.", "translation": "De nada. Siga-me, vamos conversar no meu escritório." }
+      ]
+    },
+    {
+      "title": "Durante a Entrevista",
+      "lines": [
+        { "speaker": "Recrutadora", "text": "Alors, j'ai bien reçu votre CV et votre lettre de motivation. Pourriez-vous me parler un peu de votre parcours professionnel ?", "translation": "Então, recebi seu currículo e sua carta de apresentação. Poderia me falar um pouco sobre sua trajetória profissional?" },
+        { "speaker": "Você", "text": "Bien sûr. J'ai obtenu mon diplôme en marketing il y a cinq ans, et j'ai commencé ma carrière chez Marketing Global comme assistante. Après deux ans, j'ai été promue chef de projet, poste que j'occupe depuis trois ans.", "translation": "Claro. Obtive meu diploma em marketing há cinco anos e comecei minha carreira na Marketing Global como assistente. Após dois anos, fui promovida a gerente de projetos, cargo que ocupo há três anos." },
+        { "speaker": "Recrutadora", "text": "Très bien. Quelles sont vos principales compétences et quels logiciels maîtrisez-vous ?", "translation": "Muito bem. Quais são suas principais habilidades e quais softwares você domina?" },
+        { "speaker": "Você", "text": "Je suis spécialisée dans le marketing digital. Je maîtrise parfaitement la suite Adobe, particulièrement Photoshop et Illustrator, ainsi que les outils d'analyse comme Google Analytics. Je suis également à l'aise avec la gestion de projets et le travail en équipe.", "translation": "Sou especializada em marketing digital. Domino perfeitamente o pacote Adobe, particularmente Photoshop e Illustrator, bem como ferramentas de análise como Google Analytics. Também me sinto confortável com gerenciamento de projetos e trabalho em equipe." },
+        { "speaker": "Recrutadora", "text": "Pourquoi souhaitez-vous quitter votre emploi actuel ?", "translation": "Por que deseja deixar seu emprego atual?" },
+        { "speaker": "Você", "text": "J'apprécie beaucoup mon poste actuel, mais je recherche de nouveaux défis et votre entreprise est reconnue pour son innovation dans le secteur. Je pense que mes compétences seraient mieux utilisées dans un environnement comme le vôtre.", "translation": "Aprecio muito meu cargo atual, mas estou em busca de novos desafios e sua empresa é reconhecida por sua inovação no setor. Acredito que minhas habilidades seriam melhor utilizadas em um ambiente como o seu." },
+        { "speaker": "Recrutadora", "text": "Quelles sont vos attentes salariales ?", "translation": "Quais são suas expectativas salariais?" },
+        { "speaker": "Você", "text": "Compte tenu de mon expérience et des responsabilités du poste, je pense qu'un salaire entre 45 000 et 50 000 euros annuels serait approprié, mais je reste ouverte à la discussion.", "translation": "Considerando minha experiência e as responsabilidades do cargo, acredito que um salário entre 45.000 e 50.000 euros anuais seria apropriado, mas estou aberta à discussão." }
+      ]
+    },
+    {
+      "title": "Finalizando a Entrevista",
+      "lines": [
+        { "speaker": "Recrutadora", "text": "Avez-vous des questions à me poser sur le poste ou l'entreprise ?", "translation": "Você tem alguma pergunta sobre o cargo ou a empresa?" },
+        { "speaker": "Você", "text": "Oui, j'aimerais savoir comment est structurée l'équipe marketing et quels seraient mes principaux projets dans les premiers mois ?", "translation": "Sim, gostaria de saber como é estruturada a equipe de marketing e quais seriam meus principais projetos nos primeiros meses?" },
+        { "speaker": "Recrutadora", "text": "L'équipe se compose de huit personnes, divisées en deux pôles : marketing traditionnel et digital. Vous travailleriez principalement avec l'équipe digitale sur le lancement de notre nouvelle plateforme e-commerce prévue pour le trimestre prochain.", "translation": "A equipe é composta por oito pessoas, divididas em dois polos: marketing tradicional e digital. Você trabalharia principalmente com a equipe digital no lançamento de nossa nova plataforma de e-commerce prevista para o próximo trimestre." },
+        { "speaker": "Você", "text": "Merci pour ces précisions. Quel est le processus de recrutement après cet entretien ?", "translation": "Obrigada por essas informações. Qual é o processo de recrutamento após esta entrevista?" },
+        { "speaker": "Recrutadora", "text": "Nous avons encore quelques candidats à rencontrer cette semaine. Ensuite, nous sélectionnerons deux ou trois finalistes pour un second entretien avec le directeur marketing. Nous espérons prendre notre décision finale d'ici deux semaines.", "translation": "Ainda temos alguns candidatos para entrevistar esta semana. Em seguida, selecionaremos dois ou três finalistas para uma segunda entrevista com o diretor de marketing. Esperamos tomar nossa decisão final dentro de duas semanas." },
+        { "speaker": "Você", "text": "Parfait, je vous remercie pour votre temps et pour toutes ces informations. Je reste disponible si vous avez besoin d'autres renseignements.", "translation": "Perfeito, agradeço pelo seu tempo e por todas essas informações. Continuo disponível se precisar de mais informações." },
+        { "speaker": "Recrutadora", "text": "Je vous remercie également pour cet échange. Nous vous contacterons très prochainement pour vous informer de la suite du processus.", "translation": "Também agradeço por esta conversa. Entraremos em contato em breve para informá-la sobre o andamento do processo." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "l'entretien d'embauche (m)", "translation": "a entrevista de emprego" },
+    { "word": "le CV (curriculum vitae)", "translation": "o currículo" },
+    { "word": "la lettre de motivation", "translation": "a carta de apresentação/motivação" },
+    { "word": "le/la candidat(e)", "translation": "o/a candidato(a)" },
+    { "word": "le recruteur / la recruteuse", "translation": "o recrutador / a recrutadora" },
+    { "word": "les ressources humaines (f)", "translation": "os recursos humanos" },
+    { "word": "l'expérience professionnelle (f)", "translation": "a experiência profissional", "example": "J'ai cinq ans d'expérience professionnelle dans le marketing." },
+    { "word": "les compétences (f)", "translation": "as habilidades, competências" },
+    { "word": "le diplôme", "translation": "o diploma" },
+    { "word": "le poste", "translation": "o cargo" },
+    { "word": "le salaire", "translation": "o salário" },
+    { "word": "l'entreprise (f)", "translation": "a empresa" },
+    { "word": "le contrat", "translation": "o contrato" },
+    { "word": "le CDI (Contrat à Durée Indéterminée)", "translation": "contrato por tempo indeterminado" },
+    { "word": "le CDD (Contrat à Durée Déterminée)", "translation": "contrato por tempo determinado" },
+    { "word": "la période d'essai", "translation": "o período de experiência" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Formalidade nas Entrevistas Francesas", 
+      "description": "As entrevistas de emprego na França tendem a ser bastante formais. É esperado que você use linguagem formal, trate o entrevistador por 'vous' (você formal) e use os títulos apropriados (Monsieur, Madame). O aperto de mão no início e no final da entrevista é comum e importante." 
+    },
+    { 
+      "title": "O CV Francês", 
+      "description": "O currículo francês tradicionalmente inclui uma foto profissional e informações pessoais como data de nascimento e estado civil, embora isso esteja mudando gradualmente. Os currículos franceses geralmente são mais detalhados que os americanos e podem ter 2-3 páginas para profissionais experientes." 
+    },
+    { 
+      "title": "Negociação Salarial", 
+      "description": "Na França, é comum discutir salário durante a entrevista inicial, mas de forma cautelosa. Quando perguntado sobre expectativas salariais, é aceitável fornecer uma faixa em vez de um valor específico. Os salários são geralmente expressos em valores anuais brutos (antes dos impostos)." 
+    }
+  ],
+  "tips": [
+    "Chegue pelo menos 10-15 minutos antes do horário marcado para a entrevista. A pontualidade é muito valorizada na cultura profissional francesa.",
+    "Vista-se formalmente para entrevistas na França, mesmo em setores mais criativos. Um traje social ou equivalente é geralmente apropriado.",
+    "Prepare-se para falar sobre suas qualificações acadêmicas em detalhes, pois os diplomas são altamente valorizados no mercado de trabalho francês.",
+    "Tenha cópias extras do seu CV e carta de motivação para levar à entrevista.",
+    "Pesquise bem sobre a empresa antes da entrevista e prepare perguntas relevantes para demonstrar seu interesse genuíno na posição."
+  ],
+  "relatedQuizzes": ["Vocabulário Profissional", "Comunicação no Ambiente de Trabalho", "Expressões Formais em Francês"]
+}

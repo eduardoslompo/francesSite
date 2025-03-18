@@ -1,0 +1,56 @@
+{
+  "id": "partes-do-corpo",
+  "title": "Partes do Corpo",
+  "description": "Aprenda o vocabulário essencial sobre as partes do corpo humano em francês.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "saude",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "pc-1",
+      "text": "Como se diz 'cabeça' em francês?",
+      "options": ["Le bras", "La tête", "Le pied", "La main"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "'La tête' é a palavra francesa para 'cabeça'."
+    },
+    {
+      "id": "pc-2",
+      "text": "Qual é a palavra francesa para 'braço'?",
+      "options": ["La jambe", "Le bras", "L'épaule", "Le coude"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "'Le bras' é a palavra francesa para 'braço'."
+    },
+    {
+      "id": "pc-3",
+      "text": "Como se diz 'olho' em francês?",
+      "options": ["L'œil", "L'oreille", "Le nez", "La bouche"],
+      "correctAnswer": 0,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "'L'œil' (plural: 'les yeux') é a palavra francesa para 'olho'."
+    },
+    {
+      "id": "pc-4",
+      "text": "Qual é a palavra francesa para 'perna'?",
+      "options": ["Le pied", "La main", "La jambe", "Le genou"],
+      "correctAnswer": 2,
+      "category": "saude",
+      "difficulty": "iniciante",
+      "explanation": "'La jambe' é a palavra francesa para 'perna'."
+    },
+    {
+      "id": "pc-5",
+      "text": "Como você diria 'Meu estômago dói' em francês?",
+      "options": ["J'ai mal à la tête", "J'ai mal au ventre", "J'ai mal au dos", "J'ai mal à la gorge"],
+      "correctAnswer": 1,
+      "category": "saude",
+      "difficulty": "intermediario",
+      "explanation": "'J'ai mal au ventre' é a forma correta de dizer 'Meu estômago dói' em francês. 'Le ventre' significa 'estômago' ou 'barriga'."
+    }
+  ]
+}

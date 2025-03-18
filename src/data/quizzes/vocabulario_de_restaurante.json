@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-restaurante",
+  "title": "Vocabulário de Restaurante",
+  "description": "Aprenda palavras e expressões essenciais para pedir comida e interagir em restaurantes franceses.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vr-1",
+      "text": "Como se diz 'cardápio' em francês?",
+      "options": ["La carte", "Le menu", "La table", "Le plat"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le menu' é a palavra francesa para 'cardápio' ou 'menu'."
+    },
+    {
+      "id": "vr-2",
+      "text": "Qual frase você usaria para chamar o garçom?",
+      "options": ["Excusez-moi, monsieur", "S'il vous plaît, madame", "Bonjour, mademoiselle", "Au revoir, monsieur"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Excusez-moi, monsieur' (Com licença, senhor) é uma forma educada de chamar a atenção do garçom em francês."
+    },
+    {
+      "id": "vr-3",
+      "text": "Como se diz 'entrada' (primeiro prato) em francês?",
+      "options": ["Le dessert", "L'entrée", "Le plat principal", "La boisson"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'L'entrée' é a palavra francesa para o primeiro prato ou entrada de uma refeição."
+    },
+    {
+      "id": "vr-4",
+      "text": "Qual expressão você usaria para fazer um pedido?",
+      "options": ["Je voudrais...", "J'ai...", "Je suis...", "Je vais..."],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Je voudrais...' (Eu gostaria...) é a expressão mais comum para fazer um pedido educadamente em francês."
+    },
+    {
+      "id": "vr-5",
+      "text": "Como se pergunta 'Qual é a especialidade da casa?' em francês?",
+      "options": ["Où sont les toilettes?", "Quelle est la spécialité de la maison?", "Avez-vous une table pour deux?", "Pouvez-vous m'apporter l'addition?"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Quelle est la spécialité de la maison?' é como se pergunta 'Qual é a especialidade da casa?' em francês."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "numeros-e-quantidades",
+  "title": "Números e Quantidades",
+  "description": "Aprenda a contar e expressar quantidades em francês para situações cotidianas como compras e transações.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "nq-1",
+      "text": "Como se diz '50' em francês?",
+      "options": ["Quinze", "Cinquante", "Cinq", "Soixante"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Cinquante' é a palavra francesa para o número '50'."
+    },
+    {
+      "id": "nq-2",
+      "text": "Qual é a forma correta de dizer '1,5 kg' em francês?",
+      "options": ["Un kilo et demi", "Un et demi kilos", "Un virgule cinq kilo", "Un kilo cinq"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Un kilo et demi' é a forma mais comum de dizer '1,5 kg' em francês."
+    },
+    {
+      "id": "nq-3",
+      "text": "Como se pergunta 'Quanto custa?' em francês?",
+      "options": ["Combien de temps?", "Combien ça coûte?", "Combien de personnes?", "Combien de kilomètres?"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Combien ça coûte?' significa 'Quanto custa?' em francês."
+    },
+    {
+      "id": "nq-4",
+      "text": "Qual é a forma correta de dizer '200 euros' em francês?",
+      "options": ["Deux cents euros", "Deux cent euros", "Deux-cents euros", "Deux-cent euros"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Deux cents euros' é a forma correta de dizer '200 euros' em francês. Note que 'cent' leva um 's' quando multiplicado por outro número e não seguido por outro numeral."
+    },
+    {
+      "id": "nq-5",
+      "text": "Como se diz 'uma dúzia' em francês?",
+      "options": ["Une paire", "Une dizaine", "Une douzaine", "Un lot"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Une douzaine' é a palavra francesa para 'uma dúzia', ou seja, doze unidades."
+    }
+  ]
+}

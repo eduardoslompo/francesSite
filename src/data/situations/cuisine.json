@@ -1,0 +1,89 @@
+{
+  "title": "Cozinha",
+  "description": "Aprenda vocabulário culinário, receitas e como falar sobre comida francesa.",
+  "image": "https://images.unsplash.com/photo-1528712306091-ed0763094c98?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Comment prépare-t-on la ratatouille ?",
+    "Quels sont les ingrédients du coq au vin ?",
+    "J'adore la cuisine française !"
+  ],
+  "introduction": "A culinária francesa é reconhecida mundialmente por sua excelência e refinamento. Este guia ajudará você a entender os termos culinários, discutir receitas e apreciar a rica tradição gastronômica da França.",
+  "dialogues": [
+    {
+      "title": "Na Aula de Culinária",
+      "lines": [
+        { "speaker": "Chef", "text": "Bonjour à tous ! Aujourd'hui, nous allons préparer une quiche lorraine traditionnelle. Avez-vous déjà fait de la pâte brisée ?", "translation": "Bom dia a todos! Hoje, vamos preparar uma quiche lorraine tradicional. Vocês já fizeram massa quebrada?" },
+        { "speaker": "Você", "text": "Non, jamais. C'est difficile à faire ?", "translation": "Não, nunca. É difícil de fazer?" },
+        { "speaker": "Chef", "text": "Pas du tout ! Il faut simplement mélanger la farine, le beurre froid et un peu d'eau. Commençons par préparer les ingrédients.", "translation": "De modo algum! Basta misturar a farinha, a manteiga fria e um pouco de água. Vamos começar preparando os ingredientes." },
+        { "speaker": "Você", "text": "Quels sont les ingrédients pour la garniture ?", "translation": "Quais são os ingredientes para o recheio?" },
+        { "speaker": "Chef", "text": "Pour la garniture, il nous faut des lardons, des œufs, de la crème fraîche et du lait. On peut aussi ajouter du gruyère râpé.", "translation": "Para o recheio, precisamos de bacon, ovos, creme de leite fresco e leite. Também podemos adicionar queijo gruyère ralado." },
+        { "speaker": "Você", "text": "Comment doit-on cuire la quiche et à quelle température ?", "translation": "Como devemos assar a quiche e a que temperatura?" },
+        { "speaker": "Chef", "text": "Préchauffez le four à 180°C. La quiche doit cuire environ 30 minutes, jusqu'à ce que le dessus soit doré.", "translation": "Pré-aqueça o forno a 180°C. A quiche deve assar por cerca de 30 minutos, até que a parte superior esteja dourada." }
+      ]
+    },
+    {
+      "title": "Discutindo Receitas com um Amigo",
+      "lines": [
+        { "speaker": "Amigo", "text": "J'ai essayé de faire un soufflé au fromage hier, mais il est retombé tout de suite. Tu as des conseils ?", "translation": "Tentei fazer um suflê de queijo ontem, mas ele desmoronou imediatamente. Você tem alguma dica?" },
+        { "speaker": "Você", "text": "Le soufflé est assez délicat. Tu as bien battu les blancs d'œufs en neige ferme ?", "translation": "O suflê é bastante delicado. Você bateu bem as claras em neve firme?" },
+        { "speaker": "Amigo", "text": "Je pense que oui, mais peut-être pas assez. Et il ne faut pas ouvrir le four pendant la cuisson, n'est-ce pas ?", "translation": "Acho que sim, mas talvez não o suficiente. E não devemos abrir o forno durante o cozimento, certo?" },
+        { "speaker": "Você", "text": "Exactement ! L'air froid fait retomber le soufflé. Tu as utilisé quelle recette ?", "translation": "Exatamente! O ar frio faz o suflê desmoronar. Qual receita você usou?" },
+        { "speaker": "Amigo", "text": "Celle de Paul Bocuse. Je vais réessayer ce week-end. Tu connais d'autres plats français faciles à préparer ?", "translation": "A de Paul Bocuse. Vou tentar novamente neste fim de semana. Você conhece outros pratos franceses fáceis de preparar?" },
+        { "speaker": "Você", "text": "Le ratatouille est assez simple et délicieux. C'est un ragoût de légumes provençal avec des aubergines, des courgettes, des poivrons et des tomates.", "translation": "O ratatouille é bastante simples e delicioso. É um ensopado de legumes provençal com berinjelas, abobrinhas, pimentões e tomates." },
+        { "speaker": "Amigo", "text": "Ça a l'air bon ! Tu pourrais me passer la recette ?", "translation": "Parece bom! Você poderia me passar a receita?" }
+      ]
+    },
+    {
+      "title": "No Mercado de Produtores",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je cherche des herbes fraîches pour faire une sauce béarnaise.", "translation": "Bom dia, estou procurando ervas frescas para fazer um molho béarnaise." },
+        { "speaker": "Vendedor", "text": "Bonjour ! Pour la béarnaise, il vous faut de l'estragon. J'en ai du très frais, cueilli ce matin.", "translation": "Bom dia! Para o béarnaise, você precisa de estragão. Tenho um muito fresco, colhido esta manhã." },
+        { "speaker": "Você", "text": "Parfait ! J'ai aussi besoin d'échalotes. Vous en avez ?", "translation": "Perfeito! Também preciso de chalotas. Você tem?" },
+        { "speaker": "Vendedor", "text": "Bien sûr, elles sont juste là. Vous préparez quel plat avec votre sauce béarnaise ?", "translation": "Claro, elas estão bem ali. Que prato você está preparando com seu molho béarnaise?" },
+        { "speaker": "Você", "text": "Un filet de bœuf. Je voudrais aussi quelques pommes de terre pour faire des frites maison.", "translation": "Um filé de carne. Também gostaria de algumas batatas para fazer batatas fritas caseiras." },
+        { "speaker": "Vendedor", "text": "Pour les frites, je vous conseille ces pommes de terre Bintje, elles sont parfaites pour la friture. Vous connaissez la technique pour les frites croustillantes ?", "translation": "Para as batatas fritas, recomendo estas batatas Bintje, elas são perfeitas para fritar. Você conhece a técnica para batatas fritas crocantes?" },
+        { "speaker": "Você", "text": "Non, pas vraiment. Vous avez des conseils ?", "translation": "Não, não realmente. Você tem alguma dica?" },
+        { "speaker": "Vendedor", "text": "Il faut les faire frire deux fois : une première fois à feu moyen, puis les laisser refroidir, et ensuite une deuxième fois à feu vif. Elles seront parfaitement croustillantes !", "translation": "Você precisa fritá-las duas vezes: primeiro em fogo médio, depois deixá-las esfriar, e então uma segunda vez em fogo alto. Elas ficarão perfeitamente crocantes!" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la cuisine", "translation": "a cozinha/culinária" },
+    { "word": "la recette", "translation": "a receita" },
+    { "word": "les ingrédients (m)", "translation": "os ingredientes" },
+    { "word": "cuire/faire cuire", "translation": "cozinhar/assar", "example": "Il faut faire cuire le poulet pendant une heure." },
+    { "word": "mélanger", "translation": "misturar", "example": "Mélangez tous les ingrédients dans un bol." },
+    { "word": "couper", "translation": "cortar" },
+    { "word": "la poêle", "translation": "a frigideira" },
+    { "word": "la casserole", "translation": "a panela" },
+    { "word": "le four", "translation": "o forno" },
+    { "word": "la pâte", "translation": "a massa" },
+    { "word": "la farine", "translation": "a farinha" },
+    { "word": "le beurre", "translation": "a manteiga" },
+    { "word": "les œufs (m)", "translation": "os ovos" },
+    { "word": "les herbes (f)", "translation": "as ervas" },
+    { "word": "épicé(e)", "translation": "apimentado/temperado", "example": "La cuisine indienne est très épicée." }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Refeições Francesas", 
+      "description": "Uma refeição francesa tradicional segue uma estrutura específica: entrée (entrada), plat principal (prato principal), fromage (queijo) e dessert (sobremesa). O almoço e o jantar são momentos importantes de convívio social, geralmente mais longos do que em outros países." 
+    },
+    { 
+      "title": "Terroir", 
+      "description": "O conceito de 'terroir' é fundamental na gastronomia francesa. Refere-se à combinação única de solo, clima e tradições que influenciam o sabor dos produtos locais, como vinhos, queijos e outros alimentos. Os franceses valorizam muito produtos com denominação de origem controlada (AOC)." 
+    },
+    { 
+      "title": "Pão na Cultura Francesa", 
+      "description": "O pão, especialmente a baguette, é um elemento essencial na mesa francesa. Muitos franceses compram pão fresco diariamente em padarias locais (boulangeries). É comum usar o pão para limpar o molho do prato, um gesto chamado 'faire la sauce' ou 'saucer', considerado um elogio ao chef." 
+    }
+  ],
+  "tips": [
+    "Ao cozinhar pratos franceses, use ingredientes frescos e de qualidade. Os franceses preferem comprar produtos sazonais em mercados locais.",
+    "O 'mise en place' (preparação prévia de todos os ingredientes) é um conceito importante na culinária francesa que facilita o processo de cozimento.",
+    "Não tenha medo de usar manteiga e creme na cozinha francesa - eles são ingredientes essenciais que dão sabor e textura aos pratos.",
+    "Aprenda algumas técnicas básicas como fazer um roux (mistura de manteiga e farinha para engrossar molhos) ou um bouquet garni (ervas amarradas usadas para aromatizar caldos).",
+    "Os franceses geralmente degustam o vinho antes de adicioná-lo à comida - a regra é: se não é bom o suficiente para beber, não é bom o suficiente para cozinhar."
+  ],
+  "relatedQuizzes": ["Vocabulário Culinário", "Pratos Regionais Franceses", "Vinhos e Queijos"]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "situacoes-de-aeroporto",
+  "title": "Situações de Aeroporto",
+  "description": "Aprenda a lidar com situações comuns em aeroportos usando o francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "viagem",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "sa-1",
+      "text": "Como você perguntaria sobre o portão de embarque do seu voo?",
+      "options": ["Où est la porte d'embarquement pour mon vol?", "À quelle heure part mon vol?", "Où puis-je enregistrer mes bagages?", "Mon vol est-il à l'heure?"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Où est la porte d'embarquement pour mon vol?' significa 'Onde é o portão de embarque para o meu voo?'"
+    },
+    {
+      "id": "sa-2",
+      "text": "Qual frase você usaria para informar que perdeu sua bagagem?",
+      "options": ["J'ai manqué mon vol", "J'ai perdu mon passeport", "J'ai perdu mes bagages", "J'ai besoin d'un chariot"],
+      "correctAnswer": 2,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'J'ai perdu mes bagages' significa 'Eu perdi minhas bagagens'."
+    },
+    {
+      "id": "sa-3",
+      "text": "Como você pediria informações sobre conexões de voos?",
+      "options": ["Où est le bureau de change?", "Où sont les toilettes?", "Où puis-je trouver un taxi?", "Où puis-je obtenir des informations sur les vols de correspondance?"],
+      "correctAnswer": 3,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Où puis-je obtenir des informations sur les vols de correspondance?' significa 'Onde posso obter informações sobre voos de conexão?'"
+    },
+    {
+      "id": "sa-4",
+      "text": "Qual expressão você usaria para dizer que seu voo foi cancelado?",
+      "options": ["Mon vol est retardé", "Mon vol est annulé", "Mon vol est à l'heure", "Mon vol est complet"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Mon vol est annulé' significa 'Meu voo foi cancelado'."
+    },
+    {
+      "id": "sa-5",
+      "text": "Como você pediria para fazer o check-in?",
+      "options": ["Je voudrais enregistrer mes bagages", "Je voudrais réserver un vol", "Je voudrais un siège côté fenêtre", "Je voudrais une carte d'embarquement"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Je voudrais enregistrer mes bagages' significa 'Eu gostaria de fazer o check-in das minhas bagagens'."
+    }
+  ]
+}

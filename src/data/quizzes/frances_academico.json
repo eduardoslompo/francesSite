@@ -1,0 +1,56 @@
+{
+  "id": "frances-academico",
+  "title": "Francês Acadêmico",
+  "description": "Aprenda o vocabulário e expressões específicas utilizadas em trabalhos acadêmicos, artigos científicos e conferências em francês.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "profissional",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "fa-1",
+      "text": "Qual expressão é usada para introduzir uma citação em francês acadêmico?",
+      "options": ["D'après moi", "Selon l'auteur", "À mon avis", "Je pense que"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Selon l'auteur' (segundo o autor) é uma expressão formal usada para introduzir citações em textos acadêmicos franceses. As outras opções expressam opinião pessoal, inadequadas para referências acadêmicas."
+    },
+    {
+      "id": "fa-2",
+      "text": "Como se diz 'estado da arte' (revisão da literatura científica) em francês acadêmico?",
+      "options": ["État d'esprit", "État de l'art", "État des lieux", "État actuel"],
+      "correctAnswer": 1,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'État de l'art' é a expressão francesa equivalente ao inglês 'state of the art', referindo-se à revisão da literatura científica sobre um determinado tema ou ao conhecimento atual mais avançado em uma área."
+    },
+    {
+      "id": "fa-3",
+      "text": "Qual é o termo francês para 'resumo' de um artigo científico?",
+      "options": ["Conclusion", "Sommaire", "Résumé", "Synthèse"],
+      "correctAnswer": 2,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "'Résumé' é o termo usado em francês para o resumo de um artigo científico ou trabalho acadêmico, geralmente colocado no início do documento e apresentando uma síntese do conteúdo."
+    },
+    {
+      "id": "fa-4",
+      "text": "Qual expressão é usada para introduzir a conclusão em um texto acadêmico francês?",
+      "options": ["En résumé", "En conclusion", "Pour conclure", "Toutes les options sont correctes"],
+      "correctAnswer": 3,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "Todas as expressões mencionadas ('En résumé', 'En conclusion', 'Pour conclure') são formas adequadas de introduzir a conclusão em um texto acadêmico francês, dependendo do estilo e do contexto."
+    },
+    {
+      "id": "fa-5",
+      "text": "Como se chama a qualificação universitária entre o mestrado e o doutorado na França?",
+      "options": ["Licence", "Master", "Habilitation à Diriger des Recherches", "Agrégation"],
+      "correctAnswer": 2,
+      "category": "profissional",
+      "difficulty": "avancado",
+      "explanation": "A 'Habilitation à Diriger des Recherches' (HDR) é uma qualificação universitária superior ao doutorado que atesta a capacidade de orientar pesquisas. É necessária para se candidatar a professor titular (professeur des universités) em universidades francesas."
+    }
+  ]
+} 

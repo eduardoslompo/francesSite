@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-cafe",
+  "title": "Vocabulário de Café",
+  "description": "Aprenda palavras e expressões essenciais para pedir e desfrutar de café em estabelecimentos franceses.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vc-1",
+      "text": "Como se diz 'café' em francês?",
+      "options": ["Le café", "Le thé", "Le chocolat", "Le jus"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le café' é a palavra francesa para 'café'."
+    },
+    {
+      "id": "vc-2",
+      "text": "Qual é a expressão para pedir um café com leite?",
+      "options": ["Un café noir", "Un café au lait", "Un café serré", "Un café crème"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Un café au lait' significa 'um café com leite' em francês."
+    },
+    {
+      "id": "vc-3",
+      "text": "Como se pede um café expresso em francês?",
+      "options": ["Un café allongé", "Un café au lait", "Un expresso", "Un café serré"],
+      "correctAnswer": 3,
+      "category": "cotidiano",
+      "difficulty": "intermediario",
+      "explanation": "'Un café serré' é como se pede um café expresso na França. Também pode ser chamado de 'un expresso'."
+    },
+    {
+      "id": "vc-4",
+      "text": "Qual frase você usaria para pedir a conta em um café?",
+      "options": ["Je voudrais commander", "L'addition, s'il vous plaît", "C'est combien?", "Je voudrais réserver"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'L'addition, s'il vous plaît' significa 'A conta, por favor' em francês."
+    },
+    {
+      "id": "vc-5",
+      "text": "Como se diz 'croissant' em francês?",
+      "options": ["Le pain", "La baguette", "Le croissant", "Le gâteau"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le croissant' é a palavra francesa para o famoso pão em formato de meia-lua, pronuncia-se da mesma forma que em português, mas com sotaque francês."
+    }
+  ]
+}

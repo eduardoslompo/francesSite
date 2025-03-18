@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-transporte",
+  "title": "Vocabulário de Transporte",
+  "description": "Aprenda palavras e expressões relacionadas a diferentes meios de transporte em francês, incluindo termos para viagens urbanas e interurbanas.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "viagem",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vt-1",
+      "text": "Como se diz 'trem' em francês?",
+      "options": ["Le bus", "Le train", "L'avion", "Le métro"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Le train' é a palavra francesa para 'trem'."
+    },
+    {
+      "id": "vt-2",
+      "text": "Qual é a palavra francesa para 'metrô'?",
+      "options": ["Le métro", "Le tramway", "Le RER", "Le bus"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Le métro' significa 'metrô' em francês."
+    },
+    {
+      "id": "vt-3",
+      "text": "Como se diz 'bilhete' ou 'passagem' em francês?",
+      "options": ["La carte", "Le ticket", "Le billet", "Le pass"],
+      "correctAnswer": 2,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Le billet' é a palavra francesa para 'bilhete' ou 'passagem', especialmente para transportes como trem ou avião."
+    },
+    {
+      "id": "vt-4",
+      "text": "Qual destas expressões significa 'estação de trem' em francês?",
+      "options": ["La gare", "L'aéroport", "L'arrêt de bus", "Le port"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'La gare' significa 'estação de trem' em francês."
+    },
+    {
+      "id": "vt-5",
+      "text": "Como se pergunta 'Onde fica a parada de ônibus?' em francês?",
+      "options": ["Où est la gare?", "Où est l'arrêt de bus?", "Où est le métro?", "Où est le taxi?"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Où est l'arrêt de bus?' significa 'Onde fica a parada de ônibus?' em francês."
+    }
+  ]
+}

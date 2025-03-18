@@ -1,0 +1,92 @@
+{
+  "title": "Viagem",
+  "description": "Aprenda vocabulário e expressões essenciais para planejar e desfrutar de viagens em países francófonos.",
+  "image": "https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais réserver un billet d'avion pour Paris.",
+    "Quelles sont les attractions touristiques à ne pas manquer ?",
+    "Pourriez-vous me recommander un itinéraire pour trois jours ?"
+  ],
+  "introduction": "Viajar para países de língua francesa é uma experiência enriquecedora que permite praticar o idioma em contextos reais. Este guia fornecerá vocabulário essencial e expressões úteis para planejar sua viagem, visitar atrações turísticas e lidar com situações comuns durante sua estadia.",
+  "dialogues": [
+    {
+      "title": "Planejando uma Viagem na Agência",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais des informations sur des voyages en France pour cet été.", "translation": "Bom dia, eu gostaria de informações sobre viagens para a França neste verão." },
+        { "speaker": "Agente", "text": "Bonjour. Bien sûr, quelle région de France vous intéresse particulièrement ?", "translation": "Bom dia. Claro, qual região da França lhe interessa particularmente?" },
+        { "speaker": "Você", "text": "Je pensais visiter Paris et peut-être la Provence.", "translation": "Eu estava pensando em visitar Paris e talvez a Provença." },
+        { "speaker": "Agente", "text": "Excellents choix. Pour combien de temps envisagez-vous ce voyage ?", "translation": "Excelentes escolhas. Por quanto tempo você está planejando esta viagem?" },
+        { "speaker": "Você", "text": "Environ deux semaines. Quels sont les meilleurs moyens de transport entre ces deux régions ?", "translation": "Cerca de duas semanas. Quais são os melhores meios de transporte entre essas duas regiões?" },
+        { "speaker": "Agente", "text": "Le TGV est le plus rapide, environ 3 heures de Paris à Avignon. Sinon, vous pouvez louer une voiture pour plus de flexibilité.", "translation": "O TGV é o mais rápido, cerca de 3 horas de Paris a Avignon. Caso contrário, você pode alugar um carro para ter mais flexibilidade." },
+        { "speaker": "Você", "text": "Et concernant l'hébergement, que recommandez-vous ?", "translation": "E quanto à hospedagem, o que você recomenda?" },
+        { "speaker": "Agente", "text": "À Paris, je vous conseille un hôtel central. En Provence, pourquoi ne pas essayer un gîte rural ou une chambre d'hôtes pour une expérience plus authentique ?", "translation": "Em Paris, recomendo um hotel central. Na Provença, por que não experimentar uma casa rural ou uma pousada para uma experiência mais autêntica?" }
+      ]
+    },
+    {
+      "title": "No Posto de Turismo",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je viens d'arriver à Lyon. Pourriez-vous me donner un plan de la ville ?", "translation": "Bom dia, acabei de chegar a Lyon. Poderia me dar um mapa da cidade?" },
+        { "speaker": "Atendente", "text": "Bonjour et bienvenue à Lyon ! Voici un plan. Combien de temps restez-vous ?", "translation": "Bom dia e bem-vindo a Lyon! Aqui está um mapa. Quanto tempo você ficará?" },
+        { "speaker": "Você", "text": "Trois jours. Quelles sont les attractions principales à voir ?", "translation": "Três dias. Quais são as principais atrações para ver?" },
+        { "speaker": "Atendente", "text": "Je vous recommande de visiter la Basilique Notre-Dame de Fourvière, le Vieux Lyon, et bien sûr, nos fameux 'bouchons lyonnais' pour la gastronomie.", "translation": "Recomendo visitar a Basílica de Notre-Dame de Fourvière, o Velho Lyon e, claro, nossos famosos 'bouchons lyonnais' para a gastronomia." },
+        { "speaker": "Você", "text": "Qu'est-ce qu'un 'bouchon lyonnais' exactement ?", "translation": "O que é exatamente um 'bouchon lyonnais'?" },
+        { "speaker": "Atendente", "text": "Ce sont des restaurants traditionnels typiques de Lyon, où vous pouvez déguster la cuisine locale. Voici une liste des meilleurs bouchons de la ville.", "translation": "São restaurantes tradicionais típicos de Lyon, onde você pode experimentar a culinária local. Aqui está uma lista dos melhores bouchons da cidade." },
+        { "speaker": "Você", "text": "Y a-t-il des événements spéciaux cette semaine ?", "translation": "Há eventos especiais esta semana?" },
+        { "speaker": "Atendente", "text": "Oui, il y a un festival de musique dans le parc de la Tête d'Or ce weekend. Voici le programme. Je vous conseille aussi la visite guidée du quartier de la Croix-Rousse demain matin.", "translation": "Sim, há um festival de música no parque Tête d'Or neste fim de semana. Aqui está o programa. Também recomendo o tour guiado pelo bairro de Croix-Rousse amanhã de manhã." }
+      ]
+    },
+    {
+      "title": "Visitando um Monumento",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais deux billets pour visiter le château, s'il vous plaît.", "translation": "Bom dia, eu gostaria de dois ingressos para visitar o castelo, por favor." },
+        { "speaker": "Bilheteiro", "text": "Bonjour. Tarif plein ou réduit ?", "translation": "Bom dia. Tarifa cheia ou reduzida?" },
+        { "speaker": "Você", "text": "Qu'est-ce que le tarif réduit ?", "translation": "O que é a tarifa reduzida?" },
+        { "speaker": "Bilheteiro", "text": "Le tarif réduit s'applique aux étudiants, aux seniors et aux enfants de moins de 18 ans. Avez-vous une carte d'étudiant ?", "translation": "A tarifa reduzida se aplica a estudantes, idosos e crianças menores de 18 anos. Você tem uma carteira de estudante?" },
+        { "speaker": "Você", "text": "Oui, nous sommes tous les deux étudiants. Voici nos cartes.", "translation": "Sim, somos ambos estudantes. Aqui estão nossos cartões." },
+        { "speaker": "Bilheteiro", "text": "Parfait. Souhaitez-vous l'audioguide ? C'est 5 euros supplémentaires, mais c'est très informatif.", "translation": "Perfeito. Você gostaria do audioguia? São 5 euros adicionais, mas é muito informativo." },
+        { "speaker": "Você", "text": "Oui, deux audioguides en français, s'il vous plaît. À quelle heure est la dernière entrée ?", "translation": "Sim, dois audioguias em francês, por favor. A que horas é a última entrada?" },
+        { "speaker": "Bilheteiro", "text": "La dernière entrée est à 17h, et le château ferme à 18h30. Je vous conseille de prévoir au moins deux heures pour la visite complète.", "translation": "A última entrada é às 17h, e o castelo fecha às 18h30. Aconselho a prever pelo menos duas horas para a visita completa." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le voyage", "translation": "a viagem" },
+    { "word": "le tourisme", "translation": "o turismo" },
+    { "word": "le/la touriste", "translation": "o/a turista" },
+    { "word": "visiter", "translation": "visitar", "example": "Nous allons visiter le musée demain." },
+    { "word": "l'itinéraire (m)", "translation": "o itinerário" },
+    { "word": "le séjour", "translation": "a estadia" },
+    { "word": "le billet", "translation": "o bilhete, o ingresso" },
+    { "word": "réserver", "translation": "reservar" },
+    { "word": "l'attraction touristique (f)", "translation": "a atração turística" },
+    { "word": "le monument", "translation": "o monumento" },
+    { "word": "le musée", "translation": "o museu" },
+    { "word": "le château", "translation": "o castelo" },
+    { "word": "la cathédrale", "translation": "a catedral" },
+    { "word": "l'office de tourisme (m)", "translation": "o posto de turismo" },
+    { "word": "le guide touristique", "translation": "o guia turístico (livro ou pessoa)" },
+    { "word": "l'audioguide (m)", "translation": "o audioguia" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Temporadas Turísticas", 
+      "description": "A alta temporada turística na França é geralmente de junho a agosto, quando os preços são mais altos e os locais mais lotados. A primavera (abril-maio) e o outono (setembro-outubro) oferecem um bom equilíbrio entre clima agradável e menos turistas." 
+    },
+    { 
+      "title": "Paris Museum Pass", 
+      "description": "Se você planeja visitar vários museus e monumentos em Paris, considere comprar o Paris Museum Pass, que oferece entrada ilimitada a mais de 50 atrações por um preço fixo (2, 4 ou 6 dias) e muitas vezes permite pular as filas." 
+    },
+    { 
+      "title": "Feriados e Fechamentos", 
+      "description": "Muitos museus e monumentos na França fecham às segundas-feiras ou terças-feiras, e alguns fecham em feriados nacionais. Sempre verifique os horários de funcionamento com antecedência. Além disso, muitas lojas e restaurantes fecham durante o mês de agosto, quando os franceses tradicionalmente tiram férias." 
+    }
+  ],
+  "tips": [
+    "Aprenda algumas frases básicas em francês antes de viajar - mesmo um esforço mínimo é muito apreciado pelos locais.",
+    "Nos restaurantes franceses, é comum pedir uma 'carafe d'eau' (jarra de água da torneira) que é gratuita, em vez de água engarrafada.",
+    "Ao visitar igrejas e catedrais, vista-se apropriadamente cobrindo ombros e joelhos como sinal de respeito.",
+    "Nos transportes públicos, sempre valide seu bilhete antes de embarcar, mesmo se você tiver um passe de vários dias.",
+    "Muitos museus nacionais oferecem entrada gratuita no primeiro domingo de cada mês, mas espere filas mais longas nesses dias."
+  ],
+  "relatedQuizzes": ["Vocabulário de Viagem", "Atrações Turísticas Francesas", "Transportes na França"]
+}

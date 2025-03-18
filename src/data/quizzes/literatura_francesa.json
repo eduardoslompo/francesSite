@@ -1,0 +1,56 @@
+{
+  "id": "literatura-francesa",
+  "title": "Literatura Francesa",
+  "description": "Teste seus conhecimentos sobre os grandes autores e obras da literatura francesa através dos séculos.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "lf-1",
+      "text": "Qual destes escritores é conhecido como o autor de 'Les Misérables'?",
+      "options": ["Gustave Flaubert", "Victor Hugo", "Émile Zola", "Albert Camus"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Victor Hugo é o autor de 'Les Misérables', uma das obras mais importantes da literatura francesa do século XIX."
+    },
+    {
+      "id": "lf-2",
+      "text": "Qual movimento literário está associado a Charles Baudelaire?",
+      "options": ["Romantismo", "Realismo", "Simbolismo", "Surrealismo"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Charles Baudelaire é considerado um precursor do Simbolismo, embora sua obra 'Les Fleurs du Mal' (As Flores do Mal) também tenha influenciado vários movimentos literários subsequentes."
+    },
+    {
+      "id": "lf-3",
+      "text": "Qual destes autores recebeu o Prêmio Nobel de Literatura em 2014?",
+      "options": ["Marcel Proust", "Simone de Beauvoir", "Patrick Modiano", "Michel Houellebecq"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Patrick Modiano recebeu o Prêmio Nobel de Literatura em 2014 por sua obra que explora temas como memória, identidade e ocupação nazista na França."
+    },
+    {
+      "id": "lf-4",
+      "text": "Qual obra é considerada o marco inicial do movimento Realista na literatura francesa?",
+      "options": ["Madame Bovary", "Le Père Goriot", "Le Rouge et le Noir", "Germinal"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'Madame Bovary' de Gustave Flaubert é frequentemente considerada o marco inicial do Realismo na literatura francesa, devido à sua descrição precisa e objetiva da realidade social."
+    },
+    {
+      "id": "lf-5",
+      "text": "Qual destas obras foi escrita por Albert Camus?",
+      "options": ["À la recherche du temps perdu", "L'Étranger", "Voyage au bout de la nuit", "Les Contemplations"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "'L'Étranger' (O Estrangeiro) é uma das obras mais conhecidas de Albert Camus, publicada em 1942 e representativa do existencialismo e absurdismo na literatura francesa."
+    }
+  ]
+}

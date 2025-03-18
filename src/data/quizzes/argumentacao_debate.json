@@ -1,0 +1,56 @@
+{
+  "id": "argumentacao-debate",
+  "title": "Argumentação e Debate",
+  "description": "Domine as estruturas linguísticas e expressões utilizadas em discussões formais, debate e argumentação em francês.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "comunicacao",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ad-1",
+      "text": "Qual expressão é usada para introduzir um contra-argumento em um debate formal?",
+      "options": ["De plus", "En revanche", "Ainsi", "En effet"],
+      "correctAnswer": 1,
+      "category": "comunicacao",
+      "difficulty": "avancado",
+      "explanation": "'En revanche' (por outro lado, em contrapartida) é usado para introduzir um contra-argumento ou uma ideia contrastante em um debate formal. 'De plus' indica adição, 'Ainsi' indica consequência, e 'En effet' reforça uma afirmação anterior."
+    },
+    {
+      "id": "ad-2",
+      "text": "Qual destas frases expressa corretamente uma condição em francês formal?",
+      "options": ["Si j'aurais su, j'aurais agi différemment", "Si j'avais su, j'aurais agi différemment", "Si je savais, j'agirais différemment maintenant", "Si je sais, j'agis différemment"],
+      "correctAnswer": 1,
+      "category": "comunicacao",
+      "difficulty": "avancado",
+      "explanation": "'Si j'avais su, j'aurais agi différemment' (Se eu soubesse, teria agido diferentemente) é a forma correta para expressar uma condição irreal no passado, usando o plus-que-parfait após 'si' e o conditionnel passé na oração principal."
+    },
+    {
+      "id": "ad-3",
+      "text": "Qual conectivo lógico é usado para expressar uma conclusão em francês?",
+      "options": ["Par conséquent", "Tandis que", "À condition que", "À l'exception de"],
+      "correctAnswer": 0,
+      "category": "comunicacao",
+      "difficulty": "avancado",
+      "explanation": "'Par conséquent' (por conseguinte, consequentemente) é um conectivo lógico usado para introduzir uma conclusão. 'Tandis que' expressa contraste, 'À condition que' indica condição, e 'À l'exception de' expressa exceção."
+    },
+    {
+      "id": "ad-4",
+      "text": "Qual expressão NÃO é apropriada para introduzir uma opinião pessoal em um debate acadêmico?",
+      "options": ["À mon sens", "De mon point de vue", "Je crois bien que", "Il me semble que"],
+      "correctAnswer": 2,
+      "category": "comunicacao",
+      "difficulty": "avancado",
+      "explanation": "'Je crois bien que' tem um tom muito coloquial e subjetivo para um debate acadêmico. As outras expressões ('À mon sens', 'De mon point de vue', 'Il me semble que') são formas mais apropriadas e formais de introduzir uma opinião pessoal em um contexto acadêmico."
+    },
+    {
+      "id": "ad-5",
+      "text": "Qual destas expressões é usada para conceder parcialmente um ponto ao oponente antes de apresentar um contra-argumento?",
+      "options": ["Certes... mais", "Bien que", "D'une part... d'autre part", "Néanmoins"],
+      "correctAnswer": 0,
+      "category": "comunicacao",
+      "difficulty": "avancado",
+      "explanation": "'Certes... mais' (certamente... mas) é uma estrutura concessiva usada para admitir parcialmente a validade de um argumento antes de apresentar um contra-argumento ou limitação. É uma estratégia retórica eficaz em debates formais."
+    }
+  ]
+} 

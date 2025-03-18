@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-compras",
+  "title": "Vocabulário de Compras",
+  "description": "Aprenda palavras e expressões essenciais para fazer compras em francês.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "compras",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vc-1",
+      "text": "Como se diz 'loja' em francês?",
+      "options": ["Le magasin", "La boutique", "Le marché", "Ambos A e B"],
+      "correctAnswer": 3,
+      "category": "compras",
+      "difficulty": "iniciante",
+      "explanation": "Tanto 'le magasin' quanto 'la boutique' significam 'loja' em francês, sendo que 'la boutique' geralmente se refere a lojas menores ou mais especializadas."
+    },
+    {
+      "id": "vc-2",
+      "text": "Qual é a expressão para perguntar 'Quanto custa isso?'",
+      "options": ["Combien ça coûte?", "Quel est le prix?", "C'est combien?", "Todas as alternativas"],
+      "correctAnswer": 3,
+      "category": "compras",
+      "difficulty": "iniciante",
+      "explanation": "Todas as expressões mencionadas são formas comuns de perguntar o preço de algo em francês."
+    },
+    {
+      "id": "vc-3",
+      "text": "Como se diz 'experimentar uma roupa' em francês?",
+      "options": ["Acheter un vêtement", "Essayer un vêtement", "Porter un vêtement", "Choisir un vêtement"],
+      "correctAnswer": 1,
+      "category": "compras",
+      "difficulty": "intermediario",
+      "explanation": "'Essayer un vêtement' significa 'experimentar uma roupa' em francês."
+    },
+    {
+      "id": "vc-4",
+      "text": "Qual é a palavra para 'desconto' em francês?",
+      "options": ["Le prix", "La réduction", "La solde", "Le rabais"],
+      "correctAnswer": 1,
+      "category": "compras",
+      "difficulty": "intermediario",
+      "explanation": "'La réduction' é a palavra mais comum para 'desconto' em francês, embora 'le rabais' também seja usado."
+    },
+    {
+      "id": "vc-5",
+      "text": "Como você pediria para pagar com cartão de crédito?",
+      "options": ["Je voudrais payer en espèces", "Je voudrais payer par carte de crédit", "Je voudrais payer par chèque", "Je voudrais un reçu"],
+      "correctAnswer": 1,
+      "category": "compras",
+      "difficulty": "intermediario",
+      "explanation": "'Je voudrais payer par carte de crédit' significa 'Eu gostaria de pagar com cartão de crédito' em francês."
+    }
+  ]
+}

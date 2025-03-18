@@ -1,0 +1,56 @@
+{
+  "id": "cumprimentos-em-frances",
+  "title": "Cumprimentos em Francês",
+  "description": "Aprenda as formas corretas de cumprimentar pessoas em diferentes contextos em francês.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "cf-1",
+      "text": "Qual é a forma mais comum de dizer 'Bom dia' em francês?",
+      "options": ["Bonsoir", "Bonjour", "Salut", "Au revoir"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Bonjour' é a forma padrão de dizer 'Bom dia' ou 'Olá' em francês, usado durante o dia todo até o anoitecer."
+    },
+    {
+      "id": "cf-2",
+      "text": "Como você diria 'Boa noite' em francês?",
+      "options": ["Bonjour", "Bonne nuit", "Bonsoir", "Au revoir"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Bonsoir' é usado como cumprimento à noite, equivalente a 'Boa noite' quando você encontra alguém."
+    },
+    {
+      "id": "cf-3",
+      "text": "Qual é a forma informal de cumprimentar um amigo em francês?",
+      "options": ["Bonjour, Monsieur", "Enchanté", "Salut", "Comment allez-vous"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Salut' é o equivalente informal de 'Oi' ou 'Olá', usado entre amigos e pessoas próximas."
+    },
+    {
+      "id": "cf-4",
+      "text": "Como você perguntaria 'Como vai você?' formalmente em francês?",
+      "options": ["Ça va?", "Comment allez-vous?", "Comment vas-tu?", "Quoi de neuf?"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Comment allez-vous?' é a forma formal de perguntar 'Como vai você?' em francês, usando o pronome formal 'vous'."
+    },
+    {
+      "id": "cf-5",
+      "text": "Qual expressão você usaria para se despedir à noite antes de dormir?",
+      "options": ["Au revoir", "À demain", "Bonne nuit", "À bientôt"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Bonne nuit' significa literalmente 'Boa noite' e é usado quando alguém vai dormir, diferente de 'Bonsoir' que é um cumprimento."
+    }
+  ]
+}

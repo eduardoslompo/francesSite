@@ -1,0 +1,101 @@
+{
+  "id": "praia-basico",
+  "title": "Na Praia - Nível Básico",
+  "description": "Teste seus conhecimentos básicos sobre vocabulário e expressões úteis para um dia na praia francesa.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "lazer",
+  "questionsCount": 10,
+  "questions": [
+    {
+      "id": "pb-1",
+      "text": "Como se diz 'praia' em francês?",
+      "options": ["La plage", "Le sable", "La mer", "Le soleil"],
+      "correctAnswer": 0,
+      "category": "vocabulário",
+      "difficulty": "basico",
+      "explanation": "'La plage' é a palavra francesa para 'praia'."
+    },
+    {
+      "id": "pb-2",
+      "text": "Qual é a tradução de 'areia' em francês?",
+      "options": ["La mer", "Le sable", "La plage", "L'eau"],
+      "correctAnswer": 1,
+      "category": "vocabulário",
+      "difficulty": "basico",
+      "explanation": "'Le sable' significa 'areia' em francês."
+    },
+    {
+      "id": "pb-3",
+      "text": "Como se diz 'mar' em francês?",
+      "options": ["La plage", "Le sable", "La mer", "Le soleil"],
+      "correctAnswer": 2,
+      "category": "vocabulário",
+      "difficulty": "basico",
+      "explanation": "'La mer' é a palavra francesa para 'mar'."
+    },
+    {
+      "id": "pb-4",
+      "text": "Qual é a tradução de 'guarda-sol' em francês?",
+      "options": ["La serviette", "Le parasol", "La crème solaire", "Le chapeau"],
+      "correctAnswer": 1,
+      "category": "vocabulário",
+      "difficulty": "basico",
+      "explanation": "'Le parasol' significa 'guarda-sol' em francês."
+    },
+    {
+      "id": "pb-5",
+      "text": "Como se diz 'toalha de praia' em francês?",
+      "options": ["La serviette de plage", "Le parasol", "La crème solaire", "Le chapeau de plage"],
+      "correctAnswer": 0,
+      "category": "vocabulário",
+      "difficulty": "basico",
+      "explanation": "'La serviette de plage' significa 'toalha de praia' em francês."
+    },
+    {
+      "id": "pb-6",
+      "text": "Qual frase você usaria para perguntar onde fica a praia mais próxima?",
+      "options": ["Où est la plage la plus proche?", "Comment est la plage?", "Quand ouvre la plage?", "Pourquoi la plage est fermée?"],
+      "correctAnswer": 0,
+      "category": "expressões",
+      "difficulty": "basico",
+      "explanation": "'Où est la plage la plus proche?' significa 'Onde fica a praia mais próxima?'"
+    },
+    {
+      "id": "pb-7",
+      "text": "Como se diz 'ondas' em francês?",
+      "options": ["Les vagues", "Les coquillages", "Le sable", "La marée"],
+      "correctAnswer": 0,
+      "category": "vocabulário",
+      "difficulty": "basico",
+      "explanation": "'Les vagues' é a palavra francesa para 'ondas'."
+    },
+    {
+      "id": "pb-8",
+      "text": "Qual é a tradução de 'protetor solar' em francês?",
+      "options": ["La serviette", "Le parasol", "La crème solaire", "Le chapeau"],
+      "correctAnswer": 2,
+      "category": "vocabulário",
+      "difficulty": "basico",
+      "explanation": "'La crème solaire' significa 'protetor solar' em francês."
+    },
+    {
+      "id": "pb-9",
+      "text": "Como se diz 'nadar' em francês?",
+      "options": ["Bronzer", "Se baigner", "Marcher", "Dormir"],
+      "correctAnswer": 1,
+      "category": "vocabulário",
+      "difficulty": "basico",
+      "explanation": "'Se baigner' significa 'banhar-se, nadar' em francês."
+    },
+    {
+      "id": "pb-10",
+      "text": "Qual é a tradução de 'conchas' em francês?",
+      "options": ["Les vagues", "Les coquillages", "Le sable", "La marée"],
+      "correctAnswer": 1,
+      "category": "vocabulário",
+      "difficulty": "basico",
+      "explanation": "'Les coquillages' significa 'conchas' em francês."
+    }
+  ]
+}

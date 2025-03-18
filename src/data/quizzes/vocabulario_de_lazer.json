@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-lazer",
+  "title": "Vocabulário de Lazer",
+  "description": "Aprenda palavras e expressões em francês relacionadas a atividades de lazer, tempo livre e entretenimento.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "lazer",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vl-1",
+      "text": "Como se diz 'tempo livre' em francês?",
+      "options": ["Le travail", "Le temps libre", "L'occupation", "La journée"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Le temps libre' é a expressão francesa para 'tempo livre'."
+    },
+    {
+      "id": "vl-2",
+      "text": "Qual é a tradução de 'assistir TV' em francês?",
+      "options": ["Lire un livre", "Regarder la télévision", "Écouter la radio", "Jouer aux cartes"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "iniciante",
+      "explanation": "'Regarder la télévision' significa 'assistir TV' em francês."
+    },
+    {
+      "id": "vl-3",
+      "text": "Como se diz 'passear no parque' em francês?",
+      "options": ["Nager dans la piscine", "Se promener dans le parc", "Jouer au football", "Faire du shopping"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "intermediario",
+      "explanation": "'Se promener dans le parc' significa 'passear no parque' em francês."
+    },
+    {
+      "id": "vl-4",
+      "text": "Qual frase você usaria para perguntar o que alguém gosta de fazer no tempo livre?",
+      "options": ["Qu'est-ce que tu fais dans la vie?", "Qu'est-ce que tu aimes faire pendant ton temps libre?", "Où est-ce que tu habites?", "Quand est-ce que tu travailles?"],
+      "correctAnswer": 1,
+      "category": "lazer",
+      "difficulty": "intermediario",
+      "explanation": "'Qu'est-ce que tu aimes faire pendant ton temps libre?' significa 'O que você gosta de fazer no seu tempo livre?' em francês."
+    },
+    {
+      "id": "vl-5",
+      "text": "Como se diz 'relaxar' em francês?",
+      "options": ["Travailler", "Étudier", "Se détendre", "Se dépêcher"],
+      "correctAnswer": 2,
+      "category": "lazer",
+      "difficulty": "intermediario",
+      "explanation": "'Se détendre' significa 'relaxar' em francês."
+    }
+  ]
+}

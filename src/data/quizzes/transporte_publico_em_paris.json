@@ -1,0 +1,56 @@
+{
+  "id": "transporte-publico-em-paris",
+  "title": "Transporte Público em Paris",
+  "description": "Aprenda sobre o sistema de transporte público de Paris, incluindo metrô, ônibus, trens e como se locomover pela capital francesa.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "tpp-1",
+      "text": "Como se chama o sistema de metrô de Paris?",
+      "options": ["Le Métro", "Le RER", "Le Bus", "Le Tram"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "O sistema de metrô de Paris é chamado simplesmente de 'Le Métro'. É um dos sistemas de metrô mais antigos e extensos do mundo, inaugurado em 1900."
+    },
+    {
+      "id": "tpp-2",
+      "text": "O que é o 'RER' no sistema de transporte parisiense?",
+      "options": ["Um tipo de ônibus", "Uma linha de metrô", "Um sistema de trens regionais", "Um serviço de táxi"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "O RER (Réseau Express Régional) é um sistema de trens regionais que conecta Paris aos subúrbios e complementa o metrô. Suas linhas são identificadas por letras (A, B, C, D, E) em vez de números."
+    },
+    {
+      "id": "tpp-3",
+      "text": "Qual é o nome do cartão recarregável usado para transporte público em Paris?",
+      "options": ["Carte Orange", "Navigo", "Paris Visite", "Ticket t+"],
+      "correctAnswer": 1,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "O 'Navigo' é o cartão recarregável usado para transporte público em Paris. Substituiu o antigo 'Carte Orange' e pode ser usado em metrô, ônibus, RER e bondes dentro das zonas tarifárias escolhidas."
+    },
+    {
+      "id": "tpp-4",
+      "text": "Quantas linhas tem o metrô de Paris?",
+      "options": ["8 linhas", "12 linhas", "16 linhas", "22 linhas"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "O metrô de Paris possui 16 linhas numeradas de 1 a 14, mais as linhas 3bis e 7bis, que são ramificações das linhas 3 e 7, respectivamente."
+    },
+    {
+      "id": "tpp-5",
+      "text": "Como se diz 'bilhete de ida e volta' em francês?",
+      "options": ["Aller simple", "Aller-retour", "Billet unique", "Carnet"],
+      "correctAnswer": 1,
+      "category": "vocabulario",
+      "difficulty": "iniciante",
+      "explanation": "'Aller-retour' significa 'ida e volta' em francês. Para transporte público, refere-se a um bilhete que permite uma viagem de ida e uma de volta entre dois pontos."
+    }
+  ]
+}

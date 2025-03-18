@@ -1,0 +1,56 @@
+{
+  "id": "estacoes-do-ano",
+  "title": "Estações do Ano",
+  "description": "Aprenda vocabulário e expressões relacionadas às quatro estações do ano em francês.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "cotidiano",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ea-1",
+      "text": "Como se diz 'primavera' em francês?",
+      "options": ["L'été", "L'automne", "Le printemps", "L'hiver"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le printemps' é a palavra francesa para 'primavera'."
+    },
+    {
+      "id": "ea-2",
+      "text": "Qual é a tradução de 'verão' em francês?",
+      "options": ["L'été", "L'automne", "Le printemps", "L'hiver"],
+      "correctAnswer": 0,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'L'été' significa 'verão' em francês."
+    },
+    {
+      "id": "ea-3",
+      "text": "Como se diz 'outono' em francês?",
+      "options": ["L'été", "L'automne", "Le printemps", "L'hiver"],
+      "correctAnswer": 1,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'L'automne' é a palavra francesa para 'outono'."
+    },
+    {
+      "id": "ea-4",
+      "text": "Qual frase você usaria para dizer 'No inverno, faz muito frio'?",
+      "options": ["En été, il fait très chaud", "En automne, les feuilles tombent", "En hiver, il fait très froid", "Au printemps, les fleurs fleurissent"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'En hiver, il fait très froid' significa 'No inverno, faz muito frio' em francês."
+    },
+    {
+      "id": "ea-5",
+      "text": "Qual estação é descrita como 'la saison des fleurs' (a estação das flores)?",
+      "options": ["L'été", "L'automne", "Le printemps", "L'hiver"],
+      "correctAnswer": 2,
+      "category": "cotidiano",
+      "difficulty": "iniciante",
+      "explanation": "'Le printemps' (a primavera) é frequentemente chamada de 'la saison des fleurs' (a estação das flores) em francês."
+    }
+  ]
+}

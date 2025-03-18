@@ -1,0 +1,215 @@
+{
+  "title": "Todos os Quizzes Relacionados",
+  "description": "Lista completa de todos os quizzes relacionados mencionados nos arquivos de situações",
+  "quizzesBySituation": [
+    {
+      "situation": "A La Plage (Na Praia)",
+      "quizzes": ["Vocabulário de Praia", "Atividades de Verão", "Geografia Costeira Francesa"]
+    },
+    {
+      "situation": "Aeroporto",
+      "quizzes": ["Vocabulário de Viagem", "Situações de Aeroporto", "Transporte na França"]
+    },
+    {
+      "situation": "Animais",
+      "quizzes": ["Vocabulário Básico", "Situações Cotidianas"]
+    },
+    {
+      "situation": "Apresentações",
+      "quizzes": ["Cumprimentos em Francês", "Vocabulário Profissional", "Expressões de Cortesia"]
+    },
+    {
+      "situation": "Apresentações Sociais",
+      "quizzes": ["Vocabulário de Apresentações", "Situações Sociais", "Etiqueta Francesa"]
+    },
+    {
+      "situation": "Au Marche",
+      "quizzes": ["Vocabulário de Alimentos", "Compras na França", "Gastronomia Francesa"]
+    },
+    {
+      "situation": "Au Restaurant Gastronomique",
+      "quizzes": ["Vocabulário Gastronômico", "Vinhos Franceses", "Etiqueta à Mesa"]
+    },
+    {
+      "situation": "Banque",
+      "quizzes": ["Vocabulário Financeiro", "Números e Quantidades", "Situações Cotidianas"]
+    },
+    {
+      "situation": "Bibliotheque",
+      "quizzes": ["Vocabulário de Biblioteca", "Cultura e Educação", "Situações Cotidianas"]
+    },
+    {
+      "situation": "Boulangerie",
+      "quizzes": ["Vocabulário de Alimentos", "Comida Francesa", "Situações Cotidianas"]
+    },
+    {
+      "situation": "Boutique",
+      "quizzes": ["Vocabulário de Roupas", "Compras na França", "Números e Quantidades"]
+    },
+    {
+      "situation": "Bureau",
+      "quizzes": ["Vocabulário de Negócios", "Comunicação Profissional", "Cultura Corporativa Francesa"]
+    },
+    {
+      "situation": "Bureau de Poste",
+      "quizzes": ["Serviços Públicos", "Vocabulário Administrativo", "Expressões de Cortesia"]
+    },
+    {
+      "situation": "Cafe",
+      "quizzes": ["Vocabulário de Café", "Comida e Bebida", "Situações Cotidianas"]
+    },
+    {
+      "situation": "Cinema",
+      "quizzes": ["Cinema Francês", "Vocabulário de Entretenimento", "Cultura Francesa"]
+    },
+    {
+      "situation": "Compras",
+      "quizzes": ["Vocabulário de Compras", "Números e Preços", "Tamanhos e Medidas"]
+    },
+    {
+      "situation": "Cuisine",
+      "quizzes": ["Vocabulário Culinário", "Pratos Regionais Franceses", "Vinhos e Queijos"]
+    },
+    {
+      "situation": "Direcoes",
+      "quizzes": ["Vocabulário de Direções", "Transporte Público em Paris", "Pontos Turísticos Franceses"]
+    },
+    {
+      "situation": "Entretien",
+      "quizzes": ["Vocabulário Profissional", "Comunicação no Ambiente de Trabalho", "Expressões Formais em Francês"]
+    },
+    {
+      "situation": "Familia",
+      "quizzes": ["Vocabulário Familiar", "Relações de Parentesco", "Tradições Familiares Francesas"]
+    },
+    {
+      "situation": "Farmacia",
+      "quizzes": ["Vocabulário Médico", "Situações de Emergência", "Saúde e Bem-estar"]
+    },
+    {
+      "situation": "Fete",
+      "quizzes": ["Vocabulário de Celebrações", "Tradições Francesas", "Expressões de Cortesia"]
+    },
+    {
+      "situation": "Galerie Art",
+      "quizzes": ["Vocabulário de Arte", "Cultura e Lazer", "Expressando Opiniões"]
+    },
+    {
+      "situation": "Gare",
+      "quizzes": ["Vocabulário de Transporte", "Situações de Viagem", "Números e Horários"]
+    },
+    {
+      "situation": "Hopital",
+      "quizzes": ["Vocabulário Médico", "Emergências", "Corpo Humano em Francês"]
+    },
+    {
+      "situation": "Hotel",
+      "quizzes": ["Vocabulário de Viagem", "Situações Cotidianas", "Números e Datas"]
+    },
+    {
+      "situation": "Jardin Public",
+      "quizzes": ["Vocabulário de Natureza", "Lazer e Tempo Livre", "Situações Cotidianas"]
+    },
+    {
+      "situation": "Librairie",
+      "quizzes": ["Vocabulário de Livraria", "Literatura Francesa", "Situações Cotidianas"]
+    },
+    {
+      "situation": "Maison",
+      "quizzes": ["Vocabulário da Casa", "Tarefas Domésticas", "Aluguel e Moradia na França"]
+    },
+    {
+      "situation": "Marche",
+      "quizzes": ["Vocabulário de Alimentos", "Comida Francesa", "Números e Quantidades"]
+    },
+    {
+      "situation": "Medico",
+      "quizzes": ["Vocabulário Médico", "Situações de Emergência", "Saúde e Bem-estar"]
+    },
+    {
+      "situation": "Meteo",
+      "quizzes": ["Vocabulário do Clima", "As Quatro Estações", "Expressões Meteorológicas"]
+    },
+    {
+      "situation": "Musee",
+      "quizzes": ["Arte Francesa", "Vocabulário de Museu", "Cultura Francesa"]
+    },
+    {
+      "situation": "Parc",
+      "quizzes": ["Vocabulário de Natureza", "Atividades ao Ar Livre", "Direções e Localização"]
+    },
+    {
+      "situation": "Pharmacie",
+      "quizzes": ["Vocabulário Médico", "Situações de Emergência", "Partes do Corpo"]
+    },
+    {
+      "situation": "Plage",
+      "quizzes": ["Vocabulário de Férias", "Atividades ao Ar Livre", "Meio Ambiente"]
+    },
+    {
+      "situation": "Poste",
+      "quizzes": ["Vocabulário Postal", "Serviços Públicos", "Números e Quantidades"]
+    },
+    {
+      "situation": "Rencontres",
+      "quizzes": ["Vocabulário de Relacionamentos", "Expressões de Cortesia", "Situações Sociais"]
+    },
+    {
+      "situation": "Restaurante",
+      "quizzes": ["Vocabulário de Restaurante", "Situações Cotidianas"]
+    },
+    {
+      "situation": "Salon Coiffure",
+      "quizzes": ["Vocabulário de Beleza", "Situações Cotidianas", "Expressões de Cortesia"]
+    },
+    {
+      "situation": "Shopping",
+      "quizzes": ["Vocabulário de Compras", "Números e Preços", "Expressões Úteis para Turistas"]
+    },
+    {
+      "situation": "Sports Loisirs",
+      "quizzes": ["Vocabulário de Esportes", "Atividades de Lazer", "Saúde e Bem-estar"]
+    },
+    {
+      "situation": "Supermarche",
+      "quizzes": ["Vocabulário de Compras", "Situações Cotidianas", "Números e Quantidades"]
+    },
+    {
+      "situation": "Telephone",
+      "quizzes": ["Vocabulário Telefônico", "Situações de Emergência", "Comunicação Profissional"]
+    },
+    {
+      "situation": "Tempo",
+      "quizzes": ["Vocabulário do Clima", "Estações do Ano", "Expressões Meteorológicas"]
+    },
+    {
+      "situation": "Tempo Livre",
+      "quizzes": ["Vocabulário de Lazer", "Atividades Culturais", "Convites e Planos Sociais"]
+    },
+    {
+      "situation": "Theatre",
+      "quizzes": ["Vocabulário Cultural", "Entretenimento", "Situações Cotidianas"]
+    },
+    {
+      "situation": "Trabalho",
+      "quizzes": ["Vocabulário Profissional", "Entrevista de Emprego", "Comunicação no Escritório"]
+    },
+    {
+      "situation": "Transporte Publico",
+      "quizzes": ["Vocabulário de Transporte", "Navegação Urbana", "Situações Cotidianas"]
+    },
+    {
+      "situation": "Universite",
+      "quizzes": ["Vocabulário Acadêmico", "Sistema Educacional Francês", "Expressões Formais"]
+    },
+    {
+      "situation": "Urgences",
+      "quizzes": ["Vocabulário de Emergências", "Saúde e Bem-estar", "Segurança em Viagens"]
+    },
+    {
+      "situation": "Voyage",
+      "quizzes": ["Vocabulário de Viagem", "Atrações Turísticas Francesas", "Transportes na França"]
+    }
+  ],
+  "totalQuizzes": 166
+}

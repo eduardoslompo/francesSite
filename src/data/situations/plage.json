@@ -1,0 +1,87 @@
+{
+  "title": "Praia",
+  "description": "Aprenda a se comunicar em situações de praia e atividades à beira-mar na França.",
+  "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais louer un parasol et deux chaises longues.",
+    "Est-ce qu'il y a un poste de secours sur cette plage ?",
+    "À quelle heure est la marée haute aujourd'hui ?"
+  ],
+  "introduction": "As praias francesas, seja na Riviera Francesa, na costa atlântica ou no Canal da Mancha, são destinos populares. Este guia ajudará você a se comunicar em situações de praia, alugar equipamentos, entender as regras locais e aproveitar atividades à beira-mar.",
+  "dialogues": [
+    {
+      "title": "Alugando Equipamentos de Praia",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais louer un parasol et deux chaises longues, s'il vous plaît.", "translation": "Bom dia, eu gostaria de alugar um guarda-sol e duas espreguiçadeiras, por favor." },
+        { "speaker": "Atendente", "text": "Bonjour. Pour combien de temps ?", "translation": "Bom dia. Por quanto tempo?" },
+        { "speaker": "Você", "text": "Pour la journée entière, s'il vous plaît.", "translation": "Para o dia inteiro, por favor." },
+        { "speaker": "Atendente", "text": "Très bien. C'est 15 euros pour le parasol et 10 euros par chaise longue. Ça fait 35 euros au total.", "translation": "Muito bem. São 15 euros pelo guarda-sol e 10 euros por espreguiçadeira. No total, são 35 euros." },
+        { "speaker": "Você", "text": "Est-ce que je peux payer par carte bancaire ?", "translation": "Posso pagar com cartão de crédito?" },
+        { "speaker": "Atendente", "text": "Oui, bien sûr. Vous préférez être installé près de la mer ou plus en retrait ?", "translation": "Sim, claro. Você prefere ficar perto do mar ou mais afastado?" },
+        { "speaker": "Você", "text": "Près de la mer, si possible. Et est-ce que vous louez aussi des serviettes de plage ?", "translation": "Perto do mar, se possível. E vocês também alugam toalhas de praia?" },
+        { "speaker": "Atendente", "text": "Oui, c'est 5 euros par serviette. Vous en voulez ?", "translation": "Sim, são 5 euros por toalha. Você quer alguma?" }
+      ]
+    },
+    {
+      "title": "Perguntando sobre Segurança na Praia",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, est-ce qu'il y a un poste de secours sur cette plage ?", "translation": "Com licença, há um posto de salvamento nesta praia?" },
+        { "speaker": "Banhista Local", "text": "Oui, il y en a un juste là-bas, vous voyez le drapeau rouge et jaune ?", "translation": "Sim, há um logo ali, você vê a bandeira vermelha e amarela?" },
+        { "speaker": "Você", "text": "Ah oui, je vois. Est-ce qu'il est sûr de nager ici aujourd'hui ?", "translation": "Ah sim, estou vendo. É seguro nadar aqui hoje?" },
+        { "speaker": "Banhista Local", "text": "Oui, c'est sûr. Le drapeau vert est hissé, ça signifie que la baignade est autorisée. S'il y avait un drapeau rouge, ce serait interdit.", "translation": "Sim, é seguro. A bandeira verde está hasteada, isso significa que o banho é permitido. Se houvesse uma bandeira vermelha, seria proibido." },
+        { "speaker": "Você", "text": "Merci pour l'information. Y a-t-il des zones spécifiques pour la baignade ?", "translation": "Obrigado pela informação. Existem áreas específicas para nadar?" },
+        { "speaker": "Banhista Local", "text": "Oui, vous devez nager entre les drapeaux bleus. C'est la zone surveillée par les sauveteurs.", "translation": "Sim, você deve nadar entre as bandeiras azuis. É a área vigiada pelos salva-vidas." }
+      ]
+    },
+    {
+      "title": "Pedindo Informações sobre Marés",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, savez-vous à quelle heure est la marée haute aujourd'hui ?", "translation": "Bom dia, você sabe a que horas é a maré alta hoje?" },
+        { "speaker": "Vendedor de Quiosque", "text": "Bonjour. La marée haute est à 14h30 cet après-midi. La marée basse sera vers 20h45 ce soir.", "translation": "Bom dia. A maré alta é às 14h30 desta tarde. A maré baixa será por volta das 20h45 esta noite." },
+        { "speaker": "Você", "text": "Est-ce que c'est une bonne plage pour chercher des coquillages à marée basse ?", "translation": "Esta é uma boa praia para procurar conchas na maré baixa?" },
+        { "speaker": "Vendedor de Quiosque", "text": "Absolument ! Vous trouverez beaucoup de coquillages et même des crabes si vous allez vers les rochers là-bas.", "translation": "Com certeza! Você encontrará muitas conchas e até caranguejos se for em direção àquelas rochas ali." },
+        { "speaker": "Você", "text": "Super ! Y a-t-il des règles à respecter pour la collecte des coquillages ?", "translation": "Ótimo! Existem regras a serem seguidas para a coleta de conchas?" },
+        { "speaker": "Vendedor de Quiosque", "text": "Oui, ne prenez que des coquillages vides et pas plus d'un kilo par personne. C'est interdit de prendre des étoiles de mer ou des espèces protégées.", "translation": "Sim, pegue apenas conchas vazias e não mais de um quilo por pessoa. É proibido pegar estrelas do mar ou espécies protegidas." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "la plage", "translation": "a praia" },
+    { "word": "le sable", "translation": "a areia" },
+    { "word": "la mer", "translation": "o mar" },
+    { "word": "les vagues (f)", "translation": "as ondas" },
+    { "word": "le parasol", "translation": "o guarda-sol" },
+    { "word": "la chaise longue", "translation": "a espreguiçadeira" },
+    { "word": "la serviette de plage", "translation": "a toalha de praia" },
+    { "word": "la crème solaire", "translation": "o protetor solar" },
+    { "word": "le maillot de bain", "translation": "o maiô/sunga" },
+    { "word": "le bikini", "translation": "o biquíni" },
+    { "word": "la baignade", "translation": "o banho de mar", "example": "La baignade est interdite quand le drapeau est rouge." },
+    { "word": "le poste de secours", "translation": "o posto de salvamento" },
+    { "word": "le/la sauveteur/sauveteuse", "translation": "o/a salva-vidas" },
+    { "word": "la marée haute/basse", "translation": "a maré alta/baixa" },
+    { "word": "les coquillages (m)", "translation": "as conchas" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Praias da Riviera Francesa", 
+      "description": "A Côte d'Azur (Riviera Francesa) é famosa por suas praias deslumbrantes. Muitas praias privadas (plages privées) oferecem serviços de luxo como restaurantes à beira-mar, espreguiçadeiras confortáveis e serviço de bar, mas cobram taxas de entrada. As praias públicas (plages publiques) são gratuitas e igualmente bonitas, mas podem ficar lotadas no verão." 
+    },
+    { 
+      "title": "Topless e Nudismo", 
+      "description": "Na França, é comum ver mulheres fazendo topless em muitas praias, embora isso tenha diminuído nos últimos anos. Existem também praias oficialmente naturistas (nudistas) designadas por sinais 'plage naturiste'. Nestas praias, a nudez é permitida ou até mesmo obrigatória." 
+    },
+    { 
+      "title": "Sistema de Bandeiras de Segurança", 
+      "description": "As praias francesas usam um sistema de bandeiras para indicar as condições de natação: verde (seguro para nadar), amarela (cuidado, nadar com precaução), vermelha (perigoso, proibido nadar) e roxa (poluição, proibido nadar). As áreas de natação supervisionadas são geralmente marcadas com bandeiras azuis." 
+    }
+  ],
+  "tips": [
+    "Muitas praias francesas são de pedras ou seixos, especialmente na Riviera Francesa. Considere comprar sapatos de água (chaussures d'eau) para maior conforto.",
+    "Nas praias francesas, é considerado educado cumprimentar as pessoas próximas a você quando chegar e sair.",
+    "Leve moedas para os chuveiros públicos nas entradas das praias, que são úteis para remover a areia e o sal.",
+    "Respeite o meio ambiente: use protetor solar biodegradável e nunca deixe lixo na praia.",
+    "Em muitas praias francesas, especialmente no sul, os vendedores ambulantes (vendeurs ambulants) passam vendendo bebidas, sorvetes e snacks - uma opção conveniente se você não quiser sair da praia."
+  ],
+  "relatedQuizzes": ["Vocabulário de Férias", "Atividades ao Ar Livre", "Meio Ambiente"]
+}

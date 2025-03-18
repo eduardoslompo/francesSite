@@ -1,0 +1,56 @@
+{
+  "id": "cultura-corporativa-francesa",
+  "title": "Cultura Corporativa Francesa",
+  "description": "Aprenda sobre as particularidades da cultura de trabalho e negócios na França.",
+  "level": "Avançado",
+  "levelClass": "level-avancado",
+  "category": "trabalho",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "ccf-1",
+      "text": "Qual é a duração típica da semana de trabalho na França?",
+      "options": ["35 horas", "40 horas", "45 horas", "50 horas"],
+      "correctAnswer": 0,
+      "category": "trabalho",
+      "difficulty": "intermediario",
+      "explanation": "A semana de trabalho legal na França é de 35 horas, uma das mais curtas da Europa. Esta lei foi implementada em 2000."
+    },
+    {
+      "id": "ccf-2",
+      "text": "Como é geralmente o horário de almoço no ambiente corporativo francês?",
+      "options": ["30 minutos no escritório", "Uma hora, frequentemente fora do escritório", "Duas horas, frequentemente em restaurantes", "Não há pausa para almoço"],
+      "correctAnswer": 1,
+      "category": "trabalho",
+      "difficulty": "intermediario",
+      "explanation": "Na cultura corporativa francesa, o almoço geralmente dura cerca de uma hora e os funcionários frequentemente saem do escritório para comer."
+    },
+    {
+      "id": "ccf-3",
+      "text": "Qual é a abordagem francesa típica para reuniões de negócios?",
+      "options": ["Curtas e objetivas", "Longas com muita discussão teórica", "Informais e descontraídas", "Focadas apenas em resultados"],
+      "correctAnswer": 1,
+      "category": "trabalho",
+      "difficulty": "avancado",
+      "explanation": "As reuniões de negócios na França tendem a ser mais longas, com discussões teóricas e análises detalhadas antes de chegar a decisões práticas."
+    },
+    {
+      "id": "ccf-4",
+      "text": "Como é vista a hierarquia nas empresas francesas?",
+      "options": ["Pouco importante, estrutura horizontal", "Muito importante, estrutura vertical clara", "Varia conforme o setor", "Inexistente, todos são iguais"],
+      "correctAnswer": 1,
+      "category": "trabalho",
+      "difficulty": "avancado",
+      "explanation": "A cultura corporativa francesa tradicionalmente valoriza uma hierarquia clara e bem definida, com respeito às posições de autoridade."
+    },
+    {
+      "id": "ccf-5",
+      "text": "Qual é a importância do diploma universitário na carreira profissional na França?",
+      "options": ["Pouco importante, valoriza-se mais a experiência", "Importante apenas para o primeiro emprego", "Muito importante, define toda a carreira", "Irrelevante no mercado atual"],
+      "correctAnswer": 2,
+      "category": "trabalho",
+      "difficulty": "avancado",
+      "explanation": "Na França, o diploma universitário, especialmente de instituições prestigiosas (Grandes Écoles), tem grande influência na carreira profissional e pode definir trajetórias de carreira por toda a vida."
+    }
+  ]
+}

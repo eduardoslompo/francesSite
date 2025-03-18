@@ -1,0 +1,85 @@
+{
+  "title": "Apresentações Sociais",
+  "description": "Aprenda a se apresentar e conhecer novas pessoas em francês.",
+  "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Bonjour, je m'appelle Marie. Et vous ?",
+    "Enchanté de faire votre connaissance.",
+    "Je vous présente mon ami Pierre."
+  ],
+  "introduction": "Saber como se apresentar e conhecer novas pessoas é essencial para iniciar conversas em francês. Este guia ajudará você a dominar as apresentações sociais em diferentes contextos, desde situações formais até encontros casuais com amigos de amigos.",
+  "dialogues": [
+    {
+      "title": "Apresentação Básica",
+      "lines": [
+        { "speaker": "Pessoa 1", "text": "Bonjour, je m'appelle Sophie. Comment vous appelez-vous ?", "translation": "Olá, meu nome é Sophie. Como você se chama?" },
+        { "speaker": "Você", "text": "Bonjour Sophie, je m'appelle Carlos. Enchanté de faire votre connaissance.", "translation": "Olá Sophie, meu nome é Carlos. Prazer em conhecê-la." },
+        { "speaker": "Pessoa 1", "text": "Enchantée également. Vous êtes d'où ?", "translation": "Igualmente. De onde você é?" },
+        { "speaker": "Você", "text": "Je suis brésilien, de São Paulo. Et vous, vous êtes française ?", "translation": "Sou brasileiro, de São Paulo. E você, é francesa?" },
+        { "speaker": "Pessoa 1", "text": "Oui, je suis de Lyon. Vous êtes ici en vacances ?", "translation": "Sim, sou de Lyon. Você está aqui de férias?" },
+        { "speaker": "Você", "text": "Non, je suis ici pour le travail. Je suis ingénieur et je travaille sur un projet pour six mois.", "translation": "Não, estou aqui a trabalho. Sou engenheiro e estou trabalhando em um projeto por seis meses." },
+        { "speaker": "Pessoa 1", "text": "C'est intéressant ! Bienvenue en France alors.", "translation": "Isso é interessante! Bem-vindo à França então." }
+      ]
+    },
+    {
+      "title": "Apresentando Outras Pessoas",
+      "lines": [
+        { "speaker": "Amigo", "text": "Ah, Marie ! Je voudrais te présenter Carlos. Il vient du Brésil et il est à Paris pour quelques mois.", "translation": "Ah, Marie! Gostaria de te apresentar Carlos. Ele vem do Brasil e está em Paris por alguns meses." },
+        { "speaker": "Marie", "text": "Bonjour Carlos, enchantée. Comment trouvez-vous Paris jusqu'à présent ?", "translation": "Olá Carlos, prazer. Como você está achando Paris até agora?" },
+        { "speaker": "Você", "text": "Bonjour Marie. Je trouve Paris magnifique ! J'adore l'architecture et la cuisine française.", "translation": "Olá Marie. Acho Paris magnífica! Adoro a arquitetura e a culinária francesa." },
+        { "speaker": "Amigo", "text": "Carlos est un grand amateur de cuisine. Il a déjà essayé plusieurs restaurants parisiens.", "translation": "Carlos é um grande apreciador de culinária. Ele já experimentou vários restaurantes parisienses." },
+        { "speaker": "Marie", "text": "Vraiment ? Je connais un excellent restaurant près d'ici. Peut-être pourrions-nous y aller ensemble un jour ?", "translation": "Verdade? Conheço um excelente restaurante perto daqui. Talvez possamos ir lá juntos algum dia?" },
+        { "speaker": "Você", "text": "Avec plaisir ! Ce serait une bonne occasion de pratiquer mon français aussi.", "translation": "Com prazer! Seria uma boa oportunidade para praticar meu francês também." }
+      ]
+    },
+    {
+      "title": "Em um Evento de Networking",
+      "lines": [
+        { "speaker": "Você", "text": "Excusez-moi, je peux me joindre à vous ?", "translation": "Com licença, posso me juntar a vocês?" },
+        { "speaker": "Profissional", "text": "Bien sûr ! Je m'appelle Laurent Dubois, je suis directeur marketing chez TechFrance.", "translation": "Claro! Meu nome é Laurent Dubois, sou diretor de marketing na TechFrance." },
+        { "speaker": "Você", "text": "Ravi de vous rencontrer, Monsieur Dubois. Je suis Carlos Silva, ingénieur logiciel chez GlobalTech.", "translation": "Prazer em conhecê-lo, Sr. Dubois. Sou Carlos Silva, engenheiro de software na GlobalTech." },
+        { "speaker": "Profissional", "text": "Appelez-moi Laurent, je vous en prie. Vous travaillez dans quel domaine exactement ?", "translation": "Chame-me de Laurent, por favor. Você trabalha em qual área exatamente?" },
+        { "speaker": "Você", "text": "Je travaille principalement sur des solutions d'intelligence artificielle. Et vous, qu'est-ce que fait TechFrance ?", "translation": "Trabalho principalmente com soluções de inteligência artificial. E você, o que faz a TechFrance?" },
+        { "speaker": "Profissional", "text": "Nous développons des applications mobiles pour le secteur de la santé. D'ailleurs, voici ma carte de visite. N'hésitez pas à me contacter si vous êtes intéressé par une collaboration.", "translation": "Desenvolvemos aplicativos móveis para o setor de saúde. Aliás, aqui está meu cartão de visita. Não hesite em me contatar se estiver interessado em uma colaboração." },
+        { "speaker": "Você", "text": "Merci beaucoup. Voici la mienne. Ce serait intéressant d'explorer des synergies potentielles entre nos entreprises.", "translation": "Muito obrigado. Aqui está o meu. Seria interessante explorar potenciais sinergias entre nossas empresas." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "se présenter", "translation": "apresentar-se" },
+    { "word": "présenter quelqu'un", "translation": "apresentar alguém" },
+    { "word": "enchanté(e)", "translation": "prazer em conhecê-lo(a)" },
+    { "word": "ravi(e) de vous rencontrer", "translation": "feliz em conhecê-lo(a)" },
+    { "word": "comment vous appelez-vous ?", "translation": "como você se chama?" },
+    { "word": "je m'appelle...", "translation": "eu me chamo..." },
+    { "word": "d'où venez-vous ?", "translation": "de onde você vem?" },
+    { "word": "je viens de...", "translation": "eu venho de..." },
+    { "word": "que faites-vous dans la vie ?", "translation": "o que você faz da vida?" },
+    { "word": "je suis...", "translation": "eu sou..." },
+    { "word": "la carte de visite", "translation": "o cartão de visita", "example": "Voici ma carte de visite avec mes coordonnées." },
+    { "word": "faire connaissance", "translation": "conhecer, travar conhecimento" },
+    { "word": "un rendez-vous", "translation": "um encontro, uma reunião" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Tu vs. Vous", 
+      "description": "Na França, o uso de 'tu' (informal) e 'vous' (formal) é muito importante nas apresentações. Geralmente, usa-se 'vous' ao conhecer alguém pela primeira vez, especialmente em contextos profissionais ou com pessoas mais velhas. A transição para 'tu' geralmente ocorre quando a pessoa com quem você está falando sugere: 'On peut se tutoyer' (Podemos nos tratar por tu)." 
+    },
+    { 
+      "title": "La Bise", 
+      "description": "O cumprimento com beijos nas bochechas (la bise) é comum na França, mas varia conforme a região e o contexto. Em situações profissionais, um aperto de mão é mais apropriado no primeiro encontro. Entre amigos ou ao ser apresentado em contexto social, a bise é comum, geralmente dois beijos em Paris, mas pode variar de um a quatro dependendo da região." 
+    },
+    { 
+      "title": "Cartões de Visita", 
+      "description": "Em contextos profissionais, trocar cartões de visita (cartes de visite) é uma prática comum. É considerado educado examinar brevemente o cartão recebido antes de guardá-lo, mostrando interesse pela pessoa que acabou de conhecer." 
+    }
+  ],
+  "tips": [
+    "Ao se apresentar, mantenha contato visual e sorria - isso é considerado sinal de confiança e abertura na cultura francesa.",
+    "Memorize algumas frases-chave de apresentação em francês, como 'Enchanté(e) de faire votre connaissance' (Prazer em conhecê-lo/a).",
+    "Quando for apresentado a alguém, é educado fazer algumas perguntas básicas sobre a pessoa, como sua origem ou profissão.",
+    "Em contextos profissionais, é comum mencionar seu cargo e empresa durante a apresentação.",
+    "Se você não entender o nome de alguém, é perfeitamente aceitável pedir que repita: 'Pourriez-vous répéter votre nom, s'il vous plaît?' (Poderia repetir seu nome, por favor?)."
+  ],
+  "relatedQuizzes": ["Vocabulário de Apresentações", "Situações Sociais", "Etiqueta Francesa"]
+}

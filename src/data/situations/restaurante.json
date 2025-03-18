@@ -1,0 +1,84 @@
+{
+  "title": "Restaurante",
+  "description": "Aprenda a fazer pedidos, entender o cardápio e interagir com garçons.",
+  "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Je voudrais réserver une table pour deux personnes.",
+    "Qu'est-ce que vous recommandez ?",
+    "L'addition, s'il vous plaît."
+  ],
+  "introduction": "Comer em um restaurante francês é uma experiência cultural importante. Este guia ajudará você a navegar pelo menu, fazer pedidos e interagir com os garçons com confiança.",
+  "dialogues": [
+    {
+      "title": "Fazendo uma Reserva",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais réserver une table pour ce soir.", "translation": "Bom dia, eu gostaria de reservar uma mesa para esta noite." },
+        { "speaker": "Atendente", "text": "Bonjour. Pour combien de personnes ?", "translation": "Bom dia. Para quantas pessoas?" },
+        { "speaker": "Você", "text": "Pour deux personnes, s'il vous plaît.", "translation": "Para duas pessoas, por favor." },
+        { "speaker": "Atendente", "text": "À quelle heure souhaitez-vous venir ?", "translation": "A que horas você deseja vir?" },
+        { "speaker": "Você", "text": "Vers 20 heures, c'est possible ?", "translation": "Por volta das 20 horas, é possível?" },
+        { "speaker": "Atendente", "text": "Oui, c'est possible. À quel nom ?", "translation": "Sim, é possível. Em que nome?" },
+        { "speaker": "Você", "text": "Au nom de Martin.", "translation": "No nome de Martin." },
+        { "speaker": "Atendente", "text": "Très bien, c'est réservé. À ce soir, Monsieur/Madame Martin.", "translation": "Muito bem, está reservado. Até esta noite, Sr./Sra. Martin." }
+      ]
+    },
+    {
+      "title": "Pedindo a Refeição",
+      "lines": [
+        { "speaker": "Garçom", "text": "Bonjour, voici la carte. Désirez-vous un apéritif ?", "translation": "Bom dia, aqui está o cardápio. Deseja um aperitivo?" },
+        { "speaker": "Você", "text": "Oui, je voudrais un kir, s'il vous plaît.", "translation": "Sim, eu gostaria de um kir, por favor." },
+        { "speaker": "Garçom", "text": "Et pour Madame/Monsieur ?", "translation": "E para a Senhora/Senhor?" },
+        { "speaker": "Acompanhante", "text": "Un verre de vin blanc, s'il vous plaît.", "translation": "Uma taça de vinho branco, por favor." },
+        { "speaker": "Garçom", "text": "Avez-vous choisi votre plat ?", "translation": "Já escolheram o prato?" },
+        { "speaker": "Você", "text": "Qu'est-ce que vous recommandez ?", "translation": "O que você recomenda?" },
+        { "speaker": "Garçom", "text": "Le plat du jour est excellent, c'est un filet de poisson avec des légumes de saison.", "translation": "O prato do dia é excelente, é um filé de peixe com legumes da estação." },
+        { "speaker": "Você", "text": "Très bien, je vais prendre ça.", "translation": "Muito bem, vou pedir isso." },
+        { "speaker": "Acompanhante", "text": "Et pour moi, le steak-frites, s'il vous plaît.", "translation": "E para mim, o steak-frites, por favor." }
+      ]
+    },
+    {
+      "title": "Pedindo a Conta",
+      "lines": [
+        { "speaker": "Você", "text": "L'addition, s'il vous plaît.", "translation": "A conta, por favor." },
+        { "speaker": "Garçom", "text": "Tout de suite. Avez-vous bien mangé ?", "translation": "Imediatamente. Comeram bem?" },
+        { "speaker": "Você", "text": "Oui, c'était délicieux, merci.", "translation": "Sim, estava delicioso, obrigado." },
+        { "speaker": "Garçom", "text": "Voici l'addition. Ça fait 58 euros.", "translation": "Aqui está a conta. São 58 euros." },
+        { "speaker": "Você", "text": "Je peux payer par carte ?", "translation": "Posso pagar com cartão?" },
+        { "speaker": "Garçom", "text": "Bien sûr. Je vous apporte le terminal.", "translation": "Claro. Vou trazer a máquina." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le restaurant", "translation": "o restaurante" },
+    { "word": "la carte / le menu", "translation": "o cardápio" },
+    { "word": "le serveur / la serveuse", "translation": "o garçom / a garçonete" },
+    { "word": "réserver", "translation": "reservar", "example": "Je voudrais réserver une table pour deux personnes." },
+    { "word": "commander", "translation": "pedir (comida)", "example": "Nous sommes prêts à commander." },
+    { "word": "l'entrée (f)", "translation": "a entrada" },
+    { "word": "le plat principal", "translation": "o prato principal" },
+    { "word": "le dessert", "translation": "a sobremesa" },
+    { "word": "l'addition (f)", "translation": "a conta" },
+    { "word": "le pourboire", "translation": "a gorjeta" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "Horários de Refeições", 
+      "description": "Os franceses geralmente almoçam entre 12h e 14h e jantam entre 19h30 e 21h30. Muitos restaurantes não servem refeições fora desses horários." 
+    },
+    { 
+      "title": "Gorjetas", 
+      "description": "Na França, o serviço (15%) já está incluído na conta como 'service compris'. Não é obrigatório deixar gorjeta adicional, mas é comum arredondar a conta ou deixar alguns euros extras para um serviço excepcional." 
+    },
+    { 
+      "title": "Água e Pão", 
+      "description": "É comum pedir 'une carafe d'eau' (uma jarra de água da torneira) que é gratuita. O pão também é geralmente servido gratuitamente com a refeição." 
+    }
+  ],
+  "tips": [
+    "Sempre cumprimente o garçom com 'Bonjour' durante o dia ou 'Bonsoir' à noite antes de fazer seu pedido.",
+    "Para chamar o garçom, levante discretamente a mão ou diga 'S'il vous plaît' quando ele passar.",
+    "Os franceses geralmente comem a salada após o prato principal, não antes.",
+    "Peça 'l'addition' quando estiver pronto para pagar - os garçons franceses não trarão a conta automaticamente para não parecer que estão apressando você."
+  ],
+  "relatedQuizzes": ["Vocabulário de Restaurante", "Situações Cotidianas"]
+}

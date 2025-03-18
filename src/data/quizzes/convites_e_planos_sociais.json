@@ -1,0 +1,56 @@
+{
+  "id": "convites-e-planos-sociais",
+  "title": "Convites e Planos Sociais",
+  "description": "Aprenda vocabulário e expressões em francês para fazer convites, planejar encontros e organizar eventos sociais.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "social",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "cps-1",
+      "text": "Como se convida alguém para jantar em francês?",
+      "options": ["Tu veux manger avec moi?", "Tu veux dîner avec moi?", "On va au restaurant?", "On mange ensemble?"],
+      "correctAnswer": 1,
+      "category": "social",
+      "difficulty": "iniciante",
+      "explanation": "'Tu veux dîner avec moi?' é uma forma comum de convidar alguém para jantar em francês."
+    },
+    {
+      "id": "cps-2",
+      "text": "Qual é a tradução de 'festa de aniversário' em francês?",
+      "options": ["Fête de Noël", "Fête d'anniversaire", "Fête de mariage", "Fête nationale"],
+      "correctAnswer": 1,
+      "category": "social",
+      "difficulty": "iniciante",
+      "explanation": "'Fête d'anniversaire' significa 'festa de aniversário' em francês."
+    },
+    {
+      "id": "cps-3",
+      "text": "Como se pergunta se alguém está livre em determinado dia?",
+      "options": ["Tu es occupé ce jour-là?", "Tu es libre ce jour-là?", "Tu travailles ce jour-là?", "Tu pars ce jour-là?"],
+      "correctAnswer": 1,
+      "category": "social",
+      "difficulty": "intermediario",
+      "explanation": "'Tu es libre ce jour-là?' significa 'Você está livre nesse dia?' em francês."
+    },
+    {
+      "id": "cps-4",
+      "text": "Qual frase você usaria para aceitar um convite?",
+      "options": ["Je ne peux pas venir", "Avec plaisir!", "Je dois réfléchir", "C'est impossible"],
+      "correctAnswer": 1,
+      "category": "social",
+      "difficulty": "intermediario",
+      "explanation": "'Avec plaisir!' significa 'Com prazer!' e é uma forma comum de aceitar um convite em francês."
+    },
+    {
+      "id": "cps-5",
+      "text": "Como se diz 'marcar um encontro' em francês?",
+      "options": ["Annuler un rendez-vous", "Fixer un rendez-vous", "Manquer un rendez-vous", "Oublier un rendez-vous"],
+      "correctAnswer": 1,
+      "category": "social",
+      "difficulty": "avancado",
+      "explanation": "'Fixer un rendez-vous' significa 'marcar um encontro' em francês."
+    }
+  ]
+}

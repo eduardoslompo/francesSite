@@ -1,0 +1,56 @@
+{
+  "id": "numeros-e-datas",
+  "title": "Números e Datas",
+  "description": "Aprenda vocabulário e expressões relacionadas a números, datas, meses e anos em francês, incluindo como expressar datas importantes e períodos de tempo.",
+  "level": "Básico",
+  "levelClass": "level-basico",
+  "category": "basico",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "nd-1",
+      "text": "Como se diz 'Hoje é 15 de julho' em francês?",
+      "options": ["Aujourd'hui c'est le 15 juillet", "Aujourd'hui est 15 juillet", "Le jour est 15 juillet", "C'est aujourd'hui 15 juillet"],
+      "correctAnswer": 0,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "'Aujourd'hui c'est le 15 juillet' é a forma correta de dizer 'Hoje é 15 de julho' em francês."
+    },
+    {
+      "id": "nd-2",
+      "text": "Qual é a tradução de 'Meu aniversário é em 3 de maio' em francês?",
+      "options": ["Ma fête est le 3 mai", "Mon anniversaire est le 3 mai", "Je suis né le 3 mai", "Je célèbre le 3 mai"],
+      "correctAnswer": 1,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "'Mon anniversaire est le 3 mai' significa 'Meu aniversário é em 3 de maio' em francês."
+    },
+    {
+      "id": "nd-3",
+      "text": "Como se pergunta 'Qual é a data de hoje?' em francês?",
+      "options": ["Quel jour sommes-nous?", "Quelle est la date aujourd'hui?", "Quel est le jour?", "Quelle date est-il?"],
+      "correctAnswer": 1,
+      "category": "basico",
+      "difficulty": "iniciante",
+      "explanation": "'Quelle est la date aujourd'hui?' é a forma mais comum de perguntar 'Qual é a data de hoje?' em francês."
+    },
+    {
+      "id": "nd-4",
+      "text": "Como se diz '21 de dezembro de 2023' em francês?",
+      "options": ["Vingt-et-un décembre deux mille vingt-trois", "Le 21 décembre 2023", "21/12/2023", "Le vingt-et-unième jour de décembre 2023"],
+      "correctAnswer": 1,
+      "category": "basico",
+      "difficulty": "intermediario",
+      "explanation": "'Le 21 décembre 2023' é a forma mais comum de dizer '21 de dezembro de 2023' em francês."
+    },
+    {
+      "id": "nd-5",
+      "text": "Como se pergunta 'Em que ano você nasceu?' em francês?",
+      "options": ["Quand es-tu né?", "En quelle année es-tu né?", "Quel âge as-tu?", "Quelle est ta date de naissance?"],
+      "correctAnswer": 1,
+      "category": "basico",
+      "difficulty": "intermediario",
+      "explanation": "'En quelle année es-tu né?' significa 'Em que ano você nasceu?' em francês."
+    }
+  ]
+}

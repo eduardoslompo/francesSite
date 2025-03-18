@@ -1,0 +1,56 @@
+{
+  "id": "situacoes-de-viagem",
+  "title": "Situações de Viagem",
+  "description": "Aprenda vocabulário e frases úteis para diferentes situações de viagem em francês, incluindo termos para reservas, deslocamentos e resolução de problemas durante viagens.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "viagem",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "sv-1",
+      "text": "Como perguntar 'Onde fica o hotel?' em francês?",
+      "options": ["Où est l'hôtel?", "Comment aller à l'hôtel?", "Quel est cet hôtel?", "Quand arrive-t-on à l'hôtel?"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Où est l'hôtel?' significa 'Onde fica o hotel?' em francês."
+    },
+    {
+      "id": "sv-2",
+      "text": "Como dizer 'Eu perdi minha bagagem' em francês?",
+      "options": ["J'ai oublié mes bagages", "J'ai perdu mes bagages", "Mes bagages sont en retard", "Où sont mes bagages?"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'J'ai perdu mes bagages' significa 'Eu perdi minha bagagem' em francês."
+    },
+    {
+      "id": "sv-3",
+      "text": "Qual frase você usaria para fazer uma reserva em um restaurante?",
+      "options": ["Je voudrais manger", "Je voudrais une table", "Je voudrais réserver une table", "Je voudrais le menu"],
+      "correctAnswer": 2,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Je voudrais réserver une table' significa 'Eu gostaria de reservar uma mesa' em francês."
+    },
+    {
+      "id": "sv-4",
+      "text": "Como perguntar 'Quanto custa a passagem?' em francês?",
+      "options": ["Combien coûte le billet?", "Quel est le prix du voyage?", "C'est combien pour aller à...?", "Où puis-je acheter un billet?"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Combien coûte le billet?' significa 'Quanto custa a passagem?' em francês."
+    },
+    {
+      "id": "sv-5",
+      "text": "Como dizer 'Meu voo está atrasado' em francês?",
+      "options": ["Mon vol est annulé", "Mon vol est à l'heure", "Mon vol est en retard", "Mon vol est parti"],
+      "correctAnswer": 2,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Mon vol est en retard' significa 'Meu voo está atrasado' em francês."
+    }
+  ]
+}

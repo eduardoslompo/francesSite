@@ -1,0 +1,56 @@
+{
+  "id": "cultura-francesa",
+  "title": "Cultura Francesa",
+  "description": "Aprenda sobre aspectos importantes da cultura francesa, incluindo tradições, costumes e patrimônio cultural.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "cultura",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "cf-1",
+      "text": "Qual destes é um feriado nacional importante na França?",
+      "options": ["Le 14 juillet (Dia da Bastilha)", "Le 1er mai (Dia do Trabalho)", "Noël (Natal)", "Toutes les réponses"],
+      "correctAnswer": 3,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "Todas as opções são feriados nacionais importantes na França."
+    },
+    {
+      "id": "cf-2",
+      "text": "Qual destas é uma tradição gastronômica típica francesa?",
+      "options": ["Le petit déjeuner léger", "Le déjeuner rapide", "Le dîner en famille", "Le brunch du dimanche"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "'Le dîner en famille' (jantar em família) é uma tradição francesa importante, onde as famílias se reúnem para uma refeição mais longa e elaborada."
+    },
+    {
+      "id": "cf-3",
+      "text": "Qual é o sistema político atual da França?",
+      "options": ["Monarquia constitucional", "República parlamentar", "República semipresidencialista", "Império"],
+      "correctAnswer": 2,
+      "category": "cultura",
+      "difficulty": "intermediario",
+      "explanation": "A França é uma república semipresidencialista, onde o presidente compartilha o poder executivo com o primeiro-ministro."
+    },
+    {
+      "id": "cf-4",
+      "text": "Qual destes movimentos artísticos teve origem na França?",
+      "options": ["Impressionismo", "Cubismo", "Surrealismo", "Todas as alternativas"],
+      "correctAnswer": 3,
+      "category": "cultura",
+      "difficulty": "avancado",
+      "explanation": "Todos estes movimentos artísticos (Impressionismo, Cubismo e Surrealismo) tiveram origem ou foram fortemente desenvolvidos na França."
+    },
+    {
+      "id": "cf-5",
+      "text": "Qual é o lema da República Francesa?",
+      "options": ["Liberté, Égalité, Fraternité", "L'union fait la force", "Dieu et mon droit", "En avant"],
+      "correctAnswer": 0,
+      "category": "cultura",
+      "difficulty": "iniciante",
+      "explanation": "'Liberté, Égalité, Fraternité' (Liberdade, Igualdade, Fraternidade) é o lema oficial da República Francesa desde a Revolução Francesa."
+    }
+  ]
+}

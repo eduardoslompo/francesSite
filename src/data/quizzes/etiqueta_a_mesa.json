@@ -1,0 +1,56 @@
+{
+  "id": "etiqueta-a-mesa",
+  "title": "Etiqueta à Mesa",
+  "description": "Aprenda sobre as regras de etiqueta à mesa na França e como se comportar adequadamente em jantares formais.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "gastronomia",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "em-1",
+      "text": "Na França, onde se deve colocar o guardanapo durante a refeição quando você precisa se levantar temporariamente?",
+      "options": ["Sobre a mesa, ao lado do prato", "Na cadeira", "Dobrado ao lado do prato", "No bolso"],
+      "correctAnswer": 0,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "Na etiqueta francesa, quando você precisa se levantar temporariamente durante a refeição, o guardanapo deve ser colocado sobre a mesa, ao lado do prato, e não na cadeira como em alguns outros países."
+    },
+    {
+      "id": "em-2",
+      "text": "Qual é a forma correta de segurar uma taça de vinho?",
+      "options": ["Pelo corpo da taça", "Pela base", "Pela haste", "Pela borda"],
+      "correctAnswer": 2,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "A forma correta de segurar uma taça de vinho é pela haste, não pelo corpo. Isso evita que o calor da mão aqueça o vinho e também previne marcas de dedos no vidro."
+    },
+    {
+      "id": "em-3",
+      "text": "Em um jantar formal francês, quando é apropriado começar a comer?",
+      "options": ["Assim que seu prato é servido", "Quando todos na mesa foram servidos", "Quando o anfitrião começa a comer", "Depois de agradecer pela comida"],
+      "correctAnswer": 2,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "Em um jantar formal francês, a etiqueta indica que se deve esperar o anfitrião começar a comer antes de iniciar sua própria refeição, mesmo que todos já tenham sido servidos."
+    },
+    {
+      "id": "em-4",
+      "text": "Como indicar que você terminou sua refeição segundo a etiqueta francesa?",
+      "options": ["Empurrando o prato para frente", "Colocando os talheres cruzados no prato", "Colocando os talheres paralelos no prato, às 4:20", "Levantando a mão"],
+      "correctAnswer": 2,
+      "category": "gastronomia",
+      "difficulty": "avancado",
+      "explanation": "Na etiqueta francesa, para indicar que terminou a refeição, deve-se colocar os talheres paralelos no prato, na posição de 4:20 (como os ponteiros de um relógio), com os cabos ligeiramente para a direita."
+    },
+    {
+      "id": "em-5",
+      "text": "Qual expressão é apropriada para agradecer uma refeição em um contexto formal?",
+      "options": ["Merci pour le repas", "C'était délicieux", "Je vous remercie pour ce délicieux repas", "Bon appétit"],
+      "correctAnswer": 2,
+      "category": "gastronomia",
+      "difficulty": "intermediario",
+      "explanation": "'Je vous remercie pour ce délicieux repas' (Agradeço-lhe por esta deliciosa refeição) é uma expressão formal e educada para agradecer ao anfitrião após uma refeição na França."
+    }
+  ]
+}

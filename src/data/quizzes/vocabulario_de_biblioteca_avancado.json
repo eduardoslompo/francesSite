@@ -1,0 +1,56 @@
+{
+  "id": "vocabulario-de-biblioteca-avancado",
+  "title": "Vocabulário de Biblioteca",
+  "description": "Aprenda termos e expressões relacionados a bibliotecas, livros e leitura em francês.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "educacao",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "vdb-1",
+      "text": "Como se diz 'emprestar um livro' em francês?",
+      "options": ["Acheter un livre", "Emprunter un livre", "Vendre un livre", "Lire un livre"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Emprunter un livre' significa 'emprestar um livro' em francês. O verbo 'emprunter' é usado quando você pega algo emprestado de alguém ou de algum lugar."
+    },
+    {
+      "id": "vdb-2",
+      "text": "Qual é o termo para 'bibliotecário' em francês?",
+      "options": ["Le libraire", "Le bibliothécaire", "L'écrivain", "Le lecteur"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Le bibliothécaire' (masculino) ou 'La bibliothécaire' (feminino) é o termo para 'bibliotecário' em francês. Não confundir com 'le libraire', que significa 'livreiro', a pessoa que trabalha em uma livraria."
+    },
+    {
+      "id": "vdb-3",
+      "text": "O que significa 'consulter sur place' em uma biblioteca?",
+      "options": ["Levar o livro para casa", "Reservar um livro", "Consultar o livro apenas na biblioteca", "Pedir ajuda ao bibliotecário"],
+      "correctAnswer": 2,
+      "category": "educacao",
+      "difficulty": "avancado",
+      "explanation": "'Consulter sur place' significa que o material só pode ser consultado no local (na biblioteca), não podendo ser emprestado para levar para casa."
+    },
+    {
+      "id": "vdb-4",
+      "text": "Como se chama a seção de uma biblioteca onde ficam os livros raros ou antigos?",
+      "options": ["La réserve", "Les archives", "Le fonds ancien", "La collection spéciale"],
+      "correctAnswer": 2,
+      "category": "educacao",
+      "difficulty": "avancado",
+      "explanation": "'Le fonds ancien' (acervo antigo) é o termo usado para designar a seção de uma biblioteca onde são guardados livros raros, antigos ou de valor histórico especial."
+    },
+    {
+      "id": "vdb-5",
+      "text": "Qual expressão você usaria para pedir silêncio em uma biblioteca?",
+      "options": ["Parlez plus fort", "Silence, s'il vous plaît", "Écoutez-moi", "Venez ici"],
+      "correctAnswer": 1,
+      "category": "educacao",
+      "difficulty": "intermediario",
+      "explanation": "'Silence, s'il vous plaît' (Silêncio, por favor) é a expressão adequada para pedir que as pessoas façam silêncio em uma biblioteca ou outro ambiente que exige quietude."
+    }
+  ]
+}

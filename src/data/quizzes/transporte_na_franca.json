@@ -1,0 +1,56 @@
+{
+  "id": "transporte-na-franca",
+  "title": "Transporte na França",
+  "description": "Aprenda sobre os diferentes meios de transporte na França e vocabulário relacionado.",
+  "level": "Intermediário",
+  "levelClass": "level-intermediario",
+  "category": "viagem",
+  "questionsCount": 5,
+  "questions": [
+    {
+      "id": "tf-1",
+      "text": "Qual é o nome do sistema de metrô de Paris?",
+      "options": ["Le Métro", "Le TGV", "Le RER", "Le Tramway"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "iniciante",
+      "explanation": "'Le Métro' é o nome do sistema de metrô de Paris, um dos mais antigos e extensos do mundo."
+    },
+    {
+      "id": "tf-2",
+      "text": "O que significa a sigla TGV no sistema de transporte francês?",
+      "options": ["Transport Grand Volume", "Train à Grande Vitesse", "Transport Général de Voyageurs", "Train de Gare à Ville"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "TGV significa 'Train à Grande Vitesse', que é o trem de alta velocidade da França."
+    },
+    {
+      "id": "tf-3",
+      "text": "Como você pediria informações sobre horários de trem em francês?",
+      "options": ["Où est la gare?", "À quelle heure part le prochain train?", "Combien coûte un billet?", "Où puis-je acheter un ticket?"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'À quelle heure part le prochain train?' significa 'A que horas parte o próximo trem?'"
+    },
+    {
+      "id": "tf-4",
+      "text": "Qual é a diferença entre 'un aller simple' e 'un aller-retour'?",
+      "options": ["Primeira classe e segunda classe", "Bilhete de ida e bilhete de ida e volta", "Trem expresso e trem regional", "Reserva obrigatória e reserva opcional"],
+      "correctAnswer": 1,
+      "category": "viagem",
+      "difficulty": "intermediario",
+      "explanation": "'Un aller simple' é um bilhete só de ida, enquanto 'un aller-retour' é um bilhete de ida e volta."
+    },
+    {
+      "id": "tf-5",
+      "text": "Como se chama o sistema de bicicletas compartilhadas de Paris?",
+      "options": ["Vélib'", "Paris Vélo", "Bicyclette", "Cyclo"],
+      "correctAnswer": 0,
+      "category": "viagem",
+      "difficulty": "avancado",
+      "explanation": "'Vélib'' é o nome do sistema de bicicletas compartilhadas de Paris, uma combinação das palavras 'vélo' (bicicleta) e 'liberté' (liberdade)."
+    }
+  ]
+}
