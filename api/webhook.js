@@ -1,5 +1,6 @@
 const admin = require('firebase-admin');
 const crypto = require('crypto');
+const { sendCredentialsEmail } = require('./email-service');
 
 // Carregar variáveis de ambiente em desenvolvimento
 try {
@@ -107,8 +108,9 @@ module.exports = async (req, res) => {
 
     console.log('Dados do usuário salvos no Firestore');
 
-    // Opcionalmente, enviar e-mail para o usuário com suas credenciais
-    // Isso geralmente é feito com Firebase Auth Templates ou serviço de e-mail externo
+    // Enviar e-mail para o usuário com suas credenciais
+    const emailSent = await sendCredentialsEmail(email, name, password);
+    console.log('Email com credenciais ' + (emailSent ? 'enviado com sucesso' : 'falhou ao enviar'));
 
     // Responder com sucesso
     return res.status(200).json({ 
@@ -124,4 +126,4 @@ module.exports = async (req, res) => {
       message: error.message
     });
   }
-} 
+}
