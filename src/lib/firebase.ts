@@ -1,6 +1,5 @@
-
 import { initializeApp, getApps } from "firebase/app";
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, User, updateProfile } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, User, updateProfile, EmailAuthProvider, reauthenticateWithCredential, updatePassword } from "firebase/auth";
 import { getFirestore, doc, setDoc, getDoc } from "firebase/firestore";
 import { getAnalytics, isSupported } from "firebase/analytics";
 
@@ -123,6 +122,68 @@ export const setUserAsAdmin = async (userId: string) => {
     return true;
   } catch (error) {
     console.error("Error setting user as admin:", error);
+    throw error;
+  }
+};
+
+// Function to change user password
+export const changeUserPassword = async (currentPassword: string, newPassword: string) => {
+  try {
+    const user = auth.currentUser;
+    
+    if (!user || !user.email) {
+      throw new Error("Usuário não está autenticado ou email não disponível");
+    }
+    
+    // Reautenticar o usuário antes de alterar a senha
+    const credential = EmailAuthProvider.credential(user.email, currentPassword);
+    await reauthenticateWithCredential(user, credential);
+    
+    // Alterar a senha
+    await updatePassword(user, newPassword);
+    
+    return true;
+  } catch (error: any) {
+    console.error("Erro ao alterar senha:", error);
+    
+    // Tratamento específico para erros comuns
+    if (error.code === 'auth/wrong-password') {
+      throw new Error("Senha atual incorreta");
+    } else if (error.code === 'auth/weak-password') {
+      throw new Error("A nova senha é muito fraca. Use pelo menos 6 caracteres");
+    } else if (error.code === 'auth/requires-recent-login') {
+      throw new Error("Sessão expirada. Faça login novamente para alterar sua senha");
+    }
+    
+    throw error;
+  }
+};
+
+// Function to update user display name
+export const updateUserDisplayName = async (newDisplayName: string) => {
+  try {
+    const user = auth.currentUser;
+    
+    if (!user) {
+      throw new Error("Usuário não está autenticado");
+    }
+    
+    // Atualizar o nome no Firebase Authentication
+    await updateProfile(user, {
+      displayName: newDisplayName
+    });
+    
+    // Atualizar o nome no Firestore também
+    if (user.uid) {
+      await setDoc(doc(db, "users", user.uid), {
+        displayName: newDisplayName,
+        updatedAt: new Date()
+      }, { merge: true });
+    }
+    
+    return true;
+  } catch (error) {
+    console.error("Erro ao atualizar nome:", error);
     throw error;
   }
 };

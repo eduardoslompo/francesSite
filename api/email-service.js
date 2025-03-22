@@ -18,6 +18,10 @@ function initEmailService() {
     auth: {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASSWORD
+    },
+    tls: {
+      // Ignorar certificado autoassinado
+      rejectUnauthorized: false
     }
   });
 
@@ -63,7 +67,7 @@ async function sendCredentialsEmail(email, name, password) {
           
           <p>Se tiver alguma dúvida, responda a este email ou entre em contato conosco.</p>
           
-          <p style="margin-top: 30px; font-size: 14px; color: #777;">Atenciosamente,<br>Equipe do Curso de Francês</p>
+          <p style="margin-top: 30px; font-size: 14px; color: #777;">Atenciosamente,<br>Equipe Aprender Francês do Zero</p>
         </div>
       `
     };

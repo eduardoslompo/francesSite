@@ -1,12 +1,21 @@
-
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import { auth, logoutUser } from '../lib/firebase';
 import { toast } from 'sonner';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { User, LogOut, Settings } from 'lucide-react';
 
 const Navbar = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   
@@ -27,6 +36,7 @@ const Navbar = () => {
     try {
       await logoutUser();
       toast.success("Logout realizado com sucesso!");
+      navigate('/');
     } catch (error) {
       console.error("Erro ao fazer logout:", error);
       toast.error("Erro ao fazer logout. Tente novamente.");
@@ -79,17 +89,24 @@ const Navbar = () => {
           {loading ? (
             <div className="w-24 h-10 bg-gray-200 animate-pulse rounded-md"></div>
           ) : user ? (
-            <>
-              <span className="text-french-dark">
-                Olá, {user.displayName?.split(' ')[0] || user.email?.split('@')[0]}
-              </span>
-              <button 
-                onClick={handleLogout}
-                className="bg-french-blue hover:bg-french-lightBlue text-white font-medium py-2 px-4 rounded-md transition-all duration-300 ease-in-out"
-              >
-                Sair
-              </button>
-            </>
+            <DropdownMenu>
+              <DropdownMenuTrigger className="flex items-center space-x-2 bg-french-blue text-white px-4 py-2 rounded-md hover:bg-french-lightBlue transition-all">
+                <User size={16} />
+                <span>{user.displayName?.split(' ')[0] || user.email?.split('@')[0]}</span>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end">
+                <DropdownMenuLabel>Minha Conta</DropdownMenuLabel>
+                <DropdownMenuSeparator />
+                <DropdownMenuItem onClick={() => navigate('/perfil')}>
+                  <Settings size={16} className="mr-2" />
+                  Meu Perfil
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={handleLogout}>
+                  <LogOut size={16} className="mr-2" />
+                  Sair
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           ) : (
             <>
               <Link 

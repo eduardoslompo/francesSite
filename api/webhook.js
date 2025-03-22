@@ -13,24 +13,68 @@ try {
 
 // Inicializa o Firebase Admin SDK se ainda não estiver inicializado
 let serviceAccount;
+
+// Função para limpar a string JSON antes de fazer o parse
+function cleanJsonString(jsonString) {
+  if (typeof jsonString !== 'string') {
+    return null;
+  }
+  
+  // Remove espaços extras, quebras de linha e outros caracteres que possam causar problemas
+  // Verifica se o JSON começa com uma chave aberta
+  if (jsonString.trim().startsWith('{')) {
+    return jsonString.trim();
+  } else {
+    // Se não começar com chave, pode ser um JSON com quebras de linha
+    // Tenta remover quebras de linha e espaços extras
+    try {
+      // Converte para um objeto e depois de volta para string para normalizar
+      return JSON.stringify(JSON.parse(jsonString));
+    } catch (e) {
+      console.error('Erro ao tentar limpar a string JSON:', e);
+      return jsonString.trim();
+    }
+  }
+}
+
+// Tenta carregar a chave de serviço
 try {
-  // No ambiente de produção da Vercel, usamos variáveis de ambiente
-  serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY);
+  // Tenta carregar do arquivo first
+  const fs = require('fs');
+  const path = require('path');
+  const keyPath = path.resolve(process.cwd(), 'firebase-key.json');
+  
+  if (fs.existsSync(keyPath)) {
+    serviceAccount = JSON.parse(fs.readFileSync(keyPath, 'utf8'));
+    console.log('Credenciais do Firebase carregadas do arquivo firebase-key.json');
+  } 
+  // Se não conseguir do arquivo, tenta da variável de ambiente
+  else if (process.env.FIREBASE_SERVICE_ACCOUNT_KEY) {
+    try {
+      serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY);
+      console.log('Credenciais do Firebase carregadas da variável de ambiente');
+    } catch (e) {
+      console.error('Erro ao analisar a credencial do Firebase da variável de ambiente:', e);
+      throw e;
+    }
+  } else {
+    throw new Error('Credenciais do Firebase não disponíveis');
+  }
 } catch (error) {
-  console.error('Erro ao analisar a credencial do Firebase:', error);
-  // Em desenvolvimento, você pode usar um arquivo de chave diretamente
-  // serviceAccount = require('../path-to-your-service-account.json');
+  console.error('Erro ao carregar credenciais do Firebase:', error);
+  throw new Error('Não foi possível carregar as credenciais do Firebase: ' + error.message);
 }
 
 if (admin.apps.length === 0) {
   try {
     admin.initializeApp({
       credential: admin.credential.cert(serviceAccount),
-      databaseURL: process.env.FIREBASE_DATABASE_URL
+      databaseURL: process.env.FIREBASE_DATABASE_URL || 'https://aprenderfrances-site.firebaseio.com'
     });
     console.log('Firebase Admin SDK inicializado com sucesso');
   } catch (error) {
     console.error('Erro ao inicializar Firebase Admin SDK:', error);
+    throw error; // Propaga o erro para que seja tratado adequadamente
   }
 }
 
