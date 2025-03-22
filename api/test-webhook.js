@@ -20,7 +20,7 @@ if (!process.env.EMAIL_HOST) {
   process.env.EMAIL_PASSWORD = 'xhnn wyen wdxf cnjf';
   process.env.EMAIL_FROM = 'aprenderfrancesdozero@gmail.com';
   process.env.EMAIL_FROM_NAME = 'Curso de Francês';
-  process.env.SITE_URL = 'https://frances-site.vercel.app';
+  process.env.SITE_URL = 'https://aprenderfrances.vercel.app';
 }
 
 // Importar a função do webhook

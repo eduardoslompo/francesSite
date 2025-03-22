@@ -61,7 +61,7 @@ async function sendCredentialsEmail(email, name, password) {
             <p><strong>Senha:</strong> ${password}</p>
           </div>
           
-          <p>Para acessar o curso, visite <a href="${process.env.SITE_URL || 'https://frances-site.vercel.app'}">nossa plataforma</a> e faça login com as credenciais acima.</p>
+          <p>Para acessar o curso, visite <a href="${process.env.SITE_URL || 'https://aprenderfrances.vercel.app'}">nossa plataforma</a> e faça login com as credenciais acima.</p>
           
           <p>Recomendamos que você altere sua senha após o primeiro acesso.</p>
           

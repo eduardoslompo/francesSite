@@ -42,7 +42,7 @@ Siga os passos abaixo para configurar o webhook na plataforma Hotmart:
 
 2. **Adicione um novo webhook**
    - Clique em "Adicionar Webhook" ou botão similar
-   - Insira a URL do seu webhook: `https://frances-site.vercel.app/api/webhook`
+   - Insira a URL do seu webhook: `https://aprenderfrances.vercel.app/api/webhook`
    - Certifique-se de substituir o domínio se você estiver usando um domínio personalizado
 
 3. **Configure os eventos**
