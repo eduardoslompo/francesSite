@@ -115,12 +115,14 @@ const Navbar = () => {
               >
                 Entrar
               </Link>
-              <Link 
-                to="/cadastro" 
+              <a 
+                href="https://pay.hotmart.com/seu-codigo-hotmart" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="border border-french-blue text-french-blue hover:bg-french-blue hover:text-white font-medium py-2 px-4 rounded-md transition-all duration-300 ease-in-out"
               >
-                Cadastrar
-              </Link>
+                Comprar Acesso
+              </a>
             </>
           )}
         </div>

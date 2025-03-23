@@ -1,7 +1,8 @@
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import InstallPWA from '@/components/InstallPWA';
 
 interface ResourceCardProps {
   title: string;
@@ -9,9 +10,34 @@ interface ResourceCardProps {
   icon: string;
   link: string;
   type: string;
+  isPWA?: boolean;
 }
 
-const ResourceCard = ({ title, description, icon, link, type }: ResourceCardProps) => {
+const ResourceCard = ({ title, description, icon, link, type, isPWA = false }: ResourceCardProps) => {
+  if (isPWA) {
+    return (
+      <div className="glass-card hover-card-effect rounded-xl p-6 block transition-all">
+      <div className="flex items-center mb-4">
+        <div className="bg-french-blue/10 w-10 h-10 rounded-full flex items-center justify-center text-french-blue mr-4">
+          {icon}
+        </div>
+        <h3 className="text-lg font-semibold text-french-dark">{title}</h3>
+      </div>
+      
+      <p className="text-french-gray mb-4 text-sm">{description}</p>
+      
+      <div className="flex justify-between items-center">
+        <span className="text-xs py-1 px-2 bg-french-lightGray rounded-full text-french-gray">
+          {type}
+        </span>
+        <InstallPWA className="text-french-blue hover:underline text-sm cursor-pointer">
+          Ver recurso →
+        </InstallPWA>
+      </div>
+    </div>
+  );
+  }
+  
   return (
     <a 
       href={link} 
@@ -48,64 +74,65 @@ const ResourcesPage = () => {
       title: "Guia de Pronúncia",
       description: "Aprenda a pronúncia correta das palavras e frases mais comuns em francês.",
       icon: "🔊",
-      link: "#",
+      link: "/resources/guia-de-pronuncia.pdf",
       type: "PDF"
     },
     {
       title: "Vocabulário Essencial",
       description: "Lista com 200 palavras e frases essenciais para sua viagem.",
       icon: "📝",
-      link: "#",
+      link: "/resources/vocabulario-essencial.pdf",
       type: "PDF"
     },
     {
       title: "Frases para Emergências",
       description: "Frases úteis para situações de emergência durante sua viagem.",
       icon: "🚨",
-      link: "#",
+      link: "/resources/frases-para-emergencias.pdf",
       type: "PDF"
     },
     {
       title: "Videoaulas de Conversação",
       description: "Série de videoaulas focadas em conversação para viajantes.",
       icon: "🎥",
-      link: "#",
+      link: "https://www.youtube.com/playlist?list=PLVVGMUed-9ErLOPDEF7UmlUvuKA_1Vfji",
       type: "Vídeo"
     },
     {
       title: "Podcast: Francês na Estrada",
       description: "Podcast com situações reais enfrentadas por viajantes na França.",
       icon: "🎧",
-      link: "#",
+      link: "https://open.spotify.com/show/0XwGzLdRmgQXmvL9jZrOBe",
       type: "Áudio"
     },
     {
       title: "Flashcards para Impressão",
       description: "Flashcards com palavras e frases essenciais para estudar offline.",
       icon: "🗂️",
-      link: "#",
+      link: "/resources/flashcards-para-impressao.pdf",
       type: "PDF"
     },
     {
       title: "Mapa do Metrô de Paris",
       description: "Mapa completo do metrô de Paris com vocabulário relacionado.",
       icon: "🗺️",
-      link: "#",
+      link: "/resources/mapa-do-metro-de-paris.pdf",
       type: "PDF"
     },
     {
       title: "Guia de Restaurantes",
       description: "Guia com termos culinários franceses e como fazer pedidos.",
       icon: "🍽️",
-      link: "#",
+      link: "/resources/guia-de-restaurantes.pdf",
       type: "PDF"
     },
     {
-      title: "Aplicativo Offline",
-      description: "Aplicativo com frases essenciais que funciona sem internet.",
+      title: "Aplicativo",
+      description: "Instale nosso aplicativo para acessar recursos offline e aprender francês em qualquer lugar.",
       icon: "📱",
       link: "#",
-      type: "App"
+      type: "PWA",
+      isPWA: true
     }
   ];
 

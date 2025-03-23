@@ -100,13 +100,18 @@ const Login = () => {
             
             <div className="mt-8 text-center">
               <p className="text-french-gray">
-                Ainda não tem uma conta?
-                <Link
-                  to="/cadastro"
+                Ainda não tem acesso?
+                <a
+                  href="https://pay.hotmart.com/seu-codigo-hotmart"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="ml-1 text-french-blue hover:underline focus:outline-none"
                 >
-                  Criar conta
-                </Link>
+                  Comprar acesso
+                </a>
+              </p>
+              <p className="text-xs text-french-gray mt-2">
+                Após a compra, você receberá suas credenciais de acesso por email.
               </p>
             </div>
           </div>

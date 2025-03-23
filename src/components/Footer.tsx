@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <div className="font-pacifico text-2xl text-white mb-4">aprender francês</div>
             <p className="text-gray-400 mb-4">
@@ -14,64 +14,42 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-white font-medium text-lg mb-4">LINKS RÁPIDOS</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link to="/sobre-nos" className="text-gray-400 hover:text-white transition-colors">
-                  Sobre nós
-                </Link>
-              </li>
-              <li>
-                <Link to="/blog" className="text-gray-400 hover:text-white transition-colors">
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link to="/contato" className="text-gray-400 hover:text-white transition-colors">
-                  Contato
-                </Link>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-white font-medium text-lg mb-4">LEGAL</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link to="/termos" className="text-gray-400 hover:text-white transition-colors">
-                  Termos de Uso
-                </Link>
-              </li>
-              <li>
-                <Link to="/privacidade" className="text-gray-400 hover:text-white transition-colors">
-                  Privacidade
-                </Link>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-white font-medium text-lg mb-4">NEWSLETTER</h3>
+            <h3 className="text-white font-medium text-lg mb-4">REDES SOCIAIS</h3>
             <p className="text-gray-400 mb-4">
-              Receba dicas e novidades sobre aprendizado de francês.
+              Conecte-se conosco e acompanhe nossas novidades.
             </p>
-            <div className="flex">
-              <input 
-                type="email" 
-                placeholder="Seu email" 
-                className="bg-gray-800 text-white px-4 py-2 rounded-l-md w-full focus:outline-none focus:ring-1 focus:ring-french-blue"
-              />
-              <button className="bg-french-blue text-white px-4 py-2 rounded-r-md hover:bg-french-lightBlue transition-colors">
-                Inscrever
-              </button>
+            <div className="flex flex-col space-y-3">
+              <a 
+                href="https://instagram.com/aprenderfrances" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center text-gray-400 hover:text-white transition-colors"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg>
+                Instagram
+              </a>
+              <a 
+                href="mailto:contato@aprenderfrances.com" 
+                className="flex items-center text-gray-400 hover:text-white transition-colors"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+                contato@aprenderfrances.com
+              </a>
             </div>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm">© 2023 Todos os direitos reservados.</p>
+          <p className="text-gray-500 text-sm">© 2025 Todos os direitos reservados.</p>
           <p className="text-gray-500 text-sm mt-4 md:mt-0">
-            Designed by <span className="text-gray-400">Lovable</span>
+            <span className="text-gray-400">Aprenda Francês</span>
           </p>
         </div>
       </div>
