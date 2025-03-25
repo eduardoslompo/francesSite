@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Círculo externo -->
+  <circle cx="100" cy="100" r="95" fill="#5752E1" />
+  <circle cx="100" cy="100" r="85" fill="white" />
+  <circle cx="100" cy="100" r="80" fill="#5752E1" />
+  
+  <!-- Texto circular superior -->
+  <path id="textCircle" d="M100,30 a70,70 0 0,1 0,140 a70,70 0 0,1 0,-140" fill="none" />
+  <text>
+    <textPath href="#textCircle" startOffset="50%" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="12">
+      GARANTIA DE SATISFAÇÃO
+    </textPath>
+  </text>
+  
+  <!-- Texto circular inferior -->
+  <path id="textCircle2" d="M100,170 a70,70 0 0,0 0,-140 a70,70 0 0,0 0,140" fill="none" />
+  <text>
+    <textPath href="#textCircle2" startOffset="50%" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="12">
+      7 DIAS OU SEU DINHEIRO DE VOLTA
+    </textPath>
+  </text>
+  
+  <!-- Número central -->
+  <text x="100" y="105" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="48">7</text>
+  <text x="100" y="125" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">DIAS</text>
+  
+  <!-- Ícone de escudo -->
+  <path d="M100,60 L75,70 v20 c0,25 10,40 25,50 15,-10 25,-25 25,-50 v-20 L100,60z" fill="none" stroke="white" stroke-width="2" />
+  <path d="M90,95 l5,10 15,-20" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

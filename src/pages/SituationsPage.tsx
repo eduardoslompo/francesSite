@@ -635,8 +635,19 @@ const SituationsPage = () => {
     loadSituations();
   }, []);
 
-  // Limit situations to 3 for non-logged in users
-  const displayedSituations = user ? situations : situations.slice(0, 3);
+  // Limit situations to 3 for non-logged in users, but always include 'transporte_publico' if available
+  const displayedSituations = user ? situations : (() => {
+    // Get the first 3 situations
+    const baseSituations = situations.slice(0, 3);
+    
+    // Check if 'transporte_publico' is in the situations array but not in the first 3
+    const transporteSituation = situations.find(s => s.id === 'transporte_publico');
+    if (transporteSituation && !baseSituations.some(s => s.id === 'transporte_publico')) {
+      return [...baseSituations, transporteSituation];
+    }
+    
+    return baseSituations;
+  })();
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -699,12 +710,12 @@ const SituationsPage = () => {
                 <div className="mt-12 text-center">
                   <div className="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-sm border border-gray-100">
                     <h3 className="text-2xl font-bold text-french-dark mb-3">Quer acessar todas as {situations.length} situações?</h3>
-                    <p className="text-french-gray mb-6">Cadastre-se gratuitamente para desbloquear todas as situações e recursos de aprendizado.</p>
+                    <p className="text-french-gray mb-6">Adquira agora mesmo por apenas R$ 97,00 ou <span className="text-red-400">12x de R$ 8,08</span> para desbloquear todas as situações e recursos de aprendizado.</p>
                     <Link 
                       to="/cadastro" 
                       className="bg-french-blue hover:bg-french-lightBlue text-white font-medium py-3 px-6 rounded-md transition-all duration-300 ease-in-out inline-block"
                     >
-                      Cadastre-se agora
+                      Ter acesso
                     </Link>
                   </div>
                 </div>

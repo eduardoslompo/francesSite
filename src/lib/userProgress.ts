@@ -154,24 +154,36 @@ const checkAndUpdateAchievements = (
   currentProgress: UserProgress,
   latestQuiz: QuizProgress
 ) => {
+  // Filter out duplicates by ID
+  const existingAchievementIds = new Set(currentProgress.achievements.map(a => a.id));
   const achievements = [...currentProgress.achievements];
   const now = new Date();
 
+  // Função para adicionar conquista apenas se não existir
+  const addAchievement = (achievement: any) => {
+    if (!existingAchievementIds.has(achievement.id)) {
+      achievements.push(achievement);
+      existingAchievementIds.add(achievement.id);
+    }
+  };
+
+  // CONQUISTAS BÁSICAS
+
   // Check for first quiz completion
   if (currentProgress.totalQuizzesTaken === 0) {
-    achievements.push({
+    addAchievement({
       id: 'first-quiz',
-      title: 'Primeiro Quiz',
-      description: 'Completou seu primeiro quiz',
+      title: 'Primeiros Passos',
+      description: 'Completou seu primeiro quiz em francês',
       unlockedAt: Timestamp.fromDate(now)
     });
   }
 
   // Check for perfect score
   if (latestQuiz.score === latestQuiz.totalQuestions) {
-    achievements.push({
+    addAchievement({
       id: 'perfect-score',
-      title: 'Pontuação Perfeita',
+      title: 'Perfeição Francesa',
       description: 'Acertou todas as questões em um quiz',
       unlockedAt: Timestamp.fromDate(now)
     });
@@ -180,10 +192,169 @@ const checkAndUpdateAchievements = (
   // Check for category mastery (>90% in a category)
   const categoryProgress = currentProgress.categoryProgress[latestQuiz.category] || 0;
   if (categoryProgress >= 90) {
-    achievements.push({
+    addAchievement({
       id: `${latestQuiz.category}-master`,
       title: `Mestre em ${latestQuiz.category}`,
       description: `Atingiu mais de 90% de progresso em ${latestQuiz.category}`,
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // CONQUISTAS DE PROGRESSO
+
+  // Conquista para completar 5 quizzes
+  if (currentProgress.totalQuizzesTaken >= 5) {
+    addAchievement({
+      id: 'five-quizzes',
+      title: 'Estudante Dedicado',
+      description: 'Completou 5 quizzes de francês',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // Conquista para completar 10 quizzes
+  if (currentProgress.totalQuizzesTaken >= 10) {
+    addAchievement({
+      id: 'ten-quizzes',
+      title: 'Entusiasta do Francês',
+      description: 'Completou 10 quizzes de francês',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // Conquista para completar 25 quizzes
+  if (currentProgress.totalQuizzesTaken >= 25) {
+    addAchievement({
+      id: 'twenty-five-quizzes',
+      title: 'Francófilo',
+      description: 'Completou 25 quizzes de francês',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // CONQUISTAS DE TEMPO
+
+  // Conquista para estudar por mais de 1 hora
+  if (currentProgress.totalTimeSpent >= 3600) { // 3600 segundos = 1 hora
+    addAchievement({
+      id: 'one-hour-study',
+      title: 'Primeira Hora',
+      description: 'Estudou francês por mais de uma hora',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // Conquista para estudar por mais de 5 horas
+  if (currentProgress.totalTimeSpent >= 18000) { // 18000 segundos = 5 horas
+    addAchievement({
+      id: 'five-hours-study',
+      title: 'Imersão Francesa',
+      description: 'Estudou francês por mais de cinco horas',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // Conquista para estudar por mais de 10 horas
+  if (currentProgress.totalTimeSpent >= 36000) { // 36000 segundos = 10 horas
+    addAchievement({
+      id: 'ten-hours-study',
+      title: 'Dedicação Total',
+      description: 'Estudou francês por mais de dez horas',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // CONQUISTAS DE CATEGORIAS
+
+  // Verificar se o usuário dominou múltiplas categorias
+  const masteredCategories = Object.entries(currentProgress.categoryProgress)
+    .filter(([_, progress]) => progress >= 80)
+    .length;
+
+  // Conquista para dominar 3 categorias
+  if (masteredCategories >= 3) {
+    addAchievement({
+      id: 'three-categories-master',
+      title: 'Triplo Talento',
+      description: 'Dominou 3 categorias diferentes de francês',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // Conquista para dominar 5 categorias
+  if (masteredCategories >= 5) {
+    addAchievement({
+      id: 'five-categories-master',
+      title: 'Poliglota em Formação',
+      description: 'Dominou 5 categorias diferentes de francês',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // Conquista para dominar todas as categorias
+  if (masteredCategories >= 7) {
+    addAchievement({
+      id: 'all-categories-master',
+      title: 'Fluência Completa',
+      description: 'Dominou todas as categorias de francês',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // CONQUISTAS DE PONTUAÇÃO
+
+  // Conquista para atingir 1000 pontos totais
+  if (currentProgress.totalScore >= 1000) {
+    addAchievement({
+      id: 'score-1000',
+      title: 'Milésimo Ponto',
+      description: 'Acumulou 1000 pontos nos quizzes de francês',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // Conquista para atingir 2500 pontos totais
+  if (currentProgress.totalScore >= 2500) {
+    addAchievement({
+      id: 'score-2500',
+      title: 'Conhecimento Avançado',
+      description: 'Acumulou 2500 pontos nos quizzes de francês',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // CONQUISTAS DE SEQUÊNCIA
+
+  // Verificar se o usuário completou quizzes em dias consecutivos
+  // Isso requer uma lógica mais complexa que seria implementada aqui
+  // Por enquanto, vamos adicionar uma conquista baseada na categoria do último quiz
+
+  // Conquista para completar um quiz de pronúncia
+  if (latestQuiz.category === 'pronuncia') {
+    addAchievement({
+      id: 'pronunciation-master',
+      title: 'Sotaque Parisiense',
+      description: 'Praticou a pronúncia correta do francês',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // Conquista para completar um quiz de vocabulário
+  if (latestQuiz.category === 'vocabulario') {
+    addAchievement({
+      id: 'vocabulary-master',
+      title: 'Vocabulário Rico',
+      description: 'Expandiu seu vocabulário em francês',
+      unlockedAt: Timestamp.fromDate(now)
+    });
+  }
+
+  // Conquista para completar um quiz de situações
+  if (latestQuiz.category === 'situacoes') {
+    addAchievement({
+      id: 'situations-master',
+      title: 'Pronto para Paris',
+      description: 'Aprendeu a lidar com situações cotidianas em francês',
       unlockedAt: Timestamp.fromDate(now)
     });
   }

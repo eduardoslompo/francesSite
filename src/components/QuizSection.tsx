@@ -69,7 +69,7 @@ const QuizCard = ({ level, tag, delay = 0 }: QuizCardProps) => {
       
       <div className="mt-8">
         <Link
-          to={`/quizzes/${level.toLowerCase()}`}
+          to="/quizzes"
           className="btn-primary w-full block text-center"
         >
           Iniciar Quiz

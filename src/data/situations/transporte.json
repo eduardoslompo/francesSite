@@ -1,0 +1,86 @@
+{
+  "title": "Transporte",
+  "description": "Aprenda sobre os diferentes meios de transporte na França e como utilizá-los durante sua viagem.",
+  "image": "https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+  "examples": [
+    "Comment puis-je aller à l'aéroport ?",
+    "Je voudrais louer une voiture, s'il vous plaît.",
+    "Quel est le prix d'un billet aller-retour ?"
+  ],
+  "introduction": "A França possui um sistema de transporte diversificado e eficiente. Este guia ajudará você a entender as diferentes opções de transporte disponíveis, desde o metrô nas grandes cidades até os trens de alta velocidade que conectam o país, além de táxis, carros de aluguel e bicicletas compartilhadas.",
+  "dialogues": [
+    {
+      "title": "No Ponto de Informações Turísticas",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais savoir comment aller de Paris à Lyon, s'il vous plaît.", "translation": "Bom dia, eu gostaria de saber como ir de Paris a Lyon, por favor." },
+        { "speaker": "Atendente", "text": "Bonjour. Le moyen le plus rapide est le TGV. Il y a des départs toutes les heures depuis la Gare de Lyon.", "translation": "Bom dia. O meio mais rápido é o TGV. Há partidas a cada hora da Gare de Lyon." },
+        { "speaker": "Você", "text": "Combien de temps dure le voyage ?", "translation": "Quanto tempo dura a viagem?" },
+        { "speaker": "Atendente", "text": "Environ deux heures. C'est beaucoup plus rapide que la voiture qui prend au moins 4 heures sans embouteillages.", "translation": "Cerca de duas horas. É muito mais rápido que o carro, que leva pelo menos 4 horas sem engarrafamentos." },
+        { "speaker": "Você", "text": "Et où puis-je acheter les billets ?", "translation": "E onde posso comprar as passagens?" },
+        { "speaker": "Atendente", "text": "Vous pouvez les acheter en ligne sur le site de la SNCF, à la gare ou dans notre office de tourisme.", "translation": "Você pode comprá-las online no site da SNCF, na estação ou em nosso escritório de turismo." }
+      ]
+    },
+    {
+      "title": "Alugando um Carro",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, je voudrais louer une voiture pour une semaine.", "translation": "Bom dia, eu gostaria de alugar um carro por uma semana." },
+        { "speaker": "Atendente", "text": "Bonjour. Quel type de véhicule recherchez-vous ?", "translation": "Bom dia. Que tipo de veículo você está procurando?" },
+        { "speaker": "Você", "text": "Une petite voiture économique, pour deux personnes.", "translation": "Um carro pequeno e econômico, para duas pessoas." },
+        { "speaker": "Atendente", "text": "Nous avons une Renault Clio disponible. Avez-vous un permis de conduire international ?", "translation": "Temos um Renault Clio disponível. Você tem carteira de motorista internacional?" },
+        { "speaker": "Você", "text": "Oui, j'en ai un. Est-ce que l'assurance est incluse dans le prix ?", "translation": "Sim, eu tenho. O seguro está incluído no preço?" },
+        { "speaker": "Atendente", "text": "L'assurance de base est incluse, mais vous pouvez souscrire à une assurance tous risques pour 15 euros par jour.", "translation": "O seguro básico está incluído, mas você pode contratar um seguro completo por 15 euros por dia." }
+      ]
+    },
+    {
+      "title": "Pegando um Táxi",
+      "lines": [
+        { "speaker": "Você", "text": "Bonjour, pouvez-vous m'emmener à l'hôtel Mercure, s'il vous plaît ?", "translation": "Bom dia, pode me levar ao hotel Mercure, por favor?" },
+        { "speaker": "Taxista", "text": "Bonjour. Bien sûr, lequel ? Il y en a plusieurs à Paris.", "translation": "Bom dia. Claro, qual deles? Há vários em Paris." },
+        { "speaker": "Você", "text": "Celui qui est près de la Tour Eiffel, sur la rue Cler.", "translation": "Aquele que fica perto da Torre Eiffel, na rua Cler." },
+        { "speaker": "Taxista", "text": "D'accord. Vous préférez quel itinéraire ? Par les quais ou par le centre ?", "translation": "Certo. Qual rota você prefere? Pelos cais ou pelo centro?" },
+        { "speaker": "Você", "text": "Je ne connais pas bien Paris. Prenez le chemin le plus rapide, s'il vous plaît.", "translation": "Não conheço bem Paris. Pegue o caminho mais rápido, por favor." },
+        { "speaker": "Taxista", "text": "Très bien. Avec la circulation actuelle, ça devrait prendre environ 20 minutes.", "translation": "Muito bem. Com o trânsito atual, deve levar cerca de 20 minutos." }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "word": "le TGV", "translation": "o trem de alta velocidade", "example": "Le TGV peut atteindre 320 km/h." },
+    { "word": "la SNCF", "translation": "a companhia ferroviária nacional francesa" },
+    { "word": "la gare", "translation": "a estação de trem" },
+    { "word": "l'aéroport (m)", "translation": "o aeroporto" },
+    { "word": "le billet", "translation": "a passagem/bilhete", "example": "Un billet aller-retour, s'il vous plaît." },
+    { "word": "aller-retour", "translation": "ida e volta" },
+    { "word": "aller simple", "translation": "só ida" },
+    { "word": "la voiture", "translation": "o carro" },
+    { "word": "louer", "translation": "alugar", "example": "Je voudrais louer un vélo." },
+    { "word": "le taxi", "translation": "o táxi" },
+    { "word": "le vélo", "translation": "a bicicleta" },
+    { "word": "le Vélib'", "translation": "sistema de compartilhamento de bicicletas em Paris" },
+    { "word": "l'embouteillage (m)", "translation": "o engarrafamento" },
+    { "word": "la circulation", "translation": "o tráfego" },
+    { "word": "l'autoroute (f)", "translation": "a rodovia/autoestrada" },
+    { "word": "le péage", "translation": "o pedágio" }
+  ],
+  "culturalNotes": [
+    { 
+      "title": "TGV - Train à Grande Vitesse", 
+      "description": "O TGV é o trem de alta velocidade da França, um dos mais rápidos do mundo. Conecta as principais cidades francesas e alguns países vizinhos. É recomendável reservar com antecedência, pois os preços aumentam à medida que a data da viagem se aproxima." 
+    },
+    { 
+      "title": "Dirigir na França", 
+      "description": "Na França, dirige-se do lado direito da estrada. As autoestradas (autoroutes) são pagas e você precisa passar por cabines de pedágio. O limite de velocidade nas autoestradas é geralmente 130 km/h, 90 km/h em estradas nacionais e 50 km/h em áreas urbanas." 
+    },
+    { 
+      "title": "Sistemas de Compartilhamento", 
+      "description": "Muitas cidades francesas oferecem sistemas de compartilhamento de bicicletas e carros. Em Paris, o Vélib' é o sistema de bicicletas compartilhadas e o Autolib' era o sistema de carros elétricos compartilhados (agora substituído por outros serviços)." 
+    }
+  ],
+  "tips": [
+    "Reserve seus bilhetes de trem com antecedência para obter os melhores preços, especialmente para o TGV.",
+    "Para dirigir na França, você precisa de uma carteira de motorista internacional se sua carteira não for da União Europeia.",
+    "Os táxis oficiais em Paris são identificados pela luz no teto e pelo taxímetro visível. Evite táxis não oficiais.",
+    "Muitas cidades francesas têm zonas de baixa emissão onde veículos mais antigos e poluentes não podem circular. Verifique as restrições antes de alugar um carro.",
+    "O aplicativo SNCF Connect é útil para planejar viagens de trem e comprar bilhetes diretamente pelo celular."
+  ],
+  "relatedQuizzes": ["Vocabulário de Transporte", "Transporte na França", "Situações de Viagem"]
+}

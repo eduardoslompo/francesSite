@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import InstallPWA from '@/components/InstallPWA';
+import { Link } from 'react-router-dom';
 
 interface ResourceCardProps {
   title: string;
@@ -95,14 +96,14 @@ const ResourcesPage = () => {
       title: "Videoaulas de Conversação",
       description: "Série de videoaulas focadas em conversação para viajantes.",
       icon: "🎥",
-      link: "https://www.youtube.com/playlist?list=PLVVGMUed-9ErLOPDEF7UmlUvuKA_1Vfji",
+      link: "/recursos/videoaulas",
       type: "Vídeo"
     },
     {
-      title: "Podcast: Francês na Estrada",
+      title: "Podcasts",
       description: "Podcast com situações reais enfrentadas por viajantes na França.",
       icon: "🎧",
-      link: "https://open.spotify.com/show/0XwGzLdRmgQXmvL9jZrOBe",
+      link: "/recursos/podcasts",
       type: "Áudio"
     },
     {

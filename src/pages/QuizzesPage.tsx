@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Link } from 'react-router-dom';
 import { loadAllQuizzes, QuizData } from '@/lib/quizJsonService';
+import { auth } from '@/lib/firebase';
 
 interface QuizCardProps {
   title: string;
@@ -53,6 +54,15 @@ const QuizzesPage = () => {
   const [activeTab, setActiveTab] = useState<string>("all");
   const [quizzes, setQuizzes] = useState<QuizData[]>([]);
   const [loading, setLoading] = useState(true);
+  const [user, setUser] = useState(null);
+  
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((currentUser) => {
+      setUser(currentUser);
+    });
+    
+    return () => unsubscribe();
+  }, []);
   
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -82,6 +92,9 @@ const QuizzesPage = () => {
       };
       return quiz.level === levelMap[activeTab];
     });
+    
+  // Limit quizzes to 3 for non-logged in users
+  const displayedQuizzes = user ? filteredQuizzes : filteredQuizzes.slice(0, 3);
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -128,22 +141,39 @@ const QuizzesPage = () => {
             <div className="text-center py-12">
               <p className="text-french-gray">Carregando quizzes...</p>
             </div>
-          ) : filteredQuizzes.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {filteredQuizzes.map((quiz) => (
-                <QuizCard 
-                  key={quiz.id}
-                  id={quiz.id}
-                  title={quiz.title}
-                  level={quiz.level}
-                  levelClass={quiz.levelClass}
-                  description={quiz.description}
-                  questionsCount={quiz.questionsCount}
-                  // We'll implement this with user progress later
-                  completionRate={undefined}
-                />
-              ))}
-            </div>
+          ) : displayedQuizzes.length > 0 ? (
+            <>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {displayedQuizzes.map((quiz) => (
+                  <QuizCard 
+                    key={quiz.id}
+                    id={quiz.id}
+                    title={quiz.title}
+                    level={quiz.level}
+                    levelClass={quiz.levelClass}
+                    description={quiz.description}
+                    questionsCount={quiz.questionsCount}
+                    // We'll implement this with user progress later
+                    completionRate={undefined}
+                  />
+                ))}
+              </div>
+              
+              {!user && filteredQuizzes.length > 3 && (
+                <div className="mt-12 text-center">
+                  <div className="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+                    <h3 className="text-2xl font-bold text-french-dark mb-3">Quer acessar todos os {filteredQuizzes.length} quizzes?</h3>
+                    <p className="text-french-gray mb-6">Adquira agora mesmo por apenas R$ 97,00 ou <span className="text-red-400">12x de R$ 8,08</span> para desbloquear todos os quizzes e recursos de aprendizado.</p>
+                    <Link 
+                      to="/cadastro" 
+                      className="bg-french-blue hover:bg-french-lightBlue text-white font-medium py-3 px-6 rounded-md transition-all duration-300 ease-in-out inline-block"
+                    >
+                      Ter acesso
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </>
           ) : (
             <div className="text-center py-12">
               <p className="text-french-gray">Nenhum quiz encontrado para esta categoria.</p>

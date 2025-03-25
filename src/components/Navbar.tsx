@@ -72,6 +72,12 @@ const Navbar = () => {
             Quizzes
           </Link>
           <Link 
+            to="/pronuncia" 
+            className={cn("nav-link", isActive("/pronuncia") && "active")}
+          >
+            Pronúncia
+          </Link>
+          <Link 
             to="/recursos" 
             className={cn("nav-link", isActive("/recursos") && "active")}
           >

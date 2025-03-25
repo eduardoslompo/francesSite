@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
             <div className="flex flex-col space-y-3">
               <a 
-                href="https://instagram.com/aprenderfrances" 
+                href="https://instagram.com/aprenderfrancesdozero" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center text-gray-400 hover:text-white transition-colors"
@@ -33,14 +33,14 @@ const Footer = () => {
                 Instagram
               </a>
               <a 
-                href="mailto:contato@aprenderfrances.com" 
+                href="mailto:aprenderfrancesdozero@gmail.com" 
                 className="flex items-center text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
                   <rect width="20" height="16" x="2" y="4" rx="2"></rect>
                   <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                 </svg>
-                contato@aprenderfrances.com
+                aprenderfrancesdozero@gmail.com
               </a>
             </div>
           </div>
