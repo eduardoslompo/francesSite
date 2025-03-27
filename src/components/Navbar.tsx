@@ -143,7 +143,7 @@ const Navbar = () => {
                   Entrar
                 </Link>
                 <a 
-                  href="https://pay.hotmart.com/seu-codigo-hotmart" 
+                  href="https://pay.hotmart.com/V98903835C" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="border border-french-blue text-french-blue hover:bg-french-blue hover:text-white font-medium py-2 px-4 rounded-md transition-all duration-300 ease-in-out"
@@ -203,7 +203,7 @@ const Navbar = () => {
                     Entrar
                   </Link>
                   <a 
-                    href="https://pay.hotmart.com/seu-codigo-hotmart" 
+                    href="https://pay.hotmart.com/V98903835C" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="block w-full text-center border border-french-blue text-french-blue hover:bg-french-blue hover:text-white font-medium py-2 px-4 rounded-md transition-all duration-300 ease-in-out"

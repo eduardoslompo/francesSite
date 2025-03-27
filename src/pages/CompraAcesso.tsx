@@ -44,7 +44,7 @@ const CompraAcesso = () => {
               </div>
               
               <a 
-                href="https://pay.hotmart.com/seu-codigo-hotmart" 
+                href="https://pay.hotmart.com/V98903835C" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full bg-french-blue hover:bg-french-lightBlue text-white font-medium py-3 px-4 rounded-md transition-colors flex items-center justify-center"

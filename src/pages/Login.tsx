@@ -102,7 +102,7 @@ const Login = () => {
               <p className="text-sm sm:text-base text-french-gray">
                 Ainda não tem acesso?
                 <a
-                  href="https://pay.hotmart.com/seu-codigo-hotmart"
+                  href="https://pay.hotmart.com/V98903835C"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="ml-1 text-french-blue hover:underline focus:outline-none"

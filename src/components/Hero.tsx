@@ -40,7 +40,7 @@ const Hero = () => {
             Começar Agora
           </Link>
           <a 
-            href="https://pay.hotmart.com/seu-codigo-hotmart" 
+            href="https://pay.hotmart.com/V98903835C" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-outline w-full sm:w-auto py-2 px-4 sm:px-6 text-sm sm:text-base md:text-lg"
