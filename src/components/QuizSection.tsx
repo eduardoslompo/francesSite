@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -109,14 +108,14 @@ const QuizSection = () => {
   return (
     <section 
       ref={sectionRef}
-      className="py-20 bg-white opacity-0"
+      className="py-10 sm:py-20 bg-white opacity-0"
     >
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-french-dark mb-12">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center text-french-dark mb-8 sm:mb-12">
           Quizzes por Nível
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
           <QuizCard level="Básico" tag="Básico" delay={100} />
           <QuizCard level="Intermediário" tag="Médio" delay={300} />
           <QuizCard level="Avançado" tag="Expert" delay={500} />

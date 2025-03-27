@@ -40,7 +40,7 @@ const PaginaVendas = () => {
             </div>
           </div>
           <a 
-            href="https://pay.hotmart.com/seu-codigo-hotmart" 
+            href="https://pay.hotmart.com/V98903835C" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-yellow-500 text-french-dark hover:bg-yellow-400 font-bold py-4 px-8 rounded-full text-lg inline-block transition-colors shadow-lg animate-pulse"
@@ -247,14 +247,14 @@ const PaginaVendas = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="rounded-xl overflow-hidden shadow-lg">
-              <img src="/screenshots/situacoes-praticas.png" alt="Situações práticas em francês" className="w-full" />
+              <img src="/screenshots/situacoes.gif" alt="Situações práticas em francês" className="w-full" />
               <div className="p-4 bg-french-lightGray">
                 <h3 className="font-bold text-french-dark">Situações Práticas</h3>
                 <p className="text-french-gray">Aprenda frases úteis para situações reais que você vai enfrentar</p>
               </div>
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg">
-              <img src="/screenshots/quizzes-interativos.png" alt="Quizzes interativos" className="w-full" />
+              <img src="/screenshots/quizzes.gif" alt="Quizzes interativos" className="w-full" />
               <div className="p-4 bg-french-lightGray">
                 <h3 className="font-bold text-french-dark">Quizzes Interativos</h3>
                 <p className="text-french-gray">Teste seu conhecimento e fixe o aprendizado com quizzes divertidos</p>
@@ -264,14 +264,14 @@ const PaginaVendas = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="rounded-xl overflow-hidden shadow-lg">
-              <img src="/screenshots/progresso-pessoal.png" alt="Acompanhamento de progresso" className="w-full" />
+              <img src="/screenshots/progresso.gif" alt="Acompanhamento de progresso" className="w-full" />
               <div className="p-4 bg-french-lightGray">
                 <h3 className="font-bold text-french-dark">Acompanhamento de Progresso</h3>
                 <p className="text-french-gray">Veja seu desenvolvimento e mantenha-se motivado</p>
               </div>
             </div>
             <div className="rounded-xl overflow-hidden shadow-lg">
-              <img src="/screenshots/recursos-download.png" alt="Recursos para download" className="w-full" />
+              <img src="/screenshots/recursos.gif" alt="Recursos para download" className="w-full" />
               <div className="p-4 bg-french-lightGray">
                 <h3 className="font-bold text-french-dark">Recursos para Download</h3>
                 <p className="text-french-gray">Acesse guias, mapas e materiais exclusivos para complementar seu aprendizado</p>
@@ -385,7 +385,7 @@ const PaginaVendas = () => {
               </div>
               
               <a 
-                href="https://pay.hotmart.com/seu-codigo-hotmart" 
+                href="https://pay.hotmart.com/V98903835C" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-yellow-500 hover:bg-yellow-400 text-french-dark font-bold py-4 px-8 rounded-full text-lg inline-block transition-colors w-full md:w-auto shadow-lg animate-pulse"
@@ -450,7 +450,7 @@ const PaginaVendas = () => {
             Não perca mais tempo! Comece agora mesmo e surpreenda-se com seu progresso.
           </p>
           <a 
-            href="https://pay.hotmart.com/seu-codigo-hotmart" 
+            href="https://pay.hotmart.com/V98903835C" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-white text-french-blue hover:bg-gray-100 font-bold py-4 px-8 rounded-full text-lg inline-block transition-colors"

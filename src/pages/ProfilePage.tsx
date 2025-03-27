@@ -114,9 +114,9 @@ const ProfilePage = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <div className="container mx-auto px-4 py-8 flex-grow">
+      <div className="container mx-auto px-4 py-6 sm:py-8 flex-grow">
         <div className="w-full max-w-3xl mx-auto">
-          <h1 className="text-3xl font-bold text-french-dark mb-6">Meu Perfil</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-french-dark mb-4 sm:mb-6">Meu Perfil</h1>
           
           <Tabs defaultValue="account" className="w-full">
             <TabsList className="grid w-full grid-cols-2">
@@ -126,29 +126,30 @@ const ProfilePage = () => {
             
             <TabsContent value="account">
               <Card>
-                <CardHeader>
-                  <CardTitle>Informações da Conta</CardTitle>
-                  <CardDescription>
+                <CardHeader className="pb-4 sm:pb-6">
+                  <CardTitle className="text-lg sm:text-xl">Informações da Conta</CardTitle>
+                  <CardDescription className="text-sm">
                     Visualize e gerencie suas informações de perfil.
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="space-y-2">
-                    <Label htmlFor="name">Nome</Label>
-                    <div className="flex gap-2 items-center">
+                    <Label htmlFor="name" className="text-sm font-medium">Nome</Label>
+                    <div className="flex flex-col sm:flex-row gap-2 items-start sm:items-center">
                       <Input 
                         id="name" 
                         value={displayName} 
                         onChange={(e) => setDisplayName(e.target.value)}
                         disabled={!isEditingName}
                         placeholder="Seu nome completo"
+                        className="w-full sm:flex-1"
                       />
                       {isEditingName ? (
-                        <div className="flex gap-2">
+                        <div className="flex gap-2 mt-2 sm:mt-0 w-full sm:w-auto">
                           <Button 
                             onClick={handleUpdateName} 
                             disabled={updatingName}
-                            className="bg-french-blue hover:bg-french-lightBlue"
+                            className="bg-french-blue hover:bg-french-lightBlue text-sm w-full sm:w-auto"
                           >
                             {updatingName ? 'Salvando...' : 'Salvar'}
                           </Button>
@@ -158,6 +159,7 @@ const ProfilePage = () => {
                               setDisplayName(user?.displayName || '');
                             }}
                             variant="outline"
+                            className="text-sm w-full sm:w-auto"
                           >
                             Cancelar
                           </Button>
@@ -166,6 +168,7 @@ const ProfilePage = () => {
                         <Button 
                           onClick={() => setIsEditingName(true)}
                           variant="outline"
+                          className="text-sm mt-2 sm:mt-0 w-full sm:w-auto"
                         >
                           Editar
                         </Button>
@@ -174,7 +177,7 @@ const ProfilePage = () => {
                   </div>
                   
                   <div className="space-y-2">
-                    <Label htmlFor="email">Email</Label>
+                    <Label htmlFor="email" className="text-sm font-medium">Email</Label>
                     <Input 
                       id="email" 
                       value={user?.email || ''} 
@@ -187,7 +190,7 @@ const ProfilePage = () => {
                   </div>
                   
                   <div className="space-y-2">
-                    <Label>Data de criação da conta</Label>
+                    <Label className="text-sm font-medium">Data de criação da conta</Label>
                     <p className="text-sm text-gray-500">
                       {user?.metadata?.creationTime 
                         ? new Date(user.metadata.creationTime).toLocaleDateString('pt-BR') 
@@ -200,16 +203,16 @@ const ProfilePage = () => {
             
             <TabsContent value="password">
               <Card>
-                <CardHeader>
-                  <CardTitle>Alterar Senha</CardTitle>
-                  <CardDescription>
+                <CardHeader className="pb-4 sm:pb-6">
+                  <CardTitle className="text-lg sm:text-xl">Alterar Senha</CardTitle>
+                  <CardDescription className="text-sm">
                     Atualize sua senha para manter sua conta segura.
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <form onSubmit={handlePasswordChange} className="space-y-4">
                     <div className="space-y-2">
-                      <Label htmlFor="current-password">Senha Atual</Label>
+                      <Label htmlFor="current-password" className="text-sm font-medium">Senha Atual</Label>
                       <Input 
                         id="current-password" 
                         type="password" 
@@ -220,7 +223,7 @@ const ProfilePage = () => {
                     </div>
                     
                     <div className="space-y-2">
-                      <Label htmlFor="new-password">Nova Senha</Label>
+                      <Label htmlFor="new-password" className="text-sm font-medium">Nova Senha</Label>
                       <Input 
                         id="new-password" 
                         type="password" 
@@ -234,7 +237,7 @@ const ProfilePage = () => {
                     </div>
                     
                     <div className="space-y-2">
-                      <Label htmlFor="confirm-password">Confirmar Nova Senha</Label>
+                      <Label htmlFor="confirm-password" className="text-sm font-medium">Confirmar Nova Senha</Label>
                       <Input 
                         id="confirm-password" 
                         type="password" 
@@ -246,10 +249,10 @@ const ProfilePage = () => {
                     
                     <Button 
                       type="submit" 
-                      className="w-full bg-french-blue hover:bg-french-lightBlue"
+                      className="w-full sm:w-auto bg-french-blue hover:bg-french-lightBlue text-sm sm:text-base"
                       disabled={changing}
                     >
-                      {changing ? 'Alterando...' : 'Alterar Senha'}
+                      {changing ? 'Alterando senha...' : 'Alterar Senha'}
                     </Button>
                   </form>
                 </CardContent>

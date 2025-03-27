@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -192,4 +191,194 @@
 
 .footer {
   @apply bg-gray-900 text-white py-12;
+}
+
+/* Estilos globais para mobile */
+@media (max-width: 768px) {
+  .container {
+    @apply px-4;
+  }
+
+  .section-padding {
+    @apply py-8;
+  }
+
+  .card-grid {
+    @apply grid-cols-1 gap-4;
+  }
+
+  .text-responsive {
+    @apply text-base;
+  }
+
+  .heading-responsive {
+    @apply text-2xl;
+  }
+
+  .subheading-responsive {
+    @apply text-lg;
+  }
+
+  .button-responsive {
+    @apply w-full py-3 text-base;
+  }
+}
+
+/* Melhorias de acessibilidade para touch */
+@media (hover: none) {
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px];
+  }
+
+  .touch-feedback {
+    @apply active:opacity-70;
+  }
+}
+
+/* Ajustes de scroll suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Melhorar legibilidade em telas pequenas */
+@media (max-width: 640px) {
+  body {
+    @apply text-base;
+  }
+
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+
+  h3 {
+    @apply text-lg;
+  }
+
+  p {
+    @apply text-base leading-relaxed;
+  }
+}
+
+/* Ajustes de espaçamento para mobile */
+@media (max-width: 768px) {
+  .section-spacing {
+    @apply space-y-6;
+  }
+
+  .card-spacing {
+    @apply space-y-4;
+  }
+
+  .list-spacing {
+    @apply space-y-3;
+  }
+}
+
+/* Melhorar performance em mobile */
+@media (max-width: 768px) {
+  .reduce-motion {
+    @apply transition-none;
+  }
+
+  .optimize-images {
+    @apply object-cover;
+  }
+}
+
+/* Classes de otimização para mobile */
+@media (max-width: 640px) {
+  /* Melhorar tamanho dos alvos de toque */
+  a, button, .clickable {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  
+  /* Ajustar tamanho das fontes */
+  .text-mobile-sm {
+    @apply text-sm;
+  }
+  
+  .text-mobile-base {
+    @apply text-base;
+  }
+  
+  .text-mobile-lg {
+    @apply text-lg;
+  }
+  
+  /* Espaçamento otimizado */
+  .mobile-spacing {
+    @apply py-3 px-4;
+  }
+  
+  /* Input otimizado */
+  input, select, textarea {
+    @apply text-base py-2.5 px-3;
+  }
+}
+
+/* Ajustes de scroll suave */
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+/* Melhor feedback nos clicks */
+@media (hover: none) {
+  a:active, button:active, .clickable:active {
+    @apply opacity-70;
+  }
+}
+
+/* Prevenção de FOUC (Flash of Unstyled Content) */
+.no-fouc {
+  @apply opacity-0;
+}
+
+.no-fouc.loaded {
+  @apply opacity-100 transition-opacity duration-300;
+}
+
+/* Melhor contraste de texto */
+.text-contrast-high {
+  @apply text-gray-900;
+}
+
+.text-contrast-medium {
+  @apply text-gray-700;
+}
+
+.text-contrast-low {
+  @apply text-gray-500;
+}
+
+/* Utilidades para animações mais suaves em mobile */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Melhorias no layout mobile */
+@media (max-width: 640px) {
+  .container {
+    @apply px-4;
+  }
+  
+  .grid {
+    @apply gap-4;
+  }
+  
+  .card {
+    @apply p-4 rounded-lg;
+  }
+  
+  .section {
+    @apply py-8;
+  }
 }

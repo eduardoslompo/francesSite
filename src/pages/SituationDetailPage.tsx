@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { findQuizByTitle } from '@/lib/quizJsonService';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { getSituationById } from '@/lib/situationService';
+import { auth } from '@/lib/firebase';
+import { updateUserProgress, updateSituationProgress } from '@/lib/userProgress';
 
 interface DialogLine {
   speaker: string;
@@ -44,9 +46,15 @@ const SituationDetailPage = () => {
   const [loading, setLoading] = useState(true);
   const [activeDialogue, setActiveDialogue] = useState<number>(0);
   const [showTranslation, setShowTranslation] = useState<boolean>(true);
+  const startTimeRef = useRef<Date>(new Date());
+  const [timeTracked, setTimeTracked] = useState<boolean>(false);
   
   useEffect(() => {
     window.scrollTo(0, 0);
+    
+    // Reset the start time when loading a new situation
+    startTimeRef.current = new Date();
+    setTimeTracked(false);
     
     const loadSituation = async () => {
       if (!situationId) return;
@@ -55,6 +63,8 @@ const SituationDetailPage = () => {
         const data = await getSituationById(situationId);
         if (data) {
           setSituation(data);
+          // Quando a situação é carregada, marcamos como explorada imediatamente
+          trackSituationVisit();
         }
       } catch (error) {
         console.error(`Error loading situation ${situationId}:`, error);
@@ -64,7 +74,67 @@ const SituationDetailPage = () => {
     };
     
     loadSituation();
+    
+    // Cleanup function to track time spent when component unmounts
+    return () => {
+      trackTimeSpent();
+    };
   }, [situationId]);
+  
+  // Função para registrar a visita à situação
+  const trackSituationVisit = async () => {
+    if (!situationId) return;
+    
+    const currentUser = auth.currentUser;
+    if (!currentUser) {
+      console.log('User not logged in, situation visit not tracked');
+      return;
+    }
+    
+    try {
+      // Usamos a nova função específica para situações
+      await updateSituationProgress(currentUser.uid, situationId, 0);
+      console.log(`Situation ${situationId} marked as explored`);
+    } catch (error) {
+      console.error('Error tracking situation visit:', error);
+    }
+  };
+  
+  // Function to track time spent on the situation
+  const trackTimeSpent = async () => {
+    // Avoid tracking time if already tracked or if no situation is loaded
+    if (timeTracked || !situation || !situationId) return;
+    
+    const currentUser = auth.currentUser;
+    if (!currentUser) {
+      console.log('User not logged in, time spent not tracked');
+      return;
+    }
+    
+    try {
+      // Calculate time spent
+      const endTime = new Date();
+      const timeSpentMs = endTime.getTime() - startTimeRef.current.getTime();
+      const timeSpentSeconds = Math.round(timeSpentMs / 1000);
+      
+      // Only track if user spent at least 5 seconds on the page
+      if (timeSpentSeconds < 5) {
+        console.log(`Tempo muito curto (${timeSpentSeconds}s), não será contabilizado`);
+        return;
+      }
+      
+      console.log(`Registrando tempo gasto na situação ${situationId}: ${timeSpentSeconds} segundos`);
+      console.log('Tempo inicial:', startTimeRef.current);
+      console.log('Tempo final:', endTime);
+      
+      // Atualizar apenas o tempo gasto, já que a visita foi registrada no carregamento
+      await updateSituationProgress(currentUser.uid, situationId, timeSpentSeconds);
+      setTimeTracked(true);
+      console.log(`Time spent on situation ${situationId} tracked: ${timeSpentSeconds} seconds`);
+    } catch (error) {
+      console.error('Error tracking time spent:', error);
+    }
+  };
   
   if (loading) {
     return (

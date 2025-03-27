@@ -1,10 +1,10 @@
-
 import React, { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar, Cell } from 'recharts';
 import { auth } from '@/lib/firebase';
 import { getUserProgress, initializeUserProgress } from '@/lib/userProgress';
+import { getTotalCategories, getTotalQuizzes, getTotalSituations } from '@/lib/quizJsonService';
 import { useNavigate } from 'react-router-dom';
 
 const ProgressPage = () => {
@@ -21,11 +21,46 @@ const ProgressPage = () => {
     totalTimeSpent: 0,
     averageScore: 0
   });
+  const [totalCategoriesAvailable, setTotalCategoriesAvailable] = useState(9);
+  const [totalQuizzesAvailable, setTotalQuizzesAvailable] = useState(0);
+  const [totalSituationsAvailable, setTotalSituationsAvailable] = useState(0);
 
   useEffect(() => {
     window.scrollTo(0, 0);
     loadUserProgress();
+    loadTotals();
+    
+    // Manter apenas os dados fictícios para o gráfico de evolução, quando necessário
+    setTimeout(() => {
+      // Dados de teste para o gráfico de evolução de aprendizado
+      // Apenas adiciona se ainda não tivermos dados
+      if (!progressData || progressData.length === 0 || !progressData.some(item => item.progress > 0)) {
+        setProgressData([
+          { day: 'Seg', progress: 65, date: '10/06/2024' },
+          { day: 'Ter', progress: 75, date: '11/06/2024' },
+          { day: 'Qua', progress: 60, date: '12/06/2024' },
+          { day: 'Qui', progress: 80, date: '13/06/2024' },
+          { day: 'Sex', progress: 70, date: '14/06/2024' },
+          { day: 'Sáb', progress: 90, date: '15/06/2024' },
+          { day: 'Dom', progress: 85, date: '16/06/2024' }
+        ]);
+      }
+    }, 2000);
   }, []);
+
+  const loadTotals = async () => {
+    try {
+      const categoriesCount = await getTotalCategories();
+      const quizzesCount = await getTotalQuizzes();
+      const situationsCount = await getTotalSituations();
+      
+      setTotalCategoriesAvailable(categoriesCount || 9);
+      setTotalQuizzesAvailable(quizzesCount);
+      setTotalSituationsAvailable(situationsCount);
+    } catch (error) {
+      console.error('Error loading totals:', error);
+    }
+  };
 
   const loadUserProgress = async () => {
     try {
@@ -52,13 +87,12 @@ const ProgressPage = () => {
             console.log('User progress loaded successfully');
             setUserProgress(progress);
             
-            // Process progress data for charts
+            // Process progress data for charts (versão simplificada)
             processProgressData(progress);
           } else {
             console.log('No progress data found, initializing with empty data');
             // Initialize with empty data if no progress exists
             setProgressData([]);
-            setSessionData([]);
             setCategoryData([]);
             setAchievements([]);
             setStats({
@@ -82,25 +116,99 @@ const ProgressPage = () => {
   };
   
   const processProgressData = (progress: any) => {
-    // Process quiz history for progress chart
-    const sortedHistory = [...progress.quizHistory].sort((a, b) => {
-      return new Date(a.completedAt).getTime() - new Date(b.completedAt).getTime();
+    // Processar dados para o gráfico de evolução
+    let quizHistory = progress.quizHistory || [];
+    
+    // Ordenar o histórico por data
+    const sortedHistory = [...quizHistory].sort((a, b) => {
+      return new Date(a.completedAt.seconds * 1000).getTime() - new Date(b.completedAt.seconds * 1000).getTime();
     });
     
-    // Take the last 7 entries or fewer if not enough data
+    // ===== PROCESSAR DADOS DE TEMPO REAIS =====
+    // Inicializar objeto para armazenar minutos por dia da semana
+    const diasSemana = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
+    const tempoEstudoPorDia = diasSemana.map(dia => ({
+      day: dia,
+      minutes: 0
+    }));
+    
+    // Obter a data atual e determinar o domingo da semana atual
+    const hoje = new Date();
+    const domingoDaSemana = new Date(hoje);
+    domingoDaSemana.setDate(hoje.getDate() - hoje.getDay());
+    domingoDaSemana.setHours(0, 0, 0, 0);
+    
+    console.log("Processando dados reais de tempo de estudo...");
+    console.log("Início da semana atual:", domingoDaSemana.toISOString());
+    console.log("Total de registros:", sortedHistory.length);
+    
+    // Processar cada registro de tempo
+    sortedHistory.forEach((entry, index) => {
+      try {
+        // Verificar se o registro tem tempo válido
+        if (!entry.timeSpent || typeof entry.timeSpent !== 'number') {
+          return;
+        }
+        
+        // Obter a data do registro
+        const dataRegistro = new Date(entry.completedAt.seconds * 1000);
+        const dataRegistroNormalizada = new Date(dataRegistro);
+        dataRegistroNormalizada.setHours(0, 0, 0, 0);
+        
+        // Verificar se está na semana atual
+        if (dataRegistroNormalizada < domingoDaSemana) {
+          return; // Ignorar registros de semanas anteriores
+        }
+        
+        // Calcular os minutos (mínimo 1 minuto)
+        const minutos = Math.max(1, Math.round(entry.timeSpent / 60));
+        
+        // Determinar o dia da semana (0 = domingo, 1 = segunda, etc.)
+        const diaDaSemana = dataRegistro.getDay();
+        
+        // Adicionar os minutos ao dia correspondente
+        tempoEstudoPorDia[diaDaSemana].minutes += minutos;
+        
+        console.log(`Registro #${index} [${entry.quizId}]:`, {
+          data: dataRegistro.toLocaleString(),
+          diaDaSemana: diasSemana[diaDaSemana],
+          minutos: minutos,
+          segundos: entry.timeSpent
+        });
+      } catch (error) {
+        console.error("Erro ao processar registro de tempo:", error);
+      }
+    });
+    
+    // Verificar se temos dados reais
+    const temDataReal = tempoEstudoPorDia.some(item => item.minutes > 0);
+    console.log("Dados reais de tempo encontrados:", temDataReal);
+    console.log("Dados de tempo processados:", tempoEstudoPorDia);
+    
+    // Atualizar o estado com os dados processados
+    setSessionData(tempoEstudoPorDia);
+    // ===== FIM DO PROCESSAMENTO DE DADOS DE TEMPO =====
+    
+    // Obter os últimos 7 registros para o gráfico de evolução
     const recentHistory = sortedHistory.slice(-7);
     
-    // Format dates for display
+    // Formatar os dados para o gráfico de evolução
     const formattedProgressData = recentHistory.map(entry => {
       const date = new Date(entry.completedAt.seconds * 1000);
+      // Verificar se é um quiz real (com score e totalQuestions) ou uma situação
+      const isQuiz = entry.score !== undefined && entry.totalQuestions !== undefined && !entry.quizId.startsWith('situation-');
       return {
         day: date.toLocaleDateString('pt-BR', { weekday: 'short' }),
-        progress: Math.round((entry.score / entry.totalQuestions) * 100),
+        progress: isQuiz ? Math.round((entry.score / entry.totalQuestions) * 100) : 0,
         date: date.toLocaleDateString('pt-BR')
       };
     });
     
-    setProgressData(formattedProgressData.length > 0 ? formattedProgressData : [
+    // Filtrar apenas entradas de quizzes reais (não situações) para o gráfico de progresso
+    const progressEntries = formattedProgressData.filter(entry => entry.progress > 0);
+    
+    // Usar dados reais se disponíveis, ou dados padrão
+    setProgressData(progressEntries.length > 0 ? progressEntries : [
       { day: 'Seg', progress: 0 },
       { day: 'Ter', progress: 0 },
       { day: 'Qua', progress: 0 },
@@ -110,28 +218,8 @@ const ProgressPage = () => {
       { day: 'Dom', progress: 0 },
     ]);
     
-    // Process time spent data
-    const timeData = recentHistory.map(entry => {
-      const date = new Date(entry.completedAt.seconds * 1000);
-      return {
-        day: date.toLocaleDateString('pt-BR', { weekday: 'short' }),
-        minutes: Math.round(entry.timeSpent / 60), // Convert seconds to minutes
-        date: date.toLocaleDateString('pt-BR')
-      };
-    });
-    
-    setSessionData(timeData.length > 0 ? timeData : [
-      { day: 'Seg', minutes: 0 },
-      { day: 'Ter', minutes: 0 },
-      { day: 'Qua', minutes: 0 },
-      { day: 'Qui', minutes: 0 },
-      { day: 'Sex', minutes: 0 },
-      { day: 'Sáb', minutes: 0 },
-      { day: 'Dom', minutes: 0 },
-    ]);
-    
-    // Process category progress data
-    const categories = Object.entries(progress.categoryProgress).map(([name, value]) => ({
+    // Processar progresso por categoria
+    const categories = Object.entries(progress.categoryProgress || {}).map(([name, value]) => ({
       name: formatCategoryName(name),
       progress: value as number
     }));
@@ -140,8 +228,8 @@ const ProgressPage = () => {
       { name: 'Sem dados', progress: 0 }
     ]);
     
-    // Process achievements
-    const formattedAchievements = progress.achievements.map((achievement: any) => {
+    // Processar conquistas
+    const formattedAchievements = (progress.achievements || []).map((achievement: any) => {
       const date = achievement.unlockedAt ? 
         new Date(achievement.unlockedAt.seconds * 1000).toLocaleDateString('pt-BR') : null;
       
@@ -162,14 +250,16 @@ const ProgressPage = () => {
       }
     ]);
     
-    // Calculate general statistics
+    // Calcular estatísticas gerais
     const averageScore = progress.totalQuizzesTaken > 0 ? 
-      Math.round((progress.totalScore / (progress.totalQuizzesTaken * 100)) * 100) : 0;
+      Math.round(progress.totalScore / progress.totalQuizzesTaken) : 0;
+    
+    const timeSpent = typeof progress.totalTimeSpent === 'number' ? progress.totalTimeSpent : 0;
     
     setStats({
-      totalQuizzes: progress.totalQuizzesTaken,
-      totalScore: progress.totalScore,
-      totalTimeSpent: progress.totalTimeSpent,
+      totalQuizzes: progress.totalQuizzesTaken || 0,
+      totalScore: progress.totalScore || 0,
+      totalTimeSpent: timeSpent,
       averageScore: averageScore
     });
   };
@@ -188,6 +278,21 @@ const ProgressPage = () => {
     return categoryMap[category] || category.charAt(0).toUpperCase() + category.slice(1);
   };
   
+  const formatTimeSpent = (seconds: number) => {
+    if (!seconds) return "0 minutos";
+    
+    const hours = Math.floor(seconds / 3600);
+    const minutes = Math.floor((seconds % 3600) / 60);
+    
+    if (hours === 0) {
+      return `${minutes} ${minutes === 1 ? 'minuto' : 'minutos'}`;
+    } else if (minutes === 0) {
+      return `${hours} ${hours === 1 ? 'hora' : 'horas'}`;
+    } else {
+      return `${hours} ${hours === 1 ? 'hora' : 'horas'} e ${minutes} ${minutes === 1 ? 'minuto' : 'minutos'}`;
+    }
+  };
+
   if (loading) {
     return (
       <div className="min-h-screen flex flex-col">
@@ -234,7 +339,9 @@ const ProgressPage = () => {
                         borderRadius: '8px',
                         boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.1)',
                         border: 'none'
-                      }} 
+                      }}
+                      formatter={(value) => [`${value}%`, 'Progresso']}
+                      labelFormatter={(label) => `${label}`}
                     />
                     <Line
                       type="monotone"
@@ -257,12 +364,12 @@ const ProgressPage = () => {
                 <div>
                   <div className="flex justify-between mb-2">
                     <span className="text-french-gray text-sm">Quizzes completados</span>
-                    <span className="font-semibold text-french-dark">{stats.totalQuizzes}</span>
+                    <span className="font-semibold text-french-dark">{stats.totalQuizzes}/{totalQuizzesAvailable}</span>
                   </div>
                   <div className="bg-gray-200 h-2 rounded-full overflow-hidden">
                     <div 
                       className="bg-french-blue h-full" 
-                      style={{ width: `${Math.min(stats.totalQuizzes * 5, 100)}%` }}
+                      style={{ width: `${totalQuizzesAvailable > 0 ? Math.min((stats.totalQuizzes / totalQuizzesAvailable) * 100, 100) : 0}%` }}
                     ></div>
                   </div>
                 </div>
@@ -284,13 +391,13 @@ const ProgressPage = () => {
                   <div className="flex justify-between mb-2">
                     <span className="text-french-gray text-sm">Tempo total de estudo</span>
                     <span className="font-semibold text-french-dark">
-                      {Math.floor(stats.totalTimeSpent / 60)} minutos
+                      {formatTimeSpent(stats.totalTimeSpent)}
                     </span>
                   </div>
                   <div className="bg-gray-200 h-2 rounded-full overflow-hidden">
                     <div 
                       className="bg-french-blue h-full" 
-                      style={{ width: `${Math.min(stats.totalTimeSpent / 3600 * 10, 100)}%` }}
+                      style={{ width: `${Math.min(stats.totalTimeSpent / 3600 * 5, 100)}%` }}
                     ></div>
                   </div>
                 </div>
@@ -298,12 +405,25 @@ const ProgressPage = () => {
                 <div>
                   <div className="flex justify-between mb-2">
                     <span className="text-french-gray text-sm">Categorias exploradas</span>
-                    <span className="font-semibold text-french-dark">{categoryData.length}/7</span>
+                    <span className="font-semibold text-french-dark">{Object.keys(userProgress?.categoryProgress || {}).length}/{totalCategoriesAvailable}</span>
                   </div>
                   <div className="bg-gray-200 h-2 rounded-full overflow-hidden">
                     <div 
                       className="bg-french-blue h-full" 
-                      style={{ width: `${(categoryData.length / 7) * 100}%` }}
+                      style={{ width: `${(Object.keys(userProgress?.categoryProgress || {}).length / totalCategoriesAvailable) * 100}%` }}
+                    ></div>
+                  </div>
+                </div>
+                
+                <div>
+                  <div className="flex justify-between mb-2">
+                    <span className="text-french-gray text-sm">Situações exploradas</span>
+                    <span className="font-semibold text-french-dark">{Object.keys(userProgress?.situationProgress || {}).length}/{totalSituationsAvailable}</span>
+                  </div>
+                  <div className="bg-gray-200 h-2 rounded-full overflow-hidden">
+                    <div 
+                      className="bg-french-blue h-full" 
+                      style={{ width: `${totalSituationsAvailable > 0 ? (Object.keys(userProgress?.situationProgress || {}).length / totalSituationsAvailable) * 100 : 0}%` }}
                     ></div>
                   </div>
                 </div>
@@ -318,34 +438,13 @@ const ProgressPage = () => {
                 <ResponsiveContainer width="100%" height="100%">
                   <BarChart
                     data={sessionData}
-                    margin={{ top: 10, right: 10, left: 0, bottom: 10 }}
+                    margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
                   >
-                    <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F1F5F9" />
-                    <XAxis dataKey="day" axisLine={false} tickLine={false} tick={{ fill: '#64748B' }} />
-                    <YAxis 
-                      axisLine={false} 
-                      tickLine={false} 
-                      tick={{ fill: '#64748B' }} 
-                      label={{ value: 'Minutos', angle: -90, position: 'insideLeft', fill: '#64748B', fontSize: 12 }}
-                    />
-                    <Tooltip 
-                      contentStyle={{ 
-                        backgroundColor: 'white', 
-                        borderRadius: '8px',
-                        boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.1)',
-                        border: 'none'
-                      }}
-                      formatter={(value) => [`${value} min`, 'Tempo de estudo']}
-                    />
-                    <Bar 
-                      dataKey="minutes" 
-                      fill="#6C63FF" 
-                      radius={[4, 4, 0, 0]}
-                    >
-                      {sessionData.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={entry.minutes > 30 ? '#5752E1' : '#6C63FF'} />
-                      ))}
-                    </Bar>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="day" />
+                    <YAxis />
+                    <Tooltip formatter={(value) => `${value} minutos`} />
+                    <Bar dataKey="minutes" fill="#5752E1" />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
@@ -419,4 +518,4 @@ const ProgressPage = () => {
   );
 };
 
-export default ProgressPage;
+export default ProgressPage; 

@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -43,21 +42,23 @@ const SituationCard = ({ title, description, image, delay = 0 }: SituationCardPr
       ref={cardRef}
       className="glass-card hover-card-effect rounded-xl overflow-hidden opacity-0"
     >
-      <div className="h-48 overflow-hidden">
+      <div className="h-40 sm:h-48 overflow-hidden">
         <img 
           src={image} 
           alt={title}
           className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-110"
+          loading="lazy"
         />
       </div>
-      <div className="p-6">
-        <h3 className="text-xl font-semibold text-french-dark mb-2">{title}</h3>
-        <p className="text-french-gray mb-4">{description}</p>
+      <div className="p-4 sm:p-6">
+        <h3 className="text-lg sm:text-xl font-semibold text-french-dark mb-2">{title}</h3>
+        <p className="text-sm sm:text-base text-french-gray mb-4">{description}</p>
         <Link 
           to={`/situacoes/${title.toLowerCase()}`}
-          className="text-french-blue font-medium hover:underline"
+          className="text-french-blue font-medium hover:underline inline-flex items-center"
         >
-          Aprender mais →
+          Aprender mais
+          <span className="ml-1">→</span>
         </Link>
       </div>
     </div>
@@ -94,14 +95,14 @@ const Situations = () => {
   return (
     <section 
       ref={sectionRef}
-      className="py-20 bg-french-lightGray opacity-0"
+      className="py-10 sm:py-16 md:py-20 bg-french-lightGray opacity-0"
     >
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-french-dark mb-12">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center text-french-dark mb-6 sm:mb-8 md:mb-12">
           Situações do Dia a Dia
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           <SituationCard 
             title="Restaurante" 
             description="Aprenda a fazer pedidos, entender o cardápio e interagir com garçons."
@@ -122,10 +123,10 @@ const Situations = () => {
           />
         </div>
         
-        <div className="text-center mt-12">
+        <div className="text-center mt-8 sm:mt-10 md:mt-12">
           <Link
             to="/situacoes"
-            className="btn-outline inline-block"
+            className="btn-outline inline-block py-2 px-4 sm:px-6 text-sm sm:text-base"
           >
             Ver todas as situações
           </Link>

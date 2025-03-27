@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
@@ -53,22 +52,22 @@ const Achievement = ({ icon, title, description, status, progress = 0, delay = 0
   return (
     <div 
       ref={achievementRef}
-      className="flex items-center p-4 rounded-xl bg-white shadow-sm border border-gray-100 opacity-0"
+      className="flex flex-col sm:flex-row items-start sm:items-center p-4 rounded-xl bg-white shadow-sm border border-gray-100 opacity-0"
     >
-      <div className="w-10 h-10 bg-french-lightBlue/10 rounded-full flex items-center justify-center text-french-blue font-medium mr-4">
+      <div className="w-10 h-10 bg-french-lightBlue/10 rounded-full flex items-center justify-center text-french-blue font-medium mb-3 sm:mb-0 sm:mr-4">
         {icon}
       </div>
-      <div className="flex-1">
-        <h4 className="font-medium text-french-dark">{title}</h4>
+      <div className="flex-1 mb-3 sm:mb-0">
+        <h4 className="font-medium text-french-dark text-base sm:text-lg">{title}</h4>
         <p className="text-sm text-french-gray">{description}</p>
       </div>
-      <div className="text-right">
+      <div className="w-full sm:w-auto text-left sm:text-right">
         {status === 'conquistado' ? (
-          <span className="status-conquistado">Conquistado</span>
+          <span className="status-conquistado text-sm">Conquistado</span>
         ) : (
           <>
-            <span className="status-progress">Em progresso</span>
-            <div className="mt-1 h-1 w-24 bg-gray-200 rounded-full overflow-hidden">
+            <span className="status-progress text-sm">Em progresso</span>
+            <div className="mt-1 h-1 w-full sm:w-24 bg-gray-200 rounded-full overflow-hidden">
               <div 
                 className="h-full bg-french-blue rounded-full"
                 style={{ width: `${progress}%` }}  
@@ -115,22 +114,22 @@ const Progress = () => {
   return (
     <section 
       ref={sectionRef}
-      className="py-20 bg-french-lightGray opacity-0"
+      className="py-10 sm:py-16 md:py-20 bg-french-lightGray opacity-0"
     >
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-french-dark mb-12">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center text-french-dark mb-6 sm:mb-8 md:mb-12">
           Seu Progresso
         </h2>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12">
           <div 
             ref={chartRef}
-            className="progress-card opacity-0"
+            className="progress-card opacity-0 p-4 sm:p-6"
           >
-            <h3 className="text-xl font-semibold text-french-dark mb-6">
+            <h3 className="text-lg sm:text-xl font-semibold text-french-dark mb-4 sm:mb-6">
               Evolução de Aprendizado
             </h3>
-            <div className="h-[300px]">
+            <div className="h-[250px] sm:h-[300px]">
               <ResponsiveContainer width="100%" height="100%">
                 <LineChart
                   data={progressData}
@@ -142,14 +141,24 @@ const Progress = () => {
                   }}
                 >
                   <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#F1F5F9" />
-                  <XAxis dataKey="day" axisLine={false} tickLine={false} tick={{ fill: '#64748B' }} />
-                  <YAxis axisLine={false} tickLine={false} tick={{ fill: '#64748B' }} />
+                  <XAxis 
+                    dataKey="day" 
+                    axisLine={false} 
+                    tickLine={false} 
+                    tick={{ fill: '#64748B', fontSize: 12 }} 
+                  />
+                  <YAxis 
+                    axisLine={false} 
+                    tickLine={false} 
+                    tick={{ fill: '#64748B', fontSize: 12 }} 
+                  />
                   <Tooltip 
                     contentStyle={{ 
                       backgroundColor: 'white', 
                       borderRadius: '8px',
                       boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.1)',
-                      border: 'none'
+                      border: 'none',
+                      fontSize: '14px'
                     }} 
                   />
                   <Line
@@ -166,10 +175,10 @@ const Progress = () => {
           </div>
           
           <div>
-            <h3 className="text-xl font-semibold text-french-dark mb-6">
+            <h3 className="text-lg sm:text-xl font-semibold text-french-dark mb-4 sm:mb-6">
               Conquistas
             </h3>
-            <div className="space-y-4">
+            <div className="space-y-3 sm:space-y-4">
               <Achievement 
                 icon="1"
                 title="Básico em Francês"

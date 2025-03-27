@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -18,21 +17,21 @@ interface QuizCardProps {
 
 const QuizCard = ({ title, level, levelClass, description, questionsCount, completionRate, id }: QuizCardProps) => {
   return (
-    <div className="glass-card hover-card-effect rounded-xl p-6">
+    <div className="glass-card hover-card-effect rounded-xl p-4 sm:p-6">
       <div className="flex justify-between items-center mb-2">
-        <h3 className="text-xl font-semibold text-french-dark">{title}</h3>
-        <span className={`level-tag ${levelClass}`}>{level}</span>
+        <h3 className="text-lg sm:text-xl font-semibold text-french-dark">{title}</h3>
+        <span className={`level-tag ${levelClass} text-xs`}>{level}</span>
       </div>
       
-      <p className="text-french-gray mb-4">{description}</p>
+      <p className="text-french-gray text-sm sm:text-base mb-4">{description}</p>
       
-      <div className="flex justify-between text-sm text-french-gray mb-2">
+      <div className="flex justify-between text-xs sm:text-sm text-french-gray mb-2">
         <span>{questionsCount} perguntas</span>
         {completionRate !== undefined && <span>{completionRate}% concluído</span>}
       </div>
       
       {completionRate !== undefined && (
-        <div className="h-2 bg-gray-200 rounded-full overflow-hidden mb-6">
+        <div className="h-2 bg-gray-200 rounded-full overflow-hidden mb-4 sm:mb-6">
           <div 
             className="h-full bg-french-blue rounded-full"
             style={{ width: `${completionRate}%` }}  
@@ -42,7 +41,7 @@ const QuizCard = ({ title, level, levelClass, description, questionsCount, compl
       
       <Link
         to={`/quizzes/${id}`}
-        className="btn-primary w-full block text-center"
+        className="btn-primary w-full block text-center text-sm sm:text-base py-2.5 sm:py-3"
       >
         {completionRate !== undefined && completionRate > 0 ? 'Continuar' : 'Iniciar Quiz'}
       </Link>
@@ -100,36 +99,36 @@ const QuizzesPage = () => {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       
-      <div className="bg-french-lightGray py-16">
+      <div className="bg-french-lightGray py-8 sm:py-12 md:py-16">
         <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto text-center mb-12">
-            <h1 className="text-4xl font-bold text-french-dark mb-4">Quizzes por Nível</h1>
-            <p className="text-french-gray mb-8">
+          <div className="max-w-2xl mx-auto text-center mb-6 sm:mb-8 md:mb-12">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-french-dark mb-3 sm:mb-4">Quizzes por Nível</h1>
+            <p className="text-sm sm:text-base text-french-gray mb-6 sm:mb-8">
               Teste seus conhecimentos em francês com nossos quizzes interativos. 
               Avance do nível básico ao avançado e acompanhe seu progresso.
             </p>
             
-            <div className="bg-white p-1 rounded-full inline-flex">
+            <div className="bg-white p-1 rounded-full inline-flex flex-wrap justify-center">
               <button 
-                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${activeTab === 'all' ? 'bg-french-blue text-white' : 'text-french-gray hover:text-french-dark'}`}
+                className={`px-3 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-medium transition-colors ${activeTab === 'all' ? 'bg-french-blue text-white' : 'text-french-gray hover:text-french-dark'}`}
                 onClick={() => setActiveTab('all')}
               >
                 Todos
               </button>
               <button 
-                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${activeTab === 'basico' ? 'bg-french-blue text-white' : 'text-french-gray hover:text-french-dark'}`}
+                className={`px-3 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-medium transition-colors ${activeTab === 'basico' ? 'bg-french-blue text-white' : 'text-french-gray hover:text-french-dark'}`}
                 onClick={() => setActiveTab('basico')}
               >
                 Básico
               </button>
               <button 
-                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${activeTab === 'intermediario' ? 'bg-french-blue text-white' : 'text-french-gray hover:text-french-dark'}`}
+                className={`px-3 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-medium transition-colors ${activeTab === 'intermediario' ? 'bg-french-blue text-white' : 'text-french-gray hover:text-french-dark'}`}
                 onClick={() => setActiveTab('intermediario')}
               >
-                Intermediário
+                Interm.
               </button>
               <button 
-                className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${activeTab === 'avancado' ? 'bg-french-blue text-white' : 'text-french-gray hover:text-french-dark'}`}
+                className={`px-3 sm:px-6 py-2 rounded-full text-xs sm:text-sm font-medium transition-colors ${activeTab === 'avancado' ? 'bg-french-blue text-white' : 'text-french-gray hover:text-french-dark'}`}
                 onClick={() => setActiveTab('avancado')}
               >
                 Avançado
@@ -138,12 +137,12 @@ const QuizzesPage = () => {
           </div>
           
           {loading ? (
-            <div className="text-center py-12">
+            <div className="text-center py-8 sm:py-12">
               <p className="text-french-gray">Carregando quizzes...</p>
             </div>
           ) : displayedQuizzes.length > 0 ? (
             <>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
                 {displayedQuizzes.map((quiz) => (
                   <QuizCard 
                     key={quiz.id}
@@ -160,13 +159,13 @@ const QuizzesPage = () => {
               </div>
               
               {!user && filteredQuizzes.length > 3 && (
-                <div className="mt-12 text-center">
-                  <div className="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-sm border border-gray-100">
-                    <h3 className="text-2xl font-bold text-french-dark mb-3">Quer acessar todos os {filteredQuizzes.length} quizzes?</h3>
-                    <p className="text-french-gray mb-6">Adquira agora mesmo por apenas R$ 97,00 ou <span className="text-red-400">12x de R$ 8,08</span> para desbloquear todos os quizzes e recursos de aprendizado.</p>
+                <div className="mt-8 sm:mt-12 text-center">
+                  <div className="max-w-2xl mx-auto bg-white p-4 sm:p-6 md:p-8 rounded-xl shadow-sm border border-gray-100">
+                    <h3 className="text-xl sm:text-2xl font-bold text-french-dark mb-2 sm:mb-3">Quer acessar todos os {filteredQuizzes.length} quizzes?</h3>
+                    <p className="text-sm sm:text-base text-french-gray mb-4 sm:mb-6">Adquira agora mesmo por apenas R$ 97,00 ou <span className="text-red-400">12x de R$ 8,08</span> para desbloquear todos os quizzes e recursos de aprendizado.</p>
                     <Link 
                       to="/cadastro" 
-                      className="bg-french-blue hover:bg-french-lightBlue text-white font-medium py-3 px-6 rounded-md transition-all duration-300 ease-in-out inline-block"
+                      className="bg-french-blue hover:bg-french-lightBlue text-white font-medium py-2.5 sm:py-3 px-4 sm:px-6 rounded-md transition-all duration-300 ease-in-out inline-block text-sm sm:text-base"
                     >
                       Ter acesso
                     </Link>
@@ -175,7 +174,7 @@ const QuizzesPage = () => {
               )}
             </>
           ) : (
-            <div className="text-center py-12">
+            <div className="text-center py-8 sm:py-12">
               <p className="text-french-gray">Nenhum quiz encontrado para esta categoria.</p>
             </div>
           )}

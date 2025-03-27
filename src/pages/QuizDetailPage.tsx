@@ -9,6 +9,7 @@ import { updateUserProgress, initializeUserProgress } from '@/lib/userProgress';
 
 interface QuizParams {
   quizId: string;
+  [key: string]: string;
 }
 
 const QuizDetailPage = () => {
@@ -101,15 +102,22 @@ const QuizDetailPage = () => {
       // Calculate time spent
       const endTime = new Date();
       const timeSpentMs = endTime.getTime() - startTimeRef.current.getTime();
-      const timeSpentMinutes = Math.round(timeSpentMs / (1000 * 60));
+      const timeSpentSeconds = Math.round(timeSpentMs / 1000);
+      
+      console.log('==== REGISTRO DE TEMPO DE ESTUDO ====');
+      console.log(`Quiz: ${quizTitle} (${quizId})`);
+      console.log(`Início: ${startTimeRef.current.toISOString()}`);
+      console.log(`Fim: ${endTime.toISOString()}`);
+      console.log(`Tempo de estudo: ${timeSpentSeconds} segundos (${Math.round(timeSpentSeconds/60)} minutos)`);
+      console.log('====================================');
       
       // Create quiz progress object
       const quizProgress = {
-        quizId: quizId || '',
-        category: quizCategory,
+        quizId: quizId || `quiz-${Date.now()}`,
+        category: quizCategory || 'geral',
         score: score,
         totalQuestions: questions.length,
-        timeSpent: timeSpentMinutes,
+        timeSpent: timeSpentSeconds,
         completedAt: new Date(),
       };
       
@@ -150,10 +158,10 @@ const QuizDetailPage = () => {
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <div className="flex-grow flex flex-col items-center justify-center p-4">
-          <h2 className="text-2xl font-bold text-french-dark mb-4">Quiz não encontrado</h2>
-          <p className="text-french-gray mb-6">Não encontramos questões para este quiz. Por favor, tente outro tema.</p>
+          <h2 className="text-xl sm:text-2xl font-bold text-french-dark mb-4">Quiz não encontrado</h2>
+          <p className="text-sm sm:text-base text-french-gray mb-6">Não encontramos questões para este quiz. Por favor, tente outro tema.</p>
           <button 
-            className="btn-primary"
+            className="btn-primary text-sm sm:text-base py-2.5 sm:py-3 px-4 sm:px-6"
             onClick={handleBackToQuizzes}
           >
             Voltar para Quizzes
@@ -168,41 +176,41 @@ const QuizDetailPage = () => {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       
-      <div className="bg-french-lightGray py-16 flex-grow">
+      <div className="bg-french-lightGray py-8 sm:py-12 md:py-16 flex-grow">
         <div className="container mx-auto px-4">
           {quizCompleted ? (
-            <div className="max-w-2xl mx-auto bg-white rounded-xl p-8 shadow-sm">
+            <div className="max-w-2xl mx-auto bg-white rounded-xl p-4 sm:p-6 md:p-8 shadow-sm">
               <div className="text-center">
-                <div className="inline-flex items-center justify-center w-20 h-20 bg-green-100 rounded-full mb-6">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full mb-4 sm:mb-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 sm:h-10 sm:w-10 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
                 
-                <h2 className="text-3xl font-bold text-french-dark mb-6 text-center">Quiz Concluído!</h2>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-french-dark mb-4 sm:mb-6 text-center">Quiz Concluído!</h2>
                 
-                <div className="flex justify-center space-x-8 mb-8">
+                <div className="flex justify-center space-x-4 sm:space-x-8 mb-6 sm:mb-8">
                   <div className="text-center">
-                    <p className="text-sm text-french-gray">Pontuação</p>
-                    <p className="text-3xl font-bold text-french-dark">{score}/{questions.length}</p>
+                    <p className="text-xs sm:text-sm text-french-gray">Pontuação</p>
+                    <p className="text-xl sm:text-2xl md:text-3xl font-bold text-french-dark">{score}/{questions.length}</p>
                   </div>
                   
                   <div className="text-center">
-                    <p className="text-sm text-french-gray">Acertos</p>
-                    <p className="text-3xl font-bold text-french-dark">{Math.round((score / questions.length) * 100)}%</p>
+                    <p className="text-xs sm:text-sm text-french-gray">Acertos</p>
+                    <p className="text-xl sm:text-2xl md:text-3xl font-bold text-french-dark">{Math.round((score / questions.length) * 100)}%</p>
                   </div>
                 </div>
                 
-                <div className="flex flex-col sm:flex-row justify-center gap-4">
+                <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
                   <button 
-                    className="btn-secondary"
+                    className="btn-secondary text-sm sm:text-base py-2.5 sm:py-3 px-4 sm:px-6 mb-2 sm:mb-0"
                     onClick={handleRestartQuiz}
                   >
                     Tentar Novamente
                   </button>
                   
                   <button 
-                    className="btn-primary"
+                    className="btn-primary text-sm sm:text-base py-2.5 sm:py-3 px-4 sm:px-6"
                     onClick={handleBackToQuizzes}
                   >
                     Voltar para Quizzes
@@ -211,12 +219,12 @@ const QuizDetailPage = () => {
               </div>
             </div>
           ) : (
-            <div className="max-w-2xl mx-auto bg-white rounded-xl p-8 shadow-sm">
-              <div className="mb-8">
-                <h1 className="text-3xl font-bold text-french-dark mb-2">{quizTitle}</h1>
+            <div className="max-w-2xl mx-auto bg-white rounded-xl p-4 sm:p-6 md:p-8 shadow-sm">
+              <div className="mb-6 sm:mb-8">
+                <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-french-dark mb-2">{quizTitle}</h1>
                 <div className="flex justify-between items-center">
-                  <p className="text-french-gray">Questão {currentQuestionIndex + 1} de {questions.length}</p>
-                  <p className="text-french-gray">Pontuação: {score}</p>
+                  <p className="text-sm text-french-gray">Questão {currentQuestionIndex + 1} de {questions.length}</p>
+                  <p className="text-sm text-french-gray">Pontuação: {score}</p>
                 </div>
                 <div className="h-2 bg-gray-200 rounded-full overflow-hidden mt-2">
                   <div 
@@ -226,16 +234,16 @@ const QuizDetailPage = () => {
                 </div>
               </div>
               
-              <div className="mb-8">
-                <h2 className="text-xl font-semibold text-french-dark mb-6">
+              <div className="mb-6 sm:mb-8">
+                <h2 className="text-base sm:text-lg md:text-xl font-semibold text-french-dark mb-4 sm:mb-6">
                   {questions[currentQuestionIndex].text}
                 </h2>
                 
-                <div className="space-y-3">
+                <div className="space-y-2 sm:space-y-3">
                   {questions[currentQuestionIndex].options.map((option, index) => (
                     <div 
                       key={index}
-                      className={`p-4 border rounded-lg cursor-pointer transition-colors ${selectedOption === index ? 
+                      className={`p-3 sm:p-4 border rounded-lg cursor-pointer transition-colors ${selectedOption === index ? 
                         (isAnswerSubmitted ? 
                           (index === questions[currentQuestionIndex].correctAnswer ? 'bg-green-100 border-green-300' : 'bg-red-100 border-red-300') : 
                           'bg-blue-50 border-blue-300') : 
@@ -243,23 +251,41 @@ const QuizDetailPage = () => {
                       onClick={() => handleOptionSelect(index)}
                     >
                       <div className="flex items-center">
-                        <div className={`w-6 h-6 flex items-center justify-center rounded-full mr-3 ${selectedOption === index ? 
+                        <div className={`w-5 h-5 sm:w-6 sm:h-6 flex items-center justify-center rounded-full mr-2 sm:mr-3 ${selectedOption === index ? 
                           (isAnswerSubmitted ? 
                             (index === questions[currentQuestionIndex].correctAnswer ? 'bg-green-500 text-white' : 'bg-red-500 text-white') : 
                             'bg-blue-500 text-white') : 
                           'bg-gray-200'}`}>
-                          {String.fromCharCode(65 + index)}
+                          <span className="text-xs sm:text-sm font-medium">{String.fromCharCode(65 + index)}</span>
                         </div>
-                        <span className="text-french-dark">{option}</span>
+                        <span className="text-sm sm:text-base">{option}</span>
                       </div>
+                      
+                      {isAnswerSubmitted && index === questions[currentQuestionIndex].correctAnswer && (
+                        <div className="mt-2 text-xs sm:text-sm text-green-600 flex items-start">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                          </svg>
+                          Resposta correta
+                        </div>
+                      )}
+                      
+                      {isAnswerSubmitted && selectedOption === index && index !== questions[currentQuestionIndex].correctAnswer && (
+                        <div className="mt-2 text-xs sm:text-sm text-red-600 flex items-start">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                          Resposta incorreta
+                        </div>
+                      )}
                     </div>
                   ))}
                 </div>
               </div>
               
               {isAnswerSubmitted && questions[currentQuestionIndex].explanation && (
-                <div className="mb-8 p-4 bg-blue-50 rounded-lg">
-                  <p className="text-french-dark">
+                <div className="mb-6 sm:mb-8 p-4 bg-blue-50 rounded-lg border border-blue-100">
+                  <p className="text-sm sm:text-base text-french-dark">
                     <span className="font-semibold">Explicação: </span>
                     {questions[currentQuestionIndex].explanation}
                   </p>
@@ -269,7 +295,7 @@ const QuizDetailPage = () => {
               <div className="flex justify-end">
                 {!isAnswerSubmitted ? (
                   <button 
-                    className={`btn-primary ${selectedOption === null ? 'opacity-50 cursor-not-allowed' : ''}`}
+                    className="btn-primary text-sm sm:text-base py-2.5 sm:py-3 px-4 sm:px-6"
                     onClick={handleSubmitAnswer}
                     disabled={selectedOption === null}
                   >
@@ -277,7 +303,7 @@ const QuizDetailPage = () => {
                   </button>
                 ) : (
                   <button 
-                    className="btn-primary"
+                    className="btn-primary text-sm sm:text-base py-2.5 sm:py-3 px-4 sm:px-6"
                     onClick={handleNextQuestion}
                   >
                     {currentQuestionIndex < questions.length - 1 ? 'Próxima Questão' : 'Finalizar Quiz'}

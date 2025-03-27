@@ -16,6 +16,7 @@ interface UserProgress {
   totalTimeSpent: number; // in seconds
   lastQuizDate: Date;
   categoryProgress: { [key: string]: number }; // percentage progress by category
+  situationProgress: { [key: string]: number }; // percentage progress by situation
   quizHistory: QuizProgress[];
   achievements: {
     id: string;
@@ -40,6 +41,7 @@ export const initializeUserProgress = async (userId: string) => {
         totalTimeSpent: 0,
         lastQuizDate: null,
         categoryProgress: {},
+        situationProgress: {},
         quizHistory: [],
         achievements: []
       });
@@ -56,7 +58,7 @@ export const initializeUserProgress = async (userId: string) => {
   }
 };
 
-// Update user progress after completing a quiz
+// Update user progress after completing a quiz or exploring a situation
 export const updateUserProgress = async (
   userId: string,
   quizProgress: QuizProgress
@@ -77,31 +79,59 @@ export const updateUserProgress = async (
     }
 
     const currentProgress = userProgressDoc.data() as UserProgress;
+    
+    // Se não existir, inicializar
+    if (!currentProgress.situationProgress) {
+      currentProgress.situationProgress = {};
+    }
 
-    // Update total statistics
-    // Convert Date objects to Firestore Timestamp objects
-    const updatedProgress = {
-      totalQuizzesTaken: currentProgress.totalQuizzesTaken + 1,
-      totalScore: currentProgress.totalScore + quizProgress.score,
-      totalTimeSpent: currentProgress.totalTimeSpent + quizProgress.timeSpent,
-      lastQuizDate: Timestamp.fromDate(quizProgress.completedAt),
-      categoryProgress: {
-        ...currentProgress.categoryProgress,
-        [quizProgress.category]: calculateCategoryProgress(
-          currentProgress.categoryProgress[quizProgress.category] || 0,
-          quizProgress.score,
-          quizProgress.totalQuestions
-        )
-      },
-      quizHistory: [...currentProgress.quizHistory, {
-        ...quizProgress,
-        completedAt: Timestamp.fromDate(quizProgress.completedAt)
-      }],
-      achievements: checkAndUpdateAchievements(currentProgress, quizProgress)
-    };
+    // Verificar se é uma situação ou um quiz regular
+    const isSituation = quizProgress.quizId.startsWith('situation-');
+    
+    // Atualizar progresso diferentemente dependendo se é situação ou quiz
+    let updatedProgress;
+    
+    if (isSituation) {
+      // Extrair o ID da situação
+      const situationId = quizProgress.quizId.replace('situation-', '');
+      
+      updatedProgress = {
+        totalTimeSpent: currentProgress.totalTimeSpent + quizProgress.timeSpent,
+        lastQuizDate: Timestamp.fromDate(quizProgress.completedAt),
+        situationProgress: {
+          ...currentProgress.situationProgress,
+          [situationId]: 100 // Consideramos como 100% ao visitar uma situação
+        },
+        quizHistory: [...currentProgress.quizHistory, {
+          ...quizProgress,
+          completedAt: Timestamp.fromDate(quizProgress.completedAt)
+        }]
+      };
+    } else {
+      // Atualização normal para quizzes
+      updatedProgress = {
+        totalQuizzesTaken: currentProgress.totalQuizzesTaken + 1,
+        totalScore: currentProgress.totalScore + quizProgress.score,
+        totalTimeSpent: currentProgress.totalTimeSpent + quizProgress.timeSpent,
+        lastQuizDate: Timestamp.fromDate(quizProgress.completedAt),
+        categoryProgress: {
+          ...currentProgress.categoryProgress,
+          [quizProgress.category]: calculateCategoryProgress(
+            currentProgress.categoryProgress[quizProgress.category] || 0,
+            quizProgress.score,
+            quizProgress.totalQuestions
+          )
+        },
+        quizHistory: [...currentProgress.quizHistory, {
+          ...quizProgress,
+          completedAt: Timestamp.fromDate(quizProgress.completedAt)
+        }],
+        achievements: checkAndUpdateAchievements(currentProgress, quizProgress)
+      };
+    }
 
     await updateDoc(userProgressRef, updatedProgress);
-    return updatedProgress;
+    return { ...currentProgress, ...updatedProgress };
   } catch (error) {
     console.error('Error updating user progress:', error);
     throw error;
@@ -129,7 +159,14 @@ export const getUserProgress = async (userId: string): Promise<UserProgress | nu
       return refreshedDoc.data() as UserProgress;
     }
 
-    return userProgressDoc.data() as UserProgress;
+    const data = userProgressDoc.data() as UserProgress;
+    
+    // Garantir que situationProgress exista
+    if (!data.situationProgress) {
+      data.situationProgress = {};
+    }
+    
+    return data;
   } catch (error) {
     console.error('Error getting user progress:', error);
     throw error;
@@ -147,6 +184,74 @@ const calculateCategoryProgress = (
   return currentProgress === 0
     ? quizPercentage
     : (currentProgress + quizPercentage) / 2;
+};
+
+// Função específica para salvar progresso de situação
+export const updateSituationProgress = async (
+  userId: string,
+  situationId: string,
+  timeSpent: number
+) => {
+  try {
+    console.log(`Atualizando progresso para situação ${situationId} com ${timeSpent} segundos`);
+    const userProgressRef = doc(db, 'userProgress', userId);
+    const userProgressDoc = await getDoc(userProgressRef);
+
+    if (!userProgressDoc.exists()) {
+      await initializeUserProgress(userId);
+      const refreshedDoc = await getDoc(userProgressRef);
+      if (!refreshedDoc.exists()) {
+        throw new Error('Failed to create user progress document');
+      }
+    }
+
+    const currentProgress = userProgressDoc.data() as UserProgress;
+    
+    // Se não existir, inicializar
+    if (!currentProgress.situationProgress) {
+      currentProgress.situationProgress = {};
+    }
+
+    // Data atual para o registro
+    const completedAt = new Date();
+    
+    // Log detalhado para debugging
+    console.log('Registrando atividade de situação:', {
+      userId,
+      situationId,
+      timeSpent,
+      completedAt: completedAt.toISOString(),
+      timestamp: Timestamp.fromDate(completedAt)
+    });
+
+    // Criar objeto de progresso para a situação (similar ao quiz)
+    const situationQuizObject = {
+      quizId: `situation-${situationId}`,
+      category: 'situacoes',
+      score: 100, // Consideramos como score completo
+      totalQuestions: 100,
+      completedAt: Timestamp.fromDate(completedAt),
+      timeSpent
+    };
+
+    const updatedProgress = {
+      totalTimeSpent: currentProgress.totalTimeSpent + timeSpent,
+      lastQuizDate: Timestamp.fromDate(completedAt),
+      situationProgress: {
+        ...currentProgress.situationProgress,
+        [situationId]: 100 // Consideramos como 100% ao visitar uma situação
+      },
+      // Adicionar ao histórico para mostrar no gráfico
+      quizHistory: [...(currentProgress.quizHistory || []), situationQuizObject]
+    };
+
+    await updateDoc(userProgressRef, updatedProgress);
+    console.log('Progresso da situação atualizado com sucesso');
+    return { ...currentProgress, ...updatedProgress };
+  } catch (error) {
+    console.error('Error updating situation progress:', error);
+    throw error;
+  }
 };
 
 // Check and update achievements

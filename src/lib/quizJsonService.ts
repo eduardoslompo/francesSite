@@ -88,3 +88,53 @@ export const findQuizByTitle = async (title: string): Promise<QuizData | null> =
     return null;
   }
 };
+
+/**
+ * Gets the total number of distinct categories
+ */
+export const getTotalCategories = async (): Promise<number> => {
+  try {
+    const quizzes = await loadAllQuizzes();
+    const categories = new Set(quizzes.map(quiz => quiz.category));
+    return categories.size;
+  } catch (error) {
+    console.error('Error getting total categories:', error);
+    return 0;
+  }
+};
+
+/**
+ * Gets the total number of quizzes
+ */
+export const getTotalQuizzes = async (): Promise<number> => {
+  try {
+    const quizzes = await loadAllQuizzes();
+    return quizzes.length;
+  } catch (error) {
+    console.error('Error getting total quizzes:', error);
+    return 0;
+  }
+};
+
+/**
+ * Gets the total number of situations available
+ */
+export const getTotalSituations = async (): Promise<number> => {
+  try {
+    // Dynamic import of all situation JSON files
+    const situationModules = import.meta.glob('../data/situations/*.json', { eager: true });
+    
+    // Count situations excluding any README files
+    const count = Object.values(situationModules)
+      .filter((module) => {
+        const situation = module as any;
+        // Filter out any non-situation files (like README.md)
+        return situation.title && situation.dialogues;
+      }).length;
+    
+    return count;
+  } catch (error) {
+    console.error('Error getting total situations:', error);
+    return 0;
+  }
+};

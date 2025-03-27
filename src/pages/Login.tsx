@@ -1,9 +1,9 @@
-
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { toast } from "sonner";
 import { loginUser } from '../lib/firebase';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -39,24 +39,24 @@ const Login = () => {
   };
 
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      <div className="min-h-screen flex flex-col md:flex-row">
-        <div className="w-full md:w-1/2 bg-white flex items-center justify-center p-8">
+      <div className="flex-grow flex flex-col md:flex-row">
+        <div className="w-full md:w-1/2 bg-white flex items-center justify-center p-4 sm:p-6 md:p-8">
           <div className="max-w-md w-full">
-            <div className="text-center mb-10">
-              <Link to="/" className="inline-block mb-8">
-                <span className="font-pacifico text-3xl text-french-blue">aprender francês</span>
+            <div className="text-center mb-6 sm:mb-10">
+              <Link to="/" className="inline-block mb-6 sm:mb-8">
+                <span className="font-pacifico text-2xl sm:text-3xl text-french-blue">aprender francês</span>
               </Link>
-              <h1 className="text-3xl font-bold text-french-dark mb-2">
+              <h1 className="text-2xl sm:text-3xl font-bold text-french-dark mb-2">
                 Bem-vindo de volta
               </h1>
-              <p className="text-french-gray">
+              <p className="text-sm sm:text-base text-french-gray">
                 Entre para continuar sua jornada de aprendizado de francês
               </p>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-french-dark mb-1">Email</label>
                 <input
@@ -64,7 +64,7 @@ const Login = () => {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-french-blue focus:border-transparent transition-all"
+                  className="w-full px-3 sm:px-4 py-2 sm:py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-french-blue focus:border-transparent transition-all text-base"
                   placeholder="seu@email.com"
                   required
                 />
@@ -77,7 +77,7 @@ const Login = () => {
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-french-blue focus:border-transparent transition-all"
+                  className="w-full px-3 sm:px-4 py-2 sm:py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-french-blue focus:border-transparent transition-all text-base"
                   placeholder="Sua senha"
                   required
                 />
@@ -92,14 +92,14 @@ const Login = () => {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-french-blue hover:bg-french-lightBlue text-white font-medium py-3 px-4 rounded-md transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
+                className="w-full bg-french-blue hover:bg-french-lightBlue text-white font-medium py-2.5 sm:py-3 px-4 rounded-md transition-colors disabled:opacity-70 disabled:cursor-not-allowed text-sm sm:text-base"
               >
                 {loading ? 'Entrando...' : 'Entrar'}
               </button>
             </form>
             
-            <div className="mt-8 text-center">
-              <p className="text-french-gray">
+            <div className="mt-6 sm:mt-8 text-center">
+              <p className="text-sm sm:text-base text-french-gray">
                 Ainda não tem acesso?
                 <a
                   href="https://pay.hotmart.com/seu-codigo-hotmart"
@@ -120,14 +120,14 @@ const Login = () => {
         <div className="hidden md:block w-1/2 bg-[url('/imgs/paris.jpg')] bg-cover bg-center">
           <div className="h-full w-full bg-black/50 flex items-center justify-center p-12">
             <div className="max-w-md text-white">
-              <h2 className="text-3xl font-bold mb-4">Aprenda francês para suas viagens</h2>
-              <p className="mb-6">
+              <h2 className="text-2xl sm:text-3xl font-bold mb-4">Aprenda francês para suas viagens</h2>
+              <p className="mb-6 text-sm sm:text-base">
                 Domine o idioma com lições práticas focadas em situações reais que você enfrentará na França.
                 Pratique com quizzes interativos e acompanhe seu progresso.
               </p>
               <Link
                 to="/"
-                className="inline-block border-2 border-white text-white hover:bg-white hover:text-french-dark font-medium py-2 px-6 rounded-md transition-colors"
+                className="inline-block border-2 border-white text-white hover:bg-white hover:text-french-dark font-medium py-2 px-6 rounded-md transition-colors text-sm sm:text-base"
               >
                 Conheça nosso método
               </Link>
@@ -135,7 +135,8 @@ const Login = () => {
           </div>
         </div>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 };
 
