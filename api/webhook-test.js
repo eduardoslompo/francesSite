@@ -1,4 +1,6 @@
-// Endpoint para testar a conexão com o webhook
+// Este é um script para testar o webhook localmente
+// Execute com: node api/test-webhook.js
+// Última atualização: 28/03/2025
 
 module.exports = async (req, res) => {
   try {
@@ -10,7 +12,8 @@ module.exports = async (req, res) => {
       status: 'success',
       message: 'Webhook test endpoint is working correctly',
       timestamp: new Date().toISOString(),
-      method: req.method
+      method: req.method,
+      updated: true
     });
   } catch (error) {
     console.error('Erro no endpoint de teste:', error);
