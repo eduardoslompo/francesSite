@@ -11,6 +11,11 @@ try {
   console.log('Erro ao carregar variáveis de ambiente:', error.message);
 }
 
+// Importar e inicializar Firebase
+const { initializeFirebaseAdmin } = require('./firebase-admin');
+console.log('Inicializando Firebase...');
+initializeFirebaseAdmin();
+
 // Configurações do serviço de email para teste (caso não estejam no .env.local)
 if (!process.env.EMAIL_HOST) {
   process.env.EMAIL_HOST = 'smtp.gmail.com';

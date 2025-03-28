@@ -1,79 +1,6 @@
-const admin = require('firebase-admin');
 const crypto = require('crypto');
+const { admin, initializeFirebaseAdmin } = require('./firebase-admin');
 const { sendCredentialsEmail } = require('./email-service');
-
-// Inicializações globais apenas uma vez
-let firebaseInitialized = false;
-
-// Inicializa o Firebase Admin SDK se ainda não estiver inicializado
-async function initFirebase() {
-  // Se já foi inicializado, retorna
-  if (firebaseInitialized || admin.apps.length > 0) {
-    console.log('Firebase já inicializado');
-    return;
-  }
-
-  try {
-    // Tenta carregar variáveis de ambiente em desenvolvimento
-    try {
-      require('dotenv').config({ path: '.env.local' });
-    } catch (error) {
-      console.log('Ambiente de produção ou dotenv não encontrado');
-    }
-
-    // Tenta carregar a chave de serviço
-    let serviceAccount;
-    try {
-      // Tenta carregar do arquivo first
-      const fs = require('fs');
-      const path = require('path');
-      const keyPath = path.resolve(process.cwd(), 'firebase-key.json');
-      
-      if (fs.existsSync(keyPath)) {
-        serviceAccount = JSON.parse(fs.readFileSync(keyPath, 'utf8'));
-        console.log('Credenciais do Firebase carregadas do arquivo firebase-key.json');
-      } 
-      // Se não conseguir do arquivo, tenta da variável de ambiente
-      else if (process.env.FIREBASE_SERVICE_ACCOUNT_KEY) {
-        try {
-          const cleanJsonString = process.env.FIREBASE_SERVICE_ACCOUNT_KEY
-            .replace(/\\n/g, "\\n")
-            .replace(/\\'/g, "\\'")
-            .replace(/\\"/g, '\\"')
-            .replace(/\\&/g, "\\&")
-            .replace(/\\r/g, "\\r")
-            .replace(/\\t/g, "\\t")
-            .replace(/\\b/g, "\\b")
-            .replace(/\\f/g, "\\f");
-
-          serviceAccount = JSON.parse(cleanJsonString);
-          console.log('Credenciais do Firebase carregadas da variável de ambiente');
-        } catch (e) {
-          console.error('Erro ao analisar a credencial do Firebase da variável de ambiente:', e);
-          throw e;
-        }
-      } else {
-        throw new Error('Credenciais do Firebase não disponíveis');
-      }
-    } catch (error) {
-      console.error('Erro ao carregar credenciais do Firebase:', error);
-      throw new Error('Não foi possível carregar as credenciais do Firebase: ' + error.message);
-    }
-
-    // Inicializa o Firebase Admin SDK
-    admin.initializeApp({
-      credential: admin.credential.cert(serviceAccount),
-      databaseURL: process.env.FIREBASE_DATABASE_URL || 'https://aprenderfrances-site.firebaseio.com'
-    });
-    
-    // Marca como inicializado
-    firebaseInitialized = true;
-    console.log('Firebase Admin SDK inicializado com sucesso');
-  } catch (error) {
-    console.error('Erro ao inicializar Firebase Admin SDK:', error);
-    throw error;
-  }
-}
 
 /**
  * Gera uma senha aleatória segura
@@ -111,7 +38,14 @@ module.exports = async (req, res) => {
   // Prevenção de erros na resposta
   try {
     // Inicializa o Firebase
-    await initFirebase();
+    const firebaseInitialized = await initializeFirebaseAdmin();
+    if (!firebaseInitialized) {
+      console.error('Firebase não inicializado');
+      return res.status(500).json({ 
+        error: 'Erro ao inicializar Firebase',
+        message: 'Não foi possível inicializar o serviço Firebase' 
+      });
+    }
 
     // Verifica se é uma requisição POST
     if (req.method !== 'POST') {
