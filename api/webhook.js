@@ -106,17 +106,38 @@ module.exports = async (req, res) => {
     // Log do payload recebido da Hotmart (omitir em produção para não expor dados sensíveis)
     console.log('Webhook recebido da Hotmart:', JSON.stringify(req.body));
 
-    // Extrair os dados necessários do payload da Hotmart
-    // Adapte conforme a estrutura real do webhook da Hotmart
-    const data = req.body.data || {};
-    const buyer = data.buyer || {};
+    // Validar se é um evento de compra aprovada
+    if (req.body.event !== 'PURCHASE_APPROVED') {
+      console.log('Evento ignorado:', req.body.event);
+      return res.status(200).json({ message: 'Evento ignorado' });
+    }
+
+    // Extrair os dados necessários do payload da Hotmart v2.0.0
+    const data = req.body.data;
+    const buyer = data.buyer;
     const email = buyer.email;
-    const name = buyer.name;
+    const name = `${buyer.first_name} ${buyer.last_name}`.trim();
 
     // Validar dados recebidos
     if (!email || !name) {
       console.error('Dados obrigatórios ausentes:', { email, name });
       return res.status(400).json({ error: 'Dados obrigatórios ausentes' });
+    }
+
+    // Verificar se o usuário já existe
+    try {
+      const userRecord = await admin.auth().getUserByEmail(email);
+      console.log('Usuário já existe:', userRecord.uid);
+      return res.status(200).json({ 
+        success: true, 
+        message: 'Usuário já existe',
+        userId: userRecord.uid 
+      });
+    } catch (error) {
+      // Se o usuário não existe, continua com a criação
+      if (error.code !== 'auth/user-not-found') {
+        throw error;
+      }
     }
 
     // Gerar senha aleatória para o novo usuário
@@ -142,8 +163,14 @@ module.exports = async (req, res) => {
       status: 'active',
       role: 'user',
       planDetails: {
-        hotmartData: req.body,
-        purchaseDate: new Date().toISOString()
+        hotmartData: {
+          transaction: data.purchase.transaction,
+          purchaseDate: new Date(data.purchase.approved_date).toISOString(),
+          productId: data.product.ucode,
+          productName: data.product.name,
+          paymentType: data.purchase.payment.type,
+          installments: data.purchase.payment.installments_number
+        }
       }
     };
 

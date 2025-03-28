@@ -4,7 +4,7 @@
 // Carregar variáveis de ambiente em desenvolvimento
 try {
   // Este módulo só será carregado em ambiente de desenvolvimento
-  require('dotenv').config({ path: '../.env.local' });
+  require('dotenv').config({ path: '.env.local' });
   console.log('Variáveis de ambiente carregadas com sucesso');
 } catch (error) {
   // Em produção (Vercel) as variáveis de ambiente já estarão disponíveis
@@ -26,32 +26,44 @@ if (!process.env.EMAIL_HOST) {
 // Importar a função do webhook
 const webhookHandler = require('./webhook');
 
-// Criar um email único para teste
+// Criar um timestamp único para o teste
 const timestamp = Date.now();
-const testEmail = `teste${timestamp}@exemplo.com`;
-const testName = `Usuário de Teste ${timestamp}`;
+const testEmail = process.argv[2] || `teste${timestamp}@exemplo.com`;
 
-// Endereço de email real para receber o teste (opcional)
-const realEmailForTest = process.argv[2] || testEmail;
-
-// Criar objetos simulados de requisição e resposta
+// Payload real da Hotmart v2.0.0
 const mockReq = {
   method: 'POST',
   body: {
-    data: {
-      buyer: {
-        email: realEmailForTest,
-        name: testName
+    "id": `test-${timestamp}`,
+    "creation_date": timestamp,
+    "event": "PURCHASE_APPROVED",
+    "version": "2.0.0",
+    "data": {
+      "product": {
+        "id": 0,
+        "ucode": "fb056612-bcc6-4217-9e6d-2a5d1110ac2f",
+        "name": "Curso de Francês Premium",
+        "has_co_production": false
       },
-      product: {
-        id: '12345',
-        name: 'Curso de Francês Premium'
+      "buyer": {
+        "email": testEmail,
+        "name": "Teste Comprador",
+        "first_name": "Teste",
+        "last_name": "Comprador",
+        "checkout_phone": "99999999900"
       },
-      purchase: {
-        transaction: `TRX${timestamp}`,
-        status: 'APPROVED'
+      "purchase": {
+        "approved_date": timestamp,
+        "order_date": timestamp,
+        "status": "APPROVED",
+        "transaction": `TRX${timestamp}`,
+        "payment": {
+          "installments_number": 12,
+          "type": "CREDIT_CARD"
+        }
       }
-    }
+    },
+    "hottok": `test-${timestamp}`
   }
 };
 
@@ -69,7 +81,8 @@ const mockRes = {
 // Executar o teste
 async function runTest() {
   console.log('Testando webhook com dados:', JSON.stringify(mockReq.body, null, 2));
-  console.log(`Será enviado um email para: ${realEmailForTest}`);
+  console.log(`Será enviado um email para: ${testEmail}`);
+  
   try {
     await webhookHandler(mockReq, mockRes);
   } catch (error) {
