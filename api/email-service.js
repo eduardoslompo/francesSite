@@ -10,22 +10,36 @@ function initEmailService() {
   // Verifica se já está inicializado
   if (transporter) return;
 
-  // Configuração do serviço de email
-  transporter = nodemailer.createTransport({
-    host: process.env.EMAIL_HOST,
-    port: parseInt(process.env.EMAIL_PORT),
-    secure: process.env.EMAIL_SECURE === 'true',
-    auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASSWORD
-    },
-    tls: {
-      // Ignorar certificado autoassinado
-      rejectUnauthorized: false
+  try {
+    // Verificar se todas as variáveis necessárias estão disponíveis
+    const requiredVars = ['EMAIL_HOST', 'EMAIL_PORT', 'EMAIL_USER', 'EMAIL_PASSWORD'];
+    const missingVars = requiredVars.filter(varName => !process.env[varName]);
+    
+    if (missingVars.length > 0) {
+      console.error(`Variáveis de ambiente ausentes: ${missingVars.join(', ')}`);
+      return false;
     }
-  });
+    
+    // Configuração do serviço de email
+    transporter = nodemailer.createTransport({
+      host: process.env.EMAIL_HOST,
+      port: parseInt(process.env.EMAIL_PORT),
+      secure: process.env.EMAIL_SECURE === 'true',
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASSWORD
+      },
+      tls: {
+        rejectUnauthorized: false
+      }
+    });
 
-  console.log('Serviço de email inicializado');
+    console.log('Serviço de email inicializado');
+    return true;
+  } catch (error) {
+    console.error('Erro ao inicializar serviço de email:', error);
+    return false;
+  }
 }
 
 /**
@@ -38,7 +52,11 @@ function initEmailService() {
 async function sendCredentialsEmail(email, name, password) {
   try {
     // Inicializa o serviço de email se ainda não estiver inicializado
-    initEmailService();
+    const initialized = initEmailService();
+    if (!initialized && !transporter) {
+      console.error('Serviço de email não inicializado');
+      return false;
+    }
 
     // Template do email
     const mailOptions = {
@@ -78,8 +96,14 @@ async function sendCredentialsEmail(email, name, password) {
       `
     };
 
-    // Envia o email
-    const info = await transporter.sendMail(mailOptions);
+    // Envia o email com timeout para evitar bloqueio
+    const info = await Promise.race([
+      transporter.sendMail(mailOptions),
+      new Promise((_, reject) => 
+        setTimeout(() => reject(new Error('Timeout ao enviar email')), 15000)
+      )
+    ]);
+    
     console.log('Email enviado com sucesso:', info.messageId);
     return true;
   } catch (error) {
@@ -89,6 +113,5 @@ async function sendCredentialsEmail(email, name, password) {
 }
 
 module.exports = {
-  initEmailService,
   sendCredentialsEmail
 };

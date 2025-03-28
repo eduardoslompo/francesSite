@@ -2,79 +2,76 @@ const admin = require('firebase-admin');
 const crypto = require('crypto');
 const { sendCredentialsEmail } = require('./email-service');
 
-// Carregar variáveis de ambiente em desenvolvimento
-try {
-  // Este módulo só será carregado em ambiente de desenvolvimento
-  require('dotenv').config({ path: '.env.local' });
-} catch (error) {
-  // Em produção (Vercel) as variáveis de ambiente já estarão disponíveis
-  console.log('Ambiente de produção ou dotenv não encontrado');
-}
+// Inicializações globais apenas uma vez
+let firebaseInitialized = false;
 
 // Inicializa o Firebase Admin SDK se ainda não estiver inicializado
-let serviceAccount;
-
-// Função para limpar a string JSON antes de fazer o parse
-function cleanJsonString(jsonString) {
-  if (typeof jsonString !== 'string') {
-    return null;
+async function initFirebase() {
+  // Se já foi inicializado, retorna
+  if (firebaseInitialized || admin.apps.length > 0) {
+    console.log('Firebase já inicializado');
+    return;
   }
-  
-  // Remove espaços extras, quebras de linha e outros caracteres que possam causar problemas
-  // Verifica se o JSON começa com uma chave aberta
-  if (jsonString.trim().startsWith('{')) {
-    return jsonString.trim();
-  } else {
-    // Se não começar com chave, pode ser um JSON com quebras de linha
-    // Tenta remover quebras de linha e espaços extras
-    try {
-      // Converte para um objeto e depois de volta para string para normalizar
-      return JSON.stringify(JSON.parse(jsonString));
-    } catch (e) {
-      console.error('Erro ao tentar limpar a string JSON:', e);
-      return jsonString.trim();
-    }
-  }
-}
 
-// Tenta carregar a chave de serviço
-try {
-  // Tenta carregar do arquivo first
-  const fs = require('fs');
-  const path = require('path');
-  const keyPath = path.resolve(process.cwd(), 'firebase-key.json');
-  
-  if (fs.existsSync(keyPath)) {
-    serviceAccount = JSON.parse(fs.readFileSync(keyPath, 'utf8'));
-    console.log('Credenciais do Firebase carregadas do arquivo firebase-key.json');
-  } 
-  // Se não conseguir do arquivo, tenta da variável de ambiente
-  else if (process.env.FIREBASE_SERVICE_ACCOUNT_KEY) {
-    try {
-      serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY);
-      console.log('Credenciais do Firebase carregadas da variável de ambiente');
-    } catch (e) {
-      console.error('Erro ao analisar a credencial do Firebase da variável de ambiente:', e);
-      throw e;
-    }
-  } else {
-    throw new Error('Credenciais do Firebase não disponíveis');
-  }
-} catch (error) {
-  console.error('Erro ao carregar credenciais do Firebase:', error);
-  throw new Error('Não foi possível carregar as credenciais do Firebase: ' + error.message);
-}
-
-if (admin.apps.length === 0) {
   try {
+    // Tenta carregar variáveis de ambiente em desenvolvimento
+    try {
+      require('dotenv').config({ path: '.env.local' });
+    } catch (error) {
+      console.log('Ambiente de produção ou dotenv não encontrado');
+    }
+
+    // Tenta carregar a chave de serviço
+    let serviceAccount;
+    try {
+      // Tenta carregar do arquivo first
+      const fs = require('fs');
+      const path = require('path');
+      const keyPath = path.resolve(process.cwd(), 'firebase-key.json');
+      
+      if (fs.existsSync(keyPath)) {
+        serviceAccount = JSON.parse(fs.readFileSync(keyPath, 'utf8'));
+        console.log('Credenciais do Firebase carregadas do arquivo firebase-key.json');
+      } 
+      // Se não conseguir do arquivo, tenta da variável de ambiente
+      else if (process.env.FIREBASE_SERVICE_ACCOUNT_KEY) {
+        try {
+          const cleanJsonString = process.env.FIREBASE_SERVICE_ACCOUNT_KEY
+            .replace(/\\n/g, "\\n")
+            .replace(/\\'/g, "\\'")
+            .replace(/\\"/g, '\\"')
+            .replace(/\\&/g, "\\&")
+            .replace(/\\r/g, "\\r")
+            .replace(/\\t/g, "\\t")
+            .replace(/\\b/g, "\\b")
+            .replace(/\\f/g, "\\f");
+
+          serviceAccount = JSON.parse(cleanJsonString);
+          console.log('Credenciais do Firebase carregadas da variável de ambiente');
+        } catch (e) {
+          console.error('Erro ao analisar a credencial do Firebase da variável de ambiente:', e);
+          throw e;
+        }
+      } else {
+        throw new Error('Credenciais do Firebase não disponíveis');
+      }
+    } catch (error) {
+      console.error('Erro ao carregar credenciais do Firebase:', error);
+      throw new Error('Não foi possível carregar as credenciais do Firebase: ' + error.message);
+    }
+
+    // Inicializa o Firebase Admin SDK
     admin.initializeApp({
       credential: admin.credential.cert(serviceAccount),
       databaseURL: process.env.FIREBASE_DATABASE_URL || 'https://aprenderfrances-site.firebaseio.com'
     });
+    
+    // Marca como inicializado
+    firebaseInitialized = true;
     console.log('Firebase Admin SDK inicializado com sucesso');
   } catch (error) {
     console.error('Erro ao inicializar Firebase Admin SDK:', error);
-    throw error; // Propaga o erro para que seja tratado adequadamente
+    throw error;
   }
 }
 
@@ -86,22 +83,44 @@ if (admin.apps.length === 0) {
 function generatePassword(length = 12) {
   const chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+';
   let password = '';
-  const randomBytes = crypto.randomBytes(length);
   
-  for (let i = 0; i < length; i++) {
-    const randomIndex = randomBytes[i] % chars.length;
-    password += chars[randomIndex];
+  try {
+    const randomBytes = crypto.randomBytes(length);
+    for (let i = 0; i < length; i++) {
+      const randomIndex = randomBytes[i] % chars.length;
+      password += chars[randomIndex];
+    }
+  } catch (error) {
+    // Fallback se randomBytes falhar
+    console.error('Erro ao usar randomBytes, usando Math.random:', error);
+    for (let i = 0; i < length; i++) {
+      const randomIndex = Math.floor(Math.random() * chars.length);
+      password += chars[randomIndex];
+    }
   }
   
   return password;
 }
 
 module.exports = async (req, res) => {
+  // Resposta rápida para verificação de saúde
+  if (req.method === 'GET') {
+    return res.status(200).json({ status: 'ok', message: 'Webhook endpoint is healthy' });
+  }
+
   // Prevenção de erros na resposta
   try {
+    // Inicializa o Firebase
+    await initFirebase();
+
     // Verifica se é uma requisição POST
     if (req.method !== 'POST') {
       return res.status(405).json({ error: 'Método não permitido' });
+    }
+
+    // Verificação rápida para facilitar teste
+    if (req.method === 'POST' && req.body && req.body.test === true) {
+      return res.status(200).json({ success: true, message: 'Teste de webhook recebido com sucesso' });
     }
 
     // Validação básica do payload
@@ -186,7 +205,7 @@ module.exports = async (req, res) => {
 
     // Gerar senha aleatória para o novo usuário
     const password = generatePassword();
-    console.log('Senha gerada para o novo usuário (omitida para produção)');
+    console.log('Senha gerada para o novo usuário');
 
     // Criar o usuário no Firebase Authentication
     let userRecord;
